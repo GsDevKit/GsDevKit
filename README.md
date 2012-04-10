@@ -1,1 +1,3 @@
+## WORK IN PROGRESS
+
 Standard directory structure for a [GLASS](http://code.google.com/p/glassdb/) installation...
