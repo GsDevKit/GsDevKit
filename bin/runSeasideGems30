@@ -27,14 +27,6 @@ topaz_start()
         echo "  Starting maintenance gem"
         $GEMSTONE/seaside/bin/startMaintenance30 >& ${GEMSTONE_LOGDIR}/maintenance_start.log &
     fi
-
-    if [ -e $GEMSTONE_DATADIR/service.pid ]; then
-            echo "PID file for service gem already exists (already running?), try using the stop command first."
-    else
-        echo "  Starting service gem"
-        $GEMSTONE/seaside/bin/startServiceVM30 >& ${GEMSTONE_LOGDIR}/service_start.log &
-    fi
-
 }
 
 topaz_stop()
@@ -65,18 +57,6 @@ topaz_stop()
     else
         echo "   No PID file for for the maintenance gem, not running?"
     fi
-
-    pidfile=$GEMSTONE_DATADIR/service.pid
-
-    if [ -e $pidfile ]; then
-        pid=`cat $pidfile`
-        echo "   Stopping service gem PID $pid"
-        kill $pid
-        rm $pidfile
-    else
-        echo "   No PID file for for the service gem, not running?"
-    fi
-
     sleep 2
 }
 
