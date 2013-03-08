@@ -6,7 +6,7 @@ env:
 #   - ST=GemStone-2.4.5
 #   - ST=GemStone-2.4.5.1
 #   - ST=GemStone-3.0.1
-   - ST=GemStone-3.1.0.2 CONFIGURATION=GLASS VERSION="1.0-beta.9" REPOSITORY="http://seaside.gemstone.com/ss/MetacelloRepository"
+   - ST=GemStone-3.1.0.2 VERSION="1.0-beta.9" INITIAL_LOADS="'Core' 'Monticello' 'Gofer Project Loader'"
 
 install:
    - export PROJECT_HOME="$(pwd)"
