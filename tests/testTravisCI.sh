@@ -16,7 +16,7 @@
 OUTPUT_PATH="${PROJECT_HOME}/tests/glass.st"
 
 cat - >> $OUTPUT_PATH << EOF
-Transcript show: 'travis--->${OUTPUT_PATH}'
+Transcript show: 'travis--->${OUTPUT_PATH}'.
 ConfigurationOfGLASS project updateProject.
 [
 (ConfigurationOfGLASS project version: '${VERSION}') load: #( ${INITIAL_LOADS} ).
