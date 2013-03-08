@@ -26,10 +26,10 @@ ConfigurationOfGLASS project updateProject.
 	(ex isKindOf: MetacelloSkipDirtyPackageLoad)
 	    ifTrue: [
                 "load over dirty packages"
-                ex resume: false]
+                ex resume: false ]
 	    ifFalse: [ 
                 Transcript cr; show: 'Warning: ', ex description.
-                ex resume: true].
+                ex resume: true ]].
 EOF
 
 cat $OUTPUT_PATH
