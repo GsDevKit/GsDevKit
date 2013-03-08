@@ -21,10 +21,15 @@ ConfigurationOfGLASS project updateProject.
 [
 (ConfigurationOfGLASS project version: '${VERSION}') load: #( ${INITIAL_LOADS} ).
 (ConfigurationOfGLASS project version: '${VERSION}') load ]
-    on: Warning
+    on: Warning, MetacelloSkipDirtyPackageLoad
     do: [:ex |
-        Transcript cr; show: 'Warning: ', ex description.
-        ex resume: true].
+	(ex isKindOf: MetacelloSkipDirtyPackageLoad)
+	    ifTrue: [
+                "load over dirty packages"
+                ex resume: false]
+	    ifFalse: [ 
+                Transcript cr; show: 'Warning: ', ex description.
+                ex resume: true].
 EOF
 
 cat $OUTPUT_PATH
