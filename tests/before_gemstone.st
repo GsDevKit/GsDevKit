@@ -1,5 +1,5 @@
 Transcript cr; show: 'travis--->before_gemstone.st'.
-Transcript cr; show: 'GLASS: ', ConfigurationOfGLASS project currentVersion.
+Transcript cr; show: 'GLASS: ', ConfigurationOfGLASS project currentVersion versionString.
 
 ConfigurationOfMetacello project currentVersion versionNumber < '1.0-beta.31.1' asMetacelloVersionNumber 
     ifTrue: [
