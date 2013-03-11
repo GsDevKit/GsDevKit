@@ -8,6 +8,7 @@ ConfigurationOfMetacello project currentVersion versionNumber < '1.0-beta.31.1' 
 	  - Metacello must handle symbolic versions
 	  - MetacelloSkipDirtyPackageLoad needs to be defined"
 	Transcript cr; show: 'load basic Metacello packages for version 1.0-beta.31.1'.
+	[
 	((Smalltalk at: #Gofer) new)
 		gemsource: 'metacello';
 		version: 'Metacello-Base-DaleHenrichs.19';
@@ -17,5 +18,9 @@ ConfigurationOfMetacello project currentVersion versionNumber < '1.0-beta.31.1' 
 	((Smalltalk at: #Gofer) new)
 		gemsource: 'metacello';
 		version: 'Metacello-Platform.gemstone-dkh.23';
-		load.
+		load ] 
+			on: Warning
+			do: [:ex |
+				Transcript cr; show: 'Warning: ', ex description.
+				ex resumt: true].
 	(Smalltalk at: #MetacelloGemStonePlatform) initialize ]
