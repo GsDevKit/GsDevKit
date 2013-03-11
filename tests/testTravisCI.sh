@@ -19,13 +19,10 @@ cat - >> $OUTPUT_PATH << EOF
 Transcript cr; show: 'travis--->${OUTPUT_PATH}'.
 ConfigurationOfGLASS project updateProject.
 [
-"load core packages, including Metacello Scripting API"
+"load core packages"
 (ConfigurationOfGLASS project version: '${VERSION}') load: #( ${INITIAL_LOADS} ).
-"Now load full GLASS configuration using Metacello Scripting API"
-(Smalltalk at: #Metacello) image
-	configuration: 'GLASS';
-	version: '${VERSION}';
-	load ]
+"Now load full GLASS configuration"
+(ConfigurationOfGLASS project version: '${VERSION}') load ]
     on: Warning, MetacelloSkipDirtyPackageLoad
     do: [:ex |
 	(ex isKindOf: MetacelloSkipDirtyPackageLoad)
@@ -35,6 +32,10 @@ ConfigurationOfGLASS project updateProject.
 	    ifFalse: [ 
                 Transcript cr; show: 'Warning: ', ex description.
                 ex resume: true ]].
+"clear and reset the Metacello project registry"
+(Smalltalk at: #'MetacelloProjectRegistration') 
+	resetRegistry;
+	primeRegistryFromImage.
 EOF
 
 cat $OUTPUT_PATH
