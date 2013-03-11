@@ -22,7 +22,7 @@ ConfigurationOfGLASS project updateProject.
 "load core packages, including Metacello Scripting API"
 (ConfigurationOfGLASS project version: '${VERSION}') load: #( ${INITIAL_LOADS} ).
 "Now load full GLASS configuration using Metacello Scripting API"
-Metacello image
+(Smalltalk at: #Metacello) image
 	configuration: 'GLASS';
 	version: '${VERSION}';
 	load ]
