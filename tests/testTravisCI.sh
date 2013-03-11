@@ -16,11 +16,16 @@
 OUTPUT_PATH="${PROJECT_HOME}/tests/glass.st"
 
 cat - >> $OUTPUT_PATH << EOF
-Transcript show: 'travis--->${OUTPUT_PATH}'.
+Transcript cr; show: 'travis--->${OUTPUT_PATH}'.
 ConfigurationOfGLASS project updateProject.
 [
+"load core packages, including Metacello Scripting API"
 (ConfigurationOfGLASS project version: '${VERSION}') load: #( ${INITIAL_LOADS} ).
-(ConfigurationOfGLASS project version: '${VERSION}') load ]
+"Now load full GLASS configuration using Metacello Scripting API"
+Metacello image
+	configuration: 'GLASS';
+	version: '${VERSION}';
+	load ]
     on: Warning, MetacelloSkipDirtyPackageLoad
     do: [:ex |
 	(ex isKindOf: MetacelloSkipDirtyPackageLoad)
