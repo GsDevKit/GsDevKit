@@ -22,5 +22,5 @@ ConfigurationOfMetacello project currentVersion versionNumber < '1.0-beta.31.1' 
 			on: Warning
 			do: [:ex |
 				Transcript cr; show: 'Warning: ', ex description.
-				ex resumt: true].
+				ex resume: true].
 	(Smalltalk at: #MetacelloGemStonePlatform) initialize ]
