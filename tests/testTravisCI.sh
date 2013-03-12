@@ -36,6 +36,7 @@ ConfigurationOfGLASS project updateProject.
 (Smalltalk at: #'MetacelloProjectRegistration') 
 	resetRegistry;
 	primeRegistryFromImage.
+Transcript cr; show: 'Current sessions: ', System currentSessionNames.
 EOF
 
 cat $OUTPUT_PATH
