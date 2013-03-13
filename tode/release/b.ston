@@ -1,0 +1,1 @@
+TDSmalltalkLeafNode {	#name : 'b',	#contents : '| tmp |\nnil halt.\t\"Step over the #cr message and you end up at the halt\"\nTranscript\n  cr;\n  show: \'hi\'.\ntmp := 3 + 4.\nnil halt.\n^ tmp'}
