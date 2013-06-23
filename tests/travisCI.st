@@ -15,7 +15,7 @@ Metacello new
 Metacello new
 	baseline: 'GsCore';
   repository: 'filetree://', gitPath, '/glass/repository';
-  load.
+  load: #( 'default' 'SMTPMail').
 ] on: Warning do: [:ex | 
   Transcript cr; show: 'WARNING: ', ex description.
   ex resume: true ].
