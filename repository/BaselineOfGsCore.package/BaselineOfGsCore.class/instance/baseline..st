@@ -22,6 +22,9 @@ baseline: spec
         package: 'Regex-Tests-Core' with: [ spec requires: #('Regex-Core') ];
         yourself.
       spec
+        package: 'SMTPMail' with: [ spec requires: #('default') ];
+        yourself.
+      spec
         group: 'default'
           with:
             #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Regex-Core' 'Regex-Tests-Core');

@@ -1,0 +1,3 @@
+private
+defaultContentType
+	^'text/plain'
