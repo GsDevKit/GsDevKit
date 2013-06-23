@@ -14,6 +14,7 @@ baseline: spec
         package: 'Sport'
           with: [ 
               spec
+                file: 'Sport3.010-dkh.28';
                 requires: #('Bootstrap');
                 repository: 'http://seaside.gemstone.com/ss/hyper' ];
         package: 'Squeak' with: [ spec requires: #('Sport') ];
@@ -53,4 +54,16 @@ baseline: spec
       spec
         package: 'GemStone-245-Exceptions'
         with: [ spec requires: #('GemStone-Exceptions') ] ].
-  spec for: #'gs3.x' do: [  ]
+  spec
+    for: #'gs3.x'
+    do: [ 
+      spec
+        package: 'Core' with: [ spec file: 'Core.v3' ];
+        package: 'Base-Bootstrap' with: [ spec file: 'Base-Bootstrap.v3' ];
+        package: 'Bootstrap' with: [ spec file: 'Bootstrap.v3' ];
+        package: 'Sport' with: [ spec file: 'Sport3.010.v3-dkh.29' ];
+        package: 'Squeak' with: [ spec file: 'Squeak.v3' ];
+        yourself ].
+  spec
+    for: #'maglev'
+    do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ]
