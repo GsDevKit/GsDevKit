@@ -11,7 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Random",
-	"type" : [
-		"normal",
-		[
-			"dbTransient" ] ] }
+	"type" : "transient" }

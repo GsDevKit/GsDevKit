@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'GsRandom'!
+SystemOrganization addCategory: 'GsRandom'!

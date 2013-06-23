@@ -4,14 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"commentStamp" : "DataCurator 07/13/2010 15:34",
 	"instvars" : [
 		"lockingProcess" ],
 	"name" : "TransientRecursionLock",
 	"pools" : [
 		 ],
 	"super" : "TransientMutex",
-	"type" : [
-		"normal",
-		[
-			"dbTransient" ] ] }
+	"type" : "transient" }
