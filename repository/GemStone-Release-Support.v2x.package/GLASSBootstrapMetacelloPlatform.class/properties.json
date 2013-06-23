@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Release-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 02/20/2013 11:55",
+	"instvars" : [
+		 ],
+	"name" : "GLASSBootstrapMetacelloPlatform",
+	"pools" : [
+		 ],
+	"super" : "MetacelloGemStonePlatform",
+	"type" : "normal" }

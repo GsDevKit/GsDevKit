@@ -1,0 +1,15 @@
+{
+	"category" : "GemStone-Release-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		"configuration",
+		"loads" ],
+	"name" : "GLASSProjectSupport",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"release:version:bootstrapPath:installConfigurationDoit:" : "dkh 11/03/2009 13:29" },
+	"instance" : {
+		"defaultFileinDirectory" : "dkh 07/29/2009 09:31",
+		"defaultRepositoryDirectory" : "dkh 08/03/2009 15:35",
+		"defaultUseRepositoryDirectory" : "dkh 07/29/2009 09:28",
+		"extensionAndAttributes" : "DaleHenrichs 05/05/2010 15:13",
+		"installConfigurationDoit" : "dkh 11/03/2009 13:31",
+		"installConfigurationDoit:" : "dkh 07/29/2009 09:42" } }

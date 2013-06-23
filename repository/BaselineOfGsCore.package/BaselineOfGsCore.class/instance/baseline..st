@@ -23,11 +23,12 @@ baseline: spec
         yourself.
       spec
         package: 'SMTPMail' with: [ spec requires: #('default') ];
+        package: 'GemStone-Release-Support' with: [ spec requires: #('Core') ];
         yourself.
       spec
         group: 'default'
           with:
-            #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Regex-Core' 'Regex-Tests-Core');
+            #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Regex-Core' 'Regex-Tests-Core' 'GemStone-Release-Support');
         yourself ].
   spec
     for: #'gs2.x'
@@ -36,6 +37,8 @@ baseline: spec
         package: 'GsRandom' with: [ spec requires: #('Base-Bootstrap') ];
         package: 'GemStone-Exceptions'
           with: [ spec requires: #('Bootstrap' 'Sport') ];
+        package: 'GemStone-Release-Support'
+          with: [ spec file: 'GemStone-Release-Support.v2x' ];
         package: 'Sport' with: [ spec requires: #('GsRandom') ];
         yourself.
       spec

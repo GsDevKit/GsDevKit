@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Release-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"installConfigurationDoit" ],
+	"name" : "GLASSBootstrapProjectSupport",
+	"pools" : [
+		 ],
+	"super" : "GLASSProjectSupport",
+	"type" : "normal" }

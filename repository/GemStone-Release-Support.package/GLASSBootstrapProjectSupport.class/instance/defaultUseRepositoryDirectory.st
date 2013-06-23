@@ -1,0 +1,4 @@
+install script
+defaultUseRepositoryDirectory
+
+	^'true'

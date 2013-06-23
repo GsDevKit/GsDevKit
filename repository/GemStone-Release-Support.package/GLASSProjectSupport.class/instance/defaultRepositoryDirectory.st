@@ -1,0 +1,4 @@
+install script
+defaultRepositoryDirectory
+
+	^'GsPackageLibrary getMonticelloRepositoryDirectory'
