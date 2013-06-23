@@ -1,0 +1,18 @@
+{
+	"category" : "Base-Bootstrap",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 08/03/2011 16:31",
+	"instvars" : [
+		"behavior",
+		"selector",
+		"changeStamp",
+		"category",
+		"source" ],
+	"name" : "MethodVersionRecord",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

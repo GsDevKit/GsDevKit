@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"new:streamContents:" : "dkh 05/28/2012 17:28",
+		"new:withAll:" : "",
+		"streamContents:" : "dkh 05/28/2012 17:28" },
+	"instance" : {
+		"allButFirst" : "dkh 07/01/2009 11:39",
+		"allButFirst:" : "dkh 07/01/2009 11:39",
+		"at:ifAbsent:" : "dkh 07/01/2009 13:24",
+		"beginsWith:" : "dkh 07/01/2009 11:40",
+		"checkedAt:" : "sma 5/12/2000 13:57",
+		"collect:from:to:" : "dkh 07/01/2009 09:58",
+		"first" : "dkh 07/01/2009 11:54",
+		"fourth" : "dkh 07/01/2009 11:54",
+		"pairsDo:" : "dkh 07/01/2009 13:11",
+		"second" : "dkh 07/01/2009 11:54",
+		"squeakDefaultElement" : "dkh 07/01/2009 10:30",
+		"squeakReplaceFrom:to:with:startingAt:" : "dkh 07/01/2009 10:18",
+		"squeakStoreOn:" : "dkh 07/01/2009 10:29",
+		"storeElementsFrom:to:on:" : "dkh 07/01/2009 10:30",
+		"third" : "dkh 07/01/2009 09:34",
+		"withIndexDo:" : "dkh 07/01/2009 11:40" } }

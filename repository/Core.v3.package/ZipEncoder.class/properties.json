@@ -1,0 +1,17 @@
+{
+	"category" : "Core-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bitBuffer",
+		"bitPosition",
+		"encodedStream",
+		"isBinary" ],
+	"name" : "ZipEncoder",
+	"pools" : [
+		"ZipConstants" ],
+	"super" : "WriteStream",
+	"type" : "normal" }

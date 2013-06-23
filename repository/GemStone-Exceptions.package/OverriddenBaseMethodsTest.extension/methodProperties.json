@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"baseOverridesGemStoneExceptionsExceptionA:" : "DaleHenrichs 08/19/2010 16:46",
+		"baseOverridesGemStoneExceptionsExceptionAClass:" : "DaleHenrichs 08/19/2010 16:52",
+		"baseOverridesGemStoneExceptionsMessageNotUnderstood:" : "DaleHenrichs 08/19/2010 14:26",
+		"baseOverridesGemStoneExceptionsMessageNotUnderstoodClass:" : "DaleHenrichs 08/19/2010 15:59",
+		"baseOverridesGemStoneExceptionsObject:" : "DaleHenrichs 08/19/2010 14:28",
+		"baseOverridesGemStoneExceptionsZeroDivide:" : "DaleHenrichs 08/19/2010 16:46" } }

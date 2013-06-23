@@ -1,0 +1,14 @@
+{
+	"category" : "Core-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UndefinedSymbolNotification",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

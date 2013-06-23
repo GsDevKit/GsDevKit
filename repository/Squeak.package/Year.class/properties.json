@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Kernel-Chronology",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Year",
+	"pools" : [
+		 ],
+	"super" : "Timespan",
+	"type" : "normal" }

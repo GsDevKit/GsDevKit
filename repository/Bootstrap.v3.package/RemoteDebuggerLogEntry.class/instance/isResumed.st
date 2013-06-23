@@ -1,0 +1,4 @@
+testing
+isResumed
+
+	^resumed ~~ nil

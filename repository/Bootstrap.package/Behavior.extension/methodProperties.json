@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_addUndefinedSymbol:to:for:" : "dkh 02/26/2009 15:22",
+		"allSelectors" : "dkh 02/15/2008 18:32",
+		"createPragmaFrom:for:" : "dkh 11/15/2007 22:57",
+		"isTransientDB" : "",
+		"methodsFor:" : "dkh 11/20/2008 15:29",
+		"whichCategoryIncludesSelector:" : "dkh 08/10/2009 17:11" } }

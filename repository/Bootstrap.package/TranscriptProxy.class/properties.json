@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		 ],
+	"name" : "TranscriptProxy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

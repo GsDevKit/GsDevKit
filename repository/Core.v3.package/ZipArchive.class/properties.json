@@ -1,0 +1,18 @@
+{
+	"category" : "Core-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"centralDirectorySize",
+		"centralDirectoryOffsetWRTStartingDiskNumber",
+		"zipFileComment",
+		"writeCentralDirectoryOffset",
+		"writeEOCDOffset" ],
+	"name" : "ZipArchive",
+	"pools" : [
+		"ZipFileConstants" ],
+	"super" : "Archive",
+	"type" : "normal" }

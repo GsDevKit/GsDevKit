@@ -1,0 +1,4 @@
+ANSI - exceptionDescription
+isResumable
+
+	^true.

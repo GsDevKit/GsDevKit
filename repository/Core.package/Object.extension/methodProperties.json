@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"as:" : "dkh 06/05/2007 21:30",
+		"assert:" : "DaleHenrichs 03/08/2011 13:30",
+		"assert:description:" : "DaleHenrichs 03/08/2011 13:27",
+		"assert:descriptionBlock:" : "DaleHenrichs 03/08/2011 13:28",
+		"ifNil:" : "dkh 07/01/2009 11:55",
+		"ifNotNil:" : "DaleHenrichs 12/07/2010 13:57",
+		"initialize" : "dkh 07/01/2009 13:19",
+		"isCharacter" : "dkh 07/01/2009 12:23",
+		"isOctetString" : "dkh 07/01/2009 10:24",
+		"isStream" : "dkh 07/01/2009 11:47",
+		"isString" : "dkh 07/01/2009 13:11",
+		"objectForDataStream:" : "dkh 07/01/2009 10:16",
+		"readDataFrom:size:" : "dkh 07/01/2009 10:11",
+		"squeakStoreOn:" : "dkh 07/01/2009 10:28",
+		"storeDataOn:" : "dkh 07/01/2009 10:06" } }

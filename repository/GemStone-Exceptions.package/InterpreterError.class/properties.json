@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 01/22/2008 11:00",
+	"instvars" : [
+		 ],
+	"name" : "InterpreterError",
+	"pools" : [
+		 ],
+	"super" : "GsError",
+	"type" : "normal" }

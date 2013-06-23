@@ -1,0 +1,3 @@
+*core-squeak
+isOctetString
+  ^ true  

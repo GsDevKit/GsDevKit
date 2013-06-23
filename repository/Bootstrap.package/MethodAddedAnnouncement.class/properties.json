@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Change Notification",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 02/20/2013 11:58",
+	"instvars" : [
+		 ],
+	"name" : "MethodAddedAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "MethodChangeAnnouncement",
+	"type" : "normal" }

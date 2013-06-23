@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"newNamed:" : "nk 2/22/2001 17:27" },
+	"instance" : {
+		"close" : "ar 3/2/2001 18:50",
+		"fileDirectoryClass" : "DaleHenrichs 04/30/2010 13:29",
+		"from:" : "DaleHenrichs 04/30/2010 13:29",
+		"initialize" : "nk 2/22/2001 16:56",
+		"readRawChunk:" : "nk 2/22/2001 20:48",
+		"rewindData" : "nk 2/23/2001 09:58",
+		"usesFileNamed:" : "DaleHenrichs 04/30/2010 13:30" } }

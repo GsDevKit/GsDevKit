@@ -1,0 +1,18 @@
+{
+	"category" : "Squeak-Collections-Arrayed",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		"runs",
+		"values",
+		"lastIndex",
+		"lastRun",
+		"lastOffset" ],
+	"name" : "RunArray",
+	"pools" : [
+		 ],
+	"super" : "ArrayedCollection",
+	"type" : "normal" }

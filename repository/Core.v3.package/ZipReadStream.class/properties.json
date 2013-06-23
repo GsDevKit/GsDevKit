@@ -1,0 +1,35 @@
+{
+	"category" : "Core-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BlockProceedBit",
+		"BlockTypes",
+		"DistanceMap",
+		"FixedDistCodes",
+		"FixedDistTable",
+		"FixedLitCodes",
+		"FixedLitTable",
+		"LiteralLengthMap",
+		"MaxBits",
+		"StateNewBlock",
+		"StateNoMoreData" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"readLimit",
+		"state",
+		"bitBuf",
+		"bitPos",
+		"source",
+		"sourcePos",
+		"sourceLimit",
+		"litTable",
+		"distTable",
+		"sourceStream",
+		"crc",
+		"expectedCrc" ],
+	"name" : "ZipReadStream",
+	"pools" : [
+		 ],
+	"super" : "ReadStream",
+	"type" : "normal" }

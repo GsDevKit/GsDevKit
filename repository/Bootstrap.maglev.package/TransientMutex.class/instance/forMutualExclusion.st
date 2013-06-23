@@ -1,0 +1,4 @@
+private
+forMutualExclusion
+
+	^true

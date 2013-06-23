@@ -1,0 +1,26 @@
+{
+	"category" : "Core-Bootstrap",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		"bootStrapSymbolDictionary",
+		"repositoryDirectory",
+		"useRepositoryDirectory",
+		"configurationClass",
+		"configurationPackageLoads",
+		"configurationVersionString",
+		"configurationPackageName",
+		"configurationRepository",
+		"metacelloVersionString",
+		"coreFilenames",
+		"monticelloFilenames",
+		"metacelloFilenames",
+		"repositoryMap" ],
+	"name" : "GLASSBootstrapDriver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

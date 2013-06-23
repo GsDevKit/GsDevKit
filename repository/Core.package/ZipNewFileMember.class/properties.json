@@ -1,0 +1,15 @@
+{
+	"category" : "Core-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"externalFileName",
+		"stream" ],
+	"name" : "ZipNewFileMember",
+	"pools" : [
+		"ZipFileConstants" ],
+	"super" : "ZipArchiveMember",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+*gemstone-exceptions
+errorCategoryToCatch
+
+	^Error.

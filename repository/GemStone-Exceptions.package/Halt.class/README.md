@@ -1,0 +1,1 @@
+GemStone error #2318 with certain arguments or error # 6001

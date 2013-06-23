@@ -1,0 +1,4 @@
+*gemstone-exceptions
+errorNumberToCatch
+
+	^nil.

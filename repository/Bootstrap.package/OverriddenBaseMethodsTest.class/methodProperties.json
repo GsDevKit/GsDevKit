@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"extractBaseOverrideMethodsFrom:" : "DaleHenrichs 08/19/2010 14:58",
+		"generateBaseOverrideMethodsFrom:" : "DaleHenrichs 08/19/2010 13:31" },
+	"instance" : {
+		"addTo:forBehavior:overrides:" : "DaleHenrichs 08/19/2010 16:05",
+		"baseOverridesBootstrapBehavior:" : "DaleHenrichs 08/19/2010 13:56",
+		"baseOverridesBootstrapClass:" : "DaleHenrichs 08/19/2010 14:19",
+		"baseOverridesBootstrapDate:" : "DaleHenrichs 08/19/2010 14:22",
+		"baseOverridesBootstrapDateAndTimeANSI:" : "DaleHenrichs 08/19/2010 16:51",
+		"baseOverridesBootstrapDateClass:" : "DaleHenrichs 08/19/2010 15:14",
+		"baseOverridesBootstrapObject:" : "DaleHenrichs 08/19/2010 16:00",
+		"baseOverridesBootstrapSessionMethodBehavior:" : "DaleHenrichs 08/19/2010 14:11",
+		"baseOverridesBootstrapSessionMethodsMetaclass:" : "DaleHenrichs 08/19/2010 14:27",
+		"baseOverridesBootstrapSymbol:" : "dkh 02/28/2013 15:29",
+		"baseOverridesBootstrapSystemLoginNotificationClass:" : "DaleHenrichs 08/19/2010 15:16",
+		"baseOverridesBootstrapTestCase:" : "DaleHenrichs 08/19/2010 13:06",
+		"baseOverridesBootstrapTestResourceClass:" : "DaleHenrichs 08/19/2010 15:17",
+		"baseOverridesBootstrapTestResult:" : "DaleHenrichs 08/19/2010 13:07",
+		"baseOverridesBootstrapWriteStreamClass:" : "DaleHenrichs 08/19/2010 15:18",
+		"findOverridenMethodsFor:overrides:knownOverrides:" : "DaleHenrichs 08/19/2010 15:54",
+		"knownOverrides" : "DaleHenrichs 08/19/2010 12:39",
+		"testOverriddenBaseMethods" : "DaleHenrichs 08/19/2010 14:52" } }

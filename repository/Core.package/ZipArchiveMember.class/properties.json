@@ -1,0 +1,31 @@
+{
+	"category" : "Core-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		"lastModFileDateTime",
+		"fileAttributeFormat",
+		"versionMadeBy",
+		"versionNeededToExtract",
+		"bitFlag",
+		"compressionMethod",
+		"desiredCompressionMethod",
+		"desiredCompressionLevel",
+		"internalFileAttributes",
+		"externalFileAttributes",
+		"cdExtraField",
+		"localExtraField",
+		"fileComment",
+		"crc32",
+		"compressedSize",
+		"uncompressedSize",
+		"writeLocalHeaderRelativeOffset",
+		"readDataRemaining" ],
+	"name" : "ZipArchiveMember",
+	"pools" : [
+		"ZipFileConstants" ],
+	"super" : "ArchiveMember",
+	"type" : "normal" }

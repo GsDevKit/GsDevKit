@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"parseSelector:for:" : "dkh 07/01/2009 11:30" },
+	"instance" : {
+		"_compileMethod:category:using:" : "dkh 07/01/2009 12:30",
+		"_recompile:" : "dkh 07/01/2009 09:50",
+		"bindingOf:" : "dkh 02/18/2013 16:34",
+		"commentStamp:prior:" : "dkh 07/02/2009 05:53",
+		"compileMethod:category:" : "DaleHenrichs 08/18/2010 14:33",
+		"innerBindingOf:" : "dkh 02/18/2013 16:33",
+		"methodsDo:" : "dkh 07/25/2011 17:45",
+		"methodsFor:stamp:" : "dkh 07/02/2009 05:46" } }

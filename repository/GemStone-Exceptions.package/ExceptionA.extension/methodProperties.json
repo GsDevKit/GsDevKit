@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"category:number:arguments:" : "jgf 01/15/2009 15:15",
+		"gsNumber:arguments:" : "DaleHenrichs 08/18/2010 13:08",
+		"handles:" : "jgf 01/16/2009 10:55",
+		"hasFixFor39741" : "jgf 01/16/2009 14:24",
+		"isHandlerFor:dict:exceptionA:args:" : "jgf 12/12/2008 14:51",
+		"signalError:" : "dkh 04/18/2008 14:21",
+		"signalError:args:" : "dkh 04/18/2008 14:21",
+		"signalError:args:signalDictionary:" : "dkh 04/18/2008 14:22" },
+	"instance" : {
+		"_messageForErrorNum:withArgs:inLanguage:" : "dkh 04/02/2009 10:46",
+		"description" : "dkh 09/14/2011 15:59",
+		"gsCategory" : "jgf 01/16/2009 14:56",
+		"gsCategoryForDescription" : "DaleHenrichs 08/17/2010 17:02" } }

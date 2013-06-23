@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Halt",
+	"pools" : [
+		 ],
+	"super" : "ControlInterrupt",
+	"type" : "normal" }

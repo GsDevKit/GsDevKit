@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"nextInt32Put:" : "dkh 07/01/2009 10:03",
+		"nextLittleEndianNumber:put:" : "dkh 07/01/2009 11:48",
+		"nextNumber:put:" : "dkh 07/22/2009 16:55",
+		"nextStringPut:" : "DataCurator 04/23/2007 14:43",
+		"store:" : "dkh 07/01/2009 10:27" } }

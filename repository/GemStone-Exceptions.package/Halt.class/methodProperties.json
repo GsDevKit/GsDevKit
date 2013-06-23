@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"_isHandlerFor:dict:exceptionA:args:" : "seaside 11/04/2008 15:43",
+		"errorNumberForPause" : "seaside 11/04/2008 15:38",
+		"errorNumberToCatch" : "jgf 01/15/2009 16:22",
+		"errorNumberToSignal" : "",
+		"exceptionArguments" : "",
+		"handlesCategory:number:" : "DaleHenrichs 08/18/2010 16:19" },
+	"instance" : {
+		"defaultAction" : "DaleHenrichs 08/17/2010 15:58",
+		"gsArguments" : "DaleHenrichs 08/18/2010 11:06",
+		"initialize" : "DaleHenrichs 08/17/2010 15:57",
+		"messageText" : "DaleHenrichs 08/17/2010 16:01" } }

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"initialize" : "DataCurator 04/23/2007 14:43",
+		"installDocumentation" : "DataCurator 04/23/2007 14:43",
+		"new" : "DataCurator 04/23/2007 14:43",
+		"seed:" : "dkh 01/27/2008 13:12",
+		"speed" : "DataCurator 04/23/2007 14:43",
+		"testRandom" : "DataCurator 04/23/2007 14:43" },
+	"instance" : {
+		"atEnd" : "DataCurator 04/23/2007 14:43",
+		"between:and:" : "DataCurator 04/23/2007 14:43",
+		"contents" : "DataCurator 04/23/2007 14:43",
+		"flush" : "DataCurator 04/23/2007 14:43",
+		"initialize" : "dkh 01/03/2008 17:11",
+		"next" : "DataCurator 04/23/2007 14:43",
+		"nextInt:" : "dkh 01/29/2008 13:09",
+		"nextPut:" : "DataCurator 04/23/2007 14:43",
+		"seed" : "DataCurator 04/23/2007 14:43",
+		"seed:" : "dkh 01/03/2008 17:11" } }

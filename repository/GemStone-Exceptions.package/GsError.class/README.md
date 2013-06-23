@@ -1,0 +1,1 @@
+Superclass for all GemStone errors. All GemStone are resumable, except FatalError.

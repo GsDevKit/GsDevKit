@@ -1,0 +1,19 @@
+{
+	"category" : "GsRandom",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"a",
+		"m",
+		"q",
+		"r" ],
+	"commentStamp" : "DataCurator 09/01/2009 16:20",
+	"instvars" : [
+		"seed",
+		"hi",
+		"lo" ],
+	"name" : "Random",
+	"pools" : [
+		 ],
+	"super" : "Stream",
+	"type" : "normal" }

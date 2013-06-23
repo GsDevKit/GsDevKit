@@ -1,0 +1,16 @@
+{
+	"category" : "Squeak-Kernel-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"receiver",
+		"selector",
+		"arguments" ],
+	"name" : "MessageSend",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"<=" : "dkh 06/08/2007 16:23",
+		"=" : "dkh 06/08/2007 16:24",
+		"actualClass" : "dkh 06/05/2007 21:30",
+		"asStringOrText" : "dkh 06/05/2007 21:30",
+		"classIsMeta" : "dkh 06/05/2007 21:30",
+		"classSymbol" : "dkh 06/05/2007 21:30",
+		"hash" : "dkh 06/08/2007 16:24",
+		"isValid" : "dkh 06/05/2007 21:30",
+		"methodSymbol" : "dkh 06/05/2007 21:30",
+		"selector" : "DaleHenrichs 01/15/2010 16:43",
+		"setClassSymbol:classIsMeta:methodSymbol:stringVersion:" : "dkh 06/08/2007 15:04",
+		"setStandardClass:methodSymbol:" : "dkh 06/05/2007 21:30",
+		"stringVersion" : "NorbertHartl 09/09/2010 14:01" } }

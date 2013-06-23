@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"fragment" ],
+	"name" : "Url",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

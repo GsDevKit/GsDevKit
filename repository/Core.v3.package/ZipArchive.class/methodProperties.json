@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"compressionDeflated" : "dkh 06/05/2007 21:30",
+		"findEndOfCentralDirectoryFrom:" : "dkh 06/05/2007 21:30" },
+	"instance" : {
+		"initialize" : "dkh 06/05/2007 21:30",
+		"memberClass" : "dkh 06/05/2007 21:30",
+		"readEndOfCentralDirectoryFrom:" : "dkh 06/05/2007 21:30",
+		"readFrom:" : "dkh 06/05/2007 21:30",
+		"readMembersFrom:named:" : "dkh 02/12/2009 14:00",
+		"readSignatureFrom:" : "dkh 06/05/2007 21:30",
+		"writeCentralDirectoryTo:" : "dkh 06/05/2007 21:30",
+		"writeEndOfCentralDirectoryTo:" : "dkh 06/05/2007 21:30",
+		"writeTo:" : "DaleHenrichs 02/23/2011 10:06" } }

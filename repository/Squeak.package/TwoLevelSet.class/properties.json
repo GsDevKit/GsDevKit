@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-System-FilePackage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		"firstLevel" ],
+	"name" : "TwoLevelSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

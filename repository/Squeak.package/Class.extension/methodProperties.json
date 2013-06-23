@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"subclassTypeFor:" : "dkh 03/24/2008 18:28",
+		"template:" : "",
+		"templateForSubclassOf:category:" : "dkh 05/19/2008 15:08" },
+	"instance" : {
+		"allSubInstancesDo:" : "DaleHenrichs 11/17/2010 15:06",
+		"allSubclassesDo:" : "",
+		"className" : "",
+		"classVariablesString" : "dkh 11/11/2008 23:11",
+		"comment" : "dkh 01/29/2008 13:45",
+		"definitionST80" : "dkh 11/11/2008 13:52",
+		"hasComment" : "dkh 11/11/2008 23:26",
+		"kindOfSubclass" : "dkh 03/24/2008 18:28",
+		"sharedPoolsString" : "dkh 11/11/2008 23:19",
+		"subclassesDo:" : "dkh 10/23/2008 13:55",
+		"symbolDictionaryName" : "",
+		"withClassVersion:" : "" } }

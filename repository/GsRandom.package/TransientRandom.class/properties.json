@@ -1,0 +1,17 @@
+{
+	"category" : "GsRandom",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 09/01/2009 16:20",
+	"instvars" : [
+		 ],
+	"name" : "TransientRandom",
+	"pools" : [
+		 ],
+	"super" : "Random",
+	"type" : [
+		"normal",
+		[
+			"dbTransient" ] ] }

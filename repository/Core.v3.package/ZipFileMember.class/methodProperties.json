@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"newFrom:named:" : "dkh 06/05/2007 21:30" },
+	"instance" : {
+		"canonicalizeFileName" : "dkh 06/05/2007 21:30",
+		"copyDataTo:" : "dkh 06/05/2007 21:30",
+		"initialize" : "dkh 06/05/2007 21:30",
+		"looksLikeDirectory" : "dkh 06/05/2007 21:30",
+		"readCentralDirectoryFileHeaderFrom:" : "dkh 06/05/2007 21:30",
+		"readFrom:" : "dkh 06/05/2007 21:30",
+		"readLocalDirectoryFileHeaderFrom:" : "dkh 06/05/2007 21:30",
+		"readRawChunk:" : "dkh 06/05/2007 21:30",
+		"rewindData" : "dkh 06/05/2007 21:30",
+		"skipLocalDirectoryFileHeaderFrom:" : "dkh 06/05/2007 21:30",
+		"stUncompressDataTo:" : "dkh 02/12/2009 13:57",
+		"stream:externalFileName:" : "dkh 06/05/2007 21:30",
+		"uncompressDataTo:" : "dkh 07/21/2009 17:04" } }

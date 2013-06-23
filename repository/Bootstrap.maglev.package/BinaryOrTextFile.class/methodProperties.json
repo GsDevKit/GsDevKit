@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"_basicNew" : "PeterMcLain 10/02/2012 15:17" },
+	"instance" : {
+		"_nextPut:" : "dkh 11/20/2008 09:54",
+		"ascii" : "dkh 10/31/2007 16:33",
+		"atEnd" : "dkh 11/19/2008 11:26",
+		"binary" : "dkh 10/31/2007 16:34",
+		"contents" : "dkh 10/31/2007 16:31",
+		"crtab" : "dkh 11/20/2008 09:55",
+		"fileIn" : "dkh 11/20/2008 15:18",
+		"isBinary" : "dkh 10/31/2007 16:29",
+		"localName" : "dkh 11/18/2008 09:31",
+		"nextChunk" : "dkh 11/20/2008 15:19",
+		"nextInt32" : "dkh 11/19/2008 10:51",
+		"nextInt32Put:" : "dkh 11/18/2008 09:31",
+		"peekFor:" : "dkh 11/20/2008 15:19",
+		"print:" : "dkh 11/20/2008 09:52",
+		"reopen" : "dkh 11/19/2008 11:18",
+		"setToEnd" : "dkh 10/22/2008 17:56",
+		"skipSeparators" : "dkh 11/20/2008 15:18" } }

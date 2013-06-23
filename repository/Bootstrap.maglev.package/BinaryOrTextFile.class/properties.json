@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isBinary" ],
+	"name" : "BinaryOrTextFile",
+	"pools" : [
+		 ],
+	"super" : "GsFile",
+	"type" : "normal" }

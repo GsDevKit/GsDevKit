@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"absoluteFromText:" : "ls 8/4/1998 20:42",
+		"combine:withRelative:" : "st 9/27/2004 15:47",
+		"schemeNameForString:" : "sma 4/30/2000 11:18" },
+	"instance" : {
+		"activate" : "ls 8/4/1998 20:41",
+		"asString" : "DaleHenrichs 03/19/2010 16:35",
+		"asText" : "ls 7/14/1998 03:17",
+		"asUrl" : "ls 6/29/1998 00:36",
+		"asUrlRelativeTo:" : "ls 7/3/1998 21:11",
+		"authority" : "mir 2/22/2000 18:05",
+		"downloadUrl" : "mir 8/17/2001 10:52",
+		"fragment" : "ls 8/4/1998 01:41",
+		"hasContents" : "ls 8/4/1998 20:40",
+		"hasRemoteContents" : "ar 2/27/2001 22:07",
+		"newFromRelativeText:" : "ls 8/5/1998 00:57",
+		"printOn:" : "ls 6/20/1998 19:55",
+		"privateFragment:" : "ls 8/4/1998 01:02",
+		"privateInitializeFromText:" : "ls 8/4/1998 00:50",
+		"privateInitializeFromText:relativeTo:" : "ls 8/4/1998 00:55",
+		"retrieveContents" : "ls 7/23/1998 20:14",
+		"scheme" : "ls 6/16/1998 16:22",
+		"schemeName" : "ls 7/3/1998 21:11",
+		"toText" : "ls 6/20/1998 19:55",
+		"withFragment:" : "ls 6/1/2000 16:19",
+		"withoutFragment" : "ls 6/1/2000 16:26" } }

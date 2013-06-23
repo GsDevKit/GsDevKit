@@ -1,0 +1,16 @@
+{
+	"category" : "Bootstrap-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"method",
+		"keyword",
+		"arguments" ],
+	"name" : "Pragma",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

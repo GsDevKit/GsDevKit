@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"baseOverridesCoreCharacterCollection:" : "DaleHenrichs 08/19/2010 13:07",
+		"baseOverridesCoreClass:" : "dkh 11/16/2011 19:32",
+		"baseOverridesCoreGsClassDocumentation:" : "dkh 11/16/2011 20:01",
+		"baseOverridesCorePositionableStream:" : "DaleHenrichs 08/19/2010 14:32",
+		"baseOverridesCoreSequenceableCollection:" : "DaleHenrichs 08/19/2010 13:07" } }

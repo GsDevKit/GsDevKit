@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"readFrom:" : "dkh 03/25/2011 10:45",
+		"readFrom:base:" : "dkh 05/28/2012 17:27" },
+	"instance" : {
+		"<<" : "dkh 07/01/2009 10:20",
+		">>" : "dkh 07/01/2009 10:21",
+		"bitInvert32" : "dkh 07/01/2009 10:04",
+		"digitAt:" : "dkh 07/01/2009 10:01",
+		"digitAt:put:" : "dkh 07/01/2009 12:13",
+		"digitLength" : "dkh 07/01/2009 10:13",
+		"hex" : "dkh 07/01/2009 09:18",
+		"normalize" : "dkh 07/01/2009 10:13" } }

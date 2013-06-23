@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"allNamed:from:to:" : "lr 1/20/2006 08:54",
+		"allNamed:from:to:sortedByArgument:" : "lr 1/20/2006 18:16",
+		"allNamed:from:to:sortedUsing:" : "lr 1/19/2006 20:12",
+		"allNamed:in:" : "lr 1/20/2006 08:55",
+		"allNamed:in:sortedByArgument:" : "lr 1/20/2006 18:16",
+		"allNamed:in:sortedUsing:" : "lr 1/19/2006 20:06",
+		"keyword:arguments:" : "lr 1/20/2006 00:34",
+		"withPragmasIn:do:" : "lr 1/20/2006 08:50" },
+	"instance" : {
+		"argumentAt:" : "lr 1/20/2006 02:10",
+		"arguments" : "lr 1/19/2006 20:54",
+		"hasLiteral:" : "lr 2/6/2006 22:16",
+		"hasLiteralSuchThat:" : "lr 2/6/2006 22:17",
+		"keyword" : "lr 1/19/2006 20:53",
+		"message" : "dkh 11/15/2007 14:56",
+		"method" : "lr 1/20/2006 02:04",
+		"methodClass" : "dkh 11/15/2007 22:53",
+		"numArgs" : "lr 1/20/2006 02:10",
+		"printOn:" : "dkh 11/16/2007 14:54",
+		"selector" : "md 2/16/2006 14:01",
+		"setArguments:" : "lr 1/20/2006 00:53",
+		"setKeyword:" : "lr 1/20/2006 00:53",
+		"setMethod:" : "lr 1/19/2006 23:39" } }

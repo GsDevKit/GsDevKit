@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"className" : "dkh 09/14/2007 08:37",
+		"flag:" : "dkh 06/05/2007 21:30",
+		"literalEqual:" : "dkh 02/18/2013 16:10",
+		"migrateIndexable:myClass:otherClass:" : "dkh 12/03/2008 17:22",
+		"postCopy" : "dkh 07/10/2007 11:25",
+		"refersToLiteral:" : "dkh 02/18/2013 16:09" } }

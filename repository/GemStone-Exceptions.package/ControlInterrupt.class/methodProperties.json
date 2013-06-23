@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"_isHandlerFor:dict:exceptionA:args:" : "seaside 11/04/2008 15:35",
+		"errorNumberToSignal" : "seaside 11/04/2008 14:50",
+		"exceptionArguments" : "",
+		"exceptionCategory" : "",
+		"handlesCategory:number:" : "jgf 01/19/2009 14:00",
+		"isHandlerFor:dict:exceptionA:args:" : "seaside 11/04/2008 15:36",
+		"signal" : "jgf 01/19/2009 08:37",
+		"signal:" : "jgf 01/19/2009 08:36" },
+	"instance" : {
+		"isResumable" : "",
+		"signal" : "jgf 01/19/2009 08:33" } }

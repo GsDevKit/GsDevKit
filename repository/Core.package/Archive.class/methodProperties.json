@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"new" : "dkh 06/05/2007 21:30" },
+	"instance" : {
+		"addFile:as:" : "DaleHenrichs 02/26/2010 11:33",
+		"addMember:" : "dkh 06/05/2007 21:30",
+		"addString:as:" : "dkh 06/05/2007 21:30",
+		"contentsOf:" : "dkh 06/05/2007 21:30",
+		"initialize" : "dkh 06/05/2007 21:30",
+		"member:" : "dkh 06/05/2007 21:30",
+		"memberNamed:" : "dkh 06/05/2007 21:30",
+		"members" : "dkh 07/08/2012 09:31",
+		"membersMatching:" : "dkh 04/28/2008 15:46" } }

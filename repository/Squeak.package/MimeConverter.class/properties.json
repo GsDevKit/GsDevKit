@@ -1,0 +1,15 @@
+{
+	"category" : "Squeak-Collections-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		"dataStream",
+		"mimeStream" ],
+	"name" : "MimeConverter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+(name 'GemStone-23x-ANSI-Streams-dkh.1' message '- moved PositionableStream methods from Grease-GemStone230-Core to GemStone-23x-ANSI-Streams as these methods are needed earlier during the upgrade process' id '561a73a2-5853-4ab8-8873-68d4224a38a0' date '09/13/2011' time '14:00:29' author 'dkh' ancestors () stepChildren ())

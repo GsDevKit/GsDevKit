@@ -1,0 +1,4 @@
+*squeak
+comment
+
+	^self classComment

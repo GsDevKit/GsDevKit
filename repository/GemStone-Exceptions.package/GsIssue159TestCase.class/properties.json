@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DaleHenrichs 08/18/2010 17:19",
+	"instvars" : [
+		"caughtIt" ],
+	"name" : "GsIssue159TestCase",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

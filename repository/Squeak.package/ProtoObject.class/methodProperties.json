@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_class" : "dkh 10/21/2008 17:00",
+		"_error:args:" : "dkh 10/21/2008 14:55",
+		"_errorExpectedClass:" : "dkh 10/21/2008 15:11",
+		"_errorSymbolToNumber:args:" : "dkh 10/21/2008 14:55",
+		"_getIndexReferencesInto:" : "dkh 10/21/2008 16:43",
+		"_removeIndexParticipation:for:" : "dkh 10/21/2008 16:43",
+		"_resetParentRef" : "dkh 10/21/2008 14:53",
+		"_restoreIndexParticipation:" : "dkh 10/21/2008 16:43",
+		"_validateClass:" : "dkh 10/21/2008 15:11",
+		"become:" : "dkh 10/21/2008 16:36",
+		"class" : "dkh 10/21/2008 17:00",
+		"doesNotUnderstand:" : "dkh 11/01/2007 15:12",
+		"error:" : "dkh 10/21/2008 16:41",
+		"ifNil:" : "dkh 11/01/2007 15:15",
+		"ifNil:ifNotNil:" : "dkh 11/01/2007 15:15",
+		"ifNil:ifNotNilDo:" : "dkh 11/01/2007 15:16",
+		"ifNotNil:" : "dkh 11/01/2007 15:16",
+		"ifNotNil:ifNil:" : "dkh 11/01/2007 15:16",
+		"ifNotNilDo:" : "dkh 11/01/2007 15:17",
+		"ifNotNilDo:ifNil:" : "dkh 11/01/2007 15:17",
+		"isBehavior" : "dkh 11/01/2007 15:13",
+		"isNil" : "dkh 11/01/2007 15:14" } }

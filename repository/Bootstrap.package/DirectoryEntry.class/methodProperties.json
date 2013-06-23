@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"name:creationTime:modificationTime:dirFlag:fileSize:" : "dkh 06/05/2007 21:30",
+		"onClient" : "dkh 02/24/2008 22:45" },
+	"instance" : {
+		"asFileDirectory" : "dkh 04/07/2012 10:22",
+		"at:" : "dkh 02/24/2008 22:42",
+		"creationTime" : "dkh 02/24/2008 22:47",
+		"dirFlag" : "dkh 06/05/2007 21:30",
+		"fileSize" : "dkh 02/24/2008 22:47",
+		"first" : "dkh 02/24/2008 22:48",
+		"isDirectory" : "dkh 02/24/2008 22:41",
+		"modificationTime" : "dkh 02/24/2008 22:47",
+		"name" : "dkh 06/05/2007 21:30",
+		"name:creationTime:modificationTime:dirFlag:fileSize:" : "dkh 06/05/2007 21:30",
+		"onClient" : "dkh 02/24/2008 22:45",
+		"sourceDirectory" : "dkh 04/07/2012 10:17",
+		"sourceDirectory:" : "dkh 04/07/2012 10:16" } }

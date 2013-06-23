@@ -1,0 +1,14 @@
+{
+	"category" : "Core-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 02/20/2013 11:58",
+	"instvars" : [
+		 ],
+	"name" : "AssertionFailure",
+	"pools" : [
+		 ],
+	"super" : "Halt",
+	"type" : "normal" }

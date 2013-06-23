@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"reset" : "dkh 12/17/2008 15:45",
+		"shouldPersistHistory" : "dkh 05/03/2008 10:49",
+		"shouldPersistHistory:" : "dkh 05/03/2008 10:46",
+		"storage" : "dkh 05/03/2008 10:44",
+		"uniqueInstance" : "dkh 05/03/2008 10:50" },
+	"instance" : {
+		"addVersionFor:" : "dkh 05/02/2008 15:20",
+		"addVersionFor:oldMeth:oldStamp:oldCategory:" : "dkh 05/02/2008 15:19",
+		"cleanUp" : "obi 04/17/2009 13:16",
+		"clearHistory" : "dkh 05/01/2008 17:03",
+		"countAllMethods" : "obi 04/17/2009 12:19",
+		"countMethodsOlderThan:" : "obi 04/17/2009 12:20",
+		"createHistoryFor:in:" : "dkh 05/02/2008 11:30",
+		"dictionary" : "dkh 05/01/2008 16:47",
+		"queryOldClasses" : "obi 04/17/2009 12:13",
+		"removeDuplicates" : "obi 04/17/2009 13:17",
+		"removeMethodsOlderThan:" : "obi 04/17/2009 12:29",
+		"removeMethodsOlderThan:minEntries:" : "obi 04/17/2009 12:34",
+		"removeNotImplementedMethods" : "obi 04/17/2009 13:15",
+		"removeOldClasses" : "obi 04/17/2009 12:14",
+		"removeUnreferencedClasses" : "obi 04/17/2009 11:28",
+		"removeVersionsForClass:" : "dkh 05/02/2008 09:19",
+		"removeVersionsForMethod:" : "DataCurator 12/13/2010 19:35",
+		"versionsOfMethod:in:" : "DataCurator 12/13/2010 19:35" } }

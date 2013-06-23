@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"initialize" : "dkh 12/21/2007 12:03",
+		"install" : "dkh 01/11/2008 08:52" },
+	"instance" : {
+		"cacheDictionary" : "dkh 12/21/2007 12:03",
+		"cacheName" : "dkh 12/21/2007 12:03",
+		"cachedClassChangeCount" : "dkh 12/21/2007 12:03",
+		"cachedClassChangeCount:" : "dkh 12/21/2007 12:03",
+		"cachedSessionMethodChangeCount" : "dkh 12/21/2007 12:03",
+		"cachedSessionMethodChangeCount:" : "dkh 12/21/2007 12:03",
+		"classChangeCountCacheName" : "dkh 12/21/2007 12:03",
+		"classChanged" : "dkh 12/21/2007 12:03",
+		"disable" : "dkh 12/21/2007 12:03",
+		"enable" : "dkh 12/21/2007 12:03",
+		"enabled" : "dkh 12/21/2007 12:03",
+		"forceUpdate" : "dkh 12/21/2007 12:03",
+		"initialize" : "dkh 12/21/2007 12:03",
+		"isActive" : "DaleHenrichs 10/26/2010 14:31",
+		"refreshAll" : "dkh 12/21/2007 12:03",
+		"refreshCache" : "dkh 12/21/2007 12:03",
+		"refreshOrganizerCache" : "dkh 12/21/2007 12:03",
+		"refreshSessionMethodDictionary" : "dkh 12/21/2007 12:03",
+		"sessionMethodChangeCountCacheName" : "dkh 12/21/2007 12:03",
+		"sessionMethodChanged" : "dkh 12/21/2007 12:03",
+		"transactionBoundary:" : "dkh 02/23/2008 08:43" } }

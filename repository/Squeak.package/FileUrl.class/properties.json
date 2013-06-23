@@ -1,0 +1,16 @@
+{
+	"category" : "Squeak-Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "gk 2/10/2004 10:56",
+	"instvars" : [
+		"host",
+		"path",
+		"isAbsolute" ],
+	"name" : "FileUrl",
+	"pools" : [
+		 ],
+	"super" : "Url",
+	"type" : "normal" }
