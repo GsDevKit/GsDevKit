@@ -20,6 +20,11 @@ baseline: spec
         package: 'Squeak' with: [ spec requires: #('Sport') ];
         package: 'Regex-Core' with: [ spec requires: #('Core' 'Squeak') ];
         package: 'Regex-Tests-Core' with: [ spec requires: #('Regex-Core') ];
+        yourself.
+      spec
+        group: 'default'
+          with:
+            #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Regex-Core' 'Regex-Tests-Core');
         yourself ].
   spec
     for: #'gs2.x'
@@ -29,6 +34,9 @@ baseline: spec
         package: 'GemStone-Exceptions'
           with: [ spec requires: #('Bootstrap' 'Sport') ];
         package: 'Sport' with: [ spec requires: #('GsRandom') ];
+        yourself.
+      spec
+        group: 'default' with: #('GsRandom' 'GemStone-Exceptions');
         yourself ].
   spec
     for: #'gs2.3.x'
@@ -41,19 +49,30 @@ baseline: spec
         package: 'GemStone-23x-Exceptions'
           with: [ spec requires: #('GemStone-Exceptions') ];
         package: 'Squeak' with: [ spec postLoadDoIt: #'postLoad233' ];
+        yourself.
+      spec
+        group: 'default'
+          with:
+            #('GemStone-23x-ANSI-Streams' 'GemStone-23x-GreaseCompat' 'GemStone-23x-Exceptions');
         yourself ].
   spec
     for: #'Issue29FixANeeded'
     do: [ 
       spec
         package: 'GemStone-244-Exceptions'
-        with: [ spec requires: #('GemStone-Exceptions') ] ].
+        with: [ spec requires: #('GemStone-Exceptions') ].
+      spec
+        group: 'default' with: #('GemStone-244-Exceptions');
+        yourself ].
   spec
     for: #'Issue29FixBNeeded'
     do: [ 
       spec
         package: 'GemStone-245-Exceptions'
-        with: [ spec requires: #('GemStone-Exceptions') ] ].
+        with: [ spec requires: #('GemStone-Exceptions') ].
+      spec
+        group: 'default' with: #('GemStone-245-Exceptions');
+        yourself ].
   spec
     for: #'gs3.x'
     do: [ 
