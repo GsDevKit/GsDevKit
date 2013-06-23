@@ -1,0 +1,14 @@
+{
+	"category" : "XML-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CanonicalTable" ],
+	"commentStamp" : "DataCurator 10/02/2008 10:36",
+	"instvars" : [
+		 ],
+	"name" : "XMLNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

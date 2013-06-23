@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"announcer" : "dkh 03/21/2008 12:44",
+		"broadcast" : "dkh 03/20/2008 10:00",
+		"broadcastMessage:" : "dkh 03/20/2008 10:00",
+		"cleanRegisteredSessions" : "dkh 09/23/2011 14:50",
+		"initialize" : "dkh 03/21/2008 12:44",
+		"installStaticHandler" : "DataCurator 12/13/2010 19:35",
+		"registerForGemToGemSignalling" : "dkh 03/20/2008 09:49",
+		"registeredSessions" : "dkh 03/21/2008 10:01",
+		"registry" : "dkh 03/20/2008 09:59",
+		"signal:message:sessionSerialNum:" : "dkh 03/20/2008 11:33",
+		"signalNumber" : "dkh 03/20/2008 09:46",
+		"staticHandlerInstalled" : "dkh 03/21/2008 13:05",
+		"uninstallStaticHandler" : "DataCurator 12/13/2010 19:35" },
+	"instance" : {
+		"broadcast" : "dkh 03/21/2008 10:43",
+		"registeredSessions" : "dkh 03/21/2008 10:16",
+		"replyToSenderWithSignal:message:" : "dkh 03/20/2008 11:08",
+		"sessionSerialNum" : "dkh 03/20/2008 09:52",
+		"sessionSerialNum:" : "dkh 03/20/2008 09:52",
+		"signalMessage" : "dkh 03/20/2008 09:41",
+		"signalMessage:" : "dkh 03/20/2008 09:41",
+		"signalNumber" : "dkh 03/20/2008 09:46" } }

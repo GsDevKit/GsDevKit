@@ -1,0 +1,3 @@
+handling tokens
+handleEndDocument
+	self saxHandler endDocument

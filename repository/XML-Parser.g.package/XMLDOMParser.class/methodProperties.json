@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"addressBookXMLWithDTD" : "dkh 07/18/2007 12:49",
+		"parseDocumentFrom:" : "dkh 10/02/2008 12:41",
+		"parseDocumentFrom:useNamespaces:persistentRoot:" : "dkh 10/02/2008 12:39" },
+	"instance" : {
+		"characters:" : "dkh 07/18/2007 12:49",
+		"defaultNamespace" : "mir 6/16/2003 17:20",
+		"documentAttributes:" : "thf 9/2/2005 14:09",
+		"domDocument" : "mir 6/5/2003 19:29",
+		"endDocument" : "mir 1/8/2002 18:19",
+		"endElement:" : "mir 1/8/2002 18:11",
+		"endElement:namespace:namespaceURI:qualifiedName:" : "ew 02/11/2008 16:52",
+		"incremental" : "mir 1/8/2001 12:05",
+		"incremental:" : "mir 1/8/2001 12:05",
+		"initialize" : "mir 1/8/2001 12:05",
+		"nextEntity" : "mir 6/28/2001 18:45",
+		"nextEntityStart" : "mir 12/21/2000 14:02",
+		"pop" : "mir 1/8/2001 12:04",
+		"processingInstruction:data:" : "dkh 07/18/2007 12:49",
+		"push:" : "mir 1/8/2001 12:02",
+		"stack" : "mir 8/14/2000 18:28",
+		"startDocument" : "dkh 07/18/2007 12:49",
+		"startElement:attributeList:" : "dkh 07/18/2007 12:49",
+		"startElement:namespaceURI:namespace:attributeList:" : "dkh 07/18/2007 12:49",
+		"top" : "mir 1/8/2001 11:46" } }

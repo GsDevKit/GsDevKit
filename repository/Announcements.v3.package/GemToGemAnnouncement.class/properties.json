@@ -1,0 +1,16 @@
+{
+	"category" : "Announcements-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"RegisteredSessions",
+		"Registry" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"signalMessage",
+		"sessionSerialNum" ],
+	"name" : "GemToGemAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "XML-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 10/02/2008 10:36",
+	"instvars" : [
+		"document",
+		"driver",
+		"eod" ],
+	"name" : "SAXHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

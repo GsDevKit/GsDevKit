@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"currentScope" : "mir 6/4/2003 15:51",
+		"declareNamespace:uri:" : "mir 6/16/2003 16:37",
+		"defaultNamespace" : "mir 6/24/2003 14:22",
+		"defaultNamespace:" : "mir 6/24/2003 14:23",
+		"enterScope" : "dkh 3/28/2007 13:42",
+		"establishLocalBindings" : "mir 6/4/2003 16:08",
+		"initScope" : "dkh 3/28/2007 13:45",
+		"leaveScope" : "mir 6/4/2003 16:05",
+		"namespaceAliases:" : "mir 6/5/2003 19:32",
+		"namespaceURIOf:" : "sd 5/28/2003 09:33",
+		"namespaceURIOf:ifAbsent:" : "mir 6/24/2003 13:33",
+		"namespaces" : "mir 6/5/2003 19:32",
+		"scope" : "mir 6/24/2003 14:26",
+		"validateAttributes:" : "mir 6/5/2003 17:16" } }

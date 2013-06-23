@@ -1,0 +1,16 @@
+{
+	"category" : "XML-Parser",
+	"classinstvars" : [
+		"contextBehavior" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 10/02/2008 10:36",
+	"instvars" : [
+		"name",
+		"value",
+		"ndata" ],
+	"name" : "DTDEntityDeclaration",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

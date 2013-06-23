@@ -1,0 +1,14 @@
+{
+	"category" : "XML-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 10/02/2008 10:36",
+	"instvars" : [
+		 ],
+	"name" : "XMLParser",
+	"pools" : [
+		 ],
+	"super" : "XMLTokenizer",
+	"type" : "normal" }

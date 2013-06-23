@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addContent:" : "dkh 07/18/2007 12:49",
+		"contentsDo:" : "mir 1/17/2002 14:49",
+		"elementsDo:" : "mir 3/6/2002 10:56",
+		"firstTagNamed:" : "mir 3/6/2002 10:52",
+		"firstTagNamed:with:" : "mir 3/6/2002 10:53",
+		"isProcessingInstruction" : "mir 1/17/2002 15:28",
+		"isTag" : "mir 1/17/2002 15:26",
+		"isText" : "mir 1/17/2002 15:26",
+		"printOn:" : "dkh 07/18/2007 12:49",
+		"printXMLOn:" : "mir 1/17/2002 15:45",
+		"tagsNamed:childrenDo:" : "mir 3/6/2002 10:53",
+		"tagsNamed:childrenDoAndRecurse:" : "mir 3/6/2002 10:53",
+		"tagsNamed:contentsDo:" : "mir 3/6/2002 10:53",
+		"tagsNamed:do:" : "mir 3/6/2002 10:53",
+		"tagsNamed:ifReceiverDo:" : "SqR 7/2/2000 15:58",
+		"tagsNamed:ifReceiverDoAndRecurse:" : "mir 3/6/2002 10:53",
+		"tagsNamed:ifReceiverOrChildDo:" : "mir 3/6/2002 10:53" } }

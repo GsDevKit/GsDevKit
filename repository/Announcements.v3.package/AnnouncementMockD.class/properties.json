@@ -1,0 +1,14 @@
+{
+	"category" : "Announcements-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AnnouncementMockD",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

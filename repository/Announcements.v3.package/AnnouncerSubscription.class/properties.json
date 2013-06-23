@@ -1,0 +1,15 @@
+{
+	"category" : "Announcements-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"valuable",
+		"subscriber" ],
+	"name" : "AnnouncerSubscription",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

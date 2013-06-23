@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"announce:" : "DaleHenrichs 03/22/2011 12:30",
+		"initialize" : "lr 7/5/2006 13:14",
+		"numberOfSubscriptions" : "dkh 08/06/2012 11:58",
+		"on:do:" : "lr 10/27/2006 14:26",
+		"on:do:for:" : "dkh 01/30/2008 13:30",
+		"on:send:to:" : "lr 10/27/2006 14:27",
+		"subscribe:do:" : "dkh 01/30/2008 13:36",
+		"subscribe:do:for:" : "dkh 01/30/2008 13:36",
+		"subscribe:send:to:" : "lr 10/27/2006 14:27",
+		"unsubscribe:" : "lr 9/25/2006 09:10" } }

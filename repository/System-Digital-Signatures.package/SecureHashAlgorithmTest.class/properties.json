@@ -1,0 +1,14 @@
+{
+	"category" : "System-Digital-Signatures-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 11/18/2008 08:58",
+	"instvars" : [
+		"hash" ],
+	"name" : "SecureHashAlgorithmTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

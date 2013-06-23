@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addElement:" : "mir 3/6/2002 11:01",
+		"addEntity:value:" : "mir 10/25/2000 11:22",
+		"elementAt:" : "mir 3/6/2002 10:46",
+		"elementAt:ifAbsent:" : "mir 6/25/2003 13:27",
+		"elementUnqualifiedAt:" : "mir 6/16/2003 17:36",
+		"elementUnqualifiedAt:ifAbsent:" : "mir 6/16/2003 17:36",
+		"elements" : "mir 3/6/2002 10:54",
+		"elementsDo:" : "mir 3/6/2002 10:45",
+		"namespace" : "mir 6/5/2003 15:20",
+		"namespace:uri:" : "mir 6/16/2003 16:21",
+		"namespaceURI" : "mir 6/5/2003 15:20",
+		"printXMLOn:" : "mir 3/6/2002 10:49",
+		"topElement" : "mir 3/6/2002 10:50" } }

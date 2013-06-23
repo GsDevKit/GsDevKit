@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"behaviorForContext:" : "mir 11/16/2000 20:14",
+		"contextBehavior" : "mir 11/16/2000 20:15",
+		"initialize" : "mir 1/15/2002 18:02",
+		"leadIn" : "mir 11/16/2000 20:27",
+		"name:value:" : "mir 11/16/2000 20:13" },
+	"instance" : {
+		"bypass" : "mir 1/15/2002 11:29",
+		"forbidden" : "mir 1/15/2002 11:29",
+		"include" : "dkh 07/18/2007 12:49",
+		"includedInLiteral" : "mir 1/15/2002 18:06",
+		"name" : "mir 1/4/2002 19:40",
+		"name:" : "mir 1/17/2002 15:25",
+		"ndata" : "mir 12/8/2000 17:22",
+		"ndata:" : "mir 12/8/2000 17:22",
+		"reference" : "mir 1/15/2002 11:30",
+		"registerIn:" : "mir 11/16/2000 21:23",
+		"value" : "mir 11/16/2000 10:54",
+		"value:" : "mir 11/16/2000 10:55",
+		"valueForContext:" : "mir 1/15/2002 15:08" } }

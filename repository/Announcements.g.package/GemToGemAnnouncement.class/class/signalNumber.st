@@ -1,0 +1,4 @@
+constants
+signalNumber
+
+	^0

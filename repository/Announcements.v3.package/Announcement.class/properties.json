@@ -1,0 +1,14 @@
+{
+	"category" : "Announcements-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Announcement",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

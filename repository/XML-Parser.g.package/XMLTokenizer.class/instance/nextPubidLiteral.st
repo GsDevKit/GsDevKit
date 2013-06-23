@@ -1,0 +1,3 @@
+tokenizing
+nextPubidLiteral
+	^self nextAttributeValue

@@ -1,0 +1,3 @@
+tokenizing
+nextSystemLiteral
+	^self nextAttributeValue

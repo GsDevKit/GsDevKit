@@ -1,0 +1,15 @@
+{
+	"category" : "System-Digital-Signatures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"hi",
+		"low" ],
+	"name" : "ThirtyTwoBitRegister",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "XML-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 10/02/2008 10:36",
+	"instvars" : [
+		"dtd",
+		"version",
+		"encoding",
+		"requiredMarkup" ],
+	"name" : "XMLDocument",
+	"pools" : [
+		 ],
+	"super" : "XMLNodeWithElements",
+	"type" : "normal" }

@@ -1,0 +1,28 @@
+{
+	"category" : "XML-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CharEscapes",
+		"DigitTable",
+		"LiteralChars",
+		"NameDelimiters",
+		"SeparatorTable" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"stream",
+		"nestedStreams",
+		"entities",
+		"externalEntities",
+		"parameterEntities",
+		"parsingMarkup",
+		"markedPosition",
+		"peekChar",
+		"validating",
+		"nameBuffer",
+		"attributeBuffer" ],
+	"name" : "XMLTokenizer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

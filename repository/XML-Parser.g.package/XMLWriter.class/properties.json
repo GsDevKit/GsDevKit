@@ -1,0 +1,21 @@
+{
+	"category" : "XML-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"XMLTranslation",
+		"XMLTranslationMap" ],
+	"commentStamp" : "DataCurator 10/02/2008 10:36",
+	"instvars" : [
+		"stream",
+		"stack",
+		"scope",
+		"scanner",
+		"canonical",
+		"currentIndent",
+		"indentString" ],
+	"name" : "XMLWriter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

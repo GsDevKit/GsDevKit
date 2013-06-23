@@ -1,0 +1,3 @@
+accessing
+characterData
+	^self string

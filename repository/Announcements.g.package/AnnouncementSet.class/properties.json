@@ -1,0 +1,14 @@
+{
+	"category" : "Announcements-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/13/2010 15:35",
+	"instvars" : [
+		 ],
+	"name" : "AnnouncementSet",
+	"pools" : [
+		 ],
+	"super" : "Set",
+	"type" : "normal" }

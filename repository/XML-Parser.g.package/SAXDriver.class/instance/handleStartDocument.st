@@ -1,0 +1,3 @@
+handling tokens
+handleStartDocument
+	self saxHandler startDocument

@@ -1,0 +1,3 @@
+name space
+namespaceURI
+	^ uri

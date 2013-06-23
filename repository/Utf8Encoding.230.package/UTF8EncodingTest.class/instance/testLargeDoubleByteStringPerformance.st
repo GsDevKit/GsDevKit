@@ -1,0 +1,32 @@
+testing
+testLargeDoubleByteStringPerformance
+
+	| sample m1 m2 m3 m4 m5 m6 encoded decoded |
+	m1 := System millisecondsToRun: [ sample := self generateRandomDoubleByteString: 200000 ].
+	m2 := System millisecondsToRun: [
+        self assert: sample class = DoubleByteString.
+        encoded := sample encodeAsUTF8.
+        self assert: encoded class = String.
+        decoded := encoded decodeFromUTF8 .
+	self in2x
+		ifTrue: [ self assert: decoded class == QuadByteString ]
+		ifFalse: [ self assert: decoded class == DoubleByteString ].
+         self assert: decoded = sample.
+        decoded := encoded decodeIntoDoubleByteStringFromUTF8 .
+        self assert: decoded class = DoubleByteString.
+        self assert: decoded = sample].
+	m3 := System millisecondsToRun: [ 
+        100 timesRepeat:[ sample encodeAsUTF8 ]].
+	m4 := System millisecondsToRun: [ 
+        100 timesRepeat:[ encoded decodeFromUTF8 ]].
+	m5 := System millisecondsToRun: [ 
+        100 timesRepeat:[ encoded decodeIntoDoubleByteStringFromUTF8 ]].
+	m6 := System millisecondsToRun: [ 
+        100 timesRepeat:[ decoded = sample ]].
+	Transcript cr; show: 'testLargeDoubleByteStringPerformance:'.
+	Transcript cr; show: '  Generate (', sample size printString, '): ', m1 printString, 
+		' primEncode/primDecode: ', m2 printString, 
+		' 100_primEncode: ', m3 printString, 
+		' 100_primDecode: ', m4 printString,
+		' 100_primDecodeDBS: ', m5 printString,
+        ' 100_=: ', m6 printString.
