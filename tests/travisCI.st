@@ -9,12 +9,12 @@ gitPath := (FileDirectory default directoryNamed: gitCache ) fullName.
 [
 Metacello new
 	baseline: 'GsCore';
-  repository: 'filetree://', gitPath, '/metacello-work/repository';
+  repository: 'filetree://', gitPath, '/glass/repository';
   get.
 
 Metacello new
 	baseline: 'GsCore';
-  repository: 'filetree://', gitPath, '/metacello-work/repository';
+  repository: 'filetree://', gitPath, '/glass/repository';
   load.
 ] on: Warning do: [:ex | 
   Transcript cr; show: 'WARNING: ', ex description.
