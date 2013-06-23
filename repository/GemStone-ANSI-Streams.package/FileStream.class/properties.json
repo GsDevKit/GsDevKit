@@ -1,0 +1,15 @@
+{
+	"category" : "GemStone-ANSI-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 10/11/2011 04:06",
+	"instvars" : [
+		"gsfile",
+		"streamType" ],
+	"name" : "FileStream",
+	"pools" : [
+		 ],
+	"super" : "ReadWriteStream",
+	"type" : "normal" }

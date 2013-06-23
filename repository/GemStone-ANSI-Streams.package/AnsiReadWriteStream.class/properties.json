@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-ANSI-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 10/11/2011 04:06",
+	"instvars" : [
+		 ],
+	"name" : "AnsiReadWriteStream",
+	"pools" : [
+		 ],
+	"super" : "ReadWriteStream",
+	"type" : "normal" }

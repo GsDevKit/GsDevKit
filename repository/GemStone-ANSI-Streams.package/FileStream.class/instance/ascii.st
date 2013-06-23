@@ -1,0 +1,3 @@
+accessing
+ascii
+	streamType := #text

@@ -1,0 +1,4 @@
+testing
+isBinary
+
+	^streamType == #binary

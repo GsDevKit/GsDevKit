@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfGsCore",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfGsCore",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
