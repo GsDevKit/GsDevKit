@@ -1,0 +1,3 @@
+installing
+scanForPreviousVersion
+  ^nil

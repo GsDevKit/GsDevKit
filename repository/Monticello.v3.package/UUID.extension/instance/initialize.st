@@ -1,0 +1,3 @@
+*monticello
+initialize
+	self primMakeUUID.

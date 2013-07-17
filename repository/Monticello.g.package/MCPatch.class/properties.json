@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Patching",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		"operations" ],
+	"name" : "MCPatch",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

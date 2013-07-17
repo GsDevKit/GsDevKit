@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Merging",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		"conflicts" ],
+	"name" : "MCMerger",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

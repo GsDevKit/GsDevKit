@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"fileOut:on:" : "avi 2/17/2004 02:14",
+		"new" : "avi 9/13/2004 18:03",
+		"readerClass" : "cwp 8/1/2003 12:35" },
+	"instance" : {
+		"addString:at:" : "dkh 08/09/2007 10:57",
+		"flush" : "dkh 08/09/2007 10:57",
+		"format" : "dkh 08/09/2007 10:57",
+		"initialize" : "dkh 08/09/2007 10:57",
+		"serializeDefinitions:" : "dkh 08/09/2007 10:57",
+		"serializeInBinary:" : "dkh 08/09/2007 10:57",
+		"serializePackage:" : "dkh 08/09/2007 10:57",
+		"serializeVersionInfo:" : "dkh 08/09/2007 10:57",
+		"snapshotWriterClass" : "dkh 08/09/2007 10:57",
+		"writeDefinitions:" : "dkh 08/09/2007 10:57",
+		"writeFormat" : "dkh 08/09/2007 10:57",
+		"writePackage:" : "dkh 08/09/2007 10:57",
+		"writeSnapshot:" : "dkh 08/09/2007 10:57",
+		"writeVersion:" : "dkh 08/09/2007 10:57",
+		"writeVersionDependency:" : "dkh 08/09/2007 10:57",
+		"writeVersionInfo:" : "dkh 08/09/2007 10:57",
+		"zip" : "dkh 08/09/2007 10:57" } }

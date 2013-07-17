@@ -1,0 +1,19 @@
+{
+	"category" : "PackageInfo-Base",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 10/19/2011 18:20",
+	"instvars" : [
+		"packageName",
+		"methodCategoryPrefix",
+		"preamble",
+		"postscript",
+		"preambleOfRemoval",
+		"postscriptOfRemoval" ],
+	"name" : "PackageInfo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

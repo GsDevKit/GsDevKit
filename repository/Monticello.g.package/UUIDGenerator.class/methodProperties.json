@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"default" : "",
+		"initialize" : "" },
+	"instance" : {
+		"generateBytes:forVersion:" : "DataCurator 04/23/2007 14:43",
+		"generateFieldsVersion4" : "DataCurator 04/23/2007 14:43",
+		"generateOneOrZero" : "",
+		"generateRandomBitsOfLength:" : "DataCurator 04/23/2007 14:43",
+		"initialize" : "DataCurator 04/23/2007 14:43",
+		"makeSeed" : "DataCurator 04/23/2007 14:43",
+		"placeFields:" : "DataCurator 04/23/2007 14:43",
+		"randomCounter" : "DataCurator 04/23/2007 14:43",
+		"randomCounter:" : "DataCurator 04/23/2007 14:43",
+		"randomGenerator" : "DataCurator 04/23/2007 14:43",
+		"randomGenerator:" : "DataCurator 04/23/2007 14:43",
+		"semaphoreForGenerator" : "DataCurator 04/23/2007 14:43",
+		"semaphoreForGenerator:" : "DataCurator 04/23/2007 14:43",
+		"setupRandom" : "DataCurator 04/23/2007 14:43" } }

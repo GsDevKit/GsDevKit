@@ -1,0 +1,3 @@
+accessing
+fullTimeStamp
+	^MCPlatformSupport fromMethodTimeStamp: timeStamp

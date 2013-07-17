@@ -1,0 +1,20 @@
+{
+	"category" : "Monticello-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		"file",
+		"position",
+		"type",
+		"class",
+		"category",
+		"meta",
+		"stamp" ],
+	"name" : "ChangeRecord",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

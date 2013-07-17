@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Mocks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		 ],
+	"name" : "MCMockClassG",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

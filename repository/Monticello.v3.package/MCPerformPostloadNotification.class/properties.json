@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Modeling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"postloadClass" ],
+	"name" : "MCPerformPostloadNotification",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

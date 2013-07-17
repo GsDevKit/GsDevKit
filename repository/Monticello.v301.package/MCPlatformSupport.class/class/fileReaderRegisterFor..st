@@ -1,0 +1,2 @@
+io
+fileReaderRegisterFor: aVersionReader

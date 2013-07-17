@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addMethodChange:" : "dkh 11/28/2007 14:02",
+		"asClassDefinition" : "dkh 11/11/2008 13:53",
+		"classComment:" : "DataCurator 04/23/2007 14:43",
+		"comment" : "DataCurator 04/23/2007 14:43",
+		"commentString" : "DataCurator 04/23/2007 14:43",
+		"commentString:" : "DataCurator 04/23/2007 14:43",
+		"definition" : "",
+		"definition:" : "DataCurator 04/23/2007 14:43",
+		"hasDefinition" : "DataCurator 04/23/2007 14:43",
+		"isMeta" : "nk 2/18/2004 18:30",
+		"metaClass" : "dkh 08/09/2007 10:57",
+		"methodChange:" : "DataCurator 04/23/2007 14:43",
+		"name" : "DataCurator 04/23/2007 14:43",
+		"name:" : "DataCurator 04/23/2007 14:43",
+		"organization" : "dkh 08/09/2007 10:57",
+		"selectors" : "DataCurator 04/23/2007 14:43",
+		"sourceCode" : "DataCurator 04/23/2007 14:43",
+		"sourceCodeAt:" : "DataCurator 04/23/2007 14:43",
+		"sourceCodeAt:put:" : "DataCurator 04/23/2007 14:43",
+		"stampAt:" : "DataCurator 04/23/2007 14:43" } }

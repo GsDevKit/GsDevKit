@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Deployment-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gofer" ],
+	"name" : "GsDeployerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

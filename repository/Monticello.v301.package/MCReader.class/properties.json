@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Storing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 03/27/2012 10:47",
+	"instvars" : [
+		"stream" ],
+	"name" : "MCReader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

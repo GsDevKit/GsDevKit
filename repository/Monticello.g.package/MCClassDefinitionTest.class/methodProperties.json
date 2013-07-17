@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"classAComment" : "cwp 8/10/2003 01:20",
+		"classACommentStamp" : "cwp 8/10/2003 17:59",
+		"restoreClassAComment" : "dkh 04/28/2008 14:22" },
+	"instance" : {
+		"classAComment" : "dkh 08/09/2007 10:57",
+		"creationMessage" : "dkh 08/09/2007 10:57",
+		"issue285MockCategoryName" : "dkh 09/27/2011 10:16",
+		"issue285MockClass:super:" : "dkh 09/27/2011 10:15",
+		"tearDown" : "dkh 03/03/2009 12:18",
+		"testCannotLoad" : "dkh 04/28/2008 11:56",
+		"testComparison" : "dkh 08/09/2007 10:57",
+		"testCreation" : "dkh 11/28/2007 13:58",
+		"testDefinitionString" : "dkh 08/09/2007 10:57",
+		"testEquals" : "dkh 08/09/2007 10:57",
+		"testEqualsSensitivity" : "dkh 08/09/2007 10:57",
+		"testIssue285" : "dkh 09/27/2011 10:56",
+		"testKindOfSubclass" : "dkh 09/27/2011 09:43",
+		"testLoadAndUnload" : "dkh 11/12/2008 00:42" } }

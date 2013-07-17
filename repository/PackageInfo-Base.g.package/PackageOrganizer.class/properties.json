@@ -1,0 +1,14 @@
+{
+	"category" : "PackageInfo-Base",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 10/19/2011 18:20",
+	"instvars" : [
+		"packages" ],
+	"name" : "PackageOrganizer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

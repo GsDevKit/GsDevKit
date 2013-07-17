@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_basicRemoveSelector:" : "dkh 07/02/2009 06:30",
+		"addCategory:" : "dkh 07/02/2009 06:31",
+		"classify:under:" : "dkh 07/02/2009 06:32",
+		"compileMethod:category:using:" : "DaleHenrichs 03/11/2011 11:26",
+		"moveMethod:toCategory:" : "dkh 07/02/2009 06:33",
+		"removeEmptyCategories" : "dkh 07/02/2009 06:30",
+		"renameCategory:to:" : "dkh 08/11/2009 10:04",
+		"renameOrMergeCategory:to:" : "dkh 07/02/2009 06:30" } }

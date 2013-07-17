@@ -1,0 +1,15 @@
+{
+	"category" : "Monticello-Repositories",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 03/27/2012 10:47",
+	"instvars" : [
+		"packageCaches",
+		"seenFiles" ],
+	"name" : "MCCacheRepository",
+	"pools" : [
+		 ],
+	"super" : "MCDirectoryRepository",
+	"type" : "normal" }

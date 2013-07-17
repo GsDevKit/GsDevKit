@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"flushAllCaches" : "avi 2/3/2005 00:43" },
+	"instance" : {
+		"allFileNames" : "dkh 08/09/2007 10:57",
+		"allFileNamesForVersionNamed:" : "dkh 08/09/2007 10:57",
+		"allVersionNames" : "dkh 08/09/2007 10:57",
+		"basicStoreVersion:" : "dkh 08/09/2007 10:57",
+		"cache" : "dkh 12/20/2007 12:19",
+		"cachedFileNames" : "dkh 03/06/2008 11:36",
+		"canReadFileNamed:" : "dkh 08/09/2007 10:57",
+		"filterFileNames:forVersionNamed:" : "dkh 08/09/2007 10:57",
+		"flushCache" : "dkh 08/19/2007 01:50",
+		"includesVersionNamed:" : "dkh 08/09/2007 10:57",
+		"loadVersionFromFileNamed:" : "dkh 08/09/2007 10:57",
+		"loadVersionInfoFromFileNamed:" : "dkh 12/20/2007 12:17",
+		"notifyList" : "avi 8/26/2004 14:34",
+		"possiblyNewerVersionsOfAnyOf:" : "dkh 03/17/2009 13:40",
+		"readableFileNames" : "dkh 08/09/2007 10:57",
+		"versionFromFileNamed:" : "dkh 03/06/2008 11:51",
+		"versionInfoFromFileNamed:" : "dkh 12/20/2007 12:16",
+		"versionNameFromFileName:" : "dkh 01/21/2008 09:06",
+		"versionReaderForFileNamed:do:" : "dkh 02/26/2008 10:22",
+		"versionWithInfo:ifAbsent:" : "dkh 08/09/2007 10:57",
+		"writeStreamForFileNamed:do:" : "dkh 08/09/2007 10:57" } }

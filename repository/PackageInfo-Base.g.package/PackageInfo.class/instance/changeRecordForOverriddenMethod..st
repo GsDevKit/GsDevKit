@@ -1,0 +1,4 @@
+testing
+changeRecordForOverriddenMethod: aMethodReference
+
+	^nil

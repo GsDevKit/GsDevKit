@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"=" : "dkh 08/09/2007 10:57",
+		"allVersionInfos" : "dkh 08/09/2007 10:57",
+		"basicStoreVersion:" : "dkh 08/09/2007 10:57",
+		"cacheDirectoryExists" : "dkh 08/09/2007 10:57",
+		"closestAncestorVersionFor:ifNone:" : "dkh 08/09/2007 10:57",
+		"description" : "dkh 08/09/2007 10:57",
+		"description:" : "dkh 08/09/2007 10:57",
+		"dictionary" : "dkh 08/09/2007 10:57",
+		"dictionary:" : "dkh 08/09/2007 10:57",
+		"directory" : "dkh 11/28/2007 13:59",
+		"fileOutAllTo:" : "ruth 12/31/2009 14:22",
+		"flushCache" : "dkh 11/28/2007 13:59",
+		"includesVersionNamed:" : "dkh 08/09/2007 10:57",
+		"includesVersionWithInfo:" : "dkh 08/09/2007 10:57",
+		"initialize" : "dkh 08/09/2007 10:57",
+		"sortedVersionInfos" : "dkh 08/09/2007 10:57",
+		"versionFromVersionNamed:" : "dkh 01/09/2008 16:40",
+		"versionNameFromVersionName:" : "dkh 01/09/2008 16:42",
+		"versionWithInfo:ifAbsent:" : "dkh 08/09/2007 10:57" } }

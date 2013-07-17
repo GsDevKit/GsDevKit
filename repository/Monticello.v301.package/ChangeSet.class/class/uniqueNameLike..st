@@ -1,0 +1,4 @@
+defaults
+uniqueNameLike: aString
+
+	^ aString

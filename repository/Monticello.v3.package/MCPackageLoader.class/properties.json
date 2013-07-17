@@ -1,0 +1,20 @@
+{
+	"category" : "Monticello-Loading",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"requirements",
+		"unloadableDefinitions",
+		"obsoletions",
+		"additions",
+		"removals",
+		"errorDefinitions",
+		"provisions" ],
+	"name" : "MCPackageLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

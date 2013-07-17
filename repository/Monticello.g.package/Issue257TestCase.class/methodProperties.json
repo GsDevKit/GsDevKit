@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"compile:selector:category:" : "dkh 09/26/2011 13:52",
+		"methodCategory" : "dkh 09/26/2011 13:45",
+		"tearDown" : "dkh 09/26/2011 14:04",
+		"testIssue257" : "dkh 09/26/2011 14:05" } }

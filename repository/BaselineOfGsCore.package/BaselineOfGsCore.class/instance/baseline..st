@@ -11,7 +11,8 @@ baseline: spec
         package: 'GemStone-ANSI-Streams' with: [ spec requires: #('Core') ];
         package: 'GemStone-Indexing-Extensions'
           with: [ spec requires: #('Bootstrap') ];
-        package: 'GemStone-Release-Support' with: [ spec requires: #('Core') ];
+        package: 'GemStone-Release-Support'
+          with: [ spec requires: #('GsCore') ];
         package: 'Sport'
           with: [ 
               spec
@@ -31,13 +32,30 @@ baseline: spec
         package: 'Utf8Encoding' with: [ spec requires: #('GsCore') ];
         yourself.
       spec
-        group: 'default' with: #('GsCore');
+        package: 'Change-Notification' with: [ spec requires: #('Monticello') ];
+        package: 'PackageInfo-Base'
+          with: [ 
+              spec
+                file: 'PackageInfo-Base.g';
+                requires: #('GsCore') ];
+        package: 'Monticello' with: [ spec requires: #('PackageInfo-Base') ];
+        package: 'GemStone-Deployment'
+          with: [ 
+              spec
+                postLoadDoIt: #'deploymentPostLoadDoIt';
+                requires: #('Monticello') ];
+        yourself.
+      spec
+        group: 'default' with: #('GsCore' 'GsMonticello');
         group: 'GsCore'
           with:
             #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Regex-Core' 'Regex-Tests-Core' 'GemStone-Release-Support');
         group: 'GsMisc'
           with:
             #('Announcements' 'SmaCC' 'SMTPMail' 'System-Digital-Signatures' 'Utf8Encoding' 'XML-Parser');
+        group: 'GsMonticello'
+          with:
+            #('Change-Notification' 'PackageInfo-Base' 'Monticello' 'GemStone-Deployment');
         yourself ].
   spec
     for: #'gs2.x'
@@ -51,6 +69,9 @@ baseline: spec
           with: [ spec file: 'GemStone-Release-Support.v2x' ];
         package: 'Sport' with: [ spec requires: #('GsRandom') ];
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
+        yourself.
+      spec
+        package: 'Monticello' with: 'Monticello.g';
         yourself.
       spec
         group: 'GsCore' with: #('GsRandom' 'GemStone-Exceptions');
@@ -126,6 +147,19 @@ baseline: spec
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v3' ];
         package: 'Sport' with: [ spec file: 'Sport3.010.v3-dkh.29' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v3' ];
+        yourself.
+      spec
+        package: 'Change-Notification' with: 'Change-Notification.v310';
+        package: 'GemStone-Deployment' with: 'GemStone-Deployment.v310';
+        package: 'Monticello' with: 'Monticello.v3';
+        yourself ].
+  spec
+    for: #'gs3.0.x'
+    do: [ 
+      spec
+        package: 'Change-Notification' with: 'Change-Notification.v300';
+        package: 'GemStone-Deployment' with: 'GemStone-Deployment';
+        package: 'Monticello' with: 'Monticello.v301';
         yourself ].
   spec
     for: #'gs3.1.x'

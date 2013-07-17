@@ -1,0 +1,22 @@
+{
+	"category" : "Monticello-Gemstone",
+	"classinstvars" : [
+		"current" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 03/27/2012 10:47",
+	"instvars" : [
+		"name",
+		"preamble",
+		"postscript",
+		"revertable",
+		"isolationSet",
+		"isolatedProject",
+		"changeRecords",
+		"structures",
+		"superclasses" ],
+	"name" : "ChangeSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

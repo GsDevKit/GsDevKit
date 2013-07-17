@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Deployment-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"monticelloRepository" ],
+	"name" : "GsDeployerRepositoryResource",
+	"pools" : [
+		 ],
+	"super" : "TestResource",
+	"type" : "normal" }

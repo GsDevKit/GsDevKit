@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_announceMethodMoved:oldCategory:" : "DataCurator 10/13/2010 11:17",
+		"_announceReorganized" : "DataCurator 10/13/2010 11:17",
+		"_basicRemoveSelector:environmentId:" : "DataCurator 07/27/2009 09:56",
+		"_needsAnnouncement" : "DataCurator 10/13/2010 11:17",
+		"classify:under:" : "DataCurator 07/13/2010 13:06",
+		"compileMethod:category:using:environmentId:" : "DaleHenrichs 03/11/2011 12:36",
+		"moveMethod:toCategory:" : "dkh 07/25/2011 16:45",
+		"removeEmptyCategories" : "dkh 07/10/2009 14:25",
+		"renameCategory:to:environmentId:" : "dkh 10/19/2011 21:40" } }

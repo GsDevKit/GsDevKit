@@ -1,0 +1,3 @@
+listing
+classesForMethods
+	^self classes

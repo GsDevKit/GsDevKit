@@ -1,0 +1,20 @@
+{
+	"category" : "Monticello-Versioning",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 03/27/2012 10:47",
+	"instvars" : [
+		"version",
+		"packageSnapshot",
+		"ancestorInfo",
+		"ancestor",
+		"ancestorSnapshot",
+		"imagePatch",
+		"mergePatch" ],
+	"name" : "MCMergeRecord",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

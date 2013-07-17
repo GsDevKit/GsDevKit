@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"doSilently" : "DaleHenrichs 01/25/2011 14:00",
+		"hasPackage:" : "DaleHenrichs 01/25/2011 14:11",
+		"monticelloRepository" : "DaleHenrichs 01/25/2011 14:03",
+		"runCase" : "DaleHenrichs 01/25/2011 14:01",
+		"setUp" : "DaleHenrichs 03/09/2011 16:22",
+		"tearDown" : "DaleHenrichs 03/09/2011 16:37",
+		"tearDownPackages:" : "DaleHenrichs 01/25/2011 14:05",
+		"testBug40559" : "dkh 03/08/2013 17:27",
+		"testBug40822" : "dkh 03/08/2013 16:31",
+		"testDeployerBulkMigrate" : "DaleHenrichs 02/18/2011 10:32",
+		"testDeployerRefactorBulkMigrate" : "DaleHenrichs 02/18/2011 10:32",
+		"testExtensionMethods" : "dkh 03/08/2013 16:32",
+		"testExtensionMethodsBulkMigrate" : "DaleHenrichs 02/18/2011 10:32",
+		"testListInstancesInMemory" : "DaleHenrichs 01/28/2011 12:53",
+		"testMonticelloAutoMigrate" : "dkh 03/08/2013 16:32",
+		"testMonticelloAutoMigrateRefactor" : "dkh 03/08/2013 16:33",
+		"testMonticelloNoAutoMigrate" : "DaleHenrichs 01/25/2011 14:58" } }

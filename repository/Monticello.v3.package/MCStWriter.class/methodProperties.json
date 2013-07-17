@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"readerClass" : "avi 1/20/2004 00:16" },
+	"instance" : {
+		"chunkContents:" : "dkh 08/09/2007 10:57",
+		"visitClassDefinition:" : "dkh 08/09/2007 10:57",
+		"visitMethodDefinition:" : "dkh 08/09/2007 10:57",
+		"visitOrganizationDefinition:" : "dkh 08/09/2007 10:57",
+		"writeCategory:" : "dkh 08/09/2007 10:57",
+		"writeClassComment:" : "dkh 08/09/2007 10:57",
+		"writeClassDefinition:" : "dkh 08/09/2007 10:57",
+		"writeDefinitions:" : "dkh 08/09/2007 10:57",
+		"writeMetaclassDefinition:" : "dkh 08/09/2007 10:57",
+		"writeMethodInitializer:" : "dkh 08/09/2007 10:57",
+		"writeMethodPostscript" : "dkh 08/09/2007 10:57",
+		"writeMethodPreamble:" : "dkh 08/09/2007 10:57",
+		"writeMethodSource:" : "dkh 08/09/2007 10:57",
+		"writeSnapshot:" : "dkh 08/09/2007 10:57" } }

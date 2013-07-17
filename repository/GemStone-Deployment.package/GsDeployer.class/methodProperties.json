@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"autoMigrate:" : "DaleHenrichs 03/04/2011 13:41",
+		"bulkMigrate:" : "DaleHenrichs 03/04/2011 13:42",
+		"cleanClassHistory" : "DaleHenrichs 02/18/2011 10:55",
+		"deploy:" : "DaleHenrichs 03/04/2011 13:44",
+		"updateGLASSTo:" : "dkh 03/24/2011 11:20" },
+	"instance" : {
+		"atomicInstall" : "DaleHenrichs 02/18/2011 10:52",
+		"atomicInstall:" : "DaleHenrichs 02/18/2011 10:52",
+		"bulkMigrate" : "DaleHenrichs 02/18/2011 10:54",
+		"bulkMigrate:" : "DaleHenrichs 02/18/2011 10:54",
+		"classesWithClassHistory" : "DaleHenrichs 02/18/2011 10:44",
+		"cleanUndefinedSymbols" : "DaleHenrichs 01/25/2011 11:50",
+		"collectGlobalsAndExtensionMethodsDuring:" : "DaleHenrichs 01/26/2011 15:18",
+		"commit" : "DaleHenrichs 01/25/2011 11:51",
+		"deploy:" : "DaleHenrichs 02/18/2011 10:23",
+		"doBulkMigrate" : "dkh 09/27/2011 11:27",
+		"excluding" : "DaleHenrichs 01/25/2011 15:12",
+		"excluding:" : "DaleHenrichs 01/25/2011 15:12",
+		"mcPlatformSupportDo:" : "DaleHenrichs 02/18/2011 10:21",
+		"objectNamed:" : "DaleHenrichs 01/25/2011 11:52" } }

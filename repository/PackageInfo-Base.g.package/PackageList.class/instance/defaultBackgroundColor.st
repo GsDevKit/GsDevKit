@@ -1,0 +1,3 @@
+morphic
+defaultBackgroundColor 
+	^ Color white

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_mcDefinitionType" : "DaleHenrichs 10/27/2010 11:23",
+		"allSubInstancesDo:" : "DaleHenrichs 10/26/2010 15:03",
+		"asClassDefinition" : "DataCurator 07/13/2010 13:06",
+		"asUncachedClassDefinition" : "DataCurator 07/13/2010 13:06",
+		"categoryName" : "",
+		"classComment" : "dkh 03/05/2013 13:22",
+		"classComment:" : "dkh 02/11/2008 16:56",
+		"classDefinitions" : "",
+		"comment" : "dkh 03/05/2013 13:24",
+		"commentStamp" : "",
+		"migrateInstances:to:" : "dkh 04/17/2012 09:51",
+		"poolDictionaryNames" : "" } }
