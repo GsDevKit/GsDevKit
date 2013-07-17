@@ -17,26 +17,27 @@ baseline: spec
               spec
                 file: 'Sport3.010-dkh.28';
                 requires: #('Bootstrap');
-                repository: 'http://seaside.gemstone.com/ss/hyper' ];
+                repository: 'http://seaside.gemtalksystems.com/ss/hyper' ];
         package: 'Squeak' with: [ spec requires: #('Sport') ];
         package: 'Regex-Core' with: [ spec requires: #('Core' 'Squeak') ];
         package: 'Regex-Tests-Core' with: [ spec requires: #('Regex-Core') ];
         yourself.
       spec
-        package: 'Announcements' with: [ spec requires: #('default') ];
-        package: 'SmaCC' with: [ spec requires: #('default') ];
-        package: 'SMTPMail' with: [ spec requires: #('default') ];
+        package: 'Announcements' with: [ spec requires: #('GsCore') ];
+        package: 'SmaCC' with: [ spec requires: #('GsCore') ];
+        package: 'SMTPMail' with: [ spec requires: #('GsCore') ];
         package: 'System-Digital-Signatures'
-          with: [ spec requires: #('default') ];
-        package: 'Utf8Encoding' with: [ spec requires: #('default') ];
+          with: [ spec requires: #('GsCore') ];
+        package: 'Utf8Encoding' with: [ spec requires: #('GsCore') ];
         yourself.
       spec
-        group: 'default'
+        group: 'default' with: #('GsCore');
+        group: 'GsCore'
           with:
             #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Regex-Core' 'Regex-Tests-Core' 'GemStone-Release-Support');
-        group: 'Misc'
+        group: 'GsMisc'
           with:
-            #('default' 'Announcements' 'SmaCC' 'SMTPMail' 'System-Digital-Signatures' 'Utf8Encoding' 'XML-Parser');
+            #('Announcements' 'SmaCC' 'SMTPMail' 'System-Digital-Signatures' 'Utf8Encoding' 'XML-Parser');
         yourself ].
   spec
     for: #'gs2.x'
@@ -52,7 +53,7 @@ baseline: spec
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
         yourself.
       spec
-        group: 'default' with: #('GsRandom' 'GemStone-Exceptions');
+        group: 'GsCore' with: #('GsRandom' 'GemStone-Exceptions');
         yourself ].
   spec
     for: #'gs2.3.x'
@@ -68,12 +69,12 @@ baseline: spec
         package: 'XML-Parser'
           with: [ 
               spec
-                requires: #('default');
+                requires: #('GsCore');
                 file: 'XML-Parser.g';
-                repository: 'http://seaside.gemstone.com/ss/XMLSupport' ];
+                repository: 'http://seaside.gemtalksystems.com/ss/XMLSupport' ];
         yourself.
       spec
-        group: 'default'
+        group: 'GsCore'
           with:
             #('GemStone-23x-ANSI-Streams' 'GemStone-23x-GreaseCompat' 'GemStone-23x-Exceptions');
         yourself ].
@@ -86,7 +87,8 @@ baseline: spec
           spec
             versionString: '1.0.5';
             loads: #('Core');
-            repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ].
+            repository:
+                'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ].
       spec group: 'XML-Parser' with: #('XMLSupport') ].
   spec
     for: #'Issue29FixANeeded'
@@ -95,7 +97,7 @@ baseline: spec
         package: 'GemStone-244-Exceptions'
         with: [ spec requires: #('GemStone-Exceptions') ].
       spec
-        group: 'default' with: #('GemStone-244-Exceptions');
+        group: 'GsCore' with: #('GemStone-244-Exceptions');
         yourself ].
   spec
     for: #'Issue29FixBNeeded'
@@ -104,7 +106,7 @@ baseline: spec
         package: 'GemStone-245-Exceptions'
         with: [ spec requires: #('GemStone-Exceptions') ].
       spec
-        group: 'default' with: #('GemStone-245-Exceptions');
+        group: 'GsCore' with: #('GemStone-245-Exceptions');
         yourself ].
   spec
     for: #'gs3.x'
@@ -115,7 +117,8 @@ baseline: spec
           spec
             versionString: '1.0.5';
             loads: #('Core');
-            repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ].
+            repository:
+                'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ].
       spec group: 'XML-Parser' with: #('XMLSupport').
       spec
         package: 'Core' with: [ spec file: 'Core.v3' ];
@@ -132,7 +135,7 @@ baseline: spec
         with: [ 
           spec
             file: 'Utf8Encoding.310';
-            requires: #('default') ] ].
+            requires: #('GsCore') ] ].
   spec
     for: #'gs3.2.x'
     do: [ 
@@ -141,7 +144,7 @@ baseline: spec
         with: [ 
           spec
             file: 'Utf8Encoding.310';
-            requires: #('default') ] ].
+            requires: #('GsCore') ] ].
   spec
     for: #'maglev'
     do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ]
