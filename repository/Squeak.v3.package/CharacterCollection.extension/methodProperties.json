@@ -38,6 +38,7 @@
 		"gemstoneMatch:" : "dkh 04/28/2008 09:17",
 		"getEnclosedExpressionFrom:" : "dkh 10/22/2008 11:46",
 		"includesSubString:" : "dkh 10/20/2008 15:11",
+		"includesSubstring:" : "dkh 07/18/2013 07:45",
 		"includesSubstring:caseSensitive:" : "dkh 09/22/2008 17:21",
 		"indexOfAnyOf:startingAt:" : "dkh 10/20/2008 15:23",
 		"isAllDigits" : "dkh 10/20/2008 15:24",

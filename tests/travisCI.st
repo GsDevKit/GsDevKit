@@ -5,8 +5,18 @@ Transcript cr; show: 'travis---->travisCI.st'.
 gitCache := 'git_cache'.
 gitPath := (FileDirectory default directoryNamed: gitCache ) fullName.
 
-"Load the GLASS1 baseline"
 [
+"Load the bleeding edge for Metacello...at least for now I want to pick up GLASS-specific bugfixes"
+Metacello new
+  baseline: 'Metacello';
+  repository: 'github://dalehenrich/metacello-work:master/repository';
+  get.
+Metacello new
+  baseline: 'Metacello';
+  repository: 'github://dalehenrich/metacello-work:master/repository';
+  onConflict: [:ex | ex allow];
+  load.
+"Load the GLASS1 baseline"
 Metacello new
 	baseline: 'GLASS1';
   repository: 'filetree://', gitPath, '/glass/repository';
@@ -20,7 +30,7 @@ Metacello new
   Transcript cr; show: 'WARNING: ', ex description.
   ex resume: true ].
 
-"Run the GsCore tests"
+"Run the GLASS1 tests"
 MetacelloPlatform current authorName: 'testMonkey'. "These tests save code ... need an Author"
 
 Transcript cr; show: '---Start running tests...'.
