@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"newFrom:" : "dkh 04/25/2011 20:59" },
+	"instance" : {
+		"encodeForHTTPWithTextEncoding:" : "DaleHenrichs 12/06/2010 17:00",
+		"encodeForHTTPWithTextEncoding:conditionBlock:" : "dkh 05/23/2012 17:04",
+		"unescapePercentsWithTextEncoding:" : "DaleHenrichs 12/06/2010 17:02" } }

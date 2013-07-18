@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCull" : "DaleHenrichs 12/08/2010 10:11",
+		"testEncodeAndUnescapePercents" : "DaleHenrichs 12/08/2010 10:11",
+		"testEncodeForHTTP" : "DaleHenrichs 12/08/2010 10:11",
+		"testEncodeForHTTPWithTextEncoding" : "DaleHenrichs 12/08/2010 10:11" } }

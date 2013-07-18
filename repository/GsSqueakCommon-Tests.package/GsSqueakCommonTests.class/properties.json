@@ -1,0 +1,14 @@
+{
+	"category" : "GsSqueakCommon-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 10/11/2011 04:07",
+	"instvars" : [
+		 ],
+	"name" : "GsSqueakCommonTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

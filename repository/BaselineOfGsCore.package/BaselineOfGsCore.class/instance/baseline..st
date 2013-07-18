@@ -58,9 +58,16 @@ baseline: spec
                 requires: #('Monticello') ];
         yourself.
       spec
+        package: 'GsSqueakCommon-Core'
+          with: [ spec requires: #('GsCore' 'Grease') ];
+        package: 'GsSqueakCommon-Tests'
+          with: [ spec requires: #('GsSqueakCommon-Core') ];
+        yourself.
+      spec
         group: 'default' with: #('GLASS');
         group: 'GLASS'
-          with: #('GsCore' 'GsMonticello' 'Gofer Project Loader' 'OB' 'Grease');
+          with:
+            #('GsCore' 'GsMonticello' 'Gofer Project Loader' 'OB' 'Grease' 'GsSqueakCommon');
         group: 'GsCore'
           with:
             #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Regex-Core' 'Regex-Tests-Core' 'GemStone-Release-Support');
@@ -70,6 +77,8 @@ baseline: spec
         group: 'GsMonticello'
           with:
             #('Change-Notification' 'PackageInfo-Base' 'Monticello' 'GemStone-Deployment');
+        group: 'GsSqueakCommon'
+          with: #('GsSqueakCommon-Core' 'GsSqueakCommon-Tests');
         yourself ].
   spec
     for: #'gs2.x'
@@ -86,6 +95,12 @@ baseline: spec
         yourself.
       spec
         package: 'Monticello' with: 'Monticello.g';
+        yourself.
+      spec
+        package: 'GsSqueakCommon-Core'
+          with: [ spec includes: #('GsSqueakCommon-Core.2x') ];
+        package: 'GsSqueakCommon-Core.2x'
+          with: [ spec requires: #('GsSqueakCommon-Core') ];
         yourself.
       spec
         group: 'GsCore' with: #('GsRandom' 'GemStone-Exceptions');
@@ -145,6 +160,12 @@ baseline: spec
         package: 'Change-Notification' with: 'Change-Notification.v310';
         package: 'GemStone-Deployment' with: 'GemStone-Deployment.v310';
         package: 'Monticello' with: 'Monticello.v3';
+        yourself.
+      spec
+        package: 'GsSqueakCommon-Core'
+          with: [ spec includes: #('GsSqueakCommon-Core.3x') ];
+        package: 'GsSqueakCommon-Core.3x'
+          with: [ spec requires: #('GsSqueakCommon-Core') ];
         yourself ].
   spec
     for: #'gs3.0.x'
