@@ -5,6 +5,18 @@ baseline: spec
     for: #'gemstone'
     do: [ 
       spec
+        configuration: 'Gofer Project Loader'
+          with: [ spec repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+        configuration: 'OB'
+          with: [ spec repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+        configuration: 'Grease'
+          with: [ 
+              spec
+                versionString: '1.0.7.2';
+                loads: #('Core');
+                repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+        yourself.
+      spec
         package: 'Core';
         package: 'Base-Bootstrap' with: [ spec requires: #('Core') ];
         package: 'Bootstrap' with: [ spec requires: #('Base-Bootstrap') ];
@@ -46,7 +58,9 @@ baseline: spec
                 requires: #('Monticello') ];
         yourself.
       spec
-        group: 'default' with: #('GsCore' 'GsMonticello');
+        group: 'default' with: #('GLASS');
+        group: 'GLASS'
+          with: #('GsCore' 'GsMonticello' 'Gofer Project Loader' 'OB' 'Grease');
         group: 'GsCore'
           with:
             #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Regex-Core' 'Regex-Tests-Core' 'GemStone-Release-Support');
@@ -77,39 +91,17 @@ baseline: spec
         group: 'GsCore' with: #('GsRandom' 'GemStone-Exceptions');
         yourself ].
   spec
-    for: #'gs2.3.x'
-    do: [ 
-      spec
-        package: 'Core' with: [ spec preLoadDoIt: #'preLoad02322' ];
-        package: 'GemStone-23x-ANSI-Streams'
-          with: [ spec requires: #('GemStone-ANSI-Streams') ];
-        package: 'GemStone-23x-GreaseCompat' with: [ spec requires: #('Core') ];
-        package: 'GemStone-23x-Exceptions'
-          with: [ spec requires: #('GemStone-Exceptions') ];
-        package: 'Squeak' with: [ spec postLoadDoIt: #'postLoad233' ];
-        package: 'XML-Parser'
-          with: [ 
-              spec
-                requires: #('GsCore');
-                file: 'XML-Parser.g';
-                repository: 'http://seaside.gemtalksystems.com/ss/XMLSupport' ];
-        yourself.
-      spec
-        group: 'GsCore'
-          with:
-            #('GemStone-23x-ANSI-Streams' 'GemStone-23x-GreaseCompat' 'GemStone-23x-Exceptions');
-        yourself ].
-  spec
     for: #'gs2.4.x'
     do: [ 
       spec
         configuration: 'XMLSupport'
-        with: [ 
-          spec
-            versionString: '1.0.5';
-            loads: #('Core');
-            repository:
-                'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ].
+          with: [ 
+              spec
+                versionString: '1.0.5';
+                loads: #('Core');
+                repository:
+                    'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
+        yourself.
       spec group: 'XML-Parser' with: #('XMLSupport') ].
   spec
     for: #'Issue29FixANeeded'
@@ -134,12 +126,13 @@ baseline: spec
     do: [ 
       spec
         configuration: 'XMLSupport'
-        with: [ 
-          spec
-            versionString: '1.0.5';
-            loads: #('Core');
-            repository:
-                'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ].
+          with: [ 
+              spec
+                versionString: '1.0.5';
+                loads: #('Core');
+                repository:
+                    'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
+        youerself.
       spec group: 'XML-Parser' with: #('XMLSupport').
       spec
         package: 'Core' with: [ spec file: 'Core.v3' ];
