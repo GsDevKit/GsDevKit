@@ -97,12 +97,6 @@ baseline: spec
         package: 'Monticello' with: 'Monticello.g';
         yourself.
       spec
-        package: 'GsSqueakCommon-Core'
-          with: [ spec includes: #('GsSqueakCommon-Core.2x') ];
-        package: 'GsSqueakCommon-Core.2x'
-          with: [ spec requires: #('GsSqueakCommon-Core') ];
-        yourself.
-      spec
         group: 'GsCore' with: #('GsRandom' 'GemStone-Exceptions');
         yourself ].
   spec
@@ -160,12 +154,6 @@ baseline: spec
         package: 'Change-Notification' with: 'Change-Notification.v310';
         package: 'GemStone-Deployment' with: 'GemStone-Deployment.v310';
         package: 'Monticello' with: 'Monticello.v3';
-        yourself.
-      spec
-        package: 'GsSqueakCommon-Core'
-          with: [ spec includes: #('GsSqueakCommon-Core.3x') ];
-        package: 'GsSqueakCommon-Core.3x'
-          with: [ spec requires: #('GsSqueakCommon-Core') ];
         yourself ].
   spec
     for: #'gs3.0.x'
