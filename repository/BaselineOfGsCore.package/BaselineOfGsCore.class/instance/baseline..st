@@ -5,7 +5,7 @@ baseline: spec
     for: #'gemstone'
     do: [ 
       spec
-        configuration: 'Gofer Project Loader'
+        configuration: 'GoferProjectLoader'
           with: [ spec repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
         configuration: 'OB'
           with: [ spec repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
@@ -67,7 +67,7 @@ baseline: spec
         group: 'default' with: #('GLASS');
         group: 'GLASS'
           with:
-            #('GsCore' 'GsMonticello' 'Gofer Project Loader' 'OB' 'Grease' 'GsSqueakCommon');
+            #('GsCore' 'GsMonticello' 'GoferProjectLoader' 'OB' 'Grease' 'GsSqueakCommon');
         group: 'GsCore'
           with:
             #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Regex-Core' 'Regex-Tests-Core' 'GemStone-Release-Support');
