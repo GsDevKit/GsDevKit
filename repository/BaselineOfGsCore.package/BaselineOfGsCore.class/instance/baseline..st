@@ -132,7 +132,7 @@ baseline: spec
                 loads: #('Core');
                 repository:
                     'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
-        youerself.
+        yourself.
       spec group: 'XML-Parser' with: #('XMLSupport').
       spec
         package: 'Core' with: [ spec file: 'Core.v3' ];
