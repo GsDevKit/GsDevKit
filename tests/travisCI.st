@@ -5,15 +5,15 @@ Transcript cr; show: 'travis---->travisCI.st'.
 gitCache := 'git_cache'.
 gitPath := (FileDirectory default directoryNamed: gitCache ) fullName.
 
-"Load the GsCore baseline"
+"Load the GLASS1 baseline"
 [
 Metacello new
-	baseline: 'GsCore';
+	baseline: 'GLASS1';
   repository: 'filetree://', gitPath, '/glass/repository';
   get.
 
 Metacello new
-	baseline: 'GsCore';
+	baseline: 'GLASS1';
   repository: 'filetree://', gitPath, '/glass/repository';
   load: #( 'GLASS').
 ] on: Warning do: [:ex | 
@@ -27,7 +27,7 @@ Transcript cr; show: '---Start running tests...'.
 
 [
 TravisCIHarness
-  value: #( 'BaselineOfGsCore' )
+  value: #( 'BaselineOfGLASS1' )
   value: 'TravisCISuccess.txt' 
   value: 'TravisCIFailure.txt'.
 ]
