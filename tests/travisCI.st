@@ -2,6 +2,11 @@
 | gitCache gitPath |
 Transcript cr; show: 'travis---->travisCI.st'.
 
+(MCWorkingCopy allManagers 
+  collect: [ :wc | wc ancestors first name ]) sorted 
+    do: [:packageName |
+      Transcript cr; show: packageName].
+
 gitCache := 'git_cache'.
 gitPath := (FileDirectory default directoryNamed: gitCache ) fullName.
 
@@ -16,6 +21,12 @@ Metacello new
   repository: 'github://dalehenrich/metacello-work:master/repository';
   onConflict: [:ex | ex allow];
   load.
+
+(MCWorkingCopy allManagers 
+  collect: [ :wc | wc ancestors first name ]) sorted 
+    do: [:packageName |
+      Transcript cr; show: packageName].
+
 "Load the GLASS1 baseline"
 Metacello new
 	baseline: 'GLASS1';
@@ -29,6 +40,11 @@ Metacello new
 ] on: Warning do: [:ex | 
   Transcript cr; show: 'WARNING: ', ex description.
   ex resume: true ].
+
+(MCWorkingCopy allManagers 
+  collect: [ :wc | wc ancestors first name ]) sorted 
+    do: [:packageName |
+      Transcript cr; show: packageName].
 
 "Run the GLASS1 tests"
 MetacelloPlatform current authorName: 'testMonkey'. "These tests save code ... need an Author"
