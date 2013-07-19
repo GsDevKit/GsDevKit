@@ -94,7 +94,7 @@ baseline: spec
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
         yourself.
       spec
-        package: 'Monticello' with: 'Monticello.g';
+        package: 'Monticello' with: [ spec file: 'Monticello.g' ];
         yourself.
       spec
         group: 'GsCore' with: #('GsRandom' 'GemStone-Exceptions');
@@ -151,16 +151,20 @@ baseline: spec
         package: 'Squeak' with: [ spec file: 'Squeak.v3' ];
         yourself.
       spec
-        package: 'Change-Notification' with: 'Change-Notification.v310';
-        package: 'GemStone-Deployment' with: 'GemStone-Deployment.v310';
-        package: 'Monticello' with: 'Monticello.v3';
+        package: 'Change-Notification'
+          with: [ spec file: 'Change-Notification.v310' ];
+        package: 'GemStone-Deployment'
+          with: [ spec file: 'GemStone-Deployment.v310' ];
+        package: 'Monticello' with: [ spec file: 'Monticello.v3' ];
         yourself ].
   spec
     for: #'gs3.0.x'
     do: [ 
       spec
-        package: 'Change-Notification' with: 'Change-Notification.v300';
-        package: 'GemStone-Deployment' with: 'GemStone-Deployment';
+        package: 'Change-Notification'
+          with: [ spec file: 'Change-Notification.v300' ];
+        package: 'GemStone-Deployment'
+          with: [ spec file: 'GemStone-Deployment' ];
         package: 'Monticello' with: 'Monticello.v301';
         yourself ].
   spec
