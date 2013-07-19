@@ -70,7 +70,7 @@ baseline: spec
             #('GsCore' 'GsMonticello' 'GoferProjectLoader' 'GsOB' 'Grease' 'GsSqueakCommon');
         group: 'GsCore'
           with:
-            #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Regex-Core' 'Regex-Tests-Core' 'GemStone-Release-Support');
+            #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Squeak' 'Regex-Core' 'Regex-Tests-Core' 'GemStone-Release-Support');
         group: 'GsMisc'
           with:
             #('Announcements' 'SmaCC' 'SMTPMail' 'System-Digital-Signatures' 'Utf8Encoding' 'XML-Parser');
