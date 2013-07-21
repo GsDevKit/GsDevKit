@@ -1,11 +1,11 @@
 # Rolling Releases
 
-## Glass Repository
+## Local Glass Repository
 
 On GitHub, fork the **glass** project from
 https://github.com/glassdb/glass.
 
-Create a clone of your repository to local disk:
+### Create a clone of your repository to local disk:
 
 ```Shell
 cd /opt/git
@@ -14,7 +14,7 @@ cd glass
 git remote add glassdb https://github.com/glassdb/glass.git
 ```
 
-Load **Glass**:
+### Load **Glass**:
 
 ```Smalltalk
 Metacello new
@@ -31,7 +31,7 @@ Metacello new
   load.
 ```
 
-Now lock the **Glass** project:
+### Lock the Glass project:
 
 ```Smalltalk
 Metacello new
@@ -44,7 +44,7 @@ Metacello new
 By locking the project and using the `autoHonor` option, all references
 to the **Glass** project will be satisfied using the repository in `/opt/git/glass/repository`.
 
-## Zinc Repository
+## Local Zinc Repository
 
 On GitHub, fork the `zinc` project from https://github.com/glassdb/zinc.
 
@@ -56,7 +56,7 @@ git remote add glassdb https://github.com/glassdb/zinc.git
 git checkout gemstone2.4 # or gemstone3.1
 ```
 
-Load and lock **Zinc**:
+### Load and lock Zinc:
 
 ```Smalltalk
 Metacello new
@@ -77,8 +77,7 @@ Metacello image
 
 ## Contribute to Rolling Glass Release
 
-To fix a bug, you should create a *issue branch* so that the bugfix
-can be easily shared with the community:
+### Create issue branch:
 
 ```Shell
 cd /opt/git/glass
@@ -86,14 +85,15 @@ git checkout master
 git pull origin master
 git checkout -b issue_XXX
 ```
-Work on the bugfix saving your packages to the repository as needed.
-When you've completed the bugfix, push your *issue branch* to GitHub:
+
+### Push issue branch to GitHub when done:
 
 ```Shell
 git push origin issue_XXX
 ```
 
-Where you can issue a pull request for the *issue branch*. 
+On GitHub issue a 
+pull request for the *issue branch*. 
 This will trigger a https://travis-ci.org build and a committer on the **glassdb** 
 team will review the change and merge pull request.
 
@@ -104,13 +104,15 @@ need to pull the head of https://github.com/glassdb/glass to your
 local repository by using the remote *glassdb* repository created
 earlier:
 
+### Fetch and Pull from glassdb repository:
+
 ```Shell
 cd /opt/git/glass
 git fetch glassdb master
 git pull glassdb master
 ```
 
-Load baseline and latest packages into your image:
+### Load latest code into image:
 
 ```Smalltalk
 Metacello new
