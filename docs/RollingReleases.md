@@ -1,9 +1,38 @@
 # Rolling Releases
 
+## GitHub Glass Repository
+
+### Load Glass directly from GitHub:
+
+```Smalltalk
+Metacello new
+  baseline: 'Glass';
+  repository: 'github://glassdb/glass:master/repository';
+  get.
+
+Metacello new
+  baseline: 'Glass';
+  repository: 'github://glassdb/glass:master/repository';
+  onWarning: [:ex | 
+    Transcript cr; show: 'WARNING: ' , ex description.
+    ex resume ];
+  load.
+```
+
 ## Local Glass Repository
 
+`github://` repositories are read only. I you want to fix bugs (whether
+or not you are interested in sharing your fixes or not), you need to
+fork the repository. 
+
+If you don't intend to share bugfixes
+with the community, then you can skip creating a GitHub fork and clone
+the glassdb repository directly.
+
+### Create a fork of project on GitHub:
+
 On GitHub, fork the **glass** project from
-https://github.com/glassdb/glass.
+https://github.com/glassdb/glass. 
 
 ### Create a clone of your repository to local disk:
 
@@ -14,7 +43,7 @@ cd glass
 git remote add glassdb https://github.com/glassdb/glass.git
 ```
 
-### Load **Glass**:
+### Load Glass from local repository:
 
 ```Smalltalk
 Metacello new
@@ -25,6 +54,7 @@ Metacello new
 Metacello new
   baseline: 'Glass';
   repository: 'filetree:///opt/git/glass/repository';
+  onConflict: [:ex | ex allow ];
   onWarning: [:ex | 
     Transcript cr; show: 'WARNING: ' , ex description.
     ex resume ];
