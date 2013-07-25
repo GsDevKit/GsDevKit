@@ -67,7 +67,6 @@ Metacello new
 Metacello new
   baseline: 'Glass';
   repository: 'filetree:///opt/git/glass/repository';
-  autoHonor;
   lock.
 ```
 
@@ -101,7 +100,6 @@ Metacello new
 
 Metacello image
   baseline: 'Zinc';
-  autoHonor;
   lock.
 ```
 
