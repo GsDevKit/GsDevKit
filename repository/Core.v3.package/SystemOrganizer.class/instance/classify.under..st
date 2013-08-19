@@ -4,8 +4,8 @@ classify: element under: heading
 
 	| realHeading catName ar |
 	heading == nil
-		ifTrue: [ realHeading := Default ]
-		ifFalse: [ realHeading := heading asSymbol ].
+		ifTrue: [ realHeading := Default asString ]
+		ifFalse: [ realHeading := heading asString ].
 	(catName := self categoryOfElement: element) = realHeading ifTrue: [ ^self ].
 	catName ~~ nil
 		ifTrue: [

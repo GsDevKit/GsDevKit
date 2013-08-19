@@ -1,4 +1,4 @@
 categories
 addCategory: newCategory
 
-	self categoryDict at: newCategory asSymbol put: Array new.
+	self categoryDict at: newCategory asString put: Array new.

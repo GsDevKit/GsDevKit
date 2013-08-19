@@ -1,4 +1,4 @@
 categories
 removeSystemCategory: catName
 
-	self categoryDict removeKey: catName asSymbol ifAbsent: []
+	self categoryDict removeKey: catName asString ifAbsent: []
