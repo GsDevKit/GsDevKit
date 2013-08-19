@@ -4,11 +4,13 @@ _portableIsIndexable
 
   self isIndexable
     ifFalse: [ ^ false ].
+  (self isBytes and: [self superClass isBytes])
+	ifTrue: [ ^ false ].
   (self inheritsFrom: AbstractException)
     ifTrue: [ ^ false ].
   (self inheritsFrom: Dictionary)
     ifTrue: [ ^ false ].
-  (#(#'UrlArgumentList' #'UUID' #'WordArray' #'ArrayedCollection' #'RunArray' #'Text' #'ActionSequence')
+  (#(#'UrlArgumentList' #'WordArray' #'ArrayedCollection' #'RunArray' #'Text' #'ActionSequence')
     includes: self name)
     ifTrue: [ ^ false ].
   ^ true
