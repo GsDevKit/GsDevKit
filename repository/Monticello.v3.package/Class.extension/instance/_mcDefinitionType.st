@@ -2,7 +2,7 @@
 _mcDefinitionType
   | type opts superC |
   superC := self superClass.
-  (self isBytes and: [ superC isBytes not ])
+  self isBytes
     ifTrue: [ type := #'bytes' ]
     ifFalse: [ 
       self _portableIsIndexable

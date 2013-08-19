@@ -11,4 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"type" : "variable" }
