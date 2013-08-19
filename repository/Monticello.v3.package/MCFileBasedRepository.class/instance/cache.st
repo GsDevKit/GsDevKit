@@ -1,4 +1,3 @@
-as yet unclassified
+private
 cache
-	cache ifNil: [cache _ Dictionary new].
-	^cache
+	^ cache ifNil: [cache := Dictionary new]

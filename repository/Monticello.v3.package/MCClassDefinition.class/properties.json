@@ -12,7 +12,9 @@
 		"category",
 		"type",
 		"comment",
-		"commentStamp" ],
+		"commentStamp",
+		"traitComposition",
+		"classTraitComposition" ],
 	"name" : "MCClassDefinition",
 	"pools" : [
 		 ],

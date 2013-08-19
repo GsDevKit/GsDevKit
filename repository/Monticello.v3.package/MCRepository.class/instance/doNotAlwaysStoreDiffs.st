@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 doNotAlwaysStoreDiffs
-	storeDiffs _ false
+	storeDiffs := false

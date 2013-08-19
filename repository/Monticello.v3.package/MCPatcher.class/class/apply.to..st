@@ -1,6 +1,6 @@
 as yet unclassified
 apply: aPatch to: aSnapshot
 	| loader |
-	loader _ self snapshot: aSnapshot.
+	loader := self snapshot: aSnapshot.
 	aPatch applyTo: loader.
 	^ loader patchedSnapshot

@@ -1,4 +1,4 @@
 initialize-release
 initializeWithPackage: aPackage
-	package _ aPackage.
+	package := aPackage.
 	self initialize.

@@ -1,13 +1,9 @@
 testing
 testRevertOldMethod
 	| definition changeRecord |
-	true ifTrue: [ ^self ]. "GemStone doesn't support overrides"
-	Object compile: 'yourself ^ self' classified: MCMockPackageInfo new methodCategoryPrefix.
-	definition := (MethodReference class: Object selector: #yourself) asMethodDefinition.
+	MCMockObject compile: 'yourself ^ self' classified: self mockOverrideMethodCategory.
+	definition := (MethodReference class: MCMockObject selector: #yourself) asMethodDefinition.
 	changeRecord := definition scanForPreviousVersion.
-	MCPlatformSupport supportsMethodOverride
-		ifTrue: [
-			self assert: changeRecord notNil.
-			self assert: changeRecord category = 'accessing'.
-			changeRecord fileIn.
-		].
+	self assert: changeRecord notNil.
+	self assert: changeRecord category = #'accessing'.
+	definition fileInVersion: changeRecord.

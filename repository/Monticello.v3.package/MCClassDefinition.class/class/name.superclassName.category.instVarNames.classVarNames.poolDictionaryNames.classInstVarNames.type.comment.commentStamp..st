@@ -12,6 +12,8 @@ commentStamp: stampString
 	^ self instanceLike:
 		(self new initializeWithName: nameString
 					superclassName: superclassString
+					traitComposition: '{}'
+					classTraitComposition: '{}'
 					category: categoryString 
 					instVarNames: ivarArray
 					classVarNames: cvarArray

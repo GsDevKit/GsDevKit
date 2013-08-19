@@ -3,13 +3,13 @@ testMergeIntoImageWithNoChanges
 	| base revB revA1 |
 
 	self change: #a toReturn: 'a'.
-	base _ self snapshot.
+	base := self snapshot.
 	self change: #b toReturn: 'b'.
-	revB _ self snapshot.
+	revB := self snapshot.
 	
 	self load: base.
 	self change: #a toReturn: 'a1'.
-	revA1 _ self snapshot.
+	revA1 := self snapshot.
 
 	self change: #a toReturn: 'a'.
 	self snapshot.

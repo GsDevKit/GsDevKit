@@ -1,7 +1,8 @@
 running
 setUp
 	super setUp.
-	self mockSnapshot. "so we have something to restore to"
-	navigation _ (Smalltalk hasClassNamed: #SystemNavigation)
+	navigation := (Smalltalk hasClassNamed: #SystemNavigation)
 		ifTrue: [(Smalltalk at: #SystemNavigation) new]
-		ifFalse: [MCPlatformSupport].
+		ifFalse: [Smalltalk].
+	isModified := self ownPackage modified.
+	overrideTimestamp := (MethodReference class: self class selector: #override) timeStamp

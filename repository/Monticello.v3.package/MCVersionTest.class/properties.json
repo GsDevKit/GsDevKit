@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"version" ],
+		"version",
+		"visited" ],
 	"name" : "MCVersionTest",
 	"pools" : [
 		 ],

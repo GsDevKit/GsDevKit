@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"suggestion" ],
+		"suggestion",
+		"initialMessage" ],
 	"name" : "MCVersionNameAndMessageRequest",
 	"pools" : [
 		 ],

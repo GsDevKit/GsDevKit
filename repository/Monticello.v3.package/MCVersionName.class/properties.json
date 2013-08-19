@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Modeling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "topa 04/02/2013 07:06",
+	"instvars" : [
+		 ],
+	"name" : "MCVersionName",
+	"pools" : [
+		 ],
+	"super" : "String",
+	"type" : "variable" }

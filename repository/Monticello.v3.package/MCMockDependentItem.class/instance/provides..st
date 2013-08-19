@@ -1,4 +1,3 @@
 as yet unclassified
-provides: anArray
-
-	provides _ anArray
+provides: t1 
+	provides := t1

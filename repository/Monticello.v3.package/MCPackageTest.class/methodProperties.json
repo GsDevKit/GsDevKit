@@ -1,7 +1,7 @@
 {
 	"class" : {
-		 },
+		"isAbstract" : "topa 08/19/2013 05:53" },
 	"instance" : {
 		"setUp" : "dkh 03/02/2009 15:50",
-		"tearDown" : "dkh 03/03/2009 12:19",
-		"testUnload" : "dkh 04/28/2008 11:58" } }
+		"tearDown" : "ul 4/26/2011 05:28",
+		"testUnload" : "nice 8/27/2010 20:39" } }

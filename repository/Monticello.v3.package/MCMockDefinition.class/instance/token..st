@@ -1,4 +1,3 @@
 as yet unclassified
-token: aString
-
-	token _ aString
+token: t1 
+	token := t1

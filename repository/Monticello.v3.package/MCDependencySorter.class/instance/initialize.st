@@ -1,5 +1,5 @@
 initialize-release
 initialize
-	provided _ Set new.
-	required _ Dictionary new.
-	orderedItems _ OrderedCollection new.
+	provided := Set new.
+	required := Dictionary new.
+	orderedItems := OrderedCollection new.

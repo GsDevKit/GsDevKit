@@ -8,6 +8,6 @@ uploadVersion: aVersion
 				replace: false
 				do: [:str | str nextPutAll: (self stringForVersion: aVersion)].
 	self checkResult: result.
-	stream _ result readStream.
+	stream := result readStream.
 	stream upToAll: 'http://'.
 	^ 'http://', stream upToEnd

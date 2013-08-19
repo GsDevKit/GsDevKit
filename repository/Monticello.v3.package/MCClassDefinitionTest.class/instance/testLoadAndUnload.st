@@ -1,8 +1,8 @@
-tests
+as yet unclassified
 testLoadAndUnload
 	| d c |
 	d :=  self mockClass: 'MCMockClassC' super: 'Object'.
-	MCPlatformSupport suspendAutoCommitAndMigrationDuring: [ d load ].
+	d load.
 	self assert: (Smalltalk hasClassNamed: 'MCMockClassC').
 	c := (Smalltalk classNamed: 'MCMockClassC').
 	self assert: (c isKindOf: Class).
@@ -11,7 +11,7 @@ testLoadAndUnload
 	self assert: c classVarNames isEmpty.
 	self assert: c sharedPools isEmpty.
 	self assert: c category = self mockCategoryName.
-	self assert: c classComment = (self commentForClass: 'MCMockClassC').
-	self assert: c commentStamp = (self commentStampForClass: 'MCMockClassC').
-	MCPlatformSupport suspendAutoCommitAndMigrationDuring: [ d unload ].
+	self assert: c organization classComment = (self commentForClass: 'MCMockClassC').
+	self assert: c organization commentStamp = (self commentStampForClass: 'MCMockClassC').
+	d unload.
 	self deny: (Smalltalk hasClassNamed: 'MCMockClassC').

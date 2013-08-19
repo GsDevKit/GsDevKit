@@ -1,3 +1,3 @@
 as yet unclassified
 popLayer
-	depthIndex _ depthIndex - 1
+	depthIndex := depthIndex - 1

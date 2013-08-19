@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 hash
-	^ name hash
+	^ name asLowercase hash

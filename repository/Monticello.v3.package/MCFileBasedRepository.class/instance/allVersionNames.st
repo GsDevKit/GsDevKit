@@ -1,3 +1,4 @@
-as yet unclassified
+private-files
 allVersionNames
-	^ self readableFileNames collect: [:ea | self versionNameFromFileName: ea]
+
+	^self readableFileNames collect: [ :each | each versionName ]

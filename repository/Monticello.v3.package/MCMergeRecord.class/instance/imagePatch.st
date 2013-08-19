@@ -1,3 +1,3 @@
 as yet unclassified
 imagePatch
-	^ imagePatch ifNil: [imagePatch _ self packageSnapshot patchRelativeToBase: self ancestorSnapshot]
+	^ imagePatch ifNil: [imagePatch := self packageSnapshot patchRelativeToBase: self ancestorSnapshot]

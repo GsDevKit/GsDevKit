@@ -1,3 +1,3 @@
 as yet unclassified
 initialize
-	CVar _ #initialized
+	CVar := #initialized

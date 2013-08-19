@@ -1,5 +1,5 @@
 running
 setUp
 
-	saveAutoMigrate := MCPlatformSupport autoMigrate.
+	saveAutoMigrate := MCPlatformSupport autoMigrate ifNil: [false].
 	monticelloPackageModified := self monticelloPackage modified.

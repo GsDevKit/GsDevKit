@@ -1,3 +1,6 @@
 as yet unclassified
-includesVersionNamed: aString
-	^ dict anySatisfy: [:ea | ea info name = aString]
+includesVersionNamed: aString 
+	| mcVersionName |
+	mcVersionName := aString asMCVersionName.
+	^ dict anySatisfy:
+		[ : ea | ea info versionName = mcVersionName ]

@@ -1,18 +1,18 @@
 tests
 testSelectiveBackport
-	| inst base intermediate final patch selected |
-	inst _ self mockInstanceA.
-	base _  self snapshot.
+	| inst base intermediate final |
+	inst := self mockInstanceA.
+	base :=  self snapshot.
 	self assert: inst one = 1.
 	self change: #one toReturn: 2.
-	intermediate _ self snapshot.
+	intermediate := self snapshot.
 	self change: #two toReturn: 3.
-	final _ self snapshot.
+	final := self snapshot.
 	[workingCopy backportChangesTo: base info]
 		on: MCChangeSelectionRequest
-		do: [:e |
-			patch _ e patch.
-			selected _ patch operations select: [:ea | ea definition selector = #two].
+		do: [:e | | selected patch |
+			patch := e patch.
+			selected := patch operations select: [:ea | ea definition selector = #two].
 			e resume: (MCPatch operations: selected)]. 
 	self assert: inst one = 1.
 	self assert: inst two = 3.

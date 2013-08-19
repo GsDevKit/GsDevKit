@@ -6,7 +6,7 @@ veryDeepInner: deepCopier
 
 	super veryDeepInner: deepCopier.
 	"just keep old pointers to all fields"
-	clickRecipient _ clickRecipient.!
+	clickRecipient := clickRecipient.!
 ]style[(25 108 10 111)f1b,f1,f1LDeepCopier Comment;,f1! !
 
 '

@@ -1,4 +1,3 @@
 as yet unclassified
-token: aString
-
-	^ self new token: aString
+token: t1 
+	^ self new token: t1

@@ -1,3 +1,3 @@
 as yet unclassified
 chooseLocal
-	chooseRemote _ false
+	chooseRemote := false

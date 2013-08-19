@@ -1,3 +1,5 @@
-as yet unclassified
-allFileNamesForVersionNamed: aString
-	^ self filterFileNames: self readableFileNames forVersionNamed: aString
+private-files
+allFileNamesForVersionNamed: aMCVersionName 
+	^ self
+		filterFileNames: self readableFileNames
+		forVersionNamed: aMCVersionName

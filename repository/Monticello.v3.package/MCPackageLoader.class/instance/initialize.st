@@ -1,5 +1,5 @@
 private
 initialize
-	additions _ OrderedCollection new.
-	removals _ OrderedCollection new.
-	obsoletions _ Dictionary new.
+	additions := OrderedCollection new.
+	removals := OrderedCollection new.
+	obsoletions := Dictionary new.

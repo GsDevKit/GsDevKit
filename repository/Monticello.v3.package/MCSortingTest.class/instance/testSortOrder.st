@@ -11,5 +11,5 @@ testSortOrder
 	bB := self methodNamed: #b class: #B meta: false.
 	A := self classNamed: #A.
 	B := self classNamed: #B.
-	self assert: (self sortDefinitions: { aA . aAm . cAm . aB . bAm . bA . bB . A . cA . B })
-					= { A . aAm . bAm . cAm . aA . bA . cA . B . aB .  bB }
+	self assert: (self sortDefinitions: {aA. aAm. cAm. aB. bAm. bA. bB. A. cA. B})
+					= {A. aAm. bAm. cAm. aA. bA. cA. B. aB.  bB}

@@ -1,4 +1,4 @@
 initializing
 initialize
-	ancestors _ #().
-	stepChildren _ #()
+	ancestors := #().
+	stepChildren := #()

@@ -1,18 +1,18 @@
 tests
 testDoubleRepeatedMerge
 	| base motherA1 motherA2 motherB1 motherB2 inst |
-
-	base _ self snapshot.
+	<timeout: 30> "takes a little longer"
+	base := self snapshot.
 	self change: #a toReturn: 'a1'.
-	motherA1 _  self snapshot.
+	motherA1 :=  self snapshot.
 	self change: #c toReturn: 'c1'.
-	motherA2 _  self snapshot.	
+	motherA2 :=  self snapshot.	
 	
 	self load: base.
 	self change: #b toReturn: 'b1'.
-	motherB1 _  self snapshot.
+	motherB1 :=  self snapshot.
 	self change: #d toReturn: 'd1'.
-	motherB2 _  self snapshot.
+	motherB2 :=  self snapshot.
 	
 	self load: base.
 	self merge: motherA1.
@@ -24,7 +24,7 @@ testDoubleRepeatedMerge
 	self shouldnt: [self merge: motherA2] raise: Error.
 	self shouldnt: [self merge: motherB2] raise: Error.
 	
-	inst _ self mockInstanceA.
+	inst := self mockInstanceA.
 	self assert: inst a = 'a2'.
 	self assert: inst b = 'b2'.
 	self assert: inst c = 'c1'.

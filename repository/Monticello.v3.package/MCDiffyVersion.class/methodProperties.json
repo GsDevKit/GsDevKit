@@ -1,17 +1,19 @@
 {
 	"class" : {
 		"baseNameFrom:" : "DaleHenrichs 07/01/2010 18:13",
-		"canonicalNameFor:" : "DaleHenrichs 07/01/2010 18:12",
-		"nameForVer:base:" : "dkh 03/06/2008 11:37",
+		"canonicalNameFor:" : "bf 5/30/2005 18:58",
+		"nameForVer:base:" : "cmm 3/5/2011 16:39",
 		"package:info:dependencies:baseInfo:patch:" : "avi 2/13/2004 23:07",
 		"package:info:snapshot:dependencies:baseVersion:" : "avi 2/13/2004 23:06",
 		"verNameFrom:" : "DaleHenrichs 07/01/2010 12:25" },
 	"instance" : {
 		"baseInfo" : "dkh 08/09/2007 10:57",
-		"baseSnapshot" : "dkh 08/09/2007 10:57",
-		"initializeWithPackage:info:dependencies:baseInfo:patch:" : "dkh 08/09/2007 10:57",
+		"baseSnapshot" : "fbs 6/9/2011 20:05",
+		"canOptimizeLoading" : "bf 5/23/2005 15:42",
+		"fileName" : "cmm 3/3/2011 15:00",
+		"initializeWithPackage:info:dependencies:baseInfo:patch:" : "stephaneducasse 2/4/2006 20:47",
 		"isDiffy" : "dkh 08/09/2007 10:57",
 		"patch" : "dkh 08/09/2007 10:57",
-		"snapshot" : "dkh 08/09/2007 10:57",
+		"snapshot" : "stephaneducasse 2/4/2006 20:47",
 		"summary" : "dkh 08/09/2007 10:57",
 		"writerClass" : "dkh 08/09/2007 10:57" } }

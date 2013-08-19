@@ -1,8 +1,7 @@
 data
 expectedClassMethodDefinition
 	^ '
-!MCMockClassA class methodsFor: ''as yet unclassified'' stamp: ''ab 7/7/2003 23:21''!
-one
-
-	^ 1! !
+!MCMockClassA class methodsFor: ''as yet unclassified'' stamp: ''topa 05/21/2013 01:51''!
+one', Character cr,
+'	^ 1! !
 '

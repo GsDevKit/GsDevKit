@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"initialize" : "avi 2/22/2004 14:04" },
+		"initialize" : "" },
 	"instance" : {
-		"classNames" : "dkh 12/20/2009 15:37",
-		"classes" : "dkh 04/28/2008 11:58",
-		"extensionMethods" : "cwp 8/1/2003 20:25",
-		"packageName" : "cwp 8/1/2003 20:31",
-		"systemCategories" : "cwp 7/31/2003 15:30" } }
+		"classNames" : "topa 05/21/2013 03:55",
+		"classes" : "",
+		"extensionMethods" : "",
+		"includesClass:" : "",
+		"includesSystemCategory:" : "",
+		"packageName" : "topa 05/23/2013 01:24",
+		"systemCategories" : "topa 05/22/2013 02:06" } }

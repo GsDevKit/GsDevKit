@@ -1,11 +1,11 @@
 evaluating
 loadDefinitions
 	| filePackage |
-	filePackage _
+	filePackage :=
 		FilePackage new
 			fullName: 'ReadStream';
 			fileInFrom: self readStream.
-	definitions _ OrderedCollection new.
+	definitions := OrderedCollection new.
 	filePackage classes do:
 		[:pseudoClass |
 		pseudoClass hasDefinition

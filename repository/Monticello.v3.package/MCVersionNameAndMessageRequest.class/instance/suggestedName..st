@@ -1,3 +1,3 @@
 as yet unclassified
 suggestedName: aString
-	suggestion _ aString
+	suggestion := aString

@@ -2,17 +2,17 @@ private
 nextVersionName
 	| branch oldName |
 	ancestry ancestors isEmpty
-		ifTrue: [counter ifNil: [counter _ 0]. branch _ package name]
+		ifTrue:
+			[ counter ifNil: [ counter := 0 ].
+			branch := package name ]
 		ifFalse:
-			[oldName _ ancestry ancestors first name.
-			oldName last isDigit
-				ifFalse: [branch _ oldName]
-				ifTrue: [branch _ oldName copyUpToLast: $-].
-			counter ifNil: [
-				counter _ (ancestry ancestors collect: [:each |
-					each name last isDigit
-						ifFalse: [0]
-						ifTrue: [(each name copyAfterLast: $-) extractNumber]]) max]].
-
-	counter _ counter + 1.
+			[ oldName := ancestry ancestors first versionName.
+			branch := oldName packageAndBranchName.
+			counter ifNil:
+				[ counter := (ancestry ancestors detectMax:
+					[ : eachVersionInfo | eachVersionInfo versionNumber ])
+					ifNil: [ 0 ]
+					ifNotNil:
+						[ : highestNumbered | highestNumbered versionNumber ] ] ].
+	counter := counter + 1.
 	^ branch, '-',  MCPlatformSupport authorInitials, '.', counter asString

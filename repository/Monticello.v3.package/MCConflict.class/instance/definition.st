@@ -1,3 +1,3 @@
 as yet unclassified
 definition
-	^operation ifNotNilDo: [ :op | op definition ]
+	^operation ifNotNil: [ :op | op definition ]

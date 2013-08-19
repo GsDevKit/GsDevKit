@@ -1,7 +1,7 @@
 as yet unclassified
 addToCurrentLayer: aVersionInfo
 	| layer |
-	layer _ layers at: depthIndex.
+	layer := layers at: depthIndex.
 	(layer includes: aVersionInfo) ifFalse:
 		[depths at: aVersionInfo ifPresent:
 			[:i |

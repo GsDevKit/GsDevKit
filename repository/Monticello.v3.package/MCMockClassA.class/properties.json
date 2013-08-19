@@ -1,10 +1,10 @@
 {
-	"category" : "Monticello-Mocks",
+	"category" : "Monticello-Tests-Mocks",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		"CVar" ],
-	"commentStamp" : "cwp 8/10/2003 16:43",
+	"commentStamp" : "topa 05/21/2013 01:37",
 	"instvars" : [
 		"ivar" ],
 	"name" : "MCMockClassA",

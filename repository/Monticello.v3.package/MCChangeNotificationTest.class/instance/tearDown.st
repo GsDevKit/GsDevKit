@@ -1,4 +1,5 @@
 running
 tearDown
-	workingCopy unregister.
+
 	super tearDown.
+	workingCopy unregister

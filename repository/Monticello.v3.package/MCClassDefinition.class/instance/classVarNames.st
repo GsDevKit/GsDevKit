@@ -1,3 +1,3 @@
 accessing
 classVarNames
-	^ self selectVariables: #isClassVariable
+	^(self selectVariables: #isClassVariable) asArray sort

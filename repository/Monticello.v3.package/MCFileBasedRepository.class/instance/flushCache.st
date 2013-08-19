@@ -1,7 +1,3 @@
-as yet unclassified
+private
 flushCache
-	| count |
-	cache == nil ifTrue: [ ^0 ].
-	count := cache keys size.
-	cache _ nil.
-	^count
+	cache := allFileNames := nil

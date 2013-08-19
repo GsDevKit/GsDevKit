@@ -1,4 +1,4 @@
 as yet unclassified
 provisions
-
-	^ provides ifNil: [#()]
+	^ provides
+		ifNil: [#()]

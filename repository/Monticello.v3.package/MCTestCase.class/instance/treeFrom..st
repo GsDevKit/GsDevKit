@@ -1,8 +1,8 @@
 mocks
 treeFrom: anArray
 	| name id |
-	name _ anArray first.
-	id _ '00000000-0000-0000-0000-0000000000', (name asString size = 1 ifTrue: [name asString, '0'] ifFalse: [name asString]).
+	name := anArray first.
+	id := '00000000-0000-0000-0000-0000000000', (name asString size = 1 ifTrue: [name asString, '0'] ifFalse: [name asString]).
 	^ MCVersionInfo
 		name: name
 		id: (UUID fromString: id)

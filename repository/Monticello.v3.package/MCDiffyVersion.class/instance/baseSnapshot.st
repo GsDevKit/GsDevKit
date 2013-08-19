@@ -1,3 +1,6 @@
 as yet unclassified
 baseSnapshot
-	^ (self workingCopy repositoryGroup versionWithInfo: base) snapshot
+	| baseVersion |
+	baseVersion := self workingCopy repositoryGroup versionWithInfo: base.
+	baseVersion ifNil: [Error signal: 'Missing snapshot: ', self baseInfo name].
+	^ baseVersion snapshot

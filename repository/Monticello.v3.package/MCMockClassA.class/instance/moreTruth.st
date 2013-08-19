@@ -1,4 +1,3 @@
 boolean
 moreTruth
-
 	^ true

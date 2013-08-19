@@ -1,3 +1,3 @@
 as yet unclassified
 ancestorSnapshot
-	^ ancestorSnapshot ifNil: [ancestorSnapshot _ version workingCopy findSnapshotWithVersionInfo: self ancestorInfo]
+	^ ancestorSnapshot ifNil: [ancestorSnapshot := version workingCopy findSnapshotWithVersionInfo: self ancestorInfo]

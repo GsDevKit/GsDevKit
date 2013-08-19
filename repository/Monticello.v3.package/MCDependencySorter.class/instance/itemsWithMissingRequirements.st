@@ -1,6 +1,6 @@
 accessing
 itemsWithMissingRequirements
 	| items |
-	items _ Set new.
+	items := Set new.
 	required do: [:ea | items addAll: ea].
 	^ items

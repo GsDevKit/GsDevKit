@@ -1,3 +1,3 @@
 intializing
 initializeWithOperations: aCollection
-	operations _ aCollection
+	operations := aCollection

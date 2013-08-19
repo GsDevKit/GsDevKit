@@ -8,7 +8,8 @@
 	"instvars" : [
 		"location",
 		"user",
-		"password" ],
+		"password",
+		"readerCache" ],
 	"name" : "MCHttpRepository",
 	"pools" : [
 		 ],

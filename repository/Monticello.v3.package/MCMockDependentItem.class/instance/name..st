@@ -1,4 +1,3 @@
 as yet unclassified
-name: aString
-
-	name _ aString
+name: t1 
+	name := t1

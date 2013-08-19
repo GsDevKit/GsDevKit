@@ -1,9 +1,9 @@
 intializing
 initializeWithBase: baseSnapshot target: targetSnapshot
 	| base target |	
-	operations _ OrderedCollection new.
-	base _ MCDefinitionIndex definitions: baseSnapshot definitions.
-	target _ MCDefinitionIndex definitions: targetSnapshot definitions.
+	operations := OrderedCollection new.
+	base := MCDefinitionIndex definitions: baseSnapshot definitions.
+	target := MCDefinitionIndex definitions: targetSnapshot definitions.
 	
 	target definitions do:
 		[:t |

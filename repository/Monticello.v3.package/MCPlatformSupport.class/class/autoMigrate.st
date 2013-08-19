@@ -1,4 +1,4 @@
 preferences
 autoMigrate
 
-	^SessionTemps current at: #MCPlatform_AutoMigrate otherwise: false
+	^ (SessionTemps current at: #MCPlatform_AutoMigrate otherwise: false) ifNil: [false]

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 name: aString
-	name _ aString
+	name := aString

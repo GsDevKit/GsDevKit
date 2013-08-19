@@ -1,4 +1,4 @@
-tests
+as yet unclassified
 creationMessage
 	^ MessageSend
 		receiver: MCClassDefinition

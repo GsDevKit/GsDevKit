@@ -1,6 +1,6 @@
 serializing
 serializeVersionInfo: aVersionInfo
-	infoWriter ifNil: [infoWriter _ MCVersionInfoWriter new].
+	infoWriter ifNil: [infoWriter := MCVersionInfoWriter new].
 	^ String streamContents:
 		[:s |
 		infoWriter stream: s.

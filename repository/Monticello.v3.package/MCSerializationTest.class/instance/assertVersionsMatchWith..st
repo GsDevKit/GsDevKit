@@ -1,9 +1,9 @@
 asserting
 assertVersionsMatchWith: writerClass
 	| stream readerClass expected actual |
-	readerClass _ writerClass readerClass.
-	expected _ self mockVersion.
-	stream _ RWBinaryOrTextStream on: String new.
+	readerClass := writerClass readerClass.
+	expected := self mockVersion.
+	stream := RWBinaryOrTextStream on: String new.
 	writerClass fileOut: expected on: stream.
-	actual _ readerClass versionFromStream: stream reset.
+	actual := readerClass versionFromStream: stream reset.
 	self assertVersion: actual matches: expected.

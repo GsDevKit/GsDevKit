@@ -1,12 +1,12 @@
 accessing
-initializeWithTree: expr
-	expr isSymbol
-		ifTrue: [name _ expr.
-				children _ Array new.
-				hasResolution _ true.]
-		ifFalse: [name _ expr first.
-				expr second isSymbol
-					ifTrue: [hasResolution _ false.
-							children _ Array new]
-					ifFalse: [hasResolution _ true.
-							children _ expr second]]
+initializeWithTree: t1 
+	t1 isSymbol
+		ifTrue: [name := t1.
+			children := Array new.
+			hasResolution := true]
+		ifFalse: [name := t1 first.
+			t1 second isSymbol
+				ifTrue: [hasResolution := false.
+					children := Array new]
+				ifFalse: [hasResolution := true.
+					children := t1 second]]

@@ -1,3 +1,3 @@
 initializing
 intializeWithDefinition: aDefinition
-	definition _ aDefinition
+	definition := aDefinition

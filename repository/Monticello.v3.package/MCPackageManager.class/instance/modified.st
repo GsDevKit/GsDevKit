@@ -1,3 +1,3 @@
 accessing
 modified
-	^ modified
+	^ modified ifNil: [modified := false]

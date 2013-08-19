@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "rej 2/26/2007 07:35",
 	"instvars" : [
 		"requirements",
 		"unloadableDefinitions",
@@ -12,7 +12,9 @@
 		"additions",
 		"removals",
 		"errorDefinitions",
-		"provisions" ],
+		"provisions",
+		"methodAdditions",
+		"preamble" ],
 	"name" : "MCPackageLoader",
 	"pools" : [
 		 ],

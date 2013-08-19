@@ -1,7 +1,7 @@
 private
 uniqueVersionName
 	|versionName|
-	counter _ nil.
-	[versionName _ self nextVersionName.
+	counter := nil.
+	[versionName := self nextVersionName.
 	self repositoryGroup includesVersionNamed: versionName] whileTrue.
 	^ versionName

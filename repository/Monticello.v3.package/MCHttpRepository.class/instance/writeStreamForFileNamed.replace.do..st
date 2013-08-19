@@ -1,15 +1,21 @@
 required
 writeStreamForFileNamed: aString replace: ignoreBoolean do: aBlock 
-	| response |
+	| response  statusLine code |
 	response := MCPlatformSupport
 				writeStreamForFileNamed: (self urlForFileNamed: aString)
 				user: user
 				passwd: password
 				replace: ignoreBoolean
 				do: aBlock.
-	(#('HTTP/1.1 201 ' 'HTTP/1.1 200 ' 'HTTP/1.0 201 ' 'HTTP/1.0 200 ' )
-			anySatisfy: [:code | response beginsWith: code])
-		ifFalse: [ 
+	"More robust handling of HTTP responses. Instead of enumerating
+	all possible return codes and http versions, do a quick parse"
+	(response beginsWith: 'HTTP/') ifTrue:[
+		"Looks like an HTTP header, not some error message"
+		statusLine := response copyUpTo: Character cr.
+		code := [(statusLine findTokens: ' ') second asInteger] on: Error do:[].
+	].
+	(code isInteger and:[code between: 200 and: 299]) 
+		ifFalse: [
 			(self confirm: 'Error saving ', aString printString, ' to ', self description printString, '.', String cr, 'Try again with new userName and password? ')
 			ifTrue: [ | newPass |
 			newPass := self promptForUserNamePassword.

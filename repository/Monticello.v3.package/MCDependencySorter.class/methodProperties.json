@@ -2,18 +2,18 @@
 	"class" : {
 		"items:" : "ab 5/23/2003 14:17",
 		"new" : "avi 9/13/2004 18:03",
-		"sortItems:" : "cwp 8/7/2003 15:16" },
+		"sortItems:" : "stephaneducasse 2/4/2006 20:47" },
 	"instance" : {
-		"add:" : "ab 5/22/2003 23:13",
+		"add:" : "nice 3/20/2010 08:00",
 		"addAll:" : "DataCurator 04/23/2007 14:43",
 		"addExternalProvisions:" : "avi 10/7/2004 22:47",
-		"addProvision:" : "ab 5/22/2003 23:25",
+		"addProvision:" : "stephaneducasse 2/4/2006 20:47",
 		"addRequirement:for:" : "ab 5/22/2003 23:24",
 		"addRequirements:for:" : "ab 5/22/2003 23:23",
 		"addToOrder:" : "ab 5/22/2003 23:15",
 		"externalRequirements" : "dvf 9/8/2004 00:49",
-		"initialize" : "ab 5/22/2003 23:23",
+		"initialize" : "stephaneducasse 2/4/2006 20:47",
 		"itemsRequiring:" : "ab 5/22/2003 23:24",
-		"itemsWithMissingRequirements" : "ab 5/25/2003 01:15",
+		"itemsWithMissingRequirements" : "stephaneducasse 2/4/2006 20:47",
 		"orderedItems" : "ab 5/22/2003 23:25",
 		"unresolvedRequirementsFor:" : "ab 5/22/2003 23:22" } }

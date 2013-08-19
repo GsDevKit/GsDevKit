@@ -2,8 +2,9 @@ as yet unclassified
 processVersionInfo: aVersionInfo
 	| success |
 	aVersionInfo = target ifTrue: [^ true].
+	(aVersionInfo hasAncestor: target) ifFalse: [^false].
 	self pushLayer.
-	success _ (self knownAncestorsOf: aVersionInfo) anySatisfy:
+	success := (self knownAncestorsOf: aVersionInfo) anySatisfy:
 				[:ea | self processVersionInfo: ea].
 	self popLayer.
 	success ifTrue: [self addToCurrentLayer: aVersionInfo].

@@ -2,15 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertCommonAncestorOf:and:is:in:" : "dkh 08/09/2007 10:57",
-		"assertNamesOf:are:" : "dkh 08/09/2007 10:57",
-		"assertPathTo:is:" : "dkh 08/09/2007 10:57",
-		"testAllAncestors" : "dkh 08/09/2007 10:57",
-		"testCommonAncestors" : "dkh 08/09/2007 10:57",
-		"testDescendants" : "dkh 08/09/2007 10:57",
-		"testLinearPath" : "dkh 08/09/2007 10:57",
-		"testPathToMissingAncestor" : "dkh 08/09/2007 10:57",
-		"testWithAllAncestors" : "dkh 08/09/2007 10:57",
-		"tree" : "dkh 08/09/2007 10:57",
-		"twoPersonTree" : "dkh 08/09/2007 10:57",
-		"versionForName:in:" : "dkh 08/09/2007 10:57" } }
+		"assertCommonAncestorOf:and:in:in:" : "stephaneducasse 2/4/2006 20:47",
+		"assertCommonAncestorOf:and:is:in:" : "avi 9/17/2005 21:09",
+		"assertNamesOf:are:" : "topa 04/02/2013 10:00",
+		"assertPathTo:is:" : "jf 8/16/2003 23:42",
+		"testCommonAncestors" : "avi 9/17/2005 21:08",
+		"testDescendants" : "stephaneducasse 2/4/2006 20:47",
+		"testLinearPath" : "jf 8/16/2003 20:45",
+		"testPathToMissingAncestor" : "jf 8/16/2003 20:42",
+		"tree" : "jf 8/16/2003 21:21",
+		"twoPersonTree" : "jf 8/16/2003 22:55",
+		"versionForName:in:" : "ul 12/12/2009 14:10" } }

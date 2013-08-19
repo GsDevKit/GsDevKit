@@ -1,2 +1,2 @@
-*monticello-mocks
+*monticello-tests-mocks
 mockClassExtension
