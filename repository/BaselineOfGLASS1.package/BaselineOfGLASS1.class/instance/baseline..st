@@ -85,11 +85,13 @@ baseline: spec
     do: [ 
       spec
         package: 'Announcements' with: [ spec file: 'Announcements.g' ];
-        package: 'GsRandom' with: [ spec requires: #('Base-Bootstrap') ];
         package: 'GemStone-Exceptions'
           with: [ spec requires: #('Bootstrap' 'Sport') ];
         package: 'GemStone-Release-Support'
           with: [ spec file: 'GemStone-Release-Support.v2x' ];
+        package: 'GsRandom' with: [ spec requires: #('Base-Bootstrap') ];
+        package: 'GsSqueakCommon-Core'
+          with: [ spec file: 'GsSqueakCommon-Core.2x' ];
         package: 'Sport' with: [ spec requires: #('GsRandom') ];
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
         yourself.
@@ -147,6 +149,8 @@ baseline: spec
         package: 'Core' with: [ spec file: 'Core.v3' ];
         package: 'Base-Bootstrap' with: [ spec file: 'Base-Bootstrap.v3' ];
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v3' ];
+        package: 'GsSqueakCommon-Core'
+          with: [ spec file: 'GsSqueakCommon-Core.3x' ];
         package: 'Sport' with: [ spec file: 'Sport3.010.v3-dkh.29' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v3' ];
         yourself.
