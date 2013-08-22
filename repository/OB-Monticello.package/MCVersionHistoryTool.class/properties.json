@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCVersionHistoryTool",
+	"pools" : [
+		 ],
+	"super" : "MCBrowser",
+	"type" : "normal" }

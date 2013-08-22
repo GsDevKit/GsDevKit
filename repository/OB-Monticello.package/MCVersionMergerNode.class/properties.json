@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"versionMerger" ],
+	"name" : "MCVersionMergerNode",
+	"pools" : [
+		 ],
+	"super" : "MCMergerNode",
+	"type" : "normal" }

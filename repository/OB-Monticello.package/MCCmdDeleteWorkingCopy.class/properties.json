@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCCmdDeleteWorkingCopy",
+	"pools" : [
+		 ],
+	"super" : "MCWorkingCopyCommand",
+	"type" : "normal" }

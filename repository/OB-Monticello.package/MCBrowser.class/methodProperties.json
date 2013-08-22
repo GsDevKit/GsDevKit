@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"optionalButtonPanel" : "DaleHenrichs 02/19/2010 17:01" },
+	"instance" : {
+		"clearChanges" : "dkh 02/26/2009 15:55",
+		"defaultBackgroundColor" : "dkh 12/20/2008 10:10",
+		"event:" : "dkh 02/26/2009 16:14",
+		"initialize" : "dkh 02/26/2009 16:17",
+		"noteChanges" : "dkh 02/26/2009 15:56",
+		"register" : "dkh 02/26/2009 16:13",
+		"signalRefresh" : "dkh 02/26/2009 15:56",
+		"stepAt:in:" : "dkh 02/26/2009 16:14",
+		"unregister" : "dkh 02/26/2009 16:13",
+		"wantsStepsIn" : "dkh 03/19/2009 12:06",
+		"windowIsClosing" : "dkh 02/26/2009 16:13" } }

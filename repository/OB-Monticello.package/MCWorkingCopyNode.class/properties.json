@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Monticello-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"package",
+		"workingCopy" ],
+	"name" : "MCWorkingCopyNode",
+	"pools" : [
+		 ],
+	"super" : "MCNode",
+	"type" : "normal" }

@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"name:repository:" : "avi 12/7/2007 14:17" },
+	"instance" : {
+		"addVersion:" : "dkh 11/01/2007 16:33",
+		"branches" : "dkh 12/14/2007 11:17",
+		"browseChanges" : "DaleHenrichs 02/24/2010 15:56",
+		"browseInvertedChanges" : "DaleHenrichs 02/24/2010 16:25",
+		"hasAncestry" : "avi 12/7/2007 14:42",
+		"hasChanges" : "avi 12/7/2007 14:22",
+		"hasRepository" : "avi 12/7/2007 14:17",
+		"hasWorkingCopy" : "avi 12/7/2007 14:21",
+		"initializeWithName:repository:" : "avi 12/7/2007 14:16",
+		"name" : "avi 12/7/2007 14:28",
+		"name:" : "dkh 03/06/2008 19:37",
+		"packageName" : "dkh 03/07/2008 09:02",
+		"packageName:" : "dkh 03/07/2008 09:02",
+		"parent:" : "avi 12/7/2007 14:34",
+		"repository" : "avi 12/7/2007 14:17",
+		"repositoryNode:" : "dkh 03/06/2008 19:48",
+		"sortedVersions" : "dkh 03/06/2008 19:53",
+		"text" : "avi 12/7/2007 14:37",
+		"versionHighlight:" : "dkh 03/06/2008 19:50",
+		"versions" : "avi 12/7/2007 12:04",
+		"withBreadthFirstAncestors" : "avi 12/7/2007 14:42",
+		"workingCopy" : "dkh 03/07/2008 09:04" } }

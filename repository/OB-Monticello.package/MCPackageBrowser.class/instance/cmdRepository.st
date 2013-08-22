@@ -1,0 +1,3 @@
+commands
+cmdRepository
+	^ MCRepositoryCommand allSubclasses
