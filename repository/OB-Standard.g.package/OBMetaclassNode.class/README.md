@@ -1,0 +1,1 @@
+OBMetaclassNode is essentially the same as an OBClassNode, but overrides a few methods to work properly with metaclasses. The instance-variable theClass is always a metaclass.

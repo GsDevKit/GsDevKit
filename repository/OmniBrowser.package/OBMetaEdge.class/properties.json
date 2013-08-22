@@ -1,0 +1,17 @@
+{
+	"category" : "OmniBrowser-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/7/2005 23:20",
+	"instvars" : [
+		"label",
+		"selector",
+		"metaNode",
+		"navigation" ],
+	"name" : "OBMetaEdge",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

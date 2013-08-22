@@ -1,0 +1,3 @@
+accessing
+buttonLabel
+	^ self label

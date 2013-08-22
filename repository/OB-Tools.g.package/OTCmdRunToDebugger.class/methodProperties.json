@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"takesNodes" : "dkh 12/15/2008 17:45",
+		"takesText" : "dkh 12/15/2008 17:48" },
+	"instance" : {
+		"context" : "dkh 12/15/2008 17:59",
+		"execute" : "dkh 12/17/2008 00:53",
+		"findStepPointIn:" : "dkh 12/15/2008 17:10",
+		"getCompiledMethod" : "dkh 03/06/2009 16:19",
+		"isActive" : "dkh 03/06/2009 16:21",
+		"label" : "lr 6/7/2008 15:41",
+		"process" : "dkh 12/15/2008 17:59" } }

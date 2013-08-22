@@ -1,0 +1,14 @@
+{
+	"category" : "OB-SUnitGUI-Browsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 11/09/2011 10:00",
+	"instvars" : [
+		 ],
+	"name" : "OSTestRunner",
+	"pools" : [
+		 ],
+	"super" : "OBCodeBrowser",
+	"type" : "normal" }

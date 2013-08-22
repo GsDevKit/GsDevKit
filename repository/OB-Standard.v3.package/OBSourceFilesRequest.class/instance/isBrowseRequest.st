@@ -1,0 +1,3 @@
+exceptionDescription
+isBrowseRequest
+	^ false

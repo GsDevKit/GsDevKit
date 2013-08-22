@@ -1,0 +1,1 @@
+I handle mercury queries like '#Object'. I find references to classes.

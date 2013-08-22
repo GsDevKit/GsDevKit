@@ -1,0 +1,1 @@
+OBMercuryQuery is an abstract superclass for queries made through the 'Mercury' panel in OmniBrowser based browser. The main interface is the class method, find:for:, which builds an appropriate concrete query object for the query string and calls find on it.

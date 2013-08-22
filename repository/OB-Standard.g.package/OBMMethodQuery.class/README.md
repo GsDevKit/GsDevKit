@@ -1,0 +1,1 @@
+I handle queries that look like 'browse' and 'browse*'. I find method implementors.

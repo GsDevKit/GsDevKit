@@ -1,0 +1,1 @@
+OBClassCategory represents a system category in the image's SystemOrganization.

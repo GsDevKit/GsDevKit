@@ -1,0 +1,15 @@
+{
+	"category" : "OmniBrowser-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"column",
+		"filter" ],
+	"name" : "OBSwitch",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

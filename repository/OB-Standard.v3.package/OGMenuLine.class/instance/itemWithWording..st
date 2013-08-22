@@ -1,0 +1,5 @@
+accessing
+itemWithWording: wording
+	"If any of the receiver's items or submenu items have the given wording (case-blind comparison done), then return it, else return nil."
+
+	^nil

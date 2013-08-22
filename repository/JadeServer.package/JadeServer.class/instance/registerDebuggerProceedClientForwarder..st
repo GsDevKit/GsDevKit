@@ -1,0 +1,4 @@
+OmniBrowser
+registerDebuggerProceedClientForwarder: aClientForwarder
+
+	OBGemStonePlatform registerDebuggerProceedClientForwarder: aClientForwarder

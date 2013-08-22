@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"defaultMetaNode" : "DM 5/23/2007 15:33",
+		"on:" : "DM 5/20/2007 15:31",
+		"paneCount" : "DM 5/20/2007 02:32" },
+	"instance" : {
+		"cmdFilterProtocol" : "DM 5/21/2007 16:36",
+		"defaultBackgroundColor" : "dkh 4/25/2008 09:18",
+		"defaultLabel" : "DM 5/20/2007 15:33",
+		"defaultLimitClass" : "DataCurator 10/15/2010 10:29",
+		"limitClass" : "DM 5/22/2007 18:42",
+		"limitClass:" : "DM 5/31/2007 14:55",
+		"refresh:" : "DM 5/31/2007 14:54",
+		"setMetaNode:node:" : "DM 5/23/2007 14:38",
+		"subscribe" : "DM 5/31/2007 14:57",
+		"theClass" : "DM 5/23/2007 15:25" } }

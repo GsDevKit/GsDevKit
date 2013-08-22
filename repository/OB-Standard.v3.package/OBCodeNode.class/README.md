@@ -1,0 +1,1 @@
+OBCodeNode is an abstract superclass for node classes that represent program elements active in the image. Though it provides little functionality, it exists for structural purposes.

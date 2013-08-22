@@ -1,0 +1,3 @@
+OBMethodNode wraps a method in a particular class. It supplies an OBMethodDefinition for displaying and editing the source code of the method, and various actions for manipulating the method. It has two roles: first it appears in the right most pane of a standard system browser. Second, it often serves as the root node for an OBListBrowser, and has navigation methods for senders, implementors etc.
+
+OBMethodNode also serves as the superclass for nodes that represent *parts* of a method, such as sends of a particular message, references to a class, accesses to a instance variable, etc.

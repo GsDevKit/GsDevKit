@@ -1,0 +1,14 @@
+{
+	"category" : "OmniBrowser-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"veto" ],
+	"name" : "OBAboutToChangeSilently",
+	"pools" : [
+		 ],
+	"super" : "OBAnnouncement",
+	"type" : "normal" }

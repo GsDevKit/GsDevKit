@@ -1,0 +1,1 @@
+A panel is an object that manages part of the browser's window. It provides a protocol for receiving notifications when the current domain node changes, and reacts to these changes.

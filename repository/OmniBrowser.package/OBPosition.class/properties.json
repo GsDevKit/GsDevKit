@@ -1,0 +1,14 @@
+{
+	"category" : "OmniBrowser-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"index" ],
+	"name" : "OBPosition",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

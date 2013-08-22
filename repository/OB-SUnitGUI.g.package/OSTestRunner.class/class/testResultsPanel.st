@@ -1,0 +1,3 @@
+configuration
+testResultsPanel
+	^ OSTestResultsPanel new

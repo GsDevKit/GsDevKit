@@ -1,0 +1,14 @@
+{
+	"category" : "OmniBrowser-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OBTextCommandScan",
+	"pools" : [
+		 ],
+	"super" : "OBCommandScan",
+	"type" : "normal" }

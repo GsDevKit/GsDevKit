@@ -1,0 +1,14 @@
+{
+	"category" : "OmniBrowser-Panels",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/7/2005 23:23",
+	"instvars" : [
+		"browser" ],
+	"name" : "OBPanel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

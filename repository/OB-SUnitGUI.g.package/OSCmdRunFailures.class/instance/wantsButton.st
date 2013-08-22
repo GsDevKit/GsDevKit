@@ -1,0 +1,4 @@
+testing
+wantsButton
+
+	^true

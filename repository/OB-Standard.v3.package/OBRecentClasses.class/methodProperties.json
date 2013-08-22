@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"default" : "dkh 07/26/2011 02:16",
+		"resetDefault" : "dkh 07/26/2011 02:17" },
+	"instance" : {
+		"classes" : "dc 7/16/2007 14:46",
+		"columnSelected:" : "dc 7/16/2007 14:38",
+		"initialize" : "dc 7/16/2007 14:45",
+		"maximumSize" : "dc 7/16/2007 14:43",
+		"maximumSize:" : "dc 7/16/2007 14:43",
+		"userHasSelectedClass:" : "dc 7/16/2007 14:43" } }

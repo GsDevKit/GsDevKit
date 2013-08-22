@@ -1,0 +1,4 @@
+Transaction Boundaries
+transactionBoundary: aSymbol
+
+	TransactionBoundaryDefaultPolicy current transactionBoundary: aSymbol

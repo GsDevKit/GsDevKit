@@ -1,0 +1,4 @@
+smalltalk
+systemOrganization
+
+	^SystemOrganizer new

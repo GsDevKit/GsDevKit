@@ -1,0 +1,4 @@
+preferences
+menuWithIcons
+
+	^false

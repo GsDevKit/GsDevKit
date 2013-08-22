@@ -1,0 +1,16 @@
+{
+	"category" : "OB-Standard-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		"selector",
+		"class",
+		"separator" ],
+	"name" : "OBAnnotationRequest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

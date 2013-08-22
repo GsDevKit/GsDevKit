@@ -1,0 +1,14 @@
+{
+	"category" : "OmniBrowser-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/7/2005 23:39",
+	"instvars" : [
+		"selection" ],
+	"name" : "OBModalFilter",
+	"pools" : [
+		 ],
+	"super" : "OBFilter",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+building
+verticalGroupWith: aBlock
+	self subclassResponsibility

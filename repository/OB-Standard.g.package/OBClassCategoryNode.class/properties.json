@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Standard-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/8/2005 12:58",
+	"instvars" : [
+		"environment",
+		"name" ],
+	"name" : "OBClassCategoryNode",
+	"pools" : [
+		 ],
+	"super" : "OBCodeNode",
+	"type" : "normal" }

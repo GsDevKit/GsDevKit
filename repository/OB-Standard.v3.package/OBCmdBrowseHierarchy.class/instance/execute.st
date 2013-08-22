@@ -1,0 +1,3 @@
+execution
+execute
+	OBCodeBrowser defaultHierarchyBrowserClass openOnClass: target theClass

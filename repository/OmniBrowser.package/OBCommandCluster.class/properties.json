@@ -1,0 +1,15 @@
+{
+	"category" : "OmniBrowser-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"commands",
+		"label" ],
+	"name" : "OBCommandCluster",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

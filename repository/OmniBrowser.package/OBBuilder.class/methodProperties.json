@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"build:" : "cwp 3/18/2007 20:47" },
+	"instance" : {
+		"button:with:" : "cwp 7/25/2007 23:55",
+		"current:" : "cwp 3/16/2007 23:24",
+		"current:do:" : "dr 11/12/2008 10:13",
+		"fixedButtonBar:with:" : "cwp 7/25/2007 23:52",
+		"horizontalGroupWith:" : "dr 11/12/2008 10:13",
+		"pane:with:" : "cwp 7/25/2007 23:47",
+		"radioButtonBar:with:" : "dr 11/12/2008 10:13",
+		"root" : "dr 11/12/2008 10:15",
+		"scroller:with:" : "cwp 7/25/2007 23:46",
+		"textarea:with:" : "cwp 7/25/2007 23:48",
+		"textfield:with:" : "dr 11/12/2008 10:13",
+		"verticalGroupWith:" : "cwp 12/9/2007 10:39",
+		"window:with:" : "dr 11/12/2008 10:13" } }

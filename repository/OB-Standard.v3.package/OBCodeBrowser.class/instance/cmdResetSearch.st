@@ -1,0 +1,3 @@
+commands
+cmdResetSearch
+	^ OBCmdResetSearch

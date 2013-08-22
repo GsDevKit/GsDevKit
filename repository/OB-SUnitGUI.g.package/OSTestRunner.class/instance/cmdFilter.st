@@ -1,0 +1,3 @@
+commands
+cmdFilter
+	^OSCmdFilter allSubclasses

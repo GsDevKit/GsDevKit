@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"aboutToChange:" : "MAD 1/22/2008 10:56",
+		"aboutToChangeSilently:" : "cwp 3/3/2007 23:11",
+		"accept:notifying:" : "dkh 02/17/2009 15:06",
+		"buildOn:" : "cwp 7/25/2007 23:48",
+		"definition:" : "dr 11/19/2008 16:09",
+		"definitionChanged:" : "dr 11/19/2008 16:10",
+		"definitionPanel" : "dr 2/18/2008 15:28",
+		"doItContext" : "cwp 3/23/2004 00:23",
+		"doItReceiver" : "cwp 3/23/2004 00:23",
+		"environment" : "cwp 4/19/2007 21:56",
+		"getDefinition" : "cwp 12/11/2007 17:38",
+		"isDefinition" : "dr 7/10/2008 14:40",
+		"isEditable" : "dr 9/26/2008 11:58",
+		"node:" : "dr 11/4/2008 19:47",
+		"nodeChanged:" : "dr 11/4/2008 19:47",
+		"refresh:" : "dr 11/19/2008 15:58",
+		"selectedClass" : "dr 11/4/2008 19:53",
+		"selection" : "lr 2/9/2008 11:17",
+		"selection:" : "lr 2/9/2008 11:17",
+		"selectionChanged:" : "dr 11/19/2008 16:10",
+		"subscribe" : "dkh 09/24/2008 17:30",
+		"text" : "dr 11/19/2008 16:21",
+		"vResizing" : "dc 6/1/2007 12:10",
+		"withDefinitionDo:ifNil:" : "cwp 3/22/2004 20:41" } }

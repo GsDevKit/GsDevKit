@@ -1,0 +1,14 @@
+{
+	"category" : "OmniBrowser-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/7/2005 23:38",
+	"instvars" : [
+		 ],
+	"name" : "OBDefinition",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

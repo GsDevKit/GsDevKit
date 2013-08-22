@@ -1,0 +1,3 @@
+commands
+cmdRemoveElement
+	^ OBCmdRemoveElement

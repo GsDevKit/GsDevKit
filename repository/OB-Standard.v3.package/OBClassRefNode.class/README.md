@@ -1,0 +1,1 @@
+Each instance of OBClassRefNode refers to a reference to a particular class from the source code of a method. It's used in the OBListBrowser created by the 'browse references' class action.

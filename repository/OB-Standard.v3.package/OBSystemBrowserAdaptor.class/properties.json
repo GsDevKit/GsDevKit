@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Standard-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/8/2005 13:35",
+	"instvars" : [
+		"class",
+		"selector" ],
+	"name" : "OBSystemBrowserAdaptor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCommandsOn:for:to:" : "cwp 9/30/2007 21:37",
+		"addFactory:" : "cwp 11/2/2006 00:35",
+		"clusterCommands:" : "cwp 9/30/2007 21:48",
+		"commandsOn:for:" : "cwp 11/2/2006 00:30",
+		"groupCommands:" : "cwp 9/30/2007 18:43",
+		"initialize" : "cwp 11/2/2006 00:30",
+		"populateMenu:withNodes:forRequestor:" : "cwp 9/30/2007 21:46",
+		"processKeystroke:withNode:for:" : "cwp 10/15/2006 14:06" } }

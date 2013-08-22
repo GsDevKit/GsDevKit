@@ -1,0 +1,14 @@
+{
+	"category" : "OmniBrowser-Notifications",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser" ],
+	"name" : "OBCloseRequest",
+	"pools" : [
+		 ],
+	"super" : "OBInteractionRequest",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"label:target:selector:" : "dkh 07/14/2007 09:46",
+		"label:target:selector:enabled:icon:" : "dkh 07/23/2007 11:37" },
+	"instance" : {
+		"doButtonAction" : "dkh 04/28/2008 16:40",
+		"enabled" : "dkh 07/14/2007 10:12",
+		"icon" : "dkh 07/14/2007 09:51",
+		"icon:" : "dkh 07/14/2007 09:50",
+		"isEnabled" : "dkh 04/28/2008 16:38",
+		"isEnabled:" : "dkh 07/14/2007 09:50",
+		"isMenuLine" : "dkh 07/14/2007 10:18",
+		"itemWithWording:" : "dkh 04/28/2008 16:36",
+		"label" : "dkh 07/14/2007 10:12",
+		"label:target:selector:" : "DataCurator 09/14/2007 12:41",
+		"label:target:selector:enabled:icon:" : "DataCurator 09/14/2007 12:41",
+		"selector" : "dkh 07/14/2007 10:12",
+		"target" : "dkh 07/14/2007 10:12" } }

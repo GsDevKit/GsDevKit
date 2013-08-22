@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"on:" : "dr 10/22/2008 09:38" },
+	"instance" : {
+		"=" : "cwp 4/19/2007 00:36",
+		"classSatisfiesQuery:" : "PDC 6/25/2007 21:23",
+		"classes" : "PDC 6/25/2007 21:19",
+		"comments" : "PDC 6/25/2007 21:16",
+		"displayString" : "dr 10/20/2008 16:17",
+		"hash" : "cwp 4/19/2007 00:36",
+		"isAncestorOf:" : "cwp 4/15/2007 20:31",
+		"isAncestorOf:using:" : "cwp 5/12/2007 23:12",
+		"metaclasses" : "PDC 6/25/2007 21:17",
+		"name" : "cwp 4/7/2007 23:28",
+		"nodesForRefs:" : "cwp 4/15/2007 20:14",
+		"query" : "cwp 4/8/2007 00:26",
+		"setRawQuery:" : "PDC 6/29/2007 06:37" } }

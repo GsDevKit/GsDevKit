@@ -1,0 +1,16 @@
+{
+	"category" : "OmniBrowser-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"column",
+		"position",
+		"fan" ],
+	"name" : "OBList",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

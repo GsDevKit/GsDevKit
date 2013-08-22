@@ -1,0 +1,3 @@
+*ob-standard
+isCategory
+	^ false

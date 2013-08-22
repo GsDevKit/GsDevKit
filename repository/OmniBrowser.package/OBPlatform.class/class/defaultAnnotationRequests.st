@@ -1,0 +1,4 @@
+preferences
+defaultAnnotationRequests
+
+	^self subclassResponsibility

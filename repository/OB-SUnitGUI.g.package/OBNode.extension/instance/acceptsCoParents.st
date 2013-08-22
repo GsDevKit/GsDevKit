@@ -1,0 +1,4 @@
+*ob-sunitgui
+acceptsCoParents
+
+	^false

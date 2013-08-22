@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"newPrompt:confirm:cancel:" : "cwp 2/28/2004 12:09",
+		"prompt:" : "cwp 2/28/2004 12:13",
+		"prompt:confirm:" : "cwp 2/28/2004 12:12",
+		"prompt:confirm:cancel:" : "cwp 2/28/2004 12:02" },
+	"instance" : {
+		"cancel" : "cwp 6/1/2007 16:58",
+		"cancelChoice" : "cwp 6/1/2007 16:46",
+		"handleWith:" : "dkh 01/07/2010 16:21",
+		"ok" : "cwp 2/28/2004 12:11",
+		"okChoice" : "cwp 6/1/2007 16:46",
+		"prompt" : "cwp 6/1/2007 16:44",
+		"setPrompt:confirm:cancel:" : "cwp 2/28/2004 12:00" } }

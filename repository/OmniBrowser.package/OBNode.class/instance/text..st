@@ -1,0 +1,3 @@
+public
+text: aText
+	^ false

@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"default" : "dkh 02/13/2009 11:37" },
+	"instance" : {
+		"addDependentFor:" : "dkh 02/13/2009 15:02",
+		"canRecordUpdates" : "dkh 02/18/2009 13:17",
+		"canRecordUpdates:" : "dkh 02/17/2009 07:39",
+		"clientUpdateConcentrator:" : "dkh 02/17/2009 11:03",
+		"concentrateUpdates:" : "dkh 02/18/2009 13:14",
+		"dependentsMap" : "dkh 02/13/2009 11:00",
+		"recordUpdatesDuring:" : "dkh 02/18/2009 13:05",
+		"removeAsDependent:" : "dkh 02/13/2009 15:07",
+		"reverseDependentsMap" : "dkh 02/13/2009 15:01",
+		"shouldRecordUpdates" : "dkh 02/18/2009 13:13",
+		"triggerUpdates:" : "dkh 02/18/2009 13:14",
+		"update:for:" : "dkh 02/18/2009 13:12",
+		"updateStack" : "dkh 02/18/2009 12:57" } }

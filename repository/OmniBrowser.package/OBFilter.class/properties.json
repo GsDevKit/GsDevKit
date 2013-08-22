@@ -1,0 +1,14 @@
+{
+	"category" : "OmniBrowser-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 3/4/2004 21:53",
+	"instvars" : [
+		"metaNode" ],
+	"name" : "OBFilter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

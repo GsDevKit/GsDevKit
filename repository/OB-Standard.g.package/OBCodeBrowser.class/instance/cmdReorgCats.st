@@ -1,0 +1,3 @@
+commands
+cmdReorgCats
+	^OBCmdReorgCats

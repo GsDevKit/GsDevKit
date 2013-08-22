@@ -1,0 +1,16 @@
+{
+	"category" : "OB-Standard-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 04/16/2012 15:46",
+	"instvars" : [
+		"bid",
+		"action",
+		"fan" ],
+	"name" : "OBNavigate",
+	"pools" : [
+		 ],
+	"super" : "OBAnnouncement",
+	"type" : "normal" }

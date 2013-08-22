@@ -1,0 +1,3 @@
+testing
+useLineAfter
+	^ false

@@ -1,0 +1,3 @@
+accessing
+currentOrRootNode
+	^self navigationPanel currentOrRootNode

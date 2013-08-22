@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Standard-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 04/16/2012 15:46",
+	"instvars" : [
+		"theClass",
+		"limitClass" ],
+	"name" : "OBLimitProtocolFilter",
+	"pools" : [
+		 ],
+	"super" : "OBFilter",
+	"type" : "normal" }

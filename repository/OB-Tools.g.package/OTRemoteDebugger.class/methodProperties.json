@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"clearAllBreakpoints:" : "dkh 03/21/2008 15:27",
+		"clearSelectedLogEntry" : "dkh 03/26/2008 15:29",
+		"debugContinuation" : "obi 03/04/2009 11:43",
+		"debugContinuation:" : "dkh 03/06/2009 10:17",
+		"disableRemoteBreakpoints" : "dkh 02/23/2008 09:16",
+		"enableRemoteBreakpoints" : "dkh 02/23/2008 09:16",
+		"initialize" : "dkh 03/21/2008 12:47",
+		"registerForRemoteBreakpoints" : "dkh 03/20/2008 10:30",
+		"remoteBreakpointsEnabled" : "dkh 04/18/2008 16:03",
+		"selectedLogEntry" : "dkh 03/26/2008 15:23",
+		"sendClearAllBreaksSignal" : "dkh 03/21/2008 15:27",
+		"sendSetOrClearBreakPointSignal:" : "dkh 03/21/2008 15:28",
+		"sessionStart" : "dkh 03/21/2008 12:47",
+		"setOrClearBreakpoint:" : "dkh 03/28/2008 15:04",
+		"title" : "dkh 02/15/2008 18:33" },
+	"instance" : {
+		"cmdDebug" : "dkh 12/15/2008 12:24" } }

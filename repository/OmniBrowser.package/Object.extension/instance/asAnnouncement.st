@@ -1,0 +1,3 @@
+*omnibrowser-converting
+asAnnouncement
+	^ self

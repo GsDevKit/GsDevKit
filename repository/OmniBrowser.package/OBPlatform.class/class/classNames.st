@@ -1,0 +1,4 @@
+smalltalk
+classNames
+
+	^self subclassResponsibility

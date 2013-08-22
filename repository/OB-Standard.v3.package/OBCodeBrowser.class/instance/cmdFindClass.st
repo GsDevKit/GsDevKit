@@ -1,0 +1,3 @@
+commands
+cmdFindClass
+	^{OBCmdFindClass . OBCmdRecentClasses}

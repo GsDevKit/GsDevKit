@@ -1,0 +1,3 @@
+delegating
+contents
+	^ stream contents

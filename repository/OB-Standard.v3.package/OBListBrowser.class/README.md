@@ -1,0 +1,1 @@
+OBListBrowsers are used to display simple lists of methods, such as senders or implementors.

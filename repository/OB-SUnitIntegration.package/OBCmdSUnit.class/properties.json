@@ -1,0 +1,14 @@
+{
+	"category" : "OB-SUnitIntegration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 10/02/2008 10:36",
+	"instvars" : [
+		 ],
+	"name" : "OBCmdSUnit",
+	"pools" : [
+		 ],
+	"super" : "OBCommand",
+	"type" : "normal" }

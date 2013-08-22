@@ -1,0 +1,1 @@
+OBInheritanceBrowser shows the inheritance hierarchy of a method, both superclass implementations which it overrides, and subclass implementations which override it.

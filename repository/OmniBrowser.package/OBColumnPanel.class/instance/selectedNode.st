@@ -1,0 +1,3 @@
+accessing
+selectedNode
+	^ self currentNode

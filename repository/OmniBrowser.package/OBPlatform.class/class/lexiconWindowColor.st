@@ -1,0 +1,4 @@
+preferences
+lexiconWindowColor
+
+	^ self subclassResponsibility

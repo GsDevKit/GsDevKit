@@ -1,0 +1,4 @@
+OmniBrowser
+registerTextClientForwarder: aClientForwarder
+
+	OBGemStonePlatform registerTextClientForwarder: aClientForwarder

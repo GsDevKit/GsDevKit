@@ -1,0 +1,14 @@
+{
+	"category" : "OmniBrowser-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OBDefaultEdgeNavigation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

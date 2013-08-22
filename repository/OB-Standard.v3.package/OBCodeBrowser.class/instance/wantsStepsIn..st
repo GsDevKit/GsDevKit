@@ -1,0 +1,3 @@
+morphic
+wantsStepsIn: aSystemWindow
+	^ true

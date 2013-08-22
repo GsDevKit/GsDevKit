@@ -1,0 +1,3 @@
+configuration
+definitionPanel
+	^ OBDefinitionPanel new

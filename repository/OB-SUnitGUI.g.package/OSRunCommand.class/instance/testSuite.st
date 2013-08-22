@@ -1,0 +1,4 @@
+accessing
+testSuite
+
+	^self subclassResponsibility

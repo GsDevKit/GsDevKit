@@ -1,0 +1,16 @@
+{
+	"category" : "OB-Tools-Inspector",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:10",
+	"instvars" : [
+		"name",
+		"value",
+		"prefix" ],
+	"name" : "OTContextTempVariableNode",
+	"pools" : [
+		 ],
+	"super" : "OTInspectorNode",
+	"type" : "normal" }

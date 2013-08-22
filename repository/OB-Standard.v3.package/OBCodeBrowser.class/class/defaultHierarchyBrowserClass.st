@@ -1,0 +1,3 @@
+configuration
+defaultHierarchyBrowserClass
+    ^self defaultBrowserClass hierarchyBrowserClass

@@ -1,0 +1,3 @@
+ancestry
+isDescendantOfMethodCat: category
+	^ false.

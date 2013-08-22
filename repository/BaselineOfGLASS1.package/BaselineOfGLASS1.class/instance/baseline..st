@@ -7,8 +7,6 @@ baseline: spec
       spec
         configuration: 'GoferProjectLoader'
           with: [ spec repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
-        configuration: 'GsOB'
-          with: [ spec repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
         configuration: 'Grease'
           with: [ 
               spec
@@ -58,6 +56,25 @@ baseline: spec
                 requires: #('Monticello') ];
         yourself.
       spec
+        package: 'OmniBrowser' with: [ spec requires: #('Core') ];
+        package: 'OB-GemStone-Platform'
+          with: [ spec requires: #('OmniBrowser') ];
+        package: 'OB-Monticello'
+          with: [ spec requires: #('OB-Standard' 'Monticello') ];
+        package: 'OB-SUnitIntegration'
+          with: [ spec requires: #('OB-Standard') ];
+        package: 'OB-SUnitGUI'
+          with: [ 
+              spec
+                file: 'OB-SUnitGUI.g';
+                requires: #('OB-Standard') ];
+        package: 'OB-Standard'
+          with: [ spec requires: #('OB-GemStone-Platform' 'Change-Notification') ];
+        package: 'OB-Tools'
+          with: [ spec requires: #('OB-Standard' 'Announcements') ];
+        package: 'JadeServer' with: [ spec requires: #('OB-Tools') ];
+        yourself.
+      spec
         package: 'GsSqueakCommon-Core'
           with: [ spec requires: #('GsCore' 'Grease') ];
         package: 'GsSqueakCommon-Tests'
@@ -77,6 +94,9 @@ baseline: spec
         group: 'GsMonticello'
           with:
             #('Change-Notification' 'PackageInfo-Base' 'Monticello' 'GemStone-Deployment');
+        group: 'GsOB'
+          with:
+            #('OmniBrowser' 'OB-GemStone-Platform' 'OB-Monticello' 'OB-SUnitIntegration' 'OB-SUnitGUI' 'OB-Standard' 'OB-Tools' 'JadeServer');
         group: 'GsSqueakCommon'
           with: #('GsSqueakCommon-Core' 'GsSqueakCommon-Tests');
         yourself ].
@@ -92,6 +112,8 @@ baseline: spec
         package: 'GsRandom' with: [ spec requires: #('Base-Bootstrap') ];
         package: 'GsSqueakCommon-Core'
           with: [ spec file: 'GsSqueakCommon-Core.2x' ];
+        package: 'OB-Standard' with: [ spec file: 'OB-Standard.g' ];
+        package: 'OB-Tools' with: [ spec file: 'OB-Tools.g' ];
         package: 'Sport' with: [ spec requires: #('GsRandom') ];
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
         yourself.
@@ -151,6 +173,10 @@ baseline: spec
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v3' ];
         package: 'GsSqueakCommon-Core'
           with: [ spec file: 'GsSqueakCommon-Core.3x' ];
+        package: 'OB-Standard' with: [ spec file: 'OB-Standard.v3' ];
+        package: 'OB-SymbolListBrowser'
+          with: [ spec requires: #('OB-Standard') ];
+        package: 'OB-Tools' with: [ spec file: 'OB-Tools.v3' ];
         package: 'Sport' with: [ spec file: 'Sport3.010.v3-dkh.29' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v3' ];
         yourself.
@@ -160,6 +186,9 @@ baseline: spec
         package: 'GemStone-Deployment'
           with: [ spec file: 'GemStone-Deployment.v310' ];
         package: 'Monticello' with: [ spec file: 'Monticello.v3' ];
+        yourself.
+      spec
+        group: 'GsOB' with: #('OB-SymbolListBrowser');
         yourself ].
   spec
     for: #'gs3.0.x'

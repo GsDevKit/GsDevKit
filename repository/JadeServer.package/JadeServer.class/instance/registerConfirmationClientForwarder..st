@@ -1,0 +1,4 @@
+OmniBrowser
+registerConfirmationClientForwarder: aClientForwarder
+
+	OBGemStonePlatform registerConfirmationClientForwarder: aClientForwarder

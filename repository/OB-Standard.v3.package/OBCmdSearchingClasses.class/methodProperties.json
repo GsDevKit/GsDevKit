@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"execute" : "dr 10/13/2008 11:40",
+		"group" : "dc 7/16/2007 15:04",
+		"icon" : "dc 7/16/2007 15:04",
+		"isActive" : "dc 7/16/2007 15:04",
+		"requestClassToUser" : "dc 7/16/2007 15:03" } }

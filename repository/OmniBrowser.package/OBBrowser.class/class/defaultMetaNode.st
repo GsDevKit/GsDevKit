@@ -1,0 +1,3 @@
+configuration
+defaultMetaNode
+	self subclassResponsibility

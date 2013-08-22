@@ -1,0 +1,15 @@
+{
+	"category" : "OmniBrowser-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"children" ],
+	"name" : "OBFan",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

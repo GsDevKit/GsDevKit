@@ -1,0 +1,15 @@
+{
+	"category" : "OmniBrowser-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selection",
+		"text" ],
+	"name" : "OBTextSelection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

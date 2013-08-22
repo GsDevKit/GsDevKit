@@ -1,0 +1,3 @@
+*ob-standard
+hasOrganization
+	^ false

@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Standard-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"instvars" : [
+		 ],
+	"name" : "OBCmdBrowseSenders",
+	"pools" : [
+		 ],
+	"super" : "OBCmdBrowseList",
+	"type" : "normal" }

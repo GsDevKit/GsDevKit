@@ -1,0 +1,3 @@
+configuration
+defaultRootNode
+	self subclassResponsibility

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"on:selector:" : "lr 5/19/2007 10:37" },
+	"instance" : {
+		"=" : "lr 7/15/2007 11:46",
+		"acceptDroppedNode:" : "lr 5/19/2007 11:50",
+		"browse" : "lr 5/29/2008 14:21",
+		"definition" : "lr 5/29/2008 14:09",
+		"hasSelector" : "lr 5/29/2008 14:18",
+		"hash" : "lr 7/15/2007 11:48",
+		"isLastNode" : "lr 5/23/2007 23:03",
+		"name" : "lr 5/29/2008 14:12",
+		"selector" : "lr 5/19/2007 10:38",
+		"selectorAndMessages" : "lr 5/29/2008 14:24",
+		"setSelector:" : "lr 5/19/2007 10:38",
+		"text" : "dkh 2/21/2009 09:17",
+		"theClass" : "lr 5/29/2008 14:11",
+		"value" : "lr 5/19/2007 11:49",
+		"wantsDroppedNode:" : "lr 5/19/2007 11:18" } }

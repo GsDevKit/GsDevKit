@@ -1,0 +1,17 @@
+{
+	"category" : "OmniBrowser-Notifications",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 3/5/2004 12:26",
+	"instvars" : [
+		"prompt",
+		"labels",
+		"values",
+		"lines" ],
+	"name" : "OBChoiceRequest",
+	"pools" : [
+		 ],
+	"super" : "OBInteractionRequest",
+	"type" : "normal" }

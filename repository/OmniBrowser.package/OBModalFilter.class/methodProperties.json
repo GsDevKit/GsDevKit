@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"activate" : "cwp 5/17/2007 22:57",
+		"edgesFrom:forNode:" : "dr 9/15/2008 15:17",
+		"list" : "dr 9/15/2008 15:18",
+		"listForNode:" : "cwp 7/14/2007 10:32",
+		"noteParent:child:" : "lr 11/13/2008 13:38",
+		"selection" : "cwp 2/9/2004 21:10",
+		"selection:" : "dr 10/19/2008 10:47",
+		"wantsButton" : "cwp 2/9/2004 21:08",
+		"wantsSwitch" : "cwp 5/17/2007 23:07" } }

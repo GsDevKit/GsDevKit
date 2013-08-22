@@ -1,0 +1,1 @@
+OBVariableNode is an abstract superclass for the two types of variables a class can contain - class variables and instance variables. The only difference between the two subclasses is how they search for methods that refer to them.

@@ -1,0 +1,3 @@
+accessing
+beMeta
+	isMeta := true

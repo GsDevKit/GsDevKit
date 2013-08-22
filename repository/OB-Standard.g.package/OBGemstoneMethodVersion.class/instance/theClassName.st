@@ -1,0 +1,4 @@
+accessing
+theClassName
+
+	^classRef name

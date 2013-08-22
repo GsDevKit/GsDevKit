@@ -1,0 +1,1 @@
+OBAllMethodCategory implements the synthetic '-- all --' category, which contains all the methods in a class.

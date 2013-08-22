@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Standard-Utilities",
+	"classinstvars" : [
+		"soleInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dc 7/16/2007 15:09",
+	"instvars" : [
+		"classes",
+		"maximumSize" ],
+	"name" : "OBRecentClasses",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

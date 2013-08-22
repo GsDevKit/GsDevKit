@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"of:" : "dr 9/17/2008 14:02" },
+	"instance" : {
+		"bid:toDo:" : "cwp 8/20/2007 22:50",
+		"defaultAction" : "cwp 8/26/2007 00:34",
+		"defaultMetaNode" : "dr 10/1/2007 16:28",
+		"execute" : "cwp 8/20/2007 22:51",
+		"fan" : "cwp 8/20/2007 23:10",
+		"initialize" : "cwp 8/20/2007 22:52",
+		"setRoot:" : "cwp 8/26/2007 00:30" } }

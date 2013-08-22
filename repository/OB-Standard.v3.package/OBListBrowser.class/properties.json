@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Standard-Browsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/7/2005 23:53",
+	"instvars" : [
+		"labelPrefix" ],
+	"name" : "OBListBrowser",
+	"pools" : [
+		 ],
+	"super" : "OBCodeBrowser",
+	"type" : "normal" }

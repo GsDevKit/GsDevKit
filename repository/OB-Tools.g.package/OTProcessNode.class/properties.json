@@ -1,0 +1,17 @@
+{
+	"category" : "OB-Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:10",
+	"instvars" : [
+		"targetContext",
+		"cache",
+		"label",
+		"errorWasInUIProcess" ],
+	"name" : "OTProcessNode",
+	"pools" : [
+		 ],
+	"super" : "OTDebugNode",
+	"type" : "normal" }

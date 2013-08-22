@@ -1,0 +1,3 @@
+commands
+cmdBrowseProtocol
+	^ OBCmdBrowseProtocol

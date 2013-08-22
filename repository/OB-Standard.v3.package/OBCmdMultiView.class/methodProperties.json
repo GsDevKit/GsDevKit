@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"compiledMethod" : "dkh 02/17/2009 16:36",
+		"execute" : "dkh 02/17/2009 16:47",
+		"isActive" : "DataCurator 02/05/2009 11:46",
+		"label" : "ms 6/28/2007 17:56",
+		"longDescription" : "dc 8/26/2008 17:54",
+		"setTextInDefinitionPanel:" : "ms 6/27/2007 11:35",
+		"toggleBytecode" : "dkh 02/18/2009 13:50",
+		"toggleDecompile" : "dkh 02/18/2009 13:50",
+		"togglePrettyPrint" : "dkh 02/18/2009 13:50",
+		"toggleSource" : "ms 6/27/2007 11:23",
+		"wantsButton" : "DataCurator 02/05/2009 11:46" } }

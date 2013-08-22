@@ -1,0 +1,14 @@
+{
+	"category" : "OmniBrowser-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OBNodeCommandScan",
+	"pools" : [
+		 ],
+	"super" : "OBCommandScan",
+	"type" : "normal" }

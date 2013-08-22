@@ -1,0 +1,16 @@
+{
+	"category" : "OmniBrowser-Notifications",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 3/5/2004 12:30",
+	"instvars" : [
+		"prompt",
+		"confirm",
+		"cancel" ],
+	"name" : "OBConfirmationRequest",
+	"pools" : [
+		 ],
+	"super" : "OBInteractionRequest",
+	"type" : "normal" }
