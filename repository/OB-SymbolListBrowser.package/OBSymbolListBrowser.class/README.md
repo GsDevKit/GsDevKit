@@ -1,0 +1,1 @@
+This is the basic system browser that is the work-horse of Smalltalk development tools. It presents four panes showing class categories, classes, method categories and methods.

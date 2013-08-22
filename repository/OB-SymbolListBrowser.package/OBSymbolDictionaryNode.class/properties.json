@@ -1,0 +1,15 @@
+{
+	"category" : "OB-SymbolListBrowser-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 03/28/2011 11:14",
+	"instvars" : [
+		"symbolList",
+		"name" ],
+	"name" : "OBSymbolDictionaryNode",
+	"pools" : [
+		 ],
+	"super" : "OBCodeNode",
+	"type" : "normal" }
