@@ -1,0 +1,3 @@
+testing
+execute
+	self halt

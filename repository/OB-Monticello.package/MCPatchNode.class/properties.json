@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Monticello-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"patch",
+		"label" ],
+	"name" : "MCPatchNode",
+	"pools" : [
+		 ],
+	"super" : "MCNode",
+	"type" : "normal" }

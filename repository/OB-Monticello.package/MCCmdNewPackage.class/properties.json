@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCCmdNewPackage",
+	"pools" : [
+		 ],
+	"super" : "MCAdminCommand",
+	"type" : "normal" }
