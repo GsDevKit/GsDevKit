@@ -1,0 +1,3 @@
+commands
+cmdWorkingCopy
+	^ MCWorkingCopyCommand allSubclasses

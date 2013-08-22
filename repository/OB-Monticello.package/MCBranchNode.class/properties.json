@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Monticello-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repoWC",
+		"branch" ],
+	"name" : "MCBranchNode",
+	"pools" : [
+		 ],
+	"super" : "MCNode",
+	"type" : "normal" }

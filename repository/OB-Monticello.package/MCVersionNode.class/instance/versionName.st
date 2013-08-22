@@ -1,0 +1,4 @@
+accessing
+versionName
+
+	self subclassResponsibility

@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCAllRepositoriesNode",
+	"pools" : [
+		 ],
+	"super" : "MCNode",
+	"type" : "normal" }

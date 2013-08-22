@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCCmdRecompilePackage",
+	"pools" : [
+		 ],
+	"super" : "MCWorkingCopyCommand",
+	"type" : "normal" }

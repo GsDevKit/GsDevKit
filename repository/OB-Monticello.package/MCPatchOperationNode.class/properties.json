@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"operation" ],
+	"name" : "MCPatchOperationNode",
+	"pools" : [
+		 ],
+	"super" : "MCPatchAwareNode",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+configuration
+title
+	^ 'Patch Browser'

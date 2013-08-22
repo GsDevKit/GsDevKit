@@ -1,0 +1,19 @@
+{
+	"category" : "OB-Monticello-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"name",
+		"packageName",
+		"versions",
+		"repository",
+		"repositoryNode" ],
+	"name" : "MCPackageNode",
+	"pools" : [
+		 ],
+	"super" : "MCNode",
+	"type" : "normal" }

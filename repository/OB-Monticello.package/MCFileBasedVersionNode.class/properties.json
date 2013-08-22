@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Monticello-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repository",
+		"filename" ],
+	"name" : "MCFileBasedVersionNode",
+	"pools" : [
+		 ],
+	"super" : "MCVersionNode",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCCodeBrowser",
+	"pools" : [
+		 ],
+	"super" : "MCBrowser",
+	"type" : "normal" }
