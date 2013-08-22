@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCInvertedPatchTool",
+	"pools" : [
+		 ],
+	"super" : "MCPatchTool",
+	"type" : "normal" }

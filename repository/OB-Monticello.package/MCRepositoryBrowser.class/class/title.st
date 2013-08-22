@@ -1,0 +1,3 @@
+configuration
+title
+	^ 'Repository Browser'

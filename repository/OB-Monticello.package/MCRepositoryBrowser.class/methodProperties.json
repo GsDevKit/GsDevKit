@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"defaultMetaNode" : "dkh 03/06/2008 19:20",
+		"paneCount" : "dkh 9/12/2007 16:00",
+		"title" : "dkh 09/12/2007 16:46",
+		"titleForRoot:" : "avi 12/4/2007 15:41" },
+	"instance" : {
+		"cmdAll" : "dkh 12/14/2007 11:13",
+		"cmdBrowse" : "dkh 03/19/2009 12:43",
+		"cmdChanges" : "dkh 12/14/2007 11:09",
+		"cmdHistory" : "dkh 12/14/2007 11:10",
+		"cmdInvertedChanges" : "DaleHenrichs 02/24/2010 16:19",
+		"cmdRefresh" : "dkh 12/14/2007 11:11",
+		"loaded" : "dkh 03/06/2008 18:47",
+		"newer" : "dkh 03/06/2008 18:48",
+		"refresh" : "dkh 03/06/2008 19:26",
+		"refresh:" : "dkh 03/06/2008 19:26",
+		"setMetaNode:node:" : "dkh 03/06/2008 18:42",
+		"subscribe" : "dkh 03/06/2008 18:37",
+		"versions" : "dkh 03/06/2008 18:47" } }

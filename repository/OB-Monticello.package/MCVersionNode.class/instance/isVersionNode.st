@@ -1,0 +1,3 @@
+accessing
+isVersionNode
+	^ true

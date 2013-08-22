@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asNode" : "dkh 11/01/2007 16:19",
+		"canAddRepository" : "dkh 09/14/2007 07:35",
+		"canBeBrowsed" : "dkh 9/12/2007 16:03",
+		"hasAncestry" : "avi 12/7/2007 13:04",
+		"hasChanges" : "avi 12/7/2007 13:34",
+		"hasRepository" : "avi 12/7/2007 13:04",
+		"hasRepositoryGroup" : "dkh 09/14/2007 07:30",
+		"hasVersion" : "avi 12/7/2007 13:04",
+		"hasWorkingCopy" : "avi 12/7/2007 13:04",
+		"isVersionNode" : "avi 12/5/2007 16:30",
+		"isWorkingCopyNode" : "avi 12/5/2007 16:29",
+		"packages" : "dkh 09/14/2007 07:55" } }

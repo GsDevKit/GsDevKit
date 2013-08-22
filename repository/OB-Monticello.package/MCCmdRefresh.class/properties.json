@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCCmdRefresh",
+	"pools" : [
+		 ],
+	"super" : "MCCommand",
+	"type" : "normal" }

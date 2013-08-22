@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"=" : "dkh 03/31/2009 10:29",
+		"ancestryNode" : "dkh 12/14/2007 11:17",
+		"branch" : "dkh 01/09/2008 16:31",
+		"browseChanges" : "dkh 03/17/2009 16:52",
+		"browseCode" : "dkh 03/19/2009 13:16",
+		"browseInvertedChanges" : "DaleHenrichs 02/24/2010 16:42",
+		"canBeBrowsed" : "dkh 03/19/2009 12:46",
+		"hasAncestry" : "avi 12/7/2007 13:05",
+		"hasChanges" : "avi 12/7/2007 13:34",
+		"hasVersion" : "avi 12/7/2007 13:11",
+		"isVersionNode" : "avi 12/5/2007 16:30",
+		"name" : "dkh 01/09/2008 16:32",
+		"name:" : "dkh 03/06/2008 19:51",
+		"packageBranch" : "dkh 01/09/2008 16:32",
+		"packageName" : "dkh 04/22/2008 11:07",
+		"text" : "avi 12/4/2007 10:03",
+		"versionName" : "dkh 01/09/2008 16:33",
+		"versionNumber" : "dkh 01/09/2008 16:34",
+		"withBreadthFirstAncestors" : "avi 12/4/2007 16:58" } }

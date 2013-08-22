@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCCmdKeepConflict",
+	"pools" : [
+		 ],
+	"super" : "MCMergeCommand",
+	"type" : "normal" }

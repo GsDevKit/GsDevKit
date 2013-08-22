@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Other",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"definition" ],
+	"name" : "MCDefinitionAnnotationRequest",
+	"pools" : [
+		 ],
+	"super" : "OBAnnotationRequest",
+	"type" : "normal" }
