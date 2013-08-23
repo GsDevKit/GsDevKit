@@ -11,4 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "ByteArray",
-	"type" : "normal" }
+	"type" : "bytes" }

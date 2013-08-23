@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"takesNodes" : "cwp 10/16/2006 22:13",
+		"takesText" : "cwp 10/16/2006 22:01" },
+	"instance" : {
+		"execute" : "cwp 8/24/2007 01:34",
+		"isActive" : "cwp 10/16/2006 21:32",
+		"isEnabled" : "cwp 10/16/2006 23:14",
+		"keystroke" : "cwp 3/11/2007 19:53",
+		"label" : "cwp 3/11/2007 19:52" } }

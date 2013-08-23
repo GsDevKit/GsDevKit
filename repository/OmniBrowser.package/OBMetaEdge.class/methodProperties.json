@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"label:selector:metaNode:" : "cwp 2/7/2004 22:35",
+		"selector:" : "cwp 5/4/2007 22:53",
+		"selector:metaNode:" : "cwp 2/9/2004 22:32" },
+	"instance" : {
+		"->" : "cwp 5/4/2007 22:56",
+		"/" : "cwp 5/4/2007 23:10",
+		"isDefaultNavigation" : "jk 3/28/2008 13:19",
+		"isTreeEdge" : "dr 9/12/2008 09:55",
+		"label" : "cwp 2/7/2004 22:40",
+		"metaNode" : "cwp 2/7/2004 22:40",
+		"navigation" : "jk 3/26/2008 12:36",
+		"navigation:" : "jk 3/26/2008 12:20",
+		"nodesForParent:" : "jk 3/26/2008 12:34",
+		"printOn:" : "lr 11/13/2008 13:38",
+		"selector" : "cwp 2/7/2004 22:40",
+		"setLabel:selector:metaNode:" : "cwp 2/7/2004 22:36" } }

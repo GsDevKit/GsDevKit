@@ -1,0 +1,19 @@
+{
+	"category" : "OmniBrowser-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/7/2005 23:23",
+	"instvars" : [
+		"name",
+		"filters",
+		"edges",
+		"autoSelect",
+		"ancestrySelector",
+		"displaySelector" ],
+	"name" : "OBMetaNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

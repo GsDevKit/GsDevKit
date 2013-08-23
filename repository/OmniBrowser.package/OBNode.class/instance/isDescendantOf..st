@@ -1,0 +1,3 @@
+ancestry
+isDescendantOf: aNode
+	^ false

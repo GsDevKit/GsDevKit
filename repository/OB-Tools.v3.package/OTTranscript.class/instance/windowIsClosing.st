@@ -1,0 +1,3 @@
+opening
+windowIsClosing
+	panel close

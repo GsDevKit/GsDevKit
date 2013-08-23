@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"find:for:" : "dkh 05/01/2008 15:28",
+		"from:" : "PDC 6/29/2007 07:18",
+		"from:panel:" : "dkh 05/01/2008 15:29",
+		"helpMessage" : "cb 7/19/2007 21:14",
+		"isClassQuery:" : "lr 11/13/2008 13:44",
+		"selectClassForQuery:" : "cb 7/19/2007 10:44" },
+	"instance" : {
+		"announce:" : "cwp 7/20/2007 00:24",
+		"browser" : "PDC 6/29/2007 06:04",
+		"find" : "PDC 6/29/2007 06:32",
+		"openSearchBrowser" : "PDC 6/29/2007 06:18",
+		"openSearchBrowserOn:" : "dr 2/15/2008 14:18",
+		"searchNode" : "PDC 6/29/2007 06:32",
+		"setRawQuery:" : "PDC 6/29/2007 06:37",
+		"setRawQuery:panel:" : "PDC 6/29/2007 06:37" } }

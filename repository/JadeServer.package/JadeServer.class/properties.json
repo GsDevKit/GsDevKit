@@ -1,0 +1,14 @@
+{
+	"category" : "JadeServer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/13/2010 15:35",
+	"instvars" : [
+		 ],
+	"name" : "JadeServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

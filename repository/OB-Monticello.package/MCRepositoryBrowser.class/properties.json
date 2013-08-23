@@ -1,0 +1,17 @@
+{
+	"category" : "OB-Monticello-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"versions",
+		"newer",
+		"loaded",
+		"inherited" ],
+	"name" : "MCRepositoryBrowser",
+	"pools" : [
+		 ],
+	"super" : "MCBrowser",
+	"type" : "normal" }

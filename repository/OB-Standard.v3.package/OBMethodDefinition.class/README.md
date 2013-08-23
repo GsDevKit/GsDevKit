@@ -1,0 +1,1 @@
+OBMethodDefinition knows how to present method source in the browser's text pane and compile a new CompiledMethod when the source changes. It implements several safety checks to ensure that methods are not accidentally overwritten.

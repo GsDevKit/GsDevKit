@@ -1,0 +1,3 @@
+accessing
+announcer
+	^ panel announcer

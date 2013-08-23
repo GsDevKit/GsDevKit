@@ -1,0 +1,19 @@
+{
+	"category" : "OmniBrowser-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"edges",
+		"nodeDisplay",
+		"nodes",
+		"parentDisplay",
+		"note",
+		"icon" ],
+	"name" : "OBPluggableFilter",
+	"pools" : [
+		 ],
+	"super" : "OBFilter",
+	"type" : "normal" }

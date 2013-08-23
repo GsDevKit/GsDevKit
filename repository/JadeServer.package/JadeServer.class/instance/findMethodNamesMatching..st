@@ -1,0 +1,4 @@
+OmniBrowser
+findMethodNamesMatching: fragment
+
+	^ClassOrganizer cachedOrganizer findMethodNamesMatching: fragment

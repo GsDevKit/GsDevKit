@@ -1,0 +1,3 @@
+accessing
+selectionPath
+	^self navigationPanel selectionPath

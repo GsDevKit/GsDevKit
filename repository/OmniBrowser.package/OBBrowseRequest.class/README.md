@@ -1,0 +1,1 @@
+This notification is raised whenever a browser needs to be opened. The default action is to open a SystemWindow in Morphic, but it can be caught in situations where that's not appropriate. The OB test suite uses this extensively. 

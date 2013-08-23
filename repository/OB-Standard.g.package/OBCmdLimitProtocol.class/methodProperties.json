@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"execute" : "dkh 02/10/2009 15:13",
+		"isActive" : "dkh 04/28/2008 12:15",
+		"isLimitClass:" : "DM 5/22/2007 02:53",
+		"label" : "dkh 04/28/2008 12:16",
+		"limitClass" : "DM 5/22/2007 18:41",
+		"limitClass:" : "DM 5/31/2007 14:59",
+		"menuLabelForClass:" : "DM 5/22/2007 04:03",
+		"menuString" : "DM 5/21/2007 14:50",
+		"wantsButton" : "DM 5/21/2007 14:23" } }

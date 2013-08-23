@@ -1,0 +1,4 @@
+OmniBrowser
+packageBrowser
+
+	^MCPackageBrowser open

@@ -1,0 +1,4 @@
+*ob-tools
+isDebuggerCommand
+
+	^false

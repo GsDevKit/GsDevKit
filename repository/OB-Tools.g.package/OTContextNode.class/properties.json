@@ -1,0 +1,16 @@
+{
+	"category" : "OB-Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:10",
+	"instvars" : [
+		"context",
+		"parseTree",
+		"sourceMap" ],
+	"name" : "OTContextNode",
+	"pools" : [
+		 ],
+	"super" : "OTDebugNode",
+	"type" : "normal" }

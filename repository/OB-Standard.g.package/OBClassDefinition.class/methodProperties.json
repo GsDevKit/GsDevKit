@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"environment:template:" : "" },
+	"instance" : {
+		"accept:notifying:" : "dkh 04/28/2008 13:18",
+		"confirmDefinition:" : "",
+		"confirmRedefinition:" : "dkh 04/28/2008 13:19",
+		"defineClass:notifying:" : "dkh 04/28/2008 13:20",
+		"definedClassExists:" : "",
+		"isRedefinition:" : "",
+		"nameOfClassDefinedBy:" : "",
+		"selectedClass" : "dkh 04/28/2008 14:21",
+		"setEnvironment:template:" : "",
+		"signalSelectionOf:" : "cwp 10/23/2005 14:42",
+		"text" : "" } }

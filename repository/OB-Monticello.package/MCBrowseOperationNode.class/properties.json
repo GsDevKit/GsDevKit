@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCBrowseOperationNode",
+	"pools" : [
+		 ],
+	"super" : "MCPatchOperationNode",
+	"type" : "normal" }

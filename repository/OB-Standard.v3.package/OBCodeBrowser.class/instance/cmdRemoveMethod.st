@@ -1,0 +1,3 @@
+commands
+cmdRemoveMethod
+	^ OBCmdRemoveMethod

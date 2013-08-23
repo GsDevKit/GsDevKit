@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_localSetBreaksForStepOverFromLevel:breakpointOnStack:" : "dkh 03/26/2008 14:36",
+		"_stepOverInFrame:breakpointOnStack:mode:replace:tos:" : "dkh 03/26/2008 14:37",
+		"completeStep:" : "dkh 03/26/2008 14:27",
+		"isSuspended" : "dkh 04/02/2009 09:26",
+		"label" : "dkh 12/16/2008 08:13",
+		"popTo:" : "dkh 06/30/2008 14:40",
+		"popTo:value:" : "dkh 12/15/2008 18:24",
+		"step:" : "dkh 03/26/2008 14:37",
+		"suspendedContext" : "dkh 08/08/2007 15:29",
+		"suspendingList" : "dkh 12/16/2008 08:30" } }

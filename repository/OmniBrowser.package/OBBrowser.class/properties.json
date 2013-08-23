@@ -1,0 +1,16 @@
+{
+	"category" : "OmniBrowser-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/7/2005 23:17",
+	"instvars" : [
+		"panels",
+		"announcer",
+		"cmdFactories" ],
+	"name" : "OBBrowser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

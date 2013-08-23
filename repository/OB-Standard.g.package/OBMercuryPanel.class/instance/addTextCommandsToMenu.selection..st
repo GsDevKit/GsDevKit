@@ -1,0 +1,2 @@
+user interface
+addTextCommandsToMenu: aMenu selection: aTextSelection

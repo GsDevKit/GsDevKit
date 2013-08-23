@@ -1,0 +1,14 @@
+{
+	"category" : "OmniBrowser-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"current" ],
+	"name" : "OBBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

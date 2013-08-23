@@ -1,0 +1,2 @@
+*OB-Standard
+symbolDictionary: ignoredForNow

@@ -1,0 +1,4 @@
+notification
+handleServerDirectoryRequest: anMCServerDirectoryRequest
+
+	^(self clientForwarderMap at:#serverDirectory) signalServerDirectoryRequestUsing: anMCServerDirectoryRequest

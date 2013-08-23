@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"basicRunSuite:do:" : "dkh 12/25/2008 17:51",
+		"basicSetUpSuite:" : "dkh 12/02/2011 13:43",
+		"basicTearDownSuite:" : "dkh 12/25/2008 17:52",
+		"debug:" : "dkh 12/26/2008 15:02",
+		"debugSuite:" : "dkh 12/26/2008 15:03",
+		"group" : "dkh 03/25/2009 10:23",
+		"isActive" : "dkh 03/25/2009 13:21",
+		"label:forSuite:" : "dkh 12/26/2008 09:41",
+		"lastUpdate" : "dkh 01/05/2009 15:58",
+		"reset" : "dkh 12/25/2008 17:56",
+		"result" : "dkh 12/26/2008 09:40",
+		"result:" : "dkh 12/25/2008 17:57",
+		"runSuite:" : "dkh 12/26/2008 09:32",
+		"runTest:" : "dkh 12/26/2008 09:31",
+		"runTestSuite" : "dkh 12/26/2008 09:32",
+		"testSuite" : "dkh 12/26/2008 09:33",
+		"update" : "dkh 01/07/2009 16:51",
+		"updateResults" : "dkh 12/26/2008 09:30",
+		"updateStatus:" : "dkh 01/13/2009 11:06" } }

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"defaultMetaNode" : "dkh 12/14/2007 11:22",
+		"defaultRootNode" : "dkh 12/14/2007 11:16",
+		"paneCount" : "avi 12/6/2007 14:01",
+		"title" : "avi 12/5/2007 15:50" },
+	"instance" : {
+		"cmdAdmin" : "dkh 12/19/2007 09:27",
+		"cmdChanges" : "dkh 12/14/2007 11:09",
+		"cmdHistory" : "dkh 12/14/2007 11:10",
+		"cmdInvertedChanges" : "DaleHenrichs 02/24/2010 16:19",
+		"cmdRefresh" : "dkh 12/14/2007 11:11",
+		"cmdRepository" : "dkh 12/14/2007 11:12",
+		"cmdVersions" : "dkh 12/14/2007 11:12",
+		"cmdWorkingCopyRepository" : "dkh 12/14/2007 11:14" } }

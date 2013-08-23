@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCCmdRemoveRequiredPackage",
+	"pools" : [
+		 ],
+	"super" : "MCWorkingCopyCommand",
+	"type" : "normal" }

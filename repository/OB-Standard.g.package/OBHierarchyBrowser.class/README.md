@@ -1,0 +1,1 @@
+OBHierarchyBrowser provides a three-pane browers that displays a class within it's surrounding hierarchy - both superclasses and subclasses

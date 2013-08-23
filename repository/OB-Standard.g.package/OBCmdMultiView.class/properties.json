@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Standard-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:10",
+	"instvars" : [
+		 ],
+	"name" : "OBCmdMultiView",
+	"pools" : [
+		 ],
+	"super" : "OBCommand",
+	"type" : "normal" }

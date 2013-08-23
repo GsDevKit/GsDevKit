@@ -1,0 +1,17 @@
+{
+	"category" : "OmniBrowser-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/7/2005 23:19",
+	"instvars" : [
+		"panel",
+		"switch",
+		"listHolder",
+		"selection" ],
+	"name" : "OBColumn",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

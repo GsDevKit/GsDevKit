@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Standard-Definitions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/8/2005 13:13",
+	"instvars" : [
+		"environment",
+		"template" ],
+	"name" : "OBClassDefinition",
+	"pools" : [
+		 ],
+	"super" : "OBDefinition",
+	"type" : "normal" }

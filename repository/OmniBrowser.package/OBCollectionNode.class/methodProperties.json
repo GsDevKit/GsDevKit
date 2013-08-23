@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"on:" : "cwp 3/15/2004 23:17",
+		"on:named:" : "cwp 12/24/2007 02:48" },
+	"instance" : {
+		"addChild:" : "cwp 4/15/2007 23:20",
+		"children" : "cwp 3/15/2004 23:19",
+		"isAncestorOf:" : "dr 9/18/2008 10:09",
+		"name" : "cwp 12/24/2007 02:34",
+		"name:" : "cwp 12/24/2007 02:34",
+		"removeChild:" : "cb 7/19/2007 10:51",
+		"setCollection:" : "cwp 3/15/2004 23:18" } }

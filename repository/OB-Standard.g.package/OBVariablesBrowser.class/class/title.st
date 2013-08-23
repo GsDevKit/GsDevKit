@@ -1,0 +1,3 @@
+configuration
+title
+	^ 'Variables of'

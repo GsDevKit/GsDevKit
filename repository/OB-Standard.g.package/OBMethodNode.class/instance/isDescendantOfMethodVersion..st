@@ -1,0 +1,3 @@
+ancestry
+isDescendantOfMethodVersion: anOBMethodVersionNode 
+	^ false

@@ -1,0 +1,15 @@
+{
+	"category" : "OmniBrowser-Panels",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/7/2005 23:35",
+	"instvars" : [
+		"definition",
+		"selection" ],
+	"name" : "OBDefinitionPanel",
+	"pools" : [
+		 ],
+	"super" : "OBTextPanel",
+	"type" : "normal" }

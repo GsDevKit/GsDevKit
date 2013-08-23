@@ -1,0 +1,3 @@
+commands
+cmdAdmin
+	^ MCAdminCommand allSubclasses

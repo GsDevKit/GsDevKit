@@ -1,0 +1,3 @@
+configuration
+optionalButtons
+	^ #('browse' 'revert')

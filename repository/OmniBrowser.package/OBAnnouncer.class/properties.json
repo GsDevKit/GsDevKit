@@ -1,0 +1,14 @@
+{
+	"category" : "OmniBrowser-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"subscriptions" ],
+	"name" : "OBAnnouncer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

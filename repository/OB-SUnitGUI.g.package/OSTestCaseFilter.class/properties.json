@@ -1,0 +1,14 @@
+{
+	"category" : "OB-SUnitGUI-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 11/09/2011 10:01",
+	"instvars" : [
+		 ],
+	"name" : "OSTestCaseFilter",
+	"pools" : [
+		 ],
+	"super" : "OBFilter",
+	"type" : "normal" }

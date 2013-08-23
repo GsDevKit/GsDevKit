@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"EnableRemoteBreakpoints",
+		"SelectedLogEntry" ],
+	"commentStamp" : "DataCurator 11/09/2011 10:00",
+	"instvars" : [
+		 ],
+	"name" : "OTRemoteDebugger",
+	"pools" : [
+		 ],
+	"super" : "OTDebugger",
+	"type" : "normal" }

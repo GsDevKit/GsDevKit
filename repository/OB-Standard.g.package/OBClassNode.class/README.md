@@ -1,0 +1,1 @@
+OBClassNode wraps a class for display in various types of code browsers. It provides many navigation methods for the different types of browsers where classes may appear. The instance-variable theClass is always a non-metaclass.

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"defaultMetaNode" : "cwp 5/19/2007 23:33",
+		"defaultRootNode" : "cwp 4/1/2007 22:56",
+		"initialize" : "cwp 4/16/2007 00:17",
+		"registerInOpenMenu" : "dkh 02/18/2009 13:49",
+		"title" : "cwp 4/16/2007 00:18",
+		"unload" : "dkh 02/18/2009 13:48",
+		"with:" : "cwp 4/15/2007 23:20" },
+	"instance" : {
+		"defaultBackgroundColor" : "cwp 4/1/2007 23:01",
+		"isSearchBrowser" : "cwp 4/15/2007 22:28" } }

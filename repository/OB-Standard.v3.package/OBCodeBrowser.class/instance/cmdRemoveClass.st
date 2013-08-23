@@ -1,0 +1,3 @@
+commands
+cmdRemoveClass
+	^ OBCmdRemoveClass

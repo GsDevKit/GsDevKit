@@ -1,0 +1,3 @@
+navigating
+accessors
+	self subclassResponsibility

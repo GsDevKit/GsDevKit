@@ -1,0 +1,4 @@
+accessing
+columnClass
+
+	^OBColumn

@@ -1,0 +1,1 @@
+OBOrganizationDefinition knows how to display and edit the organization of classes or methods by a Categorizer.

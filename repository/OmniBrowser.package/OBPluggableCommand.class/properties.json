@@ -1,0 +1,20 @@
+{
+	"category" : "OmniBrowser-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"action",
+		"active",
+		"enabled",
+		"label",
+		"keystroke",
+		"icon",
+		"buttonLabel" ],
+	"name" : "OBPluggableCommand",
+	"pools" : [
+		 ],
+	"super" : "OBCommand",
+	"type" : "normal" }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"initialize" : "dkh 4/25/2008 09:14",
+		"unload" : "dkh 02/18/2009 14:16" },
+	"instance" : {
+		"accept:notifying:" : "dkh 03/24/2009 15:18",
+		"addTextCommandsToMenu:selection:" : "cwp 4/19/2007 22:30",
+		"buildOn:" : "cwp 8/16/2007 11:40",
+		"environment" : "cwp 7/20/2007 00:33",
+		"selection" : "cwp 2/25/2007 19:44",
+		"string:" : "cwp 3/3/2007 00:28",
+		"text" : "dkh 03/24/2009 15:24",
+		"vResizing" : "cwp 3/18/2007 20:54" } }

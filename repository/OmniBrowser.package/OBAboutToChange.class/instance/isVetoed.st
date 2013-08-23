@@ -1,0 +1,3 @@
+vetos
+isVetoed
+	^ veto notNil

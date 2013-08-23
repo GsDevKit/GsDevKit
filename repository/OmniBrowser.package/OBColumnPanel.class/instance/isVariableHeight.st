@@ -1,0 +1,3 @@
+constructing
+isVariableHeight
+	^ true

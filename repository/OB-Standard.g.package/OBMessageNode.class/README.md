@@ -1,0 +1,1 @@
+An OBMessageNode refers to a message send in the source code of a method. They are typically used in the 'senders' browser.

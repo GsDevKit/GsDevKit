@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"on:category:" : "dkh 12/25/2008 09:40" },
+	"instance" : {
+		"acceptsCoParents" : "dkh 12/27/2008 13:01",
+		"baseClass" : "dkh 12/25/2008 09:49",
+		"coParents" : "dkh 12/27/2008 08:51",
+		"coParents:" : "dkh 12/27/2008 08:39",
+		"isTestCategoryNode" : "dkh 12/26/2008 09:46",
+		"root" : "dkh 12/26/2008 08:43",
+		"root:" : "dkh 12/25/2008 19:21",
+		"setBaseClass:category:" : "dkh 12/25/2008 09:53",
+		"sortClass:before:" : "dkh 12/25/2008 09:44",
+		"tests" : "dkh 12/28/2008 08:55" } }

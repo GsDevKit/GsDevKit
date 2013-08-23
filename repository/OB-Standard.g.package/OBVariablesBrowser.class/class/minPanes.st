@@ -1,0 +1,3 @@
+configuration
+minPanes
+	^ 2

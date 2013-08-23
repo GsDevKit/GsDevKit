@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Monticello-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCWorkingCopyRepositoryCommand",
+	"pools" : [
+		 ],
+	"super" : "MCCommand",
+	"type" : "normal" }

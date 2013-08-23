@@ -1,0 +1,1 @@
+I handle queries that look like "'this is a string'". I find strings in methods.

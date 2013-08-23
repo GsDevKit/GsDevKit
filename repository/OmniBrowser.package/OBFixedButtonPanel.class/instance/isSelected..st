@@ -1,0 +1,3 @@
+callbacks
+isSelected: aNode
+	^ true

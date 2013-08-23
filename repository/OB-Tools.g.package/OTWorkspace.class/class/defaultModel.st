@@ -1,0 +1,3 @@
+configuration
+defaultModel
+	^ String new

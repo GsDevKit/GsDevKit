@@ -1,0 +1,4 @@
+OmniBrowser
+inspectTransactionConflicts
+
+	System transactionConflicts inspect

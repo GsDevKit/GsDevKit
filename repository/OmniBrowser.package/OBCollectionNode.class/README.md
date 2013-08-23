@@ -1,0 +1,1 @@
+OBCollectionNode is a trivial wrapper for a collection of nodes. It is typically used as an artificial root node for metagraphs that have no natural root.

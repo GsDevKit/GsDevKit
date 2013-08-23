@@ -1,0 +1,1 @@
+OBClassVariable provides a method for finding methods which refer to a shared variable, ie, by searching for an association in the literal frame rather than for bytecodes refering to an instance variable.

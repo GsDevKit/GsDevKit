@@ -1,0 +1,3 @@
+commands
+cmdAll
+	^ MCVersionCommand allSubclasses

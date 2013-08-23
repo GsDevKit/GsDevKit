@@ -1,0 +1,3 @@
+callbacks
+textSelection
+	^ self selection

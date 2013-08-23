@@ -1,0 +1,1 @@
+OBClassReference provides a way to refer to classes that may or may not be loaded into the image. It refers to the class indirectly, via name, rather than with a direct pointer to the class object. It also provides a number of convenience methods, which makes it more convenient than using the class name directly.

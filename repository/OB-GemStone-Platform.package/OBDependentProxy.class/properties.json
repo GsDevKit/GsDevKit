@@ -1,0 +1,14 @@
+{
+	"category" : "OB-GemStone-Platform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 11/09/2011 10:01",
+	"instvars" : [
+		"concentrator" ],
+	"name" : "OBDependentProxy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

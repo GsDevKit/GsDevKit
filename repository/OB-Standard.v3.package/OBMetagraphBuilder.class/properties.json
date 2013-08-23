@@ -1,0 +1,16 @@
+{
+	"category" : "OB-Standard-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 04/16/2012 15:46",
+	"instvars" : [
+		"metaNodes",
+		"selectors",
+		"root" ],
+	"name" : "OBMetagraphBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

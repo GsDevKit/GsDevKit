@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"defaultMetaNode" : "lr 5/21/2008 10:38",
+		"defaultRootNode" : "lr 8/3/2007 19:24",
+		"optionalButtonPanel" : "lr 1/20/2008 13:45",
+		"paneCount" : "lr 8/3/2007 15:00",
+		"title" : "lr 8/3/2007 15:01" },
+	"instance" : {
+		"cmdBrowse" : "lr 6/7/2008 20:12",
+		"cmdInspector" : "lr 6/7/2008 20:13",
+		"cmdProcess" : "lr 6/7/2008 20:13",
+		"step" : "lr 10/7/2007 12:20",
+		"wantsSteps" : "lr 10/7/2007 12:18" } }

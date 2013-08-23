@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"on:" : "dkh 09/14/2007 07:57" },
+	"instance" : {
+		"ancestryNode" : "dkh 12/14/2007 11:17",
+		"browseCode" : "dkh 03/19/2009 13:16",
+		"canAddRepository" : "dkh 09/14/2007 07:57",
+		"canBeBrowsed" : "dkh 09/14/2007 07:57",
+		"changesRelativeToRepository:" : "dkh 11/05/2007 09:13",
+		"hasAncestry" : "avi 12/7/2007 13:05",
+		"hasWorkingCopy" : "avi 12/7/2007 13:05",
+		"invertedChangesRelativeToRepository:" : "DaleHenrichs 02/24/2010 16:17",
+		"isWorkingCopyNode" : "avi 12/5/2007 16:30",
+		"modified:" : "dkh 11/05/2007 09:20",
+		"name" : "avi 12/4/2007 15:52",
+		"packageName" : "dkh 09/14/2007 07:57",
+		"repositories" : "dkh 09/14/2007 07:57",
+		"repositoryGroup" : "dkh 09/14/2007 07:57",
+		"text" : "avi 12/7/2007 14:36",
+		"withBreadthFirstAncestors" : "dkh 09/14/2007 07:57",
+		"workingCopy" : "dkh 09/14/2007 07:57",
+		"workingCopy:" : "dkh 09/14/2007 07:57" } }

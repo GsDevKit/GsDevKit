@@ -1,0 +1,4 @@
+menu icons
+blankMenuIcon
+
+	^nil

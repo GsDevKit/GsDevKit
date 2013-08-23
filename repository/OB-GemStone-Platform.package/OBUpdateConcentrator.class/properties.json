@@ -1,0 +1,18 @@
+{
+	"category" : "OB-GemStone-Platform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 11/09/2011 10:01",
+	"instvars" : [
+		"reverseDependentsMap",
+		"dependentsMap",
+		"canRecordUpdates",
+		"updateStack",
+		"clientUpdateConcentrator" ],
+	"name" : "OBUpdateConcentrator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

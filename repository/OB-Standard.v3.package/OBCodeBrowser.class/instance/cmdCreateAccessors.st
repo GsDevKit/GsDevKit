@@ -1,0 +1,3 @@
+commands
+cmdCreateAccessors
+	^ OBCmdCreateAccessors

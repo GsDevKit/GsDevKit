@@ -1,0 +1,3 @@
+commands
+cmdSelection
+	^OSCmdSelection allSubclasses

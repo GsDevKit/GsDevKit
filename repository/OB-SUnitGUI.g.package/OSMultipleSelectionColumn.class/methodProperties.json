@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_listSelectionAt:put:" : "dkh 02/17/2009 14:01",
+		"_selection:" : "dkh 02/17/2009 13:58",
+		"buildOn:" : "dkh 12/27/2008 09:32",
+		"clearSelection" : "dkh 01/08/2009 11:56",
+		"dragEnabled" : "dkh 12/28/2008 12:50",
+		"dropEnabled" : "dkh 12/28/2008 12:51",
+		"hasSeveralSelections" : "dkh 12/26/2008 17:58",
+		"listSelectionAt:" : "dkh 12/27/2008 20:57",
+		"listSelectionAt:put:" : "dkh 02/17/2009 14:01",
+		"multipleSelect:put:" : "dkh 12/29/2008 10:40",
+		"multipleSelectInfoFor:" : "dkh 12/30/2008 18:44",
+		"multipleSelection" : "dkh 12/26/2008 17:57",
+		"panel" : "dkh 12/29/2008 11:47",
+		"parent:" : "dkh 12/29/2008 10:33",
+		"refreshAndSignal:" : "dkh 12/29/2008 10:40",
+		"refreshMultipleSelections" : "dkh 12/29/2008 11:29",
+		"selectAll" : "dkh 12/30/2008 14:22",
+		"selectChildren:" : "dkh 01/08/2009 13:14",
+		"selectInversion" : "dkh 12/30/2008 14:22",
+		"selectNone" : "dkh 12/30/2008 14:22",
+		"selectedNode" : "dkh 12/27/2008 13:02",
+		"selectedNodes" : "dkh 12/27/2008 17:39",
+		"selection:" : "dkh 02/17/2009 13:58" } }

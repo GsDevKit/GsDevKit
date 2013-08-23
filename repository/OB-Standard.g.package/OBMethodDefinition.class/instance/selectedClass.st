@@ -1,0 +1,3 @@
+callbacks
+selectedClass
+	^ self theClass

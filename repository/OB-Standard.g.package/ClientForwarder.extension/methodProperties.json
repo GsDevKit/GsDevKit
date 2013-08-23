@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"class" : "dkh 12/16/2008 08:24",
+		"doesNotUnderstand:" : "dkh 02/27/2008 20:57",
+		"perform:" : "dkh 08/14/2007 09:12",
+		"perform:with:" : "dkh 08/16/2007 09:11",
+		"perform:with:with:" : "dkh 08/14/2007 09:13",
+		"perform:with:with:with:" : "dkh 08/14/2007 09:13",
+		"perform:withArguments:" : "dkh 02/27/2008 21:08",
+		"printOn:" : "dkh 02/13/2009 11:43",
+		"update:" : "dkh 08/14/2007 10:03" } }

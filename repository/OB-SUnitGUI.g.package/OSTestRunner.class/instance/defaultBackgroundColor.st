@@ -1,0 +1,4 @@
+building
+defaultBackgroundColor
+
+	^ Color lightOrange.

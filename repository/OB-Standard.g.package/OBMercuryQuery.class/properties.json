@@ -1,0 +1,16 @@
+{
+	"category" : "OB-Standard-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PDC 6/29/2007 07:08",
+	"instvars" : [
+		"pattern",
+		"isWild",
+		"browser" ],
+	"name" : "OBMercuryQuery",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

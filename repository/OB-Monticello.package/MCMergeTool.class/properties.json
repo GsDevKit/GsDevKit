@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Monticello-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"versionMerger",
+		"title" ],
+	"name" : "MCMergeTool",
+	"pools" : [
+		 ],
+	"super" : "MCCodeBrowser",
+	"type" : "normal" }

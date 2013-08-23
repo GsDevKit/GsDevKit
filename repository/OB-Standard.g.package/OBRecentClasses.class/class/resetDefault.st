@@ -1,0 +1,3 @@
+accessing
+resetDefault
+	soleInstance := nil

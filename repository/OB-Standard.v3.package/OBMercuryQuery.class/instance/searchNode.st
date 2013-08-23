@@ -1,0 +1,3 @@
+accessing
+searchNode
+	self subclassResponsibility

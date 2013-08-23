@@ -1,0 +1,3 @@
+ancestry
+ancestrySelector
+	^ #isDescendantOfMethodCat:

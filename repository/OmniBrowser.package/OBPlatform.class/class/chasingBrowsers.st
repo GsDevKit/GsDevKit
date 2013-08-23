@@ -1,0 +1,4 @@
+preferences
+chasingBrowsers
+
+	^self subclassResponsibility

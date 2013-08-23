@@ -1,0 +1,3 @@
+execution
+execute
+	OBReferencesBrowser browseRoot: target theNonMetaClass asNode

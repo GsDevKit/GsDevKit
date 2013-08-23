@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Inspector",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/12/2010 16:10",
+	"instvars" : [
+		 ],
+	"name" : "OTCmdChaseReferences",
+	"pools" : [
+		 ],
+	"super" : "OTCmdInspector",
+	"type" : "normal" }

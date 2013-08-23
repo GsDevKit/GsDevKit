@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"on:" : "cwp 10/31/2004 01:11" },
+	"instance" : {
+		"caseSensitiveMethods" : "dkh 03/18/2009 15:12",
+		"hasSelector" : "cwp 10/11/2006 20:56",
+		"implementors" : "cwp 12/8/2004 23:48",
+		"isAncestorOf:" : "DM 5/23/2007 18:20",
+		"methods" : "dkh 04/28/2008 10:19",
+		"name" : "cwp 10/31/2004 01:12",
+		"reference" : "dr 7/18/2007 13:57",
+		"selector" : "cwp 10/31/2004 01:11",
+		"selector:" : "cwp 10/31/2004 01:10",
+		"selectorAndMessages" : "cwp 10/31/2004 01:12",
+		"senders" : "cwp 11/1/2004 02:22",
+		"sendersOfMessage" : "cwp 10/31/2004 01:48",
+		"unifySelectors" : "dkh 12/09/2008 18:18" } }

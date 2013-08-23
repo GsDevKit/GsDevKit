@@ -1,0 +1,4 @@
+preferences
+mercuryPanel
+
+	^ self subclassResponsibility

@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Standard-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/8/2005 13:09",
+	"instvars" : [
+		 ],
+	"name" : "OBSourceFilesRequest",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+OmniBrowser
+findClassNamesMatching: fragment
+
+	^ClassOrganizer cachedOrganizer findClassNamesMatching: fragment

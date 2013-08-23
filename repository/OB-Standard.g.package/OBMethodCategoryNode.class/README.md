@@ -1,0 +1,1 @@
+OBMethodCategory represents a category within a ClassOrganization. Instead of an organization definition, OBMethodCategory presents a MethodDefinition with the class' default method template.

@@ -1,0 +1,4 @@
+preferences
+messageListWindowColor
+
+	^ self subclassResponsibility

@@ -1,0 +1,15 @@
+{
+	"category" : "OmniBrowser-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cache",
+		"rescued" ],
+	"name" : "OBRescueFilter",
+	"pools" : [
+		 ],
+	"super" : "OBFilter",
+	"type" : "normal" }

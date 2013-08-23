@@ -1,0 +1,3 @@
+commands
+cmdClassComment
+	^ OBCmdClassComment

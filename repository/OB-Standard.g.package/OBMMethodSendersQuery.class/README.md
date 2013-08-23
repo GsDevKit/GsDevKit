@@ -1,0 +1,1 @@
+I handle queries like '#browse'. I find method senders.

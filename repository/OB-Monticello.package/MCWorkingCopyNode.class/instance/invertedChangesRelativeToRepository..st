@@ -1,0 +1,4 @@
+changes
+invertedChangesRelativeToRepository: aReposistoryNode
+
+	^self workingCopy invertedChangesRelativeToRepository: aReposistoryNode repository.

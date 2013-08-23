@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildOn:" : "cwp 10/24/2006 10:18",
+		"clickIconColumn:forNode:" : "dkh 11/17/2009 11:30",
+		"displayString:forNode:" : "cwp 5/20/2007 01:56",
+		"displayString:forParent:child:" : "cwp 5/20/2007 20:05",
+		"edgesFrom:forNode:" : "cwp 5/6/2007 01:53",
+		"icon:forNode:" : "cwp 7/23/2007 01:08",
+		"metaNode" : "cwp 2/11/2004 23:48",
+		"nodesFrom:forNode:" : "cwp 5/6/2007 01:53",
+		"noteParent:child:" : "cwp 5/8/2007 00:10",
+		"setMetaNode:" : "cwp 2/9/2004 20:54",
+		"wantsButton" : "cwp 2/9/2004 21:06",
+		"wantsSwitch" : "cwp 5/17/2007 23:07" } }

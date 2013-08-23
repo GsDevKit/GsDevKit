@@ -1,0 +1,17 @@
+{
+	"category" : "OB-GemStone-Platform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 11/09/2011 10:00",
+	"instvars" : [
+		"name",
+		"equals",
+		"findStringIndex",
+		"findStringNoCaseIndex" ],
+	"name" : "NameMatch",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

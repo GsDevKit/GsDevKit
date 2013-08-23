@@ -1,0 +1,15 @@
+{
+	"category" : "OmniBrowser-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 1/7/2005 23:31",
+	"instvars" : [
+		"name",
+		"collection" ],
+	"name" : "OBCollectionNode",
+	"pools" : [
+		 ],
+	"super" : "OBNode",
+	"type" : "normal" }

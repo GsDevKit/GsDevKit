@@ -1,0 +1,1 @@
+OBInteractionRequest is an abstract superclass for notifications that request some interaction with the user. It's useful for catching such notifications in an exception handler, while allowing other notifications to operate normally.

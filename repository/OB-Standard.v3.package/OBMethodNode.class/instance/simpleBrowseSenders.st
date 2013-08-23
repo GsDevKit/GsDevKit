@@ -1,0 +1,3 @@
+private
+simpleBrowseSenders
+	OBSendersBrowser browseRoot: self

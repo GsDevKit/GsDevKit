@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addEditingItemsToMenu:shifted:" : "cwp 4/19/2007 21:35",
+		"addMoreToMenu:" : "cwp 4/19/2007 21:35",
+		"addTextCommandsToMenu:selection:" : "cwp 9/30/2007 21:40",
+		"allowsEditing" : "cwp 12/26/2007 09:30",
+		"doItContext" : "dkh 02/20/2009 16:12",
+		"doItReceiver" : "dkh 02/20/2009 16:12",
+		"isEditable" : "cwp 12/26/2007 13:35",
+		"menu:shifted:selection:" : "dr 10/20/2008 16:44",
+		"perform:orSendTo:" : "cwp 4/19/2007 21:32",
+		"shiftedYellowButtonMenu" : "cwp 7/1/2007 16:56",
+		"yellowButtonMenu" : "lr 2/4/2008 08:49" } }

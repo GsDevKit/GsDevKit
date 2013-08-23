@@ -1,0 +1,3 @@
+navigating
+selectorAndMessages
+	^ {self messageNode}

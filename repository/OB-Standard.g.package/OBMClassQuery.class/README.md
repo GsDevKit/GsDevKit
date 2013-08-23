@@ -1,0 +1,1 @@
+I handle mercury queries like 'Object' and 'OBNode*'. I find classes.

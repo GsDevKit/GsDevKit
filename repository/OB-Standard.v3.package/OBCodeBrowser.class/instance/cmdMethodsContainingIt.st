@@ -1,0 +1,3 @@
+commands
+cmdMethodsContainingIt
+	^ Array with: OBCmdBrowseMethodsWithIt with: OBCmdBrowseMethodsWithItCaseSensitive

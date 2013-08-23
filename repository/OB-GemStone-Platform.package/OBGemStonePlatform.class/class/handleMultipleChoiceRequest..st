@@ -1,0 +1,4 @@
+notification
+handleMultipleChoiceRequest: anOBChoiceRequest
+
+	^(self clientForwarderMap at:#multipleChoice) signalMultipleChoiceRequestUsing: anOBChoiceRequest

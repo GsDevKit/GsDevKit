@@ -1,0 +1,3 @@
+private
+buildSuite
+	self subclassResponsibility

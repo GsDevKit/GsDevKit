@@ -1,0 +1,1 @@
+The responsibility of a definition is to express a node's composition textually and respond to changes in the text by updating the node it represents. For example,a file browser might use a file definition to allow editing of a files contents.

@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Standard-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PDC 6/29/2007 07:11",
+	"instvars" : [
+		 ],
+	"name" : "OBMClassQuery",
+	"pools" : [
+		 ],
+	"super" : "OBMercuryQuery",
+	"type" : "normal" }

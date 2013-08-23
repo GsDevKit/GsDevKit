@@ -1,0 +1,3 @@
+callbacks
+defaultBackgroundColor
+	^ browser defaultBackgroundColor

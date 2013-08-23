@@ -1,0 +1,3 @@
+accessing
+beNonMeta
+	isMeta := false

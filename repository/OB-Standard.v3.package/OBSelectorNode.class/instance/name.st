@@ -1,0 +1,3 @@
+navigating
+name
+	^ selector printString

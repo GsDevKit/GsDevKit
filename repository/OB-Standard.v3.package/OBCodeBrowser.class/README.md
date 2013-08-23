@@ -1,0 +1,1 @@
+OBCodeBrowser is a superclass for all browsers which active code in the image. It provides methods for registering with the SystemChangeNotifier and updating it's display when it receives notification of system changes.

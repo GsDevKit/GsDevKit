@@ -1,0 +1,1 @@
+OBSelectorNode wraps an instance of Symbol. It typically serves as the root of a senders or implementors OBListBrowser, and is used when cmd-n or cmd-m is invoke from the definition panel, and so no OBMethodNode is available.
