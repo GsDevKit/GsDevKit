@@ -12,9 +12,7 @@
 		"additions",
 		"removals",
 		"errorDefinitions",
-		"provisions",
-		"methodAdditions",
-		"preamble" ],
+		"provisions" ],
 	"name" : "MCPackageLoader",
 	"pools" : [
 		 ],
