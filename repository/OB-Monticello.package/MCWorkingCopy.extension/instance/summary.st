@@ -17,4 +17,3 @@ summary
 		(self requiredPackages sortBy: [:a :b | a name <= b name]) do:
 			[:ea |
 			s nextPutAll: ea name, ', ']]
-	
