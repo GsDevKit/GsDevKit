@@ -12,4 +12,7 @@ customProjectAttributes
         ifFalse: [ 
           "post 2.4.4.1 a slightly different patch required"
           projectAttributes := #(#'Issue29FixBNeeded') ] ].
+  ((Smalltalk classNamed: 'MCClassDefinition') ifNotNil: [:cls | cls canUnderstand: #traitCompositionString])
+    ifTrue: [
+      projectAttributes := projectAttributes copyWith: #'Issue3TraitLoadFixNeeded' ].
   ^ projectAttributes
