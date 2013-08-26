@@ -6,7 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"snapshot" ],
+		"snapshot",
+		"methodSelection",
+		"protocolSelection",
+		"switch",
+		"items" ],
 	"name" : "MCSnapshotBrowser",
 	"pools" : [
 		 ],
