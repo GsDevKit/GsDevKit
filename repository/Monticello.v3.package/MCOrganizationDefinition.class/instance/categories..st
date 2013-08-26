@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 categories: anArray
-	categories _ anArray
+	categories := anArray

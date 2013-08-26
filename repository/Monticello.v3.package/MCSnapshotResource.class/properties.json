@@ -1,12 +1,13 @@
 {
-	"category" : "Monticello-Tests",
+	"category" : "Monticello-Tests-Squeak",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"snapshot" ],
+		"snapshot",
+		"saveCache" ],
 	"name" : "MCSnapshotResource",
 	"pools" : [
 		 ],

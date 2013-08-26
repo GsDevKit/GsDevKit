@@ -1,9 +1,5 @@
 as yet unclassified
 methods
-	^ self mockClassA selectors
-		select: [:ea | ea beginsWith: 'ordinal']
-		thenCollect:
-			[:ea | 
-				MethodReference new 
-					setStandardClass: MCMockClassA 
-					methodSymbol: ea].
+	^ MCMockClassA selectors
+		select: [:t1 | t1 beginsWith: 'ordinal']
+		thenCollect: [:t1 | MethodReference new setStandardClass: MCMockClassA methodSymbol: t1]

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"isAbstract" : "topa 08/19/2013 06:04" },
+	"instance" : {
+		"mockPackage" : "kb 9/14/2012 14:30",
+		"setUp" : "topa 08/19/2013 07:29",
+		"tearDown" : "topa 05/22/2013 07:48",
+		"testRenamePrefix" : "kb 9/14/2012 14:26",
+		"testRenameSuffix" : "kb 9/14/2012 14:26",
+		"verifyRenameTo:" : "topa 05/22/2013 07:48" } }

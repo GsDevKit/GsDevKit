@@ -1,4 +1,4 @@
 as yet unclassified
 requirements
-
-	^ requires ifNil: [#()]
+	^ requires
+		ifNil: [#()]

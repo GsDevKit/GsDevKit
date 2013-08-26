@@ -1,6 +1,7 @@
 tests
 testForeignMethodModified
 	| event |
+	workingCopy modified: false.
 	event := self modifiedEventFor: #foreignMethod ofClass: self class.
-	workingCopy class methodModified: event.
+	MCWorkingCopy methodModified: event.
 	self deny: workingCopy modified

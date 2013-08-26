@@ -1,4 +1,5 @@
-accessing
-possiblyNewerVersionsIn: aRepository
-
-	^aRepository possiblyNewerVersionsOfAnyOf: self ancestors
+private
+possiblyNewerVersionsIn: aRepository 
+	^ aRepository possiblyNewerVersionsOfAnyOf:
+		(self ancestors collect:
+			[ : each | each versionName ])

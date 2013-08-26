@@ -1,3 +1,3 @@
 as yet unclassified
 classes
-	^ Array new: 0.
+	^ Array new: 0

@@ -1,3 +1,3 @@
 initialize-release
 initialize
-	versions _ OrderedCollection new
+	versions := OrderedCollection new

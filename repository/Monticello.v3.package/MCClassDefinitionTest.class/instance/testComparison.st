@@ -1,10 +1,10 @@
-tests
+as yet unclassified
 testComparison
 	| d1 d2 d3 d4 |
-	d1 _ self mockClass: 'A' super: 'X'.
-	d2 _ self mockClass: 'A' super: 'Y'.
-	d3 _ self mockClass: 'B' super: 'X'.
-	d4 _ self mockClass: 'B' super: 'X'.
+	d1 := self mockClass: 'A' super: 'X'.
+	d2 := self mockClass: 'A' super: 'Y'.
+	d3 := self mockClass: 'B' super: 'X'.
+	d4 := self mockClass: 'B' super: 'X'.
 	
 	self assert: (d1 isRevisionOf: d2).
 	self deny: (d1 isSameRevisionAs: d2).

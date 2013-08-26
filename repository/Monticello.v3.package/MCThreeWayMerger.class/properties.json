@@ -8,7 +8,8 @@
 	"instvars" : [
 		"index",
 		"operations",
-		"provisions" ],
+		"provisions",
+		"redundantAdds" ],
 	"name" : "MCThreeWayMerger",
 	"pools" : [
 		 ],

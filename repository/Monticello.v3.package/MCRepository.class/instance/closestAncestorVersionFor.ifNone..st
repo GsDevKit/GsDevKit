@@ -1,6 +1,6 @@
-as yet unclassified
+accessing
 closestAncestorVersionFor: anAncestry ifNone: errorBlock
-	anAncestry allAncestors do:
+	anAncestry breadthFirstAncestorsDo:
 		[:ancestorInfo |
-		(self versionWithInfo: ancestorInfo) ifNotNilDo: [:v | ^ v]].
+		(self versionWithInfo: ancestorInfo) ifNotNil: [:v | ^ v]].
 	^ errorBlock value

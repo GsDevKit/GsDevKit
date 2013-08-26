@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 directory: aDirectory
-	directory _ aDirectory
+	directory := aDirectory

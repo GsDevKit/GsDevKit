@@ -1,3 +1,3 @@
 repositories
 repositoryGroup: aRepositoryGroup
-	repositoryGroup _ aRepositoryGroup
+	repositoryGroup := aRepositoryGroup

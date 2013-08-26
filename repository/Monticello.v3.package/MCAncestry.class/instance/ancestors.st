@@ -1,3 +1,3 @@
 ancestry
 ancestors
-	^ ancestors ifNil: [#()]
+	^ ancestors ifNil: [ Array empty ]

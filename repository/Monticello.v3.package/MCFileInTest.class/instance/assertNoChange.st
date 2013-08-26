@@ -1,6 +1,6 @@
 asserting
 assertNoChange
 	| actual |
-	actual _ MCSnapshotResource takeSnapshot.
-	diff _ actual patchRelativeToBase: expected.
+	actual := MCSnapshotResource takeSnapshot.
+	diff := actual patchRelativeToBase: expected.
 	self assert: diff isEmpty

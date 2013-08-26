@@ -1,3 +1,3 @@
 as yet unclassified
 password: passwordString
-	password _ passwordString
+	password := passwordString

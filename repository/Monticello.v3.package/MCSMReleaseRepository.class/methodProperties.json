@@ -6,11 +6,11 @@
 		"morphicConfigure" : "bkv 2/18/2004 21:03",
 		"package:user:password:" : "avi 2/10/2004 14:14" },
 	"instance" : {
-		"basicStoreVersion:" : "dkh 08/09/2007 10:57",
+		"basicStoreVersion:" : "stephaneducasse 2/4/2006 20:47",
 		"checkResult:" : "dkh 08/09/2007 10:57",
 		"description" : "dkh 08/09/2007 10:57",
-		"initializeWithPackage:user:password:" : "dkh 08/09/2007 10:57",
+		"initializeWithPackage:user:password:" : "stephaneducasse 2/4/2006 20:47",
 		"releaseVersion:url:" : "dkh 08/09/2007 10:57",
 		"squeakMapUrl" : "dkh 08/09/2007 10:57",
-		"stringForVersion:" : "dkh 08/09/2007 10:57",
-		"uploadVersion:" : "dkh 08/09/2007 10:57" } }
+		"stringForVersion:" : "stephaneducasse 2/4/2006 20:47",
+		"uploadVersion:" : "topa 04/02/2013 05:53" } }

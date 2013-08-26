@@ -1,7 +1,7 @@
 testing
 testLoadAndUnload
 	|definition|
-	definition _ self mockMethod: #one class: 'MCMockClassA' source: 'one ^2' meta: false.
+	definition := self mockMethod: #one class: 'MCMockClassA' source: 'one ^2' meta: false.
 	self assert: self mockInstanceA one = 1.
 	definition load.
 	self assert: self mockInstanceA one = 2.

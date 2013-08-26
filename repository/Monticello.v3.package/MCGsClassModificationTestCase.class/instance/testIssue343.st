@@ -9,7 +9,7 @@ testIssue343
 		classInstVars: #()
 		poolDictionaries: {}
 		inDictionary: ''
-		category: 'Monticello-Mocks'.
+		category: 'Monticello-Tests-Mocks'.
 	self assert: (Smalltalk at: #'MCMockAPoolDictionary') _classVars name == #'MCMockAPoolDictionary'.
 	SharedPool subclass: 'MCMockAPoolDictionary'
 		instVarNames: #()
@@ -17,5 +17,5 @@ testIssue343
 		classInstVars: #()
 		poolDictionaries: {}
 		inDictionary: ''
-		category: 'Monticello-Mocks'.
+		category: 'Monticello-Tests-Mocks'.
 	self assert: (Smalltalk at: #'MCMockAPoolDictionary') _classVars name == #'MCMockAPoolDictionary'.

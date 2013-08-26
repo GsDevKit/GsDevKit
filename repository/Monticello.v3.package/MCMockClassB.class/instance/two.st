@@ -1,4 +1,3 @@
-as yet unclassified
+numeric
 two
-
 	^ 2

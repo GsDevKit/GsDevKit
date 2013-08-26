@@ -1,3 +1,4 @@
 accessing
 children
-	^ children collect: [:ea | self class fromTree: ea]
+	^ children
+		collect: [:t1 | self class fromTree: t1]

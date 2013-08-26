@@ -1,5 +1,5 @@
 visiting
 writeVersionInfo: aVersionInfo
 	| string |
-	string _ self serializeVersionInfo: aVersionInfo.
+	string := self serializeVersionInfo: aVersionInfo.
 	self addString: string at: 'version'.

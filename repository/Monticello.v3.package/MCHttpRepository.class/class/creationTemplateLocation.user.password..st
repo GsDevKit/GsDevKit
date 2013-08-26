@@ -1,7 +1,8 @@
-as yet unclassified
+ui-support
 creationTemplateLocation: location user: user password: password
 	^
-('MCHttpRepository
-	location: ', location printString, '
-	user: ', user printString, '
-	password: ', password printString) withSqueakLineEndings
+'MCHttpRepository
+	location: {1}
+	user: {2}
+	password: {3}' withSqueakLineEndings 
+		format: {location printString. user printString. password printString}

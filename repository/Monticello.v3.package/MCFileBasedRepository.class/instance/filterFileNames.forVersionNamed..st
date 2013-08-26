@@ -1,3 +1,4 @@
-as yet unclassified
-filterFileNames: aCollection forVersionNamed: aString
-	^ aCollection select: [:ea | (self versionNameFromFileName: ea) = aString]
+private-files
+filterFileNames: aCollection forVersionNamed: aMCVersionName 
+	^ aCollection select:
+		[ : ea | aMCVersionName = ea ]

@@ -1,10 +1,10 @@
 tests
 testSimpleMerge
 	| mother base inst |
-	inst _ self mockInstanceA.
-	base _  self snapshot.
+	inst := self mockInstanceA.
+	base :=  self snapshot.
 	self change: #one toReturn: 2.
-	mother _  self snapshot.
+	mother :=  self snapshot.
 	self load: base.
 	self change: #two toReturn: 3.
 	self snapshot.

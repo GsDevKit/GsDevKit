@@ -1,7 +1,6 @@
 asserting
 assertContentsOf: strm match: expected 
-	| actual exp |
+	| actual |
 	actual := strm contents withSqueakLineEndings.
-	exp := expected withSqueakLineEndings.
-	self assert: actual size = exp size.
-	actual with: exp do: [:a :e | self assert: a = e]
+	self assert: actual size = expected size.
+	actual with: expected withSqueakLineEndings do: [:a :e | self assert: a = e]

@@ -1,3 +1,3 @@
 as yet unclassified
-= definition
-	^definition token = token
+= t1 
+	^ t1 token = token

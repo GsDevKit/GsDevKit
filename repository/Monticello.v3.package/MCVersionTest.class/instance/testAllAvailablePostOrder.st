@@ -1,6 +1,6 @@
 tests
 testAllAvailablePostOrder
 	self 
-		assert: #allDependenciesDo: 
+		assert: #allAvailableDependenciesDo: 
 		orders: #(a ((b (d e)) c)) 
 		as: #(d e b c)

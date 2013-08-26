@@ -1,4 +1,5 @@
 running
 tearDown
-	self restoreMocks.
+
 	super tearDown.
+	self mockSnapshot install

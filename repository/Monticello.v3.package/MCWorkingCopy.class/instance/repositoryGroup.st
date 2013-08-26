@@ -1,3 +1,3 @@
 repositories
 repositoryGroup
-	^ repositoryGroup ifNil: [repositoryGroup _ MCRepositoryGroup new]
+	^ repositoryGroup ifNil: [repositoryGroup := MCRepositoryGroup new]

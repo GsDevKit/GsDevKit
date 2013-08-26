@@ -1,5 +1,7 @@
-private
+events
 modifiedEventFor: aSelector ofClass: aClass
-	| method |
-	method := aClass compiledMethodAt: aSelector.
-	^ MethodModifiedAnnouncement itemClass: aClass method: method
+
+	^ MethodModifiedAnnouncement 
+		itemClass: aClass 
+		method: (aClass compiledMethodAt: aSelector)
+		oldCategory: (aClass categoryOfSelector: aSelector)

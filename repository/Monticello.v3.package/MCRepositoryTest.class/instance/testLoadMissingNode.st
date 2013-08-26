@@ -1,5 +1,5 @@
 tests
 testLoadMissingNode
 	| node |
-	node _ MCVersionInfo new.
+	node := MCVersionInfo new.
 	self assertMissing: node

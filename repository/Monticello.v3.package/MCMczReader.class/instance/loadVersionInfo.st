@@ -1,3 +1,3 @@
 as yet unclassified
 loadVersionInfo
-	info _ self extractInfoFrom: (self parseMember: 'version')
+	info := self extractInfoFrom: (self parseMember: 'version')

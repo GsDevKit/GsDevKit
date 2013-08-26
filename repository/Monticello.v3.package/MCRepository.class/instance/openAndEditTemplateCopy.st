@@ -1,3 +1,3 @@
-interface
+ui
 openAndEditTemplateCopy
-	^ self class fillInTheBlankConfigure: self creationTemplate
+	^ self class fillInTheBlankConfigure: (self asCreationTemplate ifNil: [^nil])

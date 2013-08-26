@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 = other
-	^ other species = self species and: [other name = name]
+	^ other species = self species and: [other name sameAs: name]

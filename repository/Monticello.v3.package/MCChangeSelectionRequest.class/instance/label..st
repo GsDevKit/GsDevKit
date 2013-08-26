@@ -1,3 +1,3 @@
 as yet unclassified
 label: aString
-	label _ aString
+	label := aString

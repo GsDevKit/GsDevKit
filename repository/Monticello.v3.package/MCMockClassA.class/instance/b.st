@@ -1,3 +1,2 @@
 numeric
-b
-	^ 'b1'
+b ^ 'b'

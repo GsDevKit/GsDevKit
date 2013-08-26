@@ -1,3 +1,3 @@
-as yet unclassified
+initialize-release
 initialize
-	repositories _ OrderedCollection new
+	repositories := OrderedCollection new

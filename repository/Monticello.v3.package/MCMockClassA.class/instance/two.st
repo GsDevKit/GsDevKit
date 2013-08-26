@@ -1,3 +1,2 @@
 numeric
-two
-	^ 2
+two ^ 3

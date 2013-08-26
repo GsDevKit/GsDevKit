@@ -1,14 +1,9 @@
 running
 clearPackageCache
-	| cache dir |
-	cache := MCCacheRepository default.
-	dir :=  cache directory.
-	dir ~~ nil
-		ifTrue: [
-			"MCCacheRepository expected"
-			(dir fileNamesMatchingPattern: #( #('MonticelloMocks' $*) )) do: [:ea | dir deleteFileNamed: ea].
-			(dir fileNamesMatchingPattern: #( #('MonticelloTest' $*) )) do: [:ea | dir deleteFileNamed: ea].
-			(dir fileNamesMatchingPattern: #( #('rev' $*) )) do: [:ea | dir deleteFileNamed: ea]]
-		ifFalse: [ 
-			"MCDictionaryRepository expected - GemStone"
-			cache flushCache ].
+	"Remove all mock packages created during the tests from the package cache."
+
+	| directory |
+	super clearPackageCache.
+	directory := MCCacheRepository default directory.
+	(directory fileNamesMatching: self packageName, '*') do: [ :each |
+		directory deleteFileNamed: each ]

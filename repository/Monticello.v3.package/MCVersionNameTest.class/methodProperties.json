@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allValidFixtures" : "topa 05/21/2013 05:46",
+		"diffyBranchFixtures" : "bf 2/24/2012 16:17",
+		"diffyFixtures" : "bf 2/24/2012 15:59",
+		"invalidFixtures" : "topa 05/21/2013 07:06",
+		"standardFixtures" : "cmm 3/3/2011 14:33",
+		"testAttributeAccess" : "cmm 3/4/2011 13:12",
+		"testBranches" : "bf 2/24/2012 16:22",
+		"testDiffyNames" : "bf 2/24/2012 16:16",
+		"testEquality" : "abc 05/22/2013 05:34",
+		"testInvalid" : "cmm 3/4/2011 13:13",
+		"testSpecies" : "topa 05/22/2013 02:52",
+		"testVersionNameReturnsAByteString" : "topa 05/22/2013 02:52",
+		"verifyDiffy:base:" : "bf 2/24/2012 15:36",
+		"verifyPackageAuthorVersion:" : "bf 2/24/2012 15:14" } }

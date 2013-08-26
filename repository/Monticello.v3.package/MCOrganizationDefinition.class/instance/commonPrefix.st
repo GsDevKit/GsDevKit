@@ -1,9 +1,9 @@
-as yet unclassified
+accessing
 commonPrefix
 	| stream |
 	categories isEmpty ifTrue: [^ ''].
 	
-	stream _ String new writeStream.
+	stream := String new writeStream.
 	categories first withIndexDo:
 		[:c :i|
 		categories do:

@@ -1,7 +1,8 @@
 running
 tearDown
+	super tearDown.
 	workingCopy unregister.
 	self restoreMocks.
-	self clearPackageCache.
-	MCPlatformSupport setAuthorInitials: savedInitials.
-	super tearDown.
+	SystemOrganizer new removeEmptyCategories.
+	MCSnapshotTest organization removeEmptyCategories.
+	GsPackagePolicy current authorInitials: savedInitials

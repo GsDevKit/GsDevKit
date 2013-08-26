@@ -1,5 +1,7 @@
 ancestry
 allAncestors
-	^ MCVersionSorter new
-		addAllVersionInfos: self ancestors;
-		sortedVersionInfos
+	
+	| allAncestors |
+	allAncestors := Set new.
+	self allAncestorsDo: [ :each | ] visitedAncestors: allAncestors.
+	^allAncestors

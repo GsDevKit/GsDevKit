@@ -3,12 +3,12 @@ fillInTheBlankConfigure: aTemplateString
 	| chunk repo |
 	
 	aTemplateString ifNil: [ ^ false ].
-	chunk _ MCPlatformSupport request: self fillInTheBlankRequest 
+	chunk := MCPlatformSupport request: self fillInTheBlankRequest 
 			initialAnswer: aTemplateString.
 			
 	chunk 
 		ifNotNil: [ 
-			repo _ self readFrom: chunk readStream.
+			repo := self readFrom: chunk readStream.
 			repo creationTemplate: chunk. 
 	].
 

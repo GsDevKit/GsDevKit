@@ -1,3 +1,3 @@
 private
 provisions
-	^ provisions ifNil: [provisions _ MCPlatformSupport smalltalkKeys]
+	^ provisions ifNil: [provisions := MCPlatformSupport smalltalkKeys]

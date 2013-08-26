@@ -2,9 +2,9 @@ tests
 testMergeIntoUnmodifiedImage
 	| base revA |
 
-	base _ self snapshot.
+	base := self snapshot.
 	self change: #a toReturn: 'a1'.
-	revA _ self snapshot.
+	revA := self snapshot.
 	
 	self load: base.
 

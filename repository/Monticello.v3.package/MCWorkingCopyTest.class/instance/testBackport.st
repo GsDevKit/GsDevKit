@@ -1,12 +1,12 @@
 tests
 testBackport
 	| inst base final backported |
-	inst _ self mockInstanceA.
-	base _  self snapshot.
+	inst := self mockInstanceA.
+	base :=  self snapshot.
 	self assert: inst one = 1.
 	self change: #one toReturn: 2.
 	self change: #two toReturn: 3.
-	final _ self snapshot.
+	final := self snapshot.
 	[workingCopy backportChangesTo: base info]
 		on: MCChangeSelectionRequest
 		do: [:e | e resume: e patch].
@@ -16,7 +16,7 @@ testBackport
 	self assert: workingCopy ancestry ancestors first = base info.
 	self assert: workingCopy ancestry stepChildren size = 1.
 	self assert: workingCopy ancestry stepChildren first = final info.
-	backported _ self snapshot.
+	backported := self snapshot.
 	[workingCopy backportChangesTo: base info]
 		on: MCChangeSelectionRequest
 		do: [:e | e resume: e patch].

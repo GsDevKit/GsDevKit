@@ -1,3 +1,3 @@
 as yet unclassified
 seenFileNames
-	^ seenFiles ifNil: [seenFiles _ OrderedCollection new]
+	^ seenFiles ifNil: [seenFiles := OrderedCollection new]

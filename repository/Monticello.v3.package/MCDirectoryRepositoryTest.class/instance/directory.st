@@ -1,5 +1,6 @@
 as yet unclassified
 directory
 	directory ifNil:
-		[directory _ MCPlatformSupport defaultDirectoryNamed: 'mctest'].
+		[directory := FileDirectory default directoryNamed: 'mctest'.
+		directory assureExistence].
 	^ directory

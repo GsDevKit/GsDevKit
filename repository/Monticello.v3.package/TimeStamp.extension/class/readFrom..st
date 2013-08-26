@@ -2,9 +2,9 @@
 readFrom: stream
 	| date time |
 	stream skipSeparators.
-	date _ Date readFrom: stream.
+	date := Date readFrom: stream.
 	stream skipSeparators.
-	time _ Time readFrom: stream.
+	time := Time readFrom: stream.
 	^self 
 		date: date
 		time: time

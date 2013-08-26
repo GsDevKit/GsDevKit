@@ -1,4 +1,3 @@
 as yet unclassified
-requires: anArray
-
-	requires _ anArray
+requires: t1 
+	requires := t1

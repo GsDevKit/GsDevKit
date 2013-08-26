@@ -1,7 +1,6 @@
 asserting
 assert: aSelector orders: sexpr as: expected unresolved: unresolved
-	| missing visited |
-	visited := OrderedCollection new.
+	| missing |
 	missing := OrderedCollection new.
 	version := self versionFromTree: sexpr.
 	version 

@@ -1,8 +1,5 @@
-as yet unclassified
+ui-support
 creationTemplate
-	^
-'MCHttpRepository
-	location: ''http://foo.com/bar''
-	user: ''squeak''
-	password: ''squeak''' withSqueakLineEndings
-	
+	^self creationTemplateLocation: 'http://www.squeaksource.com/ProjectName'
+		user: 'squeak'
+		password: 'squeak'

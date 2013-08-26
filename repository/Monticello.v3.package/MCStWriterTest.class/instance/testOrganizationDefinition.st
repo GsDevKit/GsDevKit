@@ -1,7 +1,7 @@
 testing
 testOrganizationDefinition
 	| definition |
-	definition _ MCOrganizationDefinition categories: 
+	definition := MCOrganizationDefinition categories: 
 					(self mockPackage packageInfo systemCategories).
 	writer visitOrganizationDefinition: definition.
 	self assertContentsOf: stream match: self expectedOrganizationDefinition.

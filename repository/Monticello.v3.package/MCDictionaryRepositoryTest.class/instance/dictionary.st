@@ -1,3 +1,3 @@
 as yet unclassified
 dictionary
-	^ dict ifNil: [dict _ Dictionary new]
+	^ dict ifNil: [dict := Dictionary new]

@@ -1,3 +1,2 @@
 numeric
-c
-	^ 'c1'
+c ^ 'c1'

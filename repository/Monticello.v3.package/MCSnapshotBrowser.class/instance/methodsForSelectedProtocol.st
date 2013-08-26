@@ -1,6 +1,6 @@
-message list
+message category list
 methodsForSelectedProtocol
-	| methods protocolSelection |
+	| methods |
 	(protocolSelection := self messageCategoryListSelection)
 		ifNil: [^ Array new].
 	methods := self methodsForSelectedClass asOrderedCollection.

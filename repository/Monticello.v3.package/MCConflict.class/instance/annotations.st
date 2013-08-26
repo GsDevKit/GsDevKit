@@ -1,3 +1,3 @@
 as yet unclassified
 annotations
-	^operation ifNotNilDo: [ :op | op annotations ]
+	^operation ifNotNil: [ :op | op annotations ]

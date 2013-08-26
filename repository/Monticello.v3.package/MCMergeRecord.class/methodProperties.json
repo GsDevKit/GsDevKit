@@ -2,13 +2,13 @@
 	"class" : {
 		"version:" : "abc 2/13/2004 15:52" },
 	"instance" : {
-		"ancestorInfo" : "abc 2/13/2004 15:24",
-		"ancestorSnapshot" : "abc 2/13/2004 15:23",
-		"imageIsClean" : "abc 2/13/2004 17:11",
-		"imagePatch" : "abc 2/13/2004 15:31",
-		"initializeWithVersion:" : "abc 2/13/2004 15:21",
+		"ancestorInfo" : "stephaneducasse 2/4/2006 20:47",
+		"ancestorSnapshot" : "stephaneducasse 2/4/2006 20:47",
+		"imageIsClean" : "nice 1/1/2010 21:52",
+		"imagePatch" : "stephaneducasse 2/4/2006 20:47",
+		"initializeWithVersion:" : "stephaneducasse 2/4/2006 20:47",
 		"isAncestorMerge" : "abc 2/13/2004 17:14",
-		"mergePatch" : "abc 2/13/2004 15:31",
-		"packageSnapshot" : "abc 2/13/2004 15:21",
+		"mergePatch" : "stephaneducasse 2/4/2006 20:47",
+		"packageSnapshot" : "stephaneducasse 2/4/2006 20:47",
 		"updateWorkingCopy" : "abc 2/13/2004 17:14",
 		"version" : "abc 2/13/2004 15:52" } }

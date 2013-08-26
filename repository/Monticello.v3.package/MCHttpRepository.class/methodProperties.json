@@ -1,7 +1,8 @@
 {
 	"class" : {
-		"creationTemplate" : "dkh 01/08/2008 10:09",
-		"creationTemplateLocation:user:password:" : "dkh 01/08/2008 10:14",
+		"clearPasswords" : "bf 7/28/2005 19:44",
+		"creationTemplate" : "cmm 1/25/2011 13:00",
+		"creationTemplateLocation:user:password:" : "topa 04/02/2013 04:26",
 		"description" : "dkh 08/13/2007 10:03",
 		"fillInTheBlankRequest" : "bkv 2/18/2004 21:00",
 		"isEnabled" : "dkh 04/07/2012 11:11",
@@ -10,14 +11,17 @@
 		"allFileNames" : "DaleHenrichs 03/19/2010 16:46",
 		"asCreationTemplate" : "dkh 01/08/2008 10:11",
 		"description" : "ab 7/24/2003 21:10",
-		"location:" : "ab 7/24/2003 20:41",
+		"flushCache" : "al 12/12/2005 11:06",
+		"location:" : "stephaneducasse 2/4/2006 20:47",
 		"locationWithTrailingSlash" : "ab 7/24/2003 22:17",
-		"parseFileNamesFromStream:" : "DataCurator 04/23/2007 14:43",
+		"parseFileNamesFromStream:" : "topa 04/02/2013 06:10",
 		"password" : "DaleHenrichs 03/19/2010 16:45",
-		"password:" : "ab 7/24/2003 20:41",
+		"password:" : "stephaneducasse 2/4/2006 20:47",
 		"promptForUserNamePassword" : "dkh 04/28/2008 12:02",
 		"readStreamForFileNamed:do:" : "dkh 12/11/2006 16:05",
 		"urlForFileNamed:" : "ab 8/21/2003 13:08",
 		"user" : "DaleHenrichs 03/19/2010 16:44",
-		"user:" : "ab 7/24/2003 20:41",
-		"writeStreamForFileNamed:replace:do:" : "dkh 03/28/2008 13:03" } }
+		"user:" : "stephaneducasse 2/4/2006 20:47",
+		"versionReaderForFileNamed:" : "stephaneducasse 2/4/2006 20:47",
+		"versionReaderForFileNamed:do:" : "ul 12/12/2009 14:10",
+		"writeStreamForFileNamed:replace:do:" : "topa 04/02/2013 04:21" } }

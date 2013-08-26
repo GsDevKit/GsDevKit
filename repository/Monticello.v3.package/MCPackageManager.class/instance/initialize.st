@@ -1,3 +1,3 @@
 initialize-release
 initialize
-	modified _ false.
+	modified := false.

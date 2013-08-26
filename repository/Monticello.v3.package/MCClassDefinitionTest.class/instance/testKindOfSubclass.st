@@ -1,8 +1,8 @@
-tests
+as yet unclassified
 testKindOfSubclass
-	| classes d |
-	classes := (Array with: self mockClassA with: String with: Collection with: ByteArray).
-	classes do: [:c |
+	| classes |
+	classes := {self mockClassA. String. "Float"}.
+	classes do: [:c | | d |
 		d :=  c asClassDefinition.
 		self assert: d kindOfSubclass = c kindOfSubclass.
 	].

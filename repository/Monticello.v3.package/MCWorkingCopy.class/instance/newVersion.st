@@ -1,5 +1,7 @@
 operations
 newVersion
-	^ (self requestVersionNameAndMessageWithSuggestion: self uniqueVersionName) ifNotNilDo:
-		[:pair |
-		self newVersionWithName: pair first message: pair last].
+	^ (self requestVersionNameAndMessageWithSuggestion: self uniqueVersionName
+		initialMessage: self patchMessageSuggestion) ifNotNil:
+			[:pair |
+			self newVersionWithName: pair first withBlanksTrimmed
+				message: (self patchMessageStripped: pair last)].

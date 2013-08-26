@@ -1,3 +1,3 @@
 as yet unclassified
 snapshot
-	^ snapshot ifNil: [snapshot _ MCPatcher apply: patch to: self baseSnapshot]
+	^ snapshot ifNil: [snapshot := MCPatcher apply: patch to: self baseSnapshot]

@@ -1,12 +1,14 @@
 {
-	"category" : "Monticello-Tests",
+	"category" : "Monticello-Tests-Squeak",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"navigation" ],
+		"navigation",
+		"isModified",
+		"overrideTimestamp" ],
 	"name" : "MCMethodDefinitionTest",
 	"pools" : [
 		 ],

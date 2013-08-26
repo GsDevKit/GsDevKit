@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 	super setUp.
-	repository _ MCDirectoryRepository new directory: self directory
+	repository := MCDirectoryRepository directory: self directory

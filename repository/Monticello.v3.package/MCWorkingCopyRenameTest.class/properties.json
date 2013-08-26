@@ -1,0 +1,18 @@
+{
+	"category" : "Monticello-Tests-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"savedInitials",
+		"workingCopy",
+		"repositoryGroup",
+		"versions",
+		"versions2" ],
+	"name" : "MCWorkingCopyRenameTest",
+	"pools" : [
+		 ],
+	"super" : "MCTestCase",
+	"type" : "normal" }

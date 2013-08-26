@@ -1,3 +1,4 @@
 testing
 isFulfilledByAncestors
-	^ self isFulfilledByAncestorsOf: package workingCopy ancestry
+	^ package hasWorkingCopy
+		and: [self isFulfilledByAncestorsOf: package workingCopy ancestry]

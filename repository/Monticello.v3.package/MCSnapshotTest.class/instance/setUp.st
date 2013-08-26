@@ -1,4 +1,4 @@
 running
 setUp
 	super setUp.
-	snapshot _  self mockSnapshot.
+	snapshot :=  self mockSnapshot.

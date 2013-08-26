@@ -5,10 +5,10 @@
 	"instance" : {
 		"addDependency:" : "cwp 11/7/2004 17:06",
 		"addVersion:" : "cwp 11/7/2004 17:04",
-		"checkForModifications" : "avi 1/24/2004 20:15",
+		"checkForModifications" : "stephaneducasse 2/4/2006 20:47",
 		"checkIfDepIsOlder:" : "cwp 11/7/2004 17:00",
 		"confirmMissingDependency:" : "cwp 11/7/2004 17:06",
 		"depAgeIsOk:" : "cwp 11/7/2004 17:02",
-		"initialize" : "avi 1/24/2004 19:51",
-		"load" : "dkh 03/04/2008 12:17",
+		"initialize" : "stephaneducasse 2/4/2006 20:47",
+		"load" : "topa 04/02/2013 06:59",
 		"warnAboutLosingChangesTo:" : "avi 1/24/2004 20:17" } }

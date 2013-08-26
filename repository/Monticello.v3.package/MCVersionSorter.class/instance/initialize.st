@@ -1,4 +1,4 @@
 as yet unclassified
 initialize
-	stepparents _ Dictionary new.
-	roots _ OrderedCollection new.
+	stepparents := Dictionary new.
+	roots := OrderedCollection new.

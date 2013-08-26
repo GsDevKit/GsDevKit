@@ -12,4 +12,9 @@ snapshot
 					(packageInfo changeRecordForOverriddenMethod: ea) asMethodDefinition]
 			displayingProgress: 'Searching for overrides...'].
 	packageInfo classes do: [:ea | definitions addAll: ea classDefinitions] displayingProgress: 'Snapshotting classes...'.
+	(packageInfo respondsTo: #hasPreamble) ifTrue: [
+		packageInfo hasPreamble ifTrue: [definitions add: (MCPreambleDefinition from: packageInfo)].
+		packageInfo hasPostscript ifTrue: [definitions add: (MCPostscriptDefinition from: packageInfo)].
+		packageInfo hasPreambleOfRemoval ifTrue: [definitions add: (MCRemovalPreambleDefinition from: packageInfo)].
+		packageInfo hasPostscriptOfRemoval ifTrue: [definitions add: (MCRemovalPostscriptDefinition from: packageInfo)]]. 
 	^ MCSnapshot fromDefinitions: definitions

@@ -1,3 +1,2 @@
 numeric
-truth
-	^ true
+truth ^ false
