@@ -1,3 +1,5 @@
 comparing
 requirements
-	^ (Array with: superclassName), self poolDictionaries
+	^superclassName == #nil
+		ifTrue: [self poolDictionaries]
+		ifFalse: [(Array with: superclassName), self poolDictionaries]

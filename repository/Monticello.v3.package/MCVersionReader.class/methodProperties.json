@@ -7,6 +7,7 @@
 		"loadVersionStream:fromDirectory:" : "dkh 02/17/2009 16:33",
 		"mergeVersionFile:" : "cwp 8/1/2003 14:46",
 		"mergeVersionStream:" : "nk 2/25/2005 11:17",
+		"on:fileName:" : "bf 3/23/2005 01:20",
 		"openVersionFile:" : "cwp 8/1/2003 14:46",
 		"openVersionFromStream:" : "nk 2/25/2005 11:12",
 		"unload" : "dkh 12/12/2006 08:59",

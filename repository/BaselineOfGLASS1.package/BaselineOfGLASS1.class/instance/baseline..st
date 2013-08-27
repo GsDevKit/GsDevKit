@@ -220,4 +220,7 @@ baseline: spec
             requires: #('GsCore') ] ].
   spec
     for: #'maglev'
-    do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ]
+    do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ].
+  spec
+    for: #'Issue3TraitLoadFixNeeded'
+    do: [ spec package: 'Monticello' with: [ spec preLoadDoIt: #traitsMonticelloPreLoadDoIt ] ].
