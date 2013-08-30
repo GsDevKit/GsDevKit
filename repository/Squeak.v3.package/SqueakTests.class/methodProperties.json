@@ -98,7 +98,6 @@
 		"testSkipAnySubstrStartingAt" : "dkh 06/30/2008 11:20",
 		"testStartsWith" : "dkh 06/27/2008 16:46",
 		"testStemAndNumericSuffix" : "dkh 10/20/2008 15:15",
-		"testStringAsDateAndTime" : "DaleHenrichs 10/25/2010 16:01",
 		"testStringAsNumber" : "DaleHenrichs 10/25/2010 14:42",
 		"testStringSubstring" : "DaleHenrichs 10/25/2010 16:01",
 		"testSupermostPrecodeCommentFor" : "dkh 02/10/2009 17:29",
