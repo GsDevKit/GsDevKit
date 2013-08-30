@@ -1,7 +1,6 @@
 installing
 createClass
     | aClass ivArray cvArray civArray poolArray newClass ty opts |
-    (traitComposition ~= '{}' or: [classTraitComposition ~= '{}']) ifTrue: [self error: 'traits not supported on gemstone'].
     aClass := Smalltalk classNamed: superclassName.
     (aClass == nil and: [superclassName asString ~= 'nil']) ifTrue: [self error: 'non-existent superclass'].
     ivArray := (self instanceVariablesString findTokens: ' ') asArray.
