@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DataCurator 11/06/2009 09:32",
+	"commentStamp" : "",
 	"instvars" : [
 		"nscs",
 		"queryValue" ],
