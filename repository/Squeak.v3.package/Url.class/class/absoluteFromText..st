@@ -1,4 +1,4 @@
-parsing
+*squeak
 absoluteFromText: aString
   "Url absoluteFromText: 'http://chaos.resnet.gatech.edu:8000/docs/java/index.html?A%20query%20#part'"
 

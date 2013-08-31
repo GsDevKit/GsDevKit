@@ -1,4 +1,4 @@
-parsing
+*squeak
 urlClassForScheme: scheme
   ^ self allSubclasses
     detect: [ :urlClass | urlClass schemeName = scheme ]
