@@ -1,6 +1,9 @@
 as yet unclassified
 loadPatch
 	| old new |
+	(self zip memberNamed: 'patch.bin') ifNotNil:
+		[:m | [^ patch := (DataStream on: m contentStream) next ]
+			on: Error do: [:fallThrough | "fallThrough"]].
 	definitions := OrderedCollection new.
 	(self zip membersMatching: 'old/*')
 		do: [:m | self extractDefinitionsFrom: m].

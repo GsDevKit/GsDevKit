@@ -1,3 +1,3 @@
 comparing
 = aDefinition
-	^ self isRevisionOf: aDefinition
+	^(aDefinition isKindOf: MCDefinition) and: [self isRevisionOf: aDefinition]
