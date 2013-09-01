@@ -5,7 +5,13 @@ printDefinitionOn: stream
             nextPutAll: self kindOfSubclass;
             nextPut: $# ;
             nextPutAll: self className;
-            cr; tab;
+            cr; tab.
+        self hasTraitComposition ifTrue: [
+            stream
+                nextPutAll: 'uses: ';
+                    nextPutAll: self traitCompositionString;
+                    cr; tab ].
+        stream
             nextPutAll: 'instanceVariableNames: ';
             store: self instanceVariablesString;
             cr; tab;

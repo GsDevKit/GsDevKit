@@ -1,8 +1,8 @@
 as yet unclassified
 writePatch: aPatch
 	| old new |
-	old _ OrderedCollection new.
-	new _ OrderedCollection new.
+	old := OrderedCollection new.
+	new := OrderedCollection new.
 	aPatch operations do:
 		[:ea |
 		ea isRemoval ifTrue: [old add: ea definition].
@@ -10,3 +10,4 @@ writePatch: aPatch
 		ea isModification ifTrue: [old add: ea baseDefinition. new add: ea definition]].
 	self writeOldDefinitions: old.
 	self writeNewDefinitions: new.
+	self addString: (self serializeInBinary: aPatch) at: 'patch.bin'.
