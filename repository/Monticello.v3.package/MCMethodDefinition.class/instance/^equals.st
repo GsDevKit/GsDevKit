@@ -1,7 +1,11 @@
 comparing
 = aDefinition
-	aDefinition == nil ifTrue: [^false].
-	^(super = aDefinition)
-		and: [aDefinition source = self source]
-		and: [aDefinition category = self category]
-		and: [aDefinition timeStamp = self timeStamp]
+  aDefinition == nil
+    ifTrue: [ ^ false ].
+  ^ super = aDefinition
+    and: [ aDefinition source trimBoth = self source trimBoth ]
+    and: [ aDefinition category = self category ]
+    and: [ 
+      self class useTimeStampInComparisons
+        ifTrue: [ aDefinition timeStamp = self timeStamp ]
+        ifFalse: [ true ] ]

@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Definitions" ],
+		"Definitions",
+		"UseTimeStampInComparisons" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"classIsMeta",

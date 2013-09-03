@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "topa 08/27/2013 10:22",
+	"commentStamp" : "",
 	"instvars" : [
 		"previousChangeSet" ],
 	"name" : "MCTraitDefinitionTest",
