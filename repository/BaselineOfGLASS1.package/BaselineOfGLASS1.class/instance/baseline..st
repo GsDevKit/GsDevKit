@@ -26,7 +26,7 @@ baseline: spec
         package: 'Sport'
           with: [ 
               spec
-                file: 'Sport3.010-dkh.28';
+                file: 'Sport3.010-dkh.30';
                 requires: #('Bootstrap');
                 repository: 'http://seaside.gemtalksystems.com/ss/hyper' ];
         package: 'Squeak' with: [ spec requires: #('Sport') ];
@@ -223,4 +223,7 @@ baseline: spec
     do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ].
   spec
     for: #'Issue3TraitLoadFixNeeded'
-    do: [ spec package: 'Monticello' with: [ spec preLoadDoIt: #traitsMonticelloPreLoadDoIt ] ].
+    do: [ 
+      spec
+        package: 'Monticello'
+        with: [ spec preLoadDoIt: #'traitsMonticelloPreLoadDoIt' ] ]
