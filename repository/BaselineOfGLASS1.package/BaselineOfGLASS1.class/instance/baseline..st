@@ -23,13 +23,13 @@ baseline: spec
           with: [ spec requires: #('Bootstrap') ];
         package: 'GemStone-Release-Support'
           with: [ spec requires: #('GsCore') ];
-        package: 'Sport3'
+        package: 'Sport'
           with: [ 
               spec
                 file: 'Sport3.010-dkh.28';
                 requires: #('Bootstrap');
                 repository: 'http://seaside.gemtalksystems.com/ss/hyper' ];
-        package: 'Squeak' with: [ spec requires: #('Sport3') ];
+        package: 'Squeak' with: [ spec requires: #('Sport') ];
         package: 'Regex-Core' with: [ spec requires: #('Core' 'Squeak') ];
         package: 'Regex-Tests-Core' with: [ spec requires: #('Regex-Core') ];
         yourself.
@@ -177,7 +177,7 @@ baseline: spec
         package: 'OB-SymbolListBrowser'
           with: [ spec requires: #('OB-Standard') ];
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.v3' ];
-        package: 'Sport' with: [ spec file: 'Sport3.010.v3-dkh.29' ];
+        package: 'Sport' with: [ spec file: 'Sport3.010.v3-dkh.30' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v3' ];
         yourself.
       spec
@@ -189,12 +189,6 @@ baseline: spec
         yourself.
       spec
         group: 'GsOB' with: #('OB-SymbolListBrowser');
-        yourself ].
-  spec
-    for: #'gs3.x'
-    do: [ 
-      spec
-        package: 'Sport3' with: [ spec file: 'Sport3.010.v3-dkh.30' ];
         yourself ].
   spec
     for: #'gs3.0.x'
