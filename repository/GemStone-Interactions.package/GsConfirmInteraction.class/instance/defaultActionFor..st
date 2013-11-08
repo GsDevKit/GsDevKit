@@ -1,0 +1,3 @@
+interacting
+defaultActionFor: anInteractionRequest
+  self cancelFor: anInteractionRequest

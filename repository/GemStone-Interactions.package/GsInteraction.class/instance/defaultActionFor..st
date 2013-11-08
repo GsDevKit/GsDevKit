@@ -1,0 +1,3 @@
+interacting
+defaultActionFor: anException
+  self subclassResponsibility
