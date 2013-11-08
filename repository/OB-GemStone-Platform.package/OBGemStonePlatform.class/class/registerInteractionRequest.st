@@ -3,7 +3,9 @@ registerInteractionRequest
   (Warning respondsTo: #'addDefaultHandler:')
     ifFalse: [ 
       Exception
-        installStaticException: [ :ex :cat :num :args | (ex perform: #'interaction') perform: #'interactWith:' with: self ]
+        installStaticException: [ :ex :cat :num :args | 
+          "see GsInteractionRequest>>gsArguments"
+          (args at: 1) perform: #'interactWith:' with: self ]
         category: GemStoneError
         number: 121001.
       ^ self ].

@@ -1,3 +1,3 @@
 interacting
-signal: aGsInteractionSpecification
-  ^ (self new interaction: aGsInteractionSpecification) signal
+signal: aGsInteraction
+  ^ (self new interaction: aGsInteraction) signal
