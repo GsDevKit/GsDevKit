@@ -1,5 +1,4 @@
 Instance initialization
 initialize
-  gsNumber := 121001.
-  gsResumable := true.
-  gsTrappable := true
+  super initialize.
+  gsNumber := 121001
