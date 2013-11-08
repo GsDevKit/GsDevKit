@@ -14,3 +14,4 @@ allMethods
                     (OBMethodNode on: selector inClass: class)
 							symbolDictionary: self symbolDictionary;
 							yourself ].
+                    

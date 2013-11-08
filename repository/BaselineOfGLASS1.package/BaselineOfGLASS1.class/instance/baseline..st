@@ -15,11 +15,11 @@ baseline: spec
                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
         yourself.
       spec
-        package: 'Core';
+        package: 'GemStone-Interactions';
+        package: 'Core' with: [ spec requires: #('GemStone-Interactions') ];
         package: 'Base-Bootstrap' with: [ spec requires: #('Core') ];
         package: 'Bootstrap' with: [ spec requires: #('Base-Bootstrap') ];
         package: 'GemStone-ANSI-Streams' with: [ spec requires: #('Core') ];
-        package: 'GemStone-Interactions';
         package: 'GemStone-Indexing-Extensions'
           with: [ spec requires: #('Bootstrap') ];
         package: 'GemStone-Release-Support'

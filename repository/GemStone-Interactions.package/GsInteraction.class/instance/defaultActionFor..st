@@ -1,3 +1,3 @@
 interacting
-defaultActionFor: anException
-  self subclassResponsibility
+defaultActionFor: anInteractionRequest
+  ^ self defaultActionBlock value: anInteractionRequest

@@ -7,3 +7,4 @@ findClassNamesMatching: aString
 			(aClass name includesString: aString)
 				ifTrue: [matches add: (NameMatch new name: aClass name matching: aString)]].
 	^self sortNameMatchesAsString: matches
+	

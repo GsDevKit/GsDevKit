@@ -5,3 +5,4 @@ categories
 			(OBMethodCategoryNode on: cat asSymbol inClass: self theClass) 
 				symbolDictionary: self symbolDictionary;
 				yourself ]
+			

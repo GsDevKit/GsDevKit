@@ -10,4 +10,4 @@ sendersNav: navSelector
 		displaySelector: #fullNameWithProtocol;
 		addFilter: OBRescueFilter new.
 	self chasingBrowsers ifTrue: [sender childAt: navSelector put: sender].
-	^ selector
+	^ selector	

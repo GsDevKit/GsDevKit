@@ -1,3 +1,4 @@
 interacting
 defaultActionFor: anInteractionRequest
-  anInteractionRequest response: nil
+  defaultActionBlock ifNil: [ ^ anInteractionRequest response: nil ].
+  ^ super defaultActionFor: anInteractionRequest

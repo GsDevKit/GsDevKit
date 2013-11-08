@@ -7,3 +7,4 @@ findMethodNamesMatching: aString
 			(symbol isValidSelector and: [symbol includesString: aString])
 				ifTrue: [matches add: (NameMatch new name: symbol matching: aString)]].
 	^self sortNameMatchesAsString: matches
+	

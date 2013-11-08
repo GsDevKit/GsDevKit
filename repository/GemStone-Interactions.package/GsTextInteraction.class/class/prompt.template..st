@@ -1,6 +1,6 @@
 instance creation
 prompt: promptString template: templateString
-  ^ (self new
+  ^ self new
     prompt: promptString;
     template: templateString;
-    yourself) signal
+    yourself

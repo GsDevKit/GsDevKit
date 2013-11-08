@@ -1,6 +1,6 @@
 instance creation
 prompt: prompt confirm: confirm cancel: cancel
-  ^ (self new
+  ^ self new
     prompt: prompt;
     confirm: confirm;
-    cancel: cancel) signal
+    cancel: cancel

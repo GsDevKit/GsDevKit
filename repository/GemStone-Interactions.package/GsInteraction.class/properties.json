@@ -4,9 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "dkh 11/07/2013 19:48",
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"defaultActionBlock" ],
 	"name" : "GsInteraction",
 	"pools" : [
 		 ],

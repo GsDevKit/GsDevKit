@@ -1,5 +1,5 @@
 instance creation
 message: aString
-  ^ (self new
+  ^ self new
     message: aString;
-    yourself) signal
+    yourself
