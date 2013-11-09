@@ -8,3 +8,4 @@ requestClassToUser
 					prompt: nil
 					labels: classeNames
 					values: (classeNames collect: [:name | Smalltalk at: name ifAbsent: nil])]
+	

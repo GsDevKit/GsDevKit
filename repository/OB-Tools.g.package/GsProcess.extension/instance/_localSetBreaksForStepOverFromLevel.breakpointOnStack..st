@@ -52,4 +52,4 @@ stackBreakLevel <= stackDepth
   ifFalse:[ stackBreakLevel := 0 "no stack breaks to set" ].
 result at: 3 put: breakpointsToIgnore .
 result at: 2 put: stackBreakLevel .
-^ result
+^ result 

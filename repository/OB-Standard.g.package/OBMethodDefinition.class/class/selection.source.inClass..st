@@ -4,4 +4,4 @@ selection: anInterval source: aText inClass: aClass
 		selection: anInterval
 		source: aText
 		inCategory: nil
-		inClass: aClass
+		inClass: aClass	
