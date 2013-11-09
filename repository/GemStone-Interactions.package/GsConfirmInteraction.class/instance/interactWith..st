@@ -9,4 +9,4 @@ interactWith: anObject
      interactWithText:
   "
 
-  anObject interactWithConfirm: self
+  ^ anObject interactWithConfirm: self

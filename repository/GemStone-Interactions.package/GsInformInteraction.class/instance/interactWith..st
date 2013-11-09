@@ -9,4 +9,4 @@ interactWith: anObject
      interactWithText:
   "
 
-  anObject interactWithInform: self
+  ^ anObject interactWithInform: self

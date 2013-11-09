@@ -9,4 +9,4 @@ interactWith: anObject
      interactWithText:
   "
 
-  anObject interactWithMultiLineText: self
+  ^ anObject interactWithMultiLineText: self

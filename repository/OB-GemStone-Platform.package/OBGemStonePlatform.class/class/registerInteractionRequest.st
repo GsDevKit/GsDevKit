@@ -4,9 +4,11 @@ registerInteractionRequest
     ifFalse: [ 
       Exception
         installStaticException: [ :ex :cat :num :args | 
+          | result |
           "see GsInteractionRequest>>gsArguments"
-          (args at: 1) perform: #'interactWith:' with: self ]
-        category: GemStoneError
+          result := (args at: 1) perform: #'interactWith:' with: self.
+          result	"resume with result of #interactWith:" ]
+        category: GsInteractionRequest
         number: 121001.
       ^ self ].
   GsInteractionRequest defaultHandlers isEmpty
