@@ -11,11 +11,12 @@ registerInteractionRequest
         category: GsInteractionRequest
         number: 121001.
       ^ self ].
-  GsInteractionRequest defaultHandlers isEmpty
+  (GsInteractionRequest perform: #'defaultHandlers') isEmpty
     ifTrue: [ 
       "signalled from GemStone base interactions"
       GsInteractionRequest
-        addDefaultHandler: [ :ex | 
+        perform: #'addDefaultHandler:'
+        with: [ :ex | 
           | response |
           response := (ex perform: #'interaction')
             perform: #'interactWith:'
