@@ -12,3 +12,4 @@ allMethods
 	^ allMethods collect: [:selector | | class |
 					class := self theClass whichClassIncludesSelector:  selector.
 					OBMethodNode on: selector inClass: class].
+					

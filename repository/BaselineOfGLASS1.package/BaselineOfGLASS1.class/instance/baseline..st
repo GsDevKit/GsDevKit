@@ -15,7 +15,8 @@ baseline: spec
                 repository: 'http://www.squeaksource.com/MetacelloRepository' ];
         yourself.
       spec
-        package: 'Core';
+        package: 'GemStone-Interactions';
+        package: 'Core' with: [ spec requires: #('GemStone-Interactions') ];
         package: 'Base-Bootstrap' with: [ spec requires: #('Core') ];
         package: 'Bootstrap' with: [ spec requires: #('Base-Bootstrap') ];
         package: 'GemStone-ANSI-Streams' with: [ spec requires: #('Core') ];
@@ -56,7 +57,8 @@ baseline: spec
                 requires: #('Monticello') ];
         yourself.
       spec
-        package: 'OmniBrowser' with: [ spec requires: #('Core') ];
+        package: 'OmniBrowser'
+          with: [ spec requires: #('Core' 'GemStone-Interactions') ];
         package: 'OB-GemStone-Platform'
           with: [ spec requires: #('OmniBrowser') ];
         package: 'OB-Monticello'

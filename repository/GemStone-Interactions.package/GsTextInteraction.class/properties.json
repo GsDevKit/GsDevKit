@@ -1,0 +1,15 @@
+{
+	"category" : "GemStone-Interactions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"prompt",
+		"template" ],
+	"name" : "GsTextInteraction",
+	"pools" : [
+		 ],
+	"super" : "GsInteraction",
+	"type" : "normal" }

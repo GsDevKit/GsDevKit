@@ -1,3 +1,3 @@
 configuration
 title
-	^'Hierarchy Senders of'
+	^'Hierarchy Senders of' 

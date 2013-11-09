@@ -8,3 +8,4 @@ registerForRemoteBreakpoints
 		on: SetOrClearBreakpointAnnouncement
 			send: #setOrClearBreakpoint:
 			to: self.
+		

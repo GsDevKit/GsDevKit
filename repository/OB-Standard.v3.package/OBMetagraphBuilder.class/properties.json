@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DataCurator 04/16/2012 15:46",
+	"commentStamp" : "",
 	"instvars" : [
 		"metaNodes",
 		"selectors",

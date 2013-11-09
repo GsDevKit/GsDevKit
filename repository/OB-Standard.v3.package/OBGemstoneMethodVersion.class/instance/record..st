@@ -6,3 +6,4 @@ record: aMethodVersionRecord
 	category := record category.
 	stamp := record changeStamp.
 	selector := record selector.
+	

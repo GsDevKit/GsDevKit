@@ -1,4 +1,4 @@
 notification
 registerChoiceClientForwarder: aClientForwarder
-
-	self clientForwarderMap at:#choice put:  aClientForwarder
+  self registerInteractionRequest.
+  self clientForwarderMap at: #'choice' put: aClientForwarder

@@ -1,0 +1,16 @@
+{
+	"category" : "GemStone-Interactions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"prompt",
+		"confirm",
+		"cancel" ],
+	"name" : "GsConfirmInteraction",
+	"pools" : [
+		 ],
+	"super" : "GsInteraction",
+	"type" : "normal" }

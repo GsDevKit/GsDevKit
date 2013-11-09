@@ -6,3 +6,4 @@ sortNameMatchesAsString: matches
 		ifTrue: [(sorted copyFrom: 1 to: 80) add: (NameMatch new name: #'***results_truncated***' matching:  ''); yourself ]
 		ifFalse: [ sorted ].
 	^sorted inject: String new into: [ :result :match | result, match name, ' ' ]
+	

@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Interactions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"message" ],
+	"name" : "GsInformInteraction",
+	"pools" : [
+		 ],
+	"super" : "GsInteraction",
+	"type" : "normal" }

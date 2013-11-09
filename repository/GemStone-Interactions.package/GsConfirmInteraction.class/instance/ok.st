@@ -1,0 +1,3 @@
+confirm
+ok
+  ^ true
