@@ -1,3 +1,3 @@
 confirm
 cancelFor: anInteractionRequest
-  anInteractionRequest response: self cancel
+  anInteractionRequest response: self cancelResponse

@@ -1,3 +1,3 @@
 confirm
 okFor: anInteractionRequest
-  anInteractionRequest response: self ok
+  anInteractionRequest response: self okResponse
