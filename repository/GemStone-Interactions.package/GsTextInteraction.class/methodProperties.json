@@ -1,11 +1,14 @@
 {
 	"class" : {
 		"prompt:" : "dkh 11/07/2013 20:15",
-		"prompt:template:" : "dkh 11/08/2013 12:51" },
+		"prompt:template:" : "dkh 11/08/2013 12:51",
+		"requestPassword:" : "dkh 11/09/2013 09:42" },
 	"instance" : {
 		"defaultActionFor:" : "dkh 11/08/2013 15:04",
 		"interactWith:" : "dkh 11/08/2013 15:54",
 		"prompt" : "dkh 11/07/2013 20:13",
 		"prompt:" : "dkh 11/07/2013 20:13",
-		"template" : "dkh 11/07/2013 20:13",
+		"requestPassword" : "dkh 11/09/2013 09:41",
+		"requestPassword:" : "dkh 11/09/2013 09:41",
+		"template" : "dkh 11/09/2013 09:42",
 		"template:" : "dkh 11/07/2013 20:13" } }
