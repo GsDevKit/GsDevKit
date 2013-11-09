@@ -10,4 +10,4 @@ interactWith: anObject
      interactWithText:
   "
 
-  self subclassResponsibility
+  ^ anObject interactWithInspect: self
