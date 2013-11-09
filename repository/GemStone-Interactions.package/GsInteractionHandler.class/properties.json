@@ -11,7 +11,8 @@
 		"informBlock",
 		"textBlock",
 		"multiLineTextBlock",
-		"defaultBlock" ],
+		"defaultBlock",
+		"inspectBlock" ],
 	"name" : "GsInteractionHandler",
 	"pools" : [
 		 ],
