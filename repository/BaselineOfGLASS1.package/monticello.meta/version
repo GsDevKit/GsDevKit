@@ -1,8 +1,8 @@
-(name 'BaselineOfGLASS1-otto.15'
-message 'Fix dependencyhttps://github.com/glassdb/glass/issues/12'
-id 'ea92f786-dc9a-4531-9e34-55577507538d'
-date '2013/11/15'
-time '13:51:41.719'
-author 'otto'
+(name 'BaselineOfGLASS1-talita.16'
+message 'remove GsSqueakCommon-Core 2/3 packages - they are empty anyway and this prevents the actual GsSqueakCommon-Core from being loaded'
+id 'ba657ec2-a06d-46d8-9658-06582abb13d1'
+date '2013/11/17'
+time '17:13:24.482'
+author 'talita'
 ancestors ()
 stepChildren ())
