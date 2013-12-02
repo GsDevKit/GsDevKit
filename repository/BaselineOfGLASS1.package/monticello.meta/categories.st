@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'BaselineOfGLASS1'!
+SystemOrganization addCategory: #BaselineOfGLASS1!
