@@ -6,4 +6,4 @@ asDateAndTime
     day: self dayGmt
     hour: self hourGmt
     minute: self minuteGmt
-    seconds: self secondsGmt
+    second: self secondsGmt
