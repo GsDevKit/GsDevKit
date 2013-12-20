@@ -17,4 +17,3 @@ announcementClassForItem: itemKind change: changeKind
 		ifTrue: [ className := className, 'Removed' ].
 	className := className, 'Announcement'.
 	^System myUserProfile objectNamed: className asSymbol
-	

@@ -8,4 +8,3 @@ _addUndefinedSymbol: undefindedSymbol to: undefinedSymbols for: aMethod
 			s := Set new.
 			undefinedSymbols at: undefindedSymbol put: s ].
 	s add: (aMethod inClass -> aMethod selector)
-	

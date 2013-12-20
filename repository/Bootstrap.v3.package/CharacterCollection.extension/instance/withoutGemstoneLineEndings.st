@@ -30,4 +30,3 @@ withoutGemstoneLineEndings
 	outString replaceFrom: outPos to: newOutPos-1 with: self startingAt: inPos.
 
 	^outString copyFrom: 1 to: newOutPos-1
-	
