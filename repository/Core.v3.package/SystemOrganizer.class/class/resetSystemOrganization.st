@@ -1,7 +1,7 @@
 class initialization
 resetSystemOrganization
-	"self resetSystemOrganization"
+  "self resetSystemOrganization"
 
-	| ar |
-	ar := System myUserProfile symbolList dictionaryAndSymbolOf: self.
-	(ar at: 1) at: #SystemOrganization put: self new.
+  | ar |
+  ar := (System myUserProfile symbolList dictionariesAndSymbolsOf: self) at: 1.
+  (ar at: 1) at: #'SystemOrganization' put: self new

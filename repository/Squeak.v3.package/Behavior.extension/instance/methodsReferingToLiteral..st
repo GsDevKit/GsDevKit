@@ -13,9 +13,7 @@ methodsReferingToLiteral: aLiteral
           (gsMethod _literalsIncludesSymbol: aLiteral value: aLiteral)
             ifTrue: [ result add: gsMethod ]
             ifFalse: [ 
-              (gsMethod literals
-                detect: [ :literal | literal refersToLiteral: aLiteral ]
-                ifNone: [  ]) ~~ nil
+              (gsMethod literals asArray refersToLiteral: aLiteral)
                 ifTrue: [ result add: gsMethod ]
                 ifFalse: [ 
                   (gsMethod pragmas detect: [ :pragma | pragma hasLiteral: aLiteral ] ifNone: [  ])
