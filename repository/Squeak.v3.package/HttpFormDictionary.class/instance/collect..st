@@ -12,4 +12,4 @@ self keysAndValuesDo: [ :aKey :aCollection |
   (aBlock value: aCollection) do: [:ea | self at: aKey put: ea ].
   ].
 
-^ result. 
+^ result.

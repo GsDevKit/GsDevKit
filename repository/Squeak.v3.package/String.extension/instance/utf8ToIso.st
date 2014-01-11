@@ -19,4 +19,4 @@ utf8ToIso
 					v2 := c2 asciiValue.
 					((v2 bitAnd: 192) = 128) ifFalse: [self error: 'illegal 2nd UTF-8 char']. 
 					s nextPut: ((v2 bitAnd: 63) bitOr: ((v << 6) bitAnd: 192)) asCharacter]]].
-	^s contents. 
+	^s contents.

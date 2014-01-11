@@ -26,4 +26,3 @@ testLinesDo
 		self deny: (aLine includes: Character lf).
 		lines add: aLine].
 	self assert: lines asArray = {'Fred'. 'the'. bear. }.
-

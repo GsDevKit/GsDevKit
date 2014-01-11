@@ -10,4 +10,3 @@ newFromPairs: anArray
 		newDictionary at: (anArray at: i) put: (anArray at: i+1).
 	].
 	^ newDictionary
-

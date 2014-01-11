@@ -11,4 +11,3 @@ coalesce
 				runs at: ind-1 put: (runs at: ind-1) + (runs at: ind).
 				runs := runs copyReplaceFrom: ind to: ind with: #().
 				"self error: 'needed to combine runs' "]].
-			

@@ -21,6 +21,3 @@ testEndsWith
 	7 to: cArray size do: [:i | suffix add: (cArray at: i) ].
 	self assert: (quad endsWith: suffix).
 	self assert: (quad endsWith: suffix asOctetString).
-	
-	
-	

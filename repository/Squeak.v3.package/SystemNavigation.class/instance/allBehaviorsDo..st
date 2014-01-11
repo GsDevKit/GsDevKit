@@ -5,5 +5,3 @@ allBehaviorsDo: aBlock
 		aBlock value: cls.
 		aBlock value: cls class
 	].
-
-	

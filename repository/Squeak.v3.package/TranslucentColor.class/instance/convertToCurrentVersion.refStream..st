@@ -5,4 +5,3 @@ convertToCurrentVersion: varDict refStream: smartRefStrm
 	varDict at: 'alpha' ifAbsent: [^ Color transparent].
 
 	^super convertToCurrentVersion: varDict refStream: smartRefStrm.
-	

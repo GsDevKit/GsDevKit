@@ -8,4 +8,4 @@ repeatLast: times  ifEmpty: defaultBlock
 		[runs := runs copyWith: times.
 		values := values copyWith: defaultBlock value]
 	  ifFalse:
-		[runs at: runs size put: runs last+times] 
+		[runs at: runs size put: runs last+times]

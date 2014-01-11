@@ -23,6 +23,3 @@ testIndexOfAnyOfStartingAtIfAbsent
 	self assert: (quad indexOfAnyOf: bArray  startingAt: 1 ifAbsent: [self assert: false ]) = 4.
 	bArray := {16rEF. 16rE } asByteArray.
 	self assert: (quad indexOfAnyOf: bArray  startingAt: 1 ifAbsent: [ true ]).
-	
-	
-	

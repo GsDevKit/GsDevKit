@@ -12,4 +12,4 @@ isoToUtf8
 			ifTrue: [
 				s nextPut: (192+(v >> 6)) asCharacter.
 				s nextPut: (128+(v bitAnd: 63)) asCharacter]].
-	^s contents. 
+	^s contents.

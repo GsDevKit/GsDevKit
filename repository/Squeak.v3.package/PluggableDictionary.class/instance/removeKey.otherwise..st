@@ -48,4 +48,4 @@ anAssociation := self _at: index.
   count := count - 1.
   ^ anAssociation.
   ].
-^ defaultValue 
+^ defaultValue

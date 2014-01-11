@@ -21,6 +21,3 @@ testBeginsWith
 	1 to: 4 do: [:i | prefix add: (cArray at: i) ].
 	self assert: (quad beginsWith: prefix).
 	self assert: (quad beginsWith: prefix asOctetString).
-	
-	
-	

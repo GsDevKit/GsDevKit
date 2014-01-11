@@ -1,3 +1,3 @@
 *squeak
 class
-  ^ Object _classOf: self 
+  ^ Object _classOf: self

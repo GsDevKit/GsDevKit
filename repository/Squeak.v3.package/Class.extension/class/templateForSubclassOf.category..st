@@ -22,4 +22,4 @@ templateForSubclassOf: priorClassName category: systemCategoryName
     inDictionary: '; add: dictionaryName printString; add:'
     category: '''; add: systemCategoryName asString; add: $' ; add: '
     options: #() ' .
-  ^ str 
+  ^ str

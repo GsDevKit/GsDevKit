@@ -6,4 +6,3 @@ withStartStopAndValueDo: aBlock
 		[:len : val | stop := start + len - 1.
 		aBlock value: start value: stop value: val.
 		start := stop + 1]
-		
