@@ -1,4 +1,3 @@
 testing
 includesKey: aGlobalName
-
-	^(System myUserProfile symbolList objectNamed: aGlobalName) ~~ nil
+  ^ (GsSession currentSession symbolList objectNamed: aGlobalName) ~~ nil

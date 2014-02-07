@@ -2,7 +2,7 @@ private
 fileOutClasses: order on: stream
   "Writes out code on the given stream that creates the given classes"
 
-  | class str lf head term any up |
+  | class str lf head term any sl |
   order size == 0
     ifTrue: [ ^ self ].
   head := 'doit
@@ -13,12 +13,12 @@ fileOutClasses: order on: stream
       '%
 '.
   lf := Character lf.
-  up := System myUserProfile.
+  sl := GsSession currentSession symbolList.
   1 to: order size do: [ :j | 
     | ar dict nm |
     class := order at: j.
     class fileOutPreClassOn: stream.
-    ar := up dictionaryAndSymbolOf: class.
+    ar := sl dictionaryAndSymbolOf: class.
     dict := ar at: 1.
     nm := dict name.
     stream
@@ -31,7 +31,7 @@ fileOutClasses: order on: stream
     "now make non-modifiable classdict non-modifiable "
     class := order at: k.
     any := false.
-    ar := up dictionaryAndSymbolOf: class.
+    ar := sl dictionaryAndSymbolOf: class.
     dict := ar at: 1.
     class isModifiable
       ifFalse: [ 

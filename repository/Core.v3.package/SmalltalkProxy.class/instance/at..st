@@ -1,4 +1,3 @@
 accessing
 at: aGlobalName
-
-	^System myUserProfile symbolList objectNamed: aGlobalName
+  ^ GsSession currentSession symbolList objectNamed: aGlobalName

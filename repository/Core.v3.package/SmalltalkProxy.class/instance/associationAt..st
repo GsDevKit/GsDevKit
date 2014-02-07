@@ -1,4 +1,3 @@
 accessing
 associationAt: aGlobalName
-
-	^System myUserProfile symbolList resolveSymbol: aGlobalName
+  ^ GsSession currentSession symbolList resolveSymbol: aGlobalName
