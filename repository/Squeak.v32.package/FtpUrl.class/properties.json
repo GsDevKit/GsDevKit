@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FtpUrl",
+	"pools" : [
+		 ],
+	"super" : "HierarchicalUrl",
+	"type" : "normal" }
