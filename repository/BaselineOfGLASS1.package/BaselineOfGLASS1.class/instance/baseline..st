@@ -206,7 +206,6 @@ baseline: spec
     for: #'gs3.1.x'
     do: [ 
       spec
-        package: 'Squeak' with: [ spec file: 'Squeak.v32' ];
         package: 'Utf8Encoding'
         with: [ 
           spec
@@ -216,6 +215,7 @@ baseline: spec
     for: #'gs3.2.x'
     do: [ 
       spec
+        package: 'Squeak' with: [ spec file: 'Squeak.v32' ];
         package: 'Utf8Encoding'
         with: [ 
           spec
