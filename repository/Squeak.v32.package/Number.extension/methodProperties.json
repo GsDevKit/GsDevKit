@@ -5,7 +5,7 @@
 		"readFrom:ifFail:" : "nice 3/15/2008 00:42" },
 	"instance" : {
 		"@" : "dkh 08/02/2007 13:15",
-		"_printAsDateAndTimeANSISecondsOn:" : "DaleHenrichs 10/25/2010 16:01",
+		"_printAsDateAndTimeANSISecondsOn:" : "dkh 02/26/2014 10:19",
 		"adaptToPoint:andSend:" : "dkh 02/12/2009 16:50",
 		"asDuration" : "DataCurator 04/23/2007 14:43",
 		"asNumber" : "dkh 03/03/2008 15:38",
