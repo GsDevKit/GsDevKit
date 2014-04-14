@@ -198,6 +198,7 @@ baseline: spec
       spec
         package: 'Change-Notification'
           with: [ spec file: 'Change-Notification.v300' ];
+        package: 'Core' with: [ spec includes: #('Core300') ];
         package: 'Core300' with: [ spec requires: #('Core') ];
         package: 'GemStone-Deployment'
           with: [ spec file: 'GemStone-Deployment' ];
