@@ -206,6 +206,16 @@ baseline: spec
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
         yourself ].
   spec
+    for: #(#'gs3.1.x' #'gs3.2.x')
+    do: [ 
+      spec
+        package: 'Core' with: [ spec includes: #('Core31x') ];
+        package: 'Core31x'
+          with: [ 
+              spec
+                requires: #('Core');
+                yourself ] ].
+  spec
     for: #'gs3.1.x'
     do: [ 
       spec

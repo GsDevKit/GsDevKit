@@ -1,8 +1,7 @@
-class initialization
+*core300
 resetSystemOrganization
   "self resetSystemOrganization"
 
   | ar |
-  ar := (GsSession currentSession symbolList dictionariesAndSymbolsOf: self)
-    at: 1.
+  ar := System myUserProfile symbolList dictionaryAndSymbolOf: self.
   (ar at: 1) at: #'SystemOrganization' put: self new

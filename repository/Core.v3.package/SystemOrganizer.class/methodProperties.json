@@ -1,9 +1,7 @@
 {
 	"class" : {
 		"default" : "dkh 06/13/2007 11:32",
-		"defaultList:" : "dkh 06/13/2007 11:32",
-		"initialize" : "DaleHenrichs 10/27/2010 11:44",
-		"resetSystemOrganization" : "dkh 02/07/2014 07:50" },
+		"defaultList:" : "dkh 06/13/2007 11:32" },
 	"instance" : {
 		"addCategory:" : "dkh 06/13/2007 13:38",
 		"addCategory:before:" : "dkh 06/13/2007 11:32",

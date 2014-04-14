@@ -1,4 +1,4 @@
-class initialization
+*core300
 initialize
 	"	self  initialize	"
 	
