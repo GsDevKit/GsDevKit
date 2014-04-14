@@ -201,6 +201,7 @@ baseline: spec
         package: 'GemStone-Deployment'
           with: [ spec file: 'GemStone-Deployment' ];
         package: 'Monticello' with: 'Monticello.v301';
+        package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
         yourself ].
   spec
     for: #'gs3.1.x'
@@ -217,10 +218,10 @@ baseline: spec
       spec
         package: 'Squeak' with: [ spec file: 'Squeak.v32' ];
         package: 'Utf8Encoding'
-        with: [ 
-          spec
-            file: 'Utf8Encoding.310';
-            requires: #('GsCore') ] ].
+          with: [ 
+              spec
+                file: 'Utf8Encoding.310';
+                requires: #('GsCore') ] ].
   spec
     for: #'maglev'
     do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ].
