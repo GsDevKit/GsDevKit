@@ -99,8 +99,7 @@ baseline: spec
         group: 'GsOB'
           with:
             #('OmniBrowser' 'OB-GemStone-Platform' 'OB-Monticello' 'OB-SUnitIntegration' 'OB-SUnitGUI' 'OB-Standard' 'OB-Tools' 'JadeServer');
-        group: 'GsSqueakCommon'
-          with: #('GsSqueakCommon-Core' 'GsSqueakCommon-Tests');
+        group: 'GsSqueakCommon' with: #('GsSqueakCommon-Core');
         yourself ].
   spec
     for: #'gs2.x'
