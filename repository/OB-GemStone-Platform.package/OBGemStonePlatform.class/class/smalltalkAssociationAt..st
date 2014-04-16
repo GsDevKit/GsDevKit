@@ -1,4 +1,3 @@
 smalltalk
 smalltalkAssociationAt: aSymbol
-
-	^System myUserProfile symbolList resolveSymbol: aSymbol
+  ^ GsSession currentSession symbolList resolveSymbol: aSymbol

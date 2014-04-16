@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MswUrl",
+	"pools" : [
+		 ],
+	"super" : "HttpUrl",
+	"type" : "normal" }

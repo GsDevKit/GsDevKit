@@ -1,8 +1,7 @@
 smalltalk
 smalltalkAt: aGlobalName ifPresent: aBlock
-
-| glob |
-glob := System myUserProfile symbolList objectNamed: aGlobalName.
-^glob ~~ nil
-    ifTrue: [aBlock value: glob]
-    ifFalse: [glob]
+  | glob |
+  glob := GsSession currentSession symbolList objectNamed: aGlobalName.
+  ^ glob ~~ nil
+    ifTrue: [ aBlock value: glob ]
+    ifFalse: [ glob ]

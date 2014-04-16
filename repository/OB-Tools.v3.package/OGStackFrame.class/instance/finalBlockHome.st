@@ -1,5 +1,5 @@
 accessing
 finalBlockHome
-
-	(self receiver isKindOf: ExecutableBlock) ifFalse: [ ^self ].
-	^self sender finalBlockHomeFor: self
+  (self receiver isKindOf: ExecBlock)
+    ifFalse: [ ^ self ].
+  ^ self sender finalBlockHomeFor: self

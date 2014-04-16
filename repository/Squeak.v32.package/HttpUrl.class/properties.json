@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Passwords" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"realm" ],
+	"name" : "HttpUrl",
+	"pools" : [
+		 ],
+	"super" : "HierarchicalUrl",
+	"type" : "normal" }
