@@ -1,4 +1,3 @@
 *ob-tools-inspector
 explore
-
-	^(OTChasingInspector on: self) open
+  ^ (OTChasingInspector on: self) open
