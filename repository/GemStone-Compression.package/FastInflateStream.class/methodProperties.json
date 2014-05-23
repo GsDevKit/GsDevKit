@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"initialize" : "dkh 05/23/2014 15:22" },
+	"instance" : {
+		"decompressBlock:with:" : "dkh 05/23/2014 15:24",
+		"distanceMap" : "dkh 05/23/2014 15:24",
+		"increment:bits:" : "dkh 05/23/2014 15:24",
+		"literalLengthMap" : "dkh 05/23/2014 15:24",
+		"nextSingleBits:" : "dkh 05/23/2014 15:23",
+		"processFixedBlock" : "dkh 05/23/2014 15:35" } }

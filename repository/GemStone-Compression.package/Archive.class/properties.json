@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Compression",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"members" ],
+	"name" : "Archive",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

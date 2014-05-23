@@ -1,4 +1,3 @@
-SystemOrganization addCategory: #'Core'!
 SystemOrganization addCategory: #'Core-Bootstrap'!
 SystemOrganization addCategory: #'Core-Gemstone'!
 SystemOrganization addCategory: #'Core-MCInstaller'!

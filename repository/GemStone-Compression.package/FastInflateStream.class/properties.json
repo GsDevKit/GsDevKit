@@ -1,0 +1,17 @@
+{
+	"category" : "GemStone-Compression",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DistanceMap",
+		"FixedDistTable",
+		"FixedLitTable",
+		"LiteralLengthMap" ],
+	"commentStamp" : "dkh 05/23/2014 15:59",
+	"instvars" : [
+		 ],
+	"name" : "FastInflateStream",
+	"pools" : [
+		 ],
+	"super" : "InflateStream",
+	"type" : "normal" }
