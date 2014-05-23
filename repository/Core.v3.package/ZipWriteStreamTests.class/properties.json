@@ -1,0 +1,14 @@
+{
+	"category" : "Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ZipWriteStreamTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
