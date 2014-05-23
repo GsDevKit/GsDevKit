@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"initialize" : "dkh 05/23/2014 15:22" },
+		"initialize" : "dkh 05/23/2014 16:57" },
 	"instance" : {
 		"decompressBlock:with:" : "dkh 05/23/2014 15:24",
 		"distanceMap" : "dkh 05/23/2014 15:24",
