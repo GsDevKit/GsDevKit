@@ -1,0 +1,14 @@
+{
+	"category" : "gzip",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GZipWriteStream",
+	"pools" : [
+		"GZipConstants" ],
+	"super" : "ZipWriteStream",
+	"type" : "normal" }
