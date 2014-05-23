@@ -10,5 +10,5 @@
 	"name" : "GZipReadStream",
 	"pools" : [
 		"GZipConstants" ],
-	"super" : "FastInflateStream",
+	"super" : "ReadStream",
 	"type" : "normal" }

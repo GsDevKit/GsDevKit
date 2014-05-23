@@ -1,3 +1,3 @@
 initialization
 initialize
-	Smalltalk tools fileList registerFileReader: self
+   "Smalltalk tools fileList registerFileReader: self"
