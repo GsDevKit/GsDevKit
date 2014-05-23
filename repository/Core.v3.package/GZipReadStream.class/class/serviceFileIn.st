@@ -8,4 +8,3 @@ serviceFileIn
 		selector: #fileIn:
 		description: 'File in the entire decompressed contents of the file, which is expected to contain Smalltalk code in fileout ("chunk") format'
 		buttonLabel: 'Filein'
-

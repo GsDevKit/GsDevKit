@@ -5,4 +5,4 @@ serviceViewDecompress
 				provider: self 
 				label: 'View decompressed'
 				selector: #viewContents:
-				description: 'View decompressed' 
+				description: 'View decompressed'

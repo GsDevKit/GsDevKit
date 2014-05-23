@@ -6,4 +6,3 @@ writeTo: stream
 	].
 	writeCentralDirectoryOffset := stream position - 1.
 	self writeCentralDirectoryTo: stream.
-	

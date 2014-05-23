@@ -13,4 +13,4 @@ category: aCategoryName
 		poolDictionaries: anArrayOfPoolDicts
 		inDictionary: ''
 		category: aCategoryName
-	      options: #() 
+	      options: #()
