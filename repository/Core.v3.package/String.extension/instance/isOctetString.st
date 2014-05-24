@@ -1,3 +1,3 @@
 *core-squeak
 isOctetString
-  ^ true  
+  ^ true

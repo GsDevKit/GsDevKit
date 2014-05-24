@@ -13,4 +13,3 @@ asString
 	result nextPut: $-.
 	11 to: 16 do:[:i| self printHexAt: i to: result].
 	^data.
-	

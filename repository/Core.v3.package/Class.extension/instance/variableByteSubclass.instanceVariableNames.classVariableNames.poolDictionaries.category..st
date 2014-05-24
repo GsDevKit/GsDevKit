@@ -11,4 +11,4 @@ variableByteSubclass: subclassName
 	  poolDictionaries: (self poolDictionariesForNames: (poolDictionaryNames findTokens: ' ') asArray)
 	  inDictionary: ''
 	  category: category 
-	  options: #() 
+	  options: #()

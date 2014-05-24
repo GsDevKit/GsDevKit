@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Compression",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expectedCrc" ],
+	"name" : "ZipReadStream",
+	"pools" : [
+		 ],
+	"super" : "FastInflateStream",
+	"type" : "normal" }

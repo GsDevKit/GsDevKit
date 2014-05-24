@@ -29,4 +29,4 @@ self _validatePrivilege.
   inDictionary: aDictionary
   newVersionOf: (self _classNamed: aString inDictionary: aDictionary)
   description: nil
-  options: optionsArray 
+  options: optionsArray

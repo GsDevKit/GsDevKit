@@ -16,10 +16,16 @@ baseline: spec
         yourself.
       spec
         package: 'GemStone-Interactions';
-        package: 'Core' with: [ spec requires: #('GemStone-Interactions') ];
+        package: 'Core'
+          with: [ 
+              spec
+                requires: #('GemStone-Interactions');
+                includes: #('GemStone-Compression');
+                yourself ];
         package: 'Base-Bootstrap' with: [ spec requires: #('Core') ];
         package: 'Bootstrap' with: [ spec requires: #('Base-Bootstrap') ];
         package: 'GemStone-ANSI-Streams' with: [ spec requires: #('Core') ];
+        package: 'GemStone-Compression' with: [ spec requires: #('Core') ];
         package: 'GemStone-Indexing-Extensions'
           with: [ spec requires: #('Bootstrap') ];
         package: 'GemStone-Release-Support'

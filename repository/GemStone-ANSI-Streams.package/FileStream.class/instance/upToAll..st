@@ -27,4 +27,4 @@ self position: self position - numMatched.
 numMatched ~~ numToMatch 
   ifTrue: [numMatched timesRepeat: [result add: self next]]. 
 
-^ result. 
+^ result.
