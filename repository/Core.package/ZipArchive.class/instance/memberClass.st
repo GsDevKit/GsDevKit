@@ -1,4 +1,0 @@
-private
-memberClass
-
-	^ZipArchiveMember
