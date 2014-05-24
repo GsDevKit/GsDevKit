@@ -5,9 +5,9 @@ atEnd
 	this we must force decompression of the next
 	block if at end of data."
 
-  position <= readLimit
+  position < readLimit
     ifTrue: [ ^ false ].	"Primitive test"
-  (position > readLimit and: [ state = StateNoMoreData ])
+  (position >= readLimit and: [ state = StateNoMoreData ])
     ifTrue: [ ^ true ].	"Force decompression, by calling #next. Since #moveContentsToFront
 	will never move data to the beginning of the buffer it is safe to
 	skip back the read position afterwards"

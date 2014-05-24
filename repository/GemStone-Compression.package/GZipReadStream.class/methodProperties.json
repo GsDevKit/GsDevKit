@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"saveContents:" : "StephaneDucasse 9/7/2011 21:35" },
+		 },
 	"instance" : {
 		"on:from:to:" : "ar 2/29/2004 03:32",
 		"updateCrc:from:to:in:" : "ar 2/29/2004 03:30",

@@ -1,12 +1,17 @@
 accessing
-next: count
-  "Returns the next count elements in the receiver's collection."
+next: anInteger
+  "Answer the next anInteger elements of my collection.  overriden for simplicity"
 
-  | result |
-  result := itsCollection species new.
-  count
-    timesRepeat: [ 
-      self atEnd
-        ifTrue: [ ^ result ].
-      result add: self next ].
-  ^ result
+  | newArray |
+  "try to do it the fast way"
+  position + anInteger <= readLimit
+    ifTrue: [ 
+      newArray := itsCollection copyFrom: position to: position + anInteger - 1.
+      position := position + anInteger.
+      ^ newArray ].
+  newArray := itsCollection species new: anInteger.	"oh, well..."
+  1 to: anInteger do: [ :index | 
+    newArray
+      at: index
+      put: (self next ifNil: [ ^ newArray copyFrom: 1 to: index - 1 ]) ].
+  ^ newArray
