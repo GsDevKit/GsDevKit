@@ -4,7 +4,9 @@
 	"instance" : {
 		"_initStreamWith:" : "dkh 06/05/2007 21:30",
 		"bitPosition" : "dkh 06/05/2007 21:30",
+		"close" : "dkh 05/23/2014 20:46",
 		"commit" : "dkh 06/05/2007 21:30",
+		"encodedStream" : "dkh 05/24/2014 06:54",
 		"flush" : "dkh 06/05/2007 21:30",
 		"flushBits" : "dkh 06/05/2007 21:30",
 		"nextBits:put:" : "dkh 06/05/2007 21:30",

@@ -5,6 +5,7 @@
 		"updateCrc:from:to:in:" : "dkh 06/06/2007 14:34" },
 	"instance" : {
 		"_initStreamWith:" : "dkh 06/06/2007 14:34",
+		"close" : "dkh 05/24/2014 06:23",
 		"compare:with:min:" : "dkh 06/06/2007 14:34",
 		"crc" : "dkh 06/06/2007 14:34",
 		"deflateBlock" : "dkh 06/06/2007 14:34",
@@ -12,6 +13,7 @@
 		"dynamicBlockSizeFor:and:using:and:" : "dkh 06/06/2007 14:34",
 		"encodeLiteral:" : "dkh 06/06/2007 14:34",
 		"encodeMatch:distance:" : "dkh 06/06/2007 14:34",
+		"encodedStream" : "dkh 05/24/2014 06:54",
 		"findMatch:lastLength:lastMatch:chainLength:goodMatch:" : "dkh 06/06/2007 14:34",
 		"finish" : "dkh 06/06/2007 14:34",
 		"fixedBlockSizeFor:and:" : "dkh 02/24/2008 20:03",
