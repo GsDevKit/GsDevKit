@@ -7,7 +7,7 @@ findFirstInString: aString inSet: inclusionMap startingAt: start
 	i := start.
 	stringSize := aString size.
 	[ i <= stringSize and: [
-		ascii := (aString at: i) asciiValue.
+		ascii := aString basicAt: i.
 		ascii < 256
 			ifTrue: [ (inclusionMap at: ascii+1) = 0 ]
 			ifFalse: [ true ]] ] whileTrue: [ 
