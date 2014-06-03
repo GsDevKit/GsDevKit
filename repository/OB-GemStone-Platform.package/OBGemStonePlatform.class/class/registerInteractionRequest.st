@@ -2,6 +2,7 @@ interaction
 registerInteractionRequest
   (Warning respondsTo: #'addDefaultHandler:')
     ifFalse: [ 
+      "GemStone 2.x"
       Exception
         installStaticException: [ :ex :cat :num :args | 
           | result |

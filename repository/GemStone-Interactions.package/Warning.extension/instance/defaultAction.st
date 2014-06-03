@@ -7,11 +7,10 @@ defaultAction
 
 	It is not so clear how this would be done in GemStone."
 
-  (GsConfirmInteraction
+  (GsNotifyInteraction
     prompt:
-      'Warning: ' , self description withoutGemstoneLineEndings
-        , ' Press ''Proceed'' to continue.'
+      self description withoutGemstoneLineEndings , ' Press ''Proceed'' to continue.'
     confirm: 'Proceed'
     cancel: 'Debug') signal == true
     ifTrue: [ ^ super defaultAction ].
-  self halt: 'Debug Warning: ' , self description
+  self halt: 'Debugging: ' , self description

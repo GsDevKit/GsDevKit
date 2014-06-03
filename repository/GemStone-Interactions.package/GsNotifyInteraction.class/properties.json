@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"interaction" ],
-	"name" : "GsInteractionRequest",
+		 ],
+	"name" : "GsNotifyInteraction",
 	"pools" : [
 		 ],
-	"super" : "Notification",
+	"super" : "GsConfirmInteraction",
 	"type" : "normal" }
