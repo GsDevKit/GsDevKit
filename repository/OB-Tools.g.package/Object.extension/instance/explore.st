@@ -1,3 +1,3 @@
 *ob-tools-inspector
 explore
-  ^ (OTChasingInspector on: self) open
+  ^ (GsInspectInteraction theObject: self) signal
