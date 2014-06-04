@@ -1,5 +1,8 @@
 accessing
 defaultActionBlock
-
-   "Return the value of the instance variable 'defaultActionBlock'."
-   ^defaultActionBlock
+  defaultActionBlock
+    ifNil: [ 
+      ^ [ :interactionRequest | 
+      (ObjectLogEntry interaction: self printString object: self) addToLog.
+      nil ] ].
+  ^ defaultActionBlock

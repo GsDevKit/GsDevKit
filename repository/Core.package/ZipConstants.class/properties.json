@@ -35,7 +35,7 @@
 		"StoredBlock",
 		"WindowMask",
 		"WindowSize" ],
-	"commentStamp" : "DataCurator 07/12/2010 16:09",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
 	"name" : "ZipConstants",

@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "dkh 11/07/2013 18:33",
+	"commentStamp" : "",
 	"instvars" : [
 		"interaction" ],
 	"name" : "GsInteractionRequest",
