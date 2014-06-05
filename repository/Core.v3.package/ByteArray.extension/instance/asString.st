@@ -2,4 +2,7 @@
 asString
   "Convert to a String with Characters for each byte"
 
-  ^ self asUnicodeString
+  | str |
+  str := String new: self size.
+  1 to: self size do: [ :i | str at: i put: (Character value: (self at: i)) ].
+  ^ str
