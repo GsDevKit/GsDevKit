@@ -13,4 +13,3 @@ loadPatch
 		do: [:m | self extractDefinitionsFrom: m].
 	new := definitions asArray.
 	^ patch := self buildPatchFrom: old to: new.
-	

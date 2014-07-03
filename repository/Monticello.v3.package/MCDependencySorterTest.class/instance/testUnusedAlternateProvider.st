@@ -6,4 +6,4 @@ testUnusedAlternateProvider
 		(c (x) ()))
 	orderAs: #(c b)
 	withRequired: #(z)
-	toLoad: #(a)	
+	toLoad: #(a)

@@ -16,4 +16,3 @@ loadDefinitions
 	filePackage doIts do:
 		[:ea |
 		self addDefinitionsFromDoit: ea string].
-	

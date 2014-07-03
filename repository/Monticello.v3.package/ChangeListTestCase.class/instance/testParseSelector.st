@@ -22,4 +22,3 @@ testParseSelector
 	self assert: (x := ChangeList parseSelector: 'debit: aCreditCard from: anAmount
         
 ') = 'debit:from:'.
-

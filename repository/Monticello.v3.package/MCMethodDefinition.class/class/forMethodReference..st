@@ -16,4 +16,3 @@ forMethodReference: aMethodReference
 						source: aMethodReference source.
 					self cachedDefinitions at: aMethodReference compiledMethod put: definition].
 	^ definition
-	

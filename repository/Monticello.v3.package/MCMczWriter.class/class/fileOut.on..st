@@ -4,4 +4,3 @@ fileOut: aVersion on: aStream
 	inst _ self on: aStream.
 	inst writeVersion: aVersion.
 	inst flush.
-	
