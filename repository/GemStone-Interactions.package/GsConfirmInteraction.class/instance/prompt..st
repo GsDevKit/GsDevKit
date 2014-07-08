@@ -1,3 +1,3 @@
 accessing
-prompt: anObject
-	prompt := anObject
+prompt: aString
+  prompt := aString copyWrappedTo: 80

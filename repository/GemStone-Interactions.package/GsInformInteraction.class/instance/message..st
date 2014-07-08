@@ -1,5 +1,3 @@
 accessing
-message: anObject
-
-   "Modify the value of the instance variable 'message'."
-   message := anObject
+message: aString
+  message := aString copyWrappedTo: 80
