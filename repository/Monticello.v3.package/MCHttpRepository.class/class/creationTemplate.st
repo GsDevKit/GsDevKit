@@ -5,3 +5,4 @@ creationTemplate
 	location: ''http://foo.com/bar''
 	user: ''squeak''
 	password: ''squeak''' withSqueakLineEndings
+	

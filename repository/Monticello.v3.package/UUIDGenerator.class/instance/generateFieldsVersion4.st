@@ -7,3 +7,4 @@ generateFieldsVersion4
 	clockSeqHiAndReserved := 16r80 bitOr: (self generateRandomBitsOfLength: 6).
 	clockSeqLow := self generateRandomBitsOfLength: 8.
 	node := self generateRandomBitsOfLength: 48.
+	

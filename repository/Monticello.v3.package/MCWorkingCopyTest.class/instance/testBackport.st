@@ -24,3 +24,4 @@ testBackport
 	self assert: workingCopy ancestry ancestors first = base info.
 	self assert: workingCopy ancestry stepChildren size = 1.
 	self assert: workingCopy ancestry stepChildren first = backported info.
+	

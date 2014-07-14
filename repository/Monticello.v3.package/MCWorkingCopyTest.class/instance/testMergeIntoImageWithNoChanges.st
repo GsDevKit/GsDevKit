@@ -16,3 +16,4 @@ testMergeIntoImageWithNoChanges
 	self merge: revB.
 
 	self assert: (workingCopy ancestors size = 2)
+	

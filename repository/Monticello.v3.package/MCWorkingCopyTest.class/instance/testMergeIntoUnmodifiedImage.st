@@ -11,3 +11,4 @@ testMergeIntoUnmodifiedImage
 	self merge: revA.
 
 	self assert: (workingCopy ancestors size = 1)
+	

@@ -1,3 +1,4 @@
 testing
 hasClassInstanceVariables
 	^ false
+

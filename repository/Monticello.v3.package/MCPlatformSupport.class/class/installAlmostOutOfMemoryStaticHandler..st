@@ -16,7 +16,7 @@ installAlmostOutOfMemoryStaticHandler: initialCommitThreshold
           "commit and mark sweep did drop us below threshold. cut threshold in half 
            and try again. Record an entry in the object log "
           commitThreshold := (100 - commitThreshold) // 2 + commitThreshold.
-          commitThreshold < 90
+          commitThreshold < 98
             ifTrue: [ System signalAlmostOutOfMemoryThreshold: commitThreshold ]
             ifFalse: [ 
               "we're with 10% of out of memory, commit instance counts structure 

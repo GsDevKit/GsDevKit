@@ -5,3 +5,4 @@ creationTemplate
 	package: ''mypackage''
 	user: ''squeak''
 	password: ''squeak'''
+	

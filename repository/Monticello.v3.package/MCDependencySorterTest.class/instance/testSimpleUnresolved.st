@@ -5,3 +5,4 @@ testSimpleUnresolved
 	orderAs: #()
 	withRequired: #(z)
 	toLoad: #(a)
+		

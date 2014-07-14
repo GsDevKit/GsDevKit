@@ -5,4 +5,4 @@ testCycle
 		(b (y) (x)))
 	orderAs: #()
 	withRequired: #()
-	toLoad: #(a b)
+	toLoad: #(a b)	

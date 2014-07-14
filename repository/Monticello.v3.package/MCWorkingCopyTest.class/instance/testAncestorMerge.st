@@ -11,3 +11,4 @@ testAncestorMerge
 	revC _  self snapshot.	
 
 	self should: [self basicMerge: revA] raise: MCNoChangesException.
+	

@@ -29,3 +29,4 @@ testDoubleRepeatedMerge
 	self assert: inst b = 'b2'.
 	self assert: inst c = 'c1'.
 	self assert: inst d = 'd1'.
+	

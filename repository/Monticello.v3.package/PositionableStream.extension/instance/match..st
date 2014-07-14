@@ -14,3 +14,4 @@ match: subCollection
 						self position: startMatch.
 						startMatch := nil]]].
 	^ true
+

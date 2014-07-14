@@ -6,3 +6,4 @@ testParseSelectorUnderbar
   ^ self virtualClass _classForRubyClassVar
 
 ') = '_classForRubyClassVar'.
+

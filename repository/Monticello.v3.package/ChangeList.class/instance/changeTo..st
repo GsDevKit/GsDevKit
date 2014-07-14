@@ -16,3 +16,5 @@ changeTo: changeSubset
 			listIndex _ 0.
 			listSelections _ Array new: list size withAll: false].
 	self changed: #list
+
+	
