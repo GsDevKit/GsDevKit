@@ -11,16 +11,9 @@ gitCache := 'git_cache'.
 gitPath := (FileDirectory default directoryNamed: gitCache ) fullName.
 
 [
-"Load the bleeding edge for Metacello...at least for now I want to pick up GLASS-specific bugfixes"
-Metacello new
-  baseline: 'Metacello';
-  repository: 'github://dalehenrich/metacello-work:master/repository';
-  get.
-Metacello new
-  baseline: 'Metacello';
-  repository: 'github://dalehenrich/metacello-work:master/repository';
-  onConflict: [:ex | ex allow];
-  load.
+"Load GLASS1.0-beta.9.3 ... should prime things for loading GLASS1"
+ConfigurationOfGLASS project updateProject.
+(ConfigurationOfGLASS project version: '1.0-beta.9.3') load.
 
 "Load the GLASS1 baseline"
 Metacello new
