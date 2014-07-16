@@ -236,7 +236,7 @@ baseline: spec
             file: 'Utf8Encoding.310';
             requires: #('GsCore') ] ].
   spec
-    for: #'gs3.2.x'
+    for: #(#'gs3.2.x' #'gs3.3.x')
     do: [ 
       spec
         package: 'Squeak' with: [ spec file: 'Squeak.v32' ];
