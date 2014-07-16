@@ -61,7 +61,12 @@ baseline: spec
               spec
                 file: 'PackageInfo-Base.g';
                 requires: #('GsCore') ];
-        package: 'Monticello' with: [ spec requires: #('PackageInfo-Base') ];
+        package: 'Monticello'
+          with: [ 
+              spec
+                includes: #('MonticelloGs');
+                requires: #('PackageInfo-Base') ];
+        package: 'MonticelloGs' with: [ spec requires: #('Monticello') ];
         package: 'GemStone-Deployment'
           with: [ 
               spec
