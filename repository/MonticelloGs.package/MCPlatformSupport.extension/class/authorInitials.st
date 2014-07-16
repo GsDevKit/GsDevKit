@@ -1,7 +1,7 @@
 *monticellogs
 authorInitials
   ^ SessionTemps current
-    at: GsPackagePolicy authorInitialsGlobalName
+    at: GsPackagePolicy current authorInitialsGlobalName
     ifAbsent: [ 
       (GsSession currentSession objectNamed: #'UserGlobals')
         at: #'GS_tODE_AuthorInitials'
