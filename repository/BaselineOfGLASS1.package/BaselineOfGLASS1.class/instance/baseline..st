@@ -251,6 +251,9 @@ baseline: spec
                 file: 'Utf8Encoding.310';
                 requires: #('GsCore') ] ].
   spec
+    for: #(#'gs3.3.x')
+    do: [ spec package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ] ].
+  spec
     for: #'maglev'
     do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ].
   spec
