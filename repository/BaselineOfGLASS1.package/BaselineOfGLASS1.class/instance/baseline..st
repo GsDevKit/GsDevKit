@@ -61,7 +61,12 @@ baseline: spec
               spec
                 file: 'PackageInfo-Base.g';
                 requires: #('GsCore') ];
-        package: 'Monticello' with: [ spec requires: #('PackageInfo-Base') ];
+        package: 'Monticello'
+          with: [ 
+              spec
+                includes: #('MonticelloGs');
+                requires: #('PackageInfo-Base') ];
+        package: 'MonticelloGs' with: [ spec requires: #('Monticello') ];
         package: 'GemStone-Deployment'
           with: [ 
               spec
@@ -217,7 +222,7 @@ baseline: spec
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
         yourself ].
   spec
-    for: #(#'gs3.1.x' #'gs3.2.x')
+    for: #(#'gs3.1.x' #'gs3.2.x' #'gs3.3.x')
     do: [ 
       spec
         package: 'Core' with: [ spec includes: #('Core31x') ];
@@ -236,7 +241,7 @@ baseline: spec
             file: 'Utf8Encoding.310';
             requires: #('GsCore') ] ].
   spec
-    for: #'gs3.2.x'
+    for: #(#'gs3.2.x' #'gs3.3.x')
     do: [ 
       spec
         package: 'Squeak' with: [ spec file: 'Squeak.v32' ];
@@ -245,6 +250,9 @@ baseline: spec
               spec
                 file: 'Utf8Encoding.310';
                 requires: #('GsCore') ] ].
+  spec
+    for: #(#'gs3.3.x')
+    do: [ spec package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ] ].
   spec
     for: #'maglev'
     do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ].
