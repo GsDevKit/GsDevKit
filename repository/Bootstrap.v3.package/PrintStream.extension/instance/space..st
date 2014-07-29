@@ -1,4 +1,4 @@
-*squeak-printing
+*bootstrap
 space: anInteger 
 	"Append anInteger space characters to the receiver."
 
