@@ -13,12 +13,11 @@ baseline: spec
                 versionString: '1.0.5.2';
                 loads: #('Core');
                 repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
-        configuration: 'Grease'
+        baseline: 'Grease'
           with: [ 
               spec
-                versionString: '1.0.7.2';
                 loads: #('Core');
-                repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+                repository: 'github://GsDevKit/Grease:master/repository' ];
         yourself.
       spec
         package: 'GemStone-Interactions';
