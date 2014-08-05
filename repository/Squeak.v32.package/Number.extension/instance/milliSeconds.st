@@ -1,4 +1,3 @@
 *squeak-converting
 milliSeconds
-
-	^ Duration milliSeconds: self
+  ^ Duration nanoSeconds: self * 1000000

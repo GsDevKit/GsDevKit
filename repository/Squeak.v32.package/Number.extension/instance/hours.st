@@ -1,4 +1,3 @@
 *squeak-converting
 hours
-
-	^ Duration hours: self
+  ^ Duration minutes: self * 60
