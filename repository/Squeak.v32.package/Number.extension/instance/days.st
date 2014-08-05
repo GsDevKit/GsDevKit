@@ -1,4 +1,3 @@
 *squeak-converting
 days
-
-	^ Duration days: self
+  ^ Duration hours: self * 24
