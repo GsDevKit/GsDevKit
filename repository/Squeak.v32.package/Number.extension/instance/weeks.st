@@ -1,4 +1,3 @@
 *squeak-converting
 weeks
-
-	^Duration weeks: self
+  ^ Duration days: self * 7

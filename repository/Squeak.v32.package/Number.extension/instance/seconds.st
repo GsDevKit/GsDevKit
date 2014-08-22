@@ -1,4 +1,3 @@
 *squeak-converting
 seconds
-
-	^ Duration seconds: self
+  ^ Duration milliSeconds: self * 1000
