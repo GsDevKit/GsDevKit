@@ -20,6 +20,8 @@ baseline: spec
                 loads: #('Grease-Core');
                 repository:
                     'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ];
+        baseline: 'Metacello'
+          with: [ spec repository: 'github://dalehenrich/metacello-work:master/repository' ];
         yourself.
       spec
         package: 'GemStone-Interactions';
@@ -104,7 +106,7 @@ baseline: spec
         group: 'default' with: #('GLASS');
         group: 'Base'
           with: #('GsCore' 'GsMonticello' 'Gofer' 'Grease' 'GsSqueakCommon');
-        group: 'GLASS' with: #('Base' 'GsOB' 'GoferProjectLoader');
+        group: 'GLASS' with: #('Base' 'GsOB' 'GoferProjectLoader' 'Metacello');
         group: 'GsCore'
           with:
             #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Squeak' 'Regex-Core' 'Regex-Tests-Core' 'GemStone-Release-Support');
