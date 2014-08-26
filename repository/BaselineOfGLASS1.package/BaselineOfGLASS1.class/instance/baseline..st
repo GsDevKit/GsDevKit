@@ -6,13 +6,13 @@ baseline: spec
     do: [ 
       spec
         configuration: 'GoferProjectLoader'
-          with: [ spec repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+          with: [ spec repository: 'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
         configuration: 'Gofer'
           with: [ 
               spec
-                versionString: '1.0.5.2';
+                versionString: #'stable';
                 loads: #('Core');
-                repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+                repository: 'http://seaside.gemtalksystems.com/ss/metacello' ];
         configuration: 'Grease'
           with: [ 
               spec
