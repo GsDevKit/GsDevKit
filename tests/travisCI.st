@@ -10,24 +10,27 @@ Transcript cr; show: 'travis---->travisCI.st'.
 gitCache := 'git_cache'.
 gitPath := (FileDirectory default directoryNamed: gitCache ) fullName.
 
-[
 "Load GLASS1.0-beta.9.3 ... should prime things for loading GLASS1"
 ConfigurationOfGLASS project updateProject.
-(ConfigurationOfGLASS project version: '1.0-beta.9.3') load.
+GsDeployer deploy: [
+  (ConfigurationOfGLASS project version: '1.0-beta.9.3') load ].
 
-"Load the GLASS1 baseline"
-Metacello new
-	baseline: 'GLASS1';
-  repository: 'filetree://', gitPath, '/glass/repository';
-  get.
-
-Metacello new
-	baseline: 'GLASS1';
-  repository: 'filetree://', gitPath, '/glass/repository';
-  load: #( 'GLASS').
-] on: Warning do: [:ex | 
-  Transcript cr; show: 'WARNING: ', ex description.
-  ex resume: true ].
+GsDeployer deploy: [
+  "Load the GLASS1 baseline"
+  Metacello new
+    baseline: 'GLASS1';
+    repository: 'filetree://', gitPath, '/glass/repository';
+    get.
+  Metacello new
+    baseline: 'GLASS1';
+    repository: 'filetree://', gitPath, '/glass/repository';
+    onConflict: [ :ex | ex allow ];
+    onWarning: [ :ex | 
+        Transcript
+          cr;
+          show: ex description.
+        ex resume ];
+    load: #( 'default') ].
 
 "Run the GLASS1 tests"
 MetacelloPlatform current authorName: 'testMonkey'. "These tests save code ... need an Author"
