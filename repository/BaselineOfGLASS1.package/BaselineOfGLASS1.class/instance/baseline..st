@@ -13,13 +13,11 @@ baseline: spec
                 versionString: #'stable';
                 loads: #('Core');
                 repository: 'http://seaside.gemtalksystems.com/ss/metacello' ];
-        configuration: 'Grease'
+        baseline: 'Grease'
           with: [ 
               spec
-                versionString: #'release1.1';
-                loads: #('Grease-Core');
-                repository:
-                    'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ];
+                loads: #('Core');
+                repository: 'github://GsDevKit/Grease:master/repository' ];
         baseline: 'Metacello'
           with: [ spec repository: 'github://dalehenrich/metacello-work:master/repository' ];
         yourself.
