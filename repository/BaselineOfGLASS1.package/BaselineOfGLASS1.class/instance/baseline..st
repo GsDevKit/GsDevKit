@@ -129,8 +129,6 @@ baseline: spec
         package: 'GemStone-Release-Support'
           with: [ spec file: 'GemStone-Release-Support.v2x' ];
         package: 'GsRandom' with: [ spec requires: #('Base-Bootstrap') ];
-        package: 'GsSqueakCommon-Core'
-          with: [ spec file: 'GsSqueakCommon-Core.2x' ];
         package: 'OB-Standard' with: [ spec file: 'OB-Standard.g' ];
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.g' ];
         package: 'Sport' with: [ spec requires: #('GsRandom') ];
@@ -190,8 +188,6 @@ baseline: spec
         package: 'Core' with: [ spec file: 'Core.v3' ];
         package: 'Base-Bootstrap' with: [ spec file: 'Base-Bootstrap.v3' ];
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v3' ];
-        package: 'GsSqueakCommon-Core'
-          with: [ spec file: 'GsSqueakCommon-Core.3x' ];
         package: 'OB-Standard' with: [ spec file: 'OB-Standard.v3' ];
         package: 'OB-SymbolListBrowser'
           with: [ spec requires: #('OB-Standard') ];
