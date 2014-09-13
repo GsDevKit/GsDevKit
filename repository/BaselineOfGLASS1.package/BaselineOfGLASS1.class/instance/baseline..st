@@ -6,18 +6,20 @@ baseline: spec
     do: [ 
       spec
         configuration: 'GoferProjectLoader'
-          with: [ spec repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+          with: [ spec repository: 'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
         configuration: 'Gofer'
           with: [ 
               spec
-                versionString: '1.0.5.2';
+                versionString: #'stable';
                 loads: #('Core');
-                repository: 'http://seaside.gemstone.com/ss/MetacelloRepository' ];
+                repository: 'http://seaside.gemtalksystems.com/ss/metacello' ];
         baseline: 'Grease'
           with: [ 
               spec
                 loads: #('Core');
                 repository: 'github://GsDevKit/Grease:master/repository' ];
+        baseline: 'Metacello'
+          with: [ spec repository: 'github://dalehenrich/metacello-work:master/repository' ];
         yourself.
       spec
         package: 'GemStone-Interactions';
@@ -102,7 +104,7 @@ baseline: spec
         group: 'default' with: #('GLASS');
         group: 'Base'
           with: #('GsCore' 'GsMonticello' 'Gofer' 'Grease' 'GsSqueakCommon');
-        group: 'GLASS' with: #('Base' 'GsOB' 'GoferProjectLoader');
+        group: 'GLASS' with: #('Base' 'GsOB' 'GoferProjectLoader' 'Metacello');
         group: 'GsCore'
           with:
             #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Squeak' 'Regex-Core' 'Regex-Tests-Core' 'GemStone-Release-Support');
