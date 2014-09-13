@@ -7,6 +7,13 @@ Transcript cr; show: 'travis---->travisCI.st'.
     do: [:packageName |
       Transcript cr; show: packageName].
 
+"include the recommended GsUpgrader call"
+Gofer new
+  package: 'GsUpgrader-Core';
+  url: 'http://ss3.gemtalksystems.com/ss/gsUpgrader';
+  load.
+(Smalltalk at: #GsUpgrader) upgradeGrease.
+
 gitCache := 'git_cache'.
 gitPath := (FileDirectory default directoryNamed: gitCache ) fullName.
 
