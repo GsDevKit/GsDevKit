@@ -7,13 +7,15 @@ Transcript cr; show: 'travis---->travisCI.st'.
     do: [:packageName |
       Transcript cr; show: packageName].
 
+"include the recommended GsUpgrader call"
+Gofer new
+  package: 'GsUpgrader-Core';
+  url: 'http://ss3.gemtalksystems.com/ss/gsUpgrader';
+  load.
+(Smalltalk at: #GsUpgrader) upgradeGrease.
+
 gitCache := 'git_cache'.
 gitPath := (FileDirectory default directoryNamed: gitCache ) fullName.
-
-"Load GLASS1.0-beta.9.3 ... should prime things for loading GLASS1"
-ConfigurationOfGLASS project updateProject.
-GsDeployer deploy: [
-  (ConfigurationOfGLASS project version: '1.0-beta.9.3') load ].
 
 GsDeployer deploy: [
   "Load the GLASS1 baseline"

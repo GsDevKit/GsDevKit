@@ -4,10 +4,13 @@
 In a fresh extent run the following:
 
 ```Smalltalk
-"Upgrade GLASS to to 1.0-beta.9.3"
-ConfigurationOfGLASS project updateProject.
-GsDeployer
-  deploy: [ (ConfigurationOfGLASS project version: '1.0-beta.9.3') load ].
+"Upgrade Metacello and Grease first"
+Gofer new
+  package: 'GsUpgrader-Core';
+  url: 'http://ss3.gemtalksystems.com/ss/gsUpgrader';
+  load.
+(Smalltalk at: #GsUpgrader) upgradeGrease.
+
 "Install GLASS from github"
 GsDeployer deploy: [
  Metacello new
