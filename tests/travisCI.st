@@ -27,11 +27,6 @@ GsDeployer deploy: [
     baseline: 'GLASS1';
     repository: 'filetree://', gitPath, '/glass/repository';
     onLock: [:ex | ex honor];
-    onWarning: [ :ex | 
-        Transcript
-          cr;
-          show: ex description.
-        ex resume ];
     load: #( 'default') ].
 
 "Run the GLASS1 tests"

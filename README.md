@@ -20,11 +20,6 @@ GsDeployer deploy: [
   baseline: 'GLASS1';
   repository: 'github://glassdb/glass:master/repository';
   onLock: [:ex | ex honor ];
-  onWarning: [ :ex | 
-        Transcript
-          cr;
-          show: ex description.
-        ex resume ];
   load: 'default' ].
 ```
 
