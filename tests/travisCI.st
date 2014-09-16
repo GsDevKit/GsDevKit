@@ -26,12 +26,7 @@ GsDeployer deploy: [
   Metacello new
     baseline: 'GLASS1';
     repository: 'filetree://', gitPath, '/glass/repository';
-    onConflict: [ :ex | ex allow ];
-    onWarning: [ :ex | 
-        Transcript
-          cr;
-          show: ex description.
-        ex resume ];
+    onLock: [:ex | ex honor];
     load: #( 'default') ].
 
 "Run the GLASS1 tests"
