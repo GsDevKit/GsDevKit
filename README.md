@@ -1,7 +1,6 @@
 # GLASS [![Build Status](https://travis-ci.org/glassdb/glass.png?branch=master)](https://travis-ci.org/glassdb/glass)
 
 ## Installation
-In a fresh extent run the following:
 
 ```Smalltalk
 "Upgrade Metacello and Grease first"
@@ -20,7 +19,7 @@ GsDeployer deploy: [
  Metacello new
   baseline: 'GLASS1';
   repository: 'github://glassdb/glass:master/repository';
-  onConflict: [ :ex | ex allow ];
+  onLock: [:ex | ex honor ];
   onWarning: [ :ex | 
         Transcript
           cr;
