@@ -104,10 +104,12 @@ baseline: spec
         group: 'default' with: #('GLASS');
         group: 'Base'
           with: #('GsCore' 'GsMonticello' 'Gofer' 'Grease' 'GsSqueakCommon');
-        group: 'GLASS' with: #('Base' 'GsOB' 'GoferProjectLoader' 'Metacello');
+        group: 'GLASS'
+          with:
+            #('Base' 'GsOB' 'GoferProjectLoader' 'Metacello' 'GemStone-Release-Support');
         group: 'GsCore'
           with:
-            #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Squeak' 'Regex-Core' 'Regex-Tests-Core' 'GemStone-Release-Support');
+            #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Squeak' 'Regex-Core' 'Regex-Tests-Core');
         group: 'GsMisc'
           with:
             #('Announcements' 'SmaCC' 'SMTPMail' 'System-Digital-Signatures' 'Utf8Encoding' 'XML-Parser');
