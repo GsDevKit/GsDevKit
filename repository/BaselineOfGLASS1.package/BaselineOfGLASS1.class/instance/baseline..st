@@ -6,20 +6,39 @@ baseline: spec
     do: [ 
       spec
         configuration: 'GoferProjectLoader'
-          with: [ spec repository: 'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
+          with: [ 
+              spec
+                versionString: #'stable';
+                repository:
+                    'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
         configuration: 'Gofer'
           with: [ 
               spec
                 versionString: #'stable';
                 loads: #('Core');
                 repository: 'http://seaside.gemtalksystems.com/ss/metacello' ];
+        project: 'Gofer-Tests'
+          copyFrom: 'Gofer'
+          with: [ spec loads: #('Tests') ];
         baseline: 'Grease'
           with: [ 
               spec
                 loads: #('Core');
                 repository: 'github://GsDevKit/Grease:master/repository' ];
+        project: 'Grease-Tests'
+          copyFrom: 'Grease'
+          with: [ spec loads: #('Tests') ];
         baseline: 'Metacello'
           with: [ spec repository: 'github://dalehenrich/metacello-work:master/repository' ];
+        configuration: 'XMLSupport'
+          with: [ 
+              spec
+                versionString: #'stable';
+                loads: #('Core');
+                repository: 'http://www.squeaksource.com/XMLSupport' ];
+        project: 'XMLSupport-Tests'
+          copyFrom: 'XMLSupport'
+          with: [ spec loads: #('Tests') ];
         yourself.
       spec
         package: 'GemStone-Interactions';
@@ -120,6 +139,10 @@ baseline: spec
           with:
             #('OmniBrowser' 'OB-GemStone-Platform' 'OB-Monticello' 'OB-SUnitIntegration' 'OB-SUnitGUI' 'OB-Standard' 'OB-Tools' 'JadeServer');
         group: 'GsSqueakCommon' with: #('GsSqueakCommon-Core');
+        group: 'XML-Parser' with: #('XMLSupport');
+        group: 'CI'
+          with:
+            #('GLASS' 'GsMisc' 'XMLSupport-Tests' 'Gofer-Tests' 'Grease-Tests');
         yourself ].
   spec
     for: #'gs2.x'
@@ -143,19 +166,6 @@ baseline: spec
         group: 'GsCore' with: #('GsRandom' 'GemStone-Exceptions');
         yourself ].
   spec
-    for: #'gs2.4.x'
-    do: [ 
-      spec
-        configuration: 'XMLSupport'
-          with: [ 
-              spec
-                versionString: '1.0.5';
-                loads: #('Core');
-                repository:
-                    'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
-        yourself.
-      spec group: 'XML-Parser' with: #('XMLSupport') ].
-  spec
     for: #'Issue29FixANeeded'
     do: [ 
       spec
@@ -176,16 +186,6 @@ baseline: spec
   spec
     for: #'gs3.x'
     do: [ 
-      spec
-        configuration: 'XMLSupport'
-          with: [ 
-              spec
-                versionString: '1.0.5';
-                loads: #('Core');
-                repository:
-                    'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
-        yourself.
-      spec group: 'XML-Parser' with: #('XMLSupport').
       spec
         package: 'Core' with: [ spec file: 'Core.v3' ];
         package: 'Base-Bootstrap' with: [ spec file: 'Base-Bootstrap.v3' ];
