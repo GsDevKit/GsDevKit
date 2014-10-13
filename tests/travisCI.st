@@ -27,7 +27,7 @@ GsDeployer deploy: [
     baseline: 'GLASS1';
     repository: 'filetree://', gitPath, '/glass/repository';
     onLock: [:ex | ex honor];
-    load: #( 'default') ].
+    load: #( 'CI') ].
 
 "Run the GLASS1 tests"
 MetacelloPlatform current authorName: 'testMonkey'. "These tests save code ... need an Author"
