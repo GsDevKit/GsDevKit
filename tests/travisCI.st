@@ -18,25 +18,25 @@ gitCache := 'git_cache'.
 gitPath := (FileDirectory default directoryNamed: gitCache ) fullName.
 
 GsDeployer deploy: [
-  "Load the GLASS1 baseline"
+  "Load the GsDevKit baseline"
   Metacello new
-    baseline: 'GLASS1';
-    repository: 'filetree://', gitPath, '/glass/repository';
+    baseline: 'GsDevKit';
+    repository: 'filetree://', gitPath, '/GsDevKit/repository';
     get.
   Metacello new
-    baseline: 'GLASS1';
-    repository: 'filetree://', gitPath, '/glass/repository';
+    baseline: 'GsDevKit';
+    repository: 'filetree://', gitPath, '/GsDevKit/repository';
     onLock: [:ex | ex honor];
     load: #( 'CI') ].
 
-"Run the GLASS1 tests"
+"Run the GsDevKit tests"
 MetacelloPlatform current authorName: 'testMonkey'. "These tests save code ... need an Author"
 
 Transcript cr; show: '---Start running tests...'.
 
 [
 TravisCIHarness
-  value: #( 'BaselineOfGLASS1' )
+  value: #( 'BaselineOfGsDevKit' )
   value: 'TravisCISuccess.txt' 
   value: 'TravisCIFailure.txt'.
 ]
