@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfGsDevKit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 10/21/2014 12:56",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfGsDevKit",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
