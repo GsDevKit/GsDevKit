@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"hex" : "dkh 05/17/2011 15:03" } }
+		"hex" : "dkh 05/17/2011 15:03",
+		"unsignedLongAt:bigEndian:" : "dkh 11/18/2014 14:45",
+		"unsignedLongAt:put:bigEndian:" : "dkh 11/18/2014 14:49" } }
