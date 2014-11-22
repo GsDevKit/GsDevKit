@@ -158,6 +158,12 @@ baseline: spec
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.g' ];
         package: 'Sport' with: [ spec requires: #('GsRandom') ];
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
+        package: 'Core' with: [ spec includes: #('Core24x') ];
+        package: 'Core24x'
+          with: [ 
+              spec
+                requires: #('Core');
+                yourself ];
         yourself.
       spec
         package: 'Monticello' with: [ spec file: 'Monticello.g' ];
