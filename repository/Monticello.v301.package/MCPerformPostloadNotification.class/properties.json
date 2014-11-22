@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "dkh 03/05/2013 10:17",
+	"commentStamp" : "DataCurator 11/22/2014 10:44",
 	"instvars" : [
 		"postloadClass" ],
 	"name" : "MCPerformPostloadNotification",
