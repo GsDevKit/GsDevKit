@@ -1,5 +1,6 @@
 {
 	"class" : {
-		 },
+		"readFromString:" : "dkh 11/18/2014 16:45" },
 	"instance" : {
-		"asStringOrText" : "DaleHenrichs 03/07/2011 10:04" } }
+		"asStringOrText" : "DaleHenrichs 03/07/2011 10:04",
+		"notYetImplemented" : "dkh 11/20/2014 18:22" } }
