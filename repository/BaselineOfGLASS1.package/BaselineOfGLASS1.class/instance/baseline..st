@@ -227,7 +227,7 @@ baseline: spec
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
         yourself ].
   spec
-    for: #(#'gs3.1.x' #'gs3.2.x' #'gs3.3.x')
+    for: #(#'gs3.1.x' #'gs3.2.0.x' #'gs3.2.1.x')
     do: [ 
       spec
         package: 'Core' with: [ spec includes: #('Core31x') ];
@@ -245,6 +245,16 @@ baseline: spec
           spec
             file: 'Utf8Encoding.310';
             requires: #('GsCore') ] ].
+  spec
+    for: #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.3.x')
+    do: [ 
+      spec
+        package: 'Core' with: [ spec includes: #('Core322x') ];
+        package: 'Core322x'
+          with: [ 
+              spec
+                requires: #('Core');
+                yourself ] ].
   spec
     for: #(#'gs3.2.x' #'gs3.3.x')
     do: [ 

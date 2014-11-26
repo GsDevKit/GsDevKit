@@ -1,1 +1,1 @@
-(name 'Core24x-dkh.1' message '3.0 compatibility messages' id 'c8e8c94e-40fe-4bc7-a339-193f4292c8e0' date '11/22/2014' time '15:45:05' author 'dkh' ancestors () stepChildren ())
+(name 'Core24x-dkh.2' message 'Issue #27: implement CharacterCollection>>encodeAsUTF8intoString in Core24x' id '63968f83-33da-4628-b54b-f729499d5327' date '11/25/2014' time '11:19:29' author 'dkh' ancestors ((name 'Core24x-dkh.1' message '3.0 compatibility messages' id 'c8e8c94e-40fe-4bc7-a339-193f4292c8e0' date '11/22/2014' time '15:45:05' author 'dkh' ancestors () stepChildren ())) stepChildren ())

@@ -1,5 +1,5 @@
 API
 encode: aString
-	"^<String>"
+  "^<String>"
 
-	^aString encodeAsUTF8
+  ^ aString encodeAsUTF8intoString
