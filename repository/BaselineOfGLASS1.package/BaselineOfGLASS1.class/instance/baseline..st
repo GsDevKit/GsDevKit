@@ -159,11 +159,11 @@ baseline: spec
         package: 'Sport' with: [ spec requires: #('GsRandom') ];
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
         package: 'Core' with: [ spec includes: #('Core24x') ];
-        package: 'Core24x'
-          with: [ 
-              spec
-                requires: #('Core');
-                yourself ];
+        package: 'Core24x' with: [ spec requires: #('Core') ];
+        package: 'GsSqueakCommon-Core'
+          with: [ spec includes: 'GsSqueakCommon-CoreV24' ];
+        package: 'GsSqueakCommon-CoreV24'
+          with: [ spec requires: 'GsSqueakCommon-Core' ];
         yourself.
       spec
         package: 'Monticello' with: [ spec file: 'Monticello.g' ];
@@ -196,6 +196,10 @@ baseline: spec
         package: 'Core' with: [ spec file: 'Core.v3' ];
         package: 'Base-Bootstrap' with: [ spec file: 'Base-Bootstrap.v3' ];
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v3' ];
+        package: 'GsSqueakCommon-Core'
+          with: [ spec includes: 'GsSqueakCommon-CoreV30' ];
+        package: 'GsSqueakCommon-CoreV30'
+          with: [ spec requires: 'GsSqueakCommon-Core' ];
         package: 'OB-Standard' with: [ spec file: 'OB-Standard.v3' ];
         package: 'OB-SymbolListBrowser'
           with: [ spec requires: #('OB-Standard') ];
