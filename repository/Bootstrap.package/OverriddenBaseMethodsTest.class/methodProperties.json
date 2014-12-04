@@ -18,6 +18,7 @@
 		"baseOverridesBootstrapTestResourceClass:" : "DaleHenrichs 08/19/2010 15:17",
 		"baseOverridesBootstrapTestResult:" : "DaleHenrichs 08/19/2010 13:07",
 		"baseOverridesBootstrapWriteStreamClass:" : "DaleHenrichs 08/19/2010 15:18",
+		"expectedFailures" : "dkh 12/03/2014 16:29",
 		"findOverridenMethodsFor:overrides:knownOverrides:" : "DaleHenrichs 08/19/2010 15:54",
 		"knownOverrides" : "DaleHenrichs 08/19/2010 12:39",
 		"testOverriddenBaseMethods" : "DaleHenrichs 08/19/2010 14:52" } }
