@@ -59,7 +59,7 @@ baseline: spec
         package: 'Sport'
           with: [ 
               spec
-                file: 'Sport3.010-dkh.37';
+                file: 'Sport3.010-dkh.38';
                 requires: #('Bootstrap');
                 repository: 'http://seaside.gemtalksystems.com/ss/hyper' ];
         package: 'Squeak' with: [ spec requires: #('Sport') ];
