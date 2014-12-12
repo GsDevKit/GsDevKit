@@ -229,6 +229,14 @@ baseline: spec
           with: [ spec file: 'GemStone-Deployment' ];
         package: 'Monticello' with: 'Monticello.v301';
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
+        package: 'Sport' with: [ spec includes: 'SportPatch30' ];
+        package: 'SportPatch30'
+          with: [ 
+              spec
+                requires: 'Sport';
+                file: 'SportPatch30-dkh.1';
+                repository: 'http://seaside.gemtalksystems.com/ss/hyper';
+                yourself ];
         yourself ].
   spec
     for: #(#'gs3.1.x' #'gs3.2.0.x' #'gs3.2.1.x')
