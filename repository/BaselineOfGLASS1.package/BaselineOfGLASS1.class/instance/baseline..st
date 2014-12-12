@@ -59,7 +59,7 @@ baseline: spec
         package: 'Sport'
           with: [ 
               spec
-                file: 'Sport3.010-dkh.35';
+                file: 'Sport3.010-dkh.37';
                 requires: #('Bootstrap');
                 repository: 'http://seaside.gemtalksystems.com/ss/hyper' ];
         package: 'Squeak' with: [ spec requires: #('Sport') ];
@@ -204,7 +204,7 @@ baseline: spec
         package: 'OB-SymbolListBrowser'
           with: [ spec requires: #('OB-Standard') ];
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.v3' ];
-        package: 'Sport' with: [ spec file: 'Sport3.010.v3-dkh.31' ];
+        package: 'Sport' with: [ spec file: 'Sport3.010.v3-dkh.32' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v3' ];
         yourself.
       spec
