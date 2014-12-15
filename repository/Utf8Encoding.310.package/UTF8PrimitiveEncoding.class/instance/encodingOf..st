@@ -1,6 +1,7 @@
 API
 encodingOf: aCodePoint
-	"^<aString>"
-	"self new encodingOf: 16r2013"
+  "^<aString>"
 
-	^aCodePoint asCharacter asString encodeAsUTF8
+  "self new encodingOf: 16r2013"
+
+  ^ aCodePoint asCharacter asString encodeAsUTF8intoString

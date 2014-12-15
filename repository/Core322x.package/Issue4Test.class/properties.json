@@ -1,0 +1,14 @@
+{
+	"category" : "Core322x",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Issue4Test",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

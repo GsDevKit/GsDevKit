@@ -1,3 +1,3 @@
 *gssqueakcommon-core
 printStringHex
-	^ self asHexString
+  ^ self asString asHexString
