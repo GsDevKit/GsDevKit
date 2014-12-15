@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "DataCurator 11/20/2014 10:46",
 	"instvars" : [
 		"schedule" ],
 	"name" : "Schedule",

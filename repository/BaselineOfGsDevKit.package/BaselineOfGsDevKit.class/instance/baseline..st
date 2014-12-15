@@ -59,7 +59,7 @@ baseline: spec
         package: 'Sport'
           with: [ 
               spec
-                file: 'Sport3.010-dkh.28';
+                file: 'Sport3.010-dkh.38';
                 requires: #('Bootstrap');
                 repository: 'http://seaside.gemtalksystems.com/ss/hyper' ];
         package: 'Squeak' with: [ spec requires: #('Sport') ];
@@ -158,6 +158,12 @@ baseline: spec
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.g' ];
         package: 'Sport' with: [ spec requires: #('GsRandom') ];
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
+        package: 'Core' with: [ spec includes: #('Core24x') ];
+        package: 'Core24x' with: [ spec requires: #('Core') ];
+        package: 'GsSqueakCommon-Core'
+          with: [ spec includes: 'GsSqueakCommon-CoreV24' ];
+        package: 'GsSqueakCommon-CoreV24'
+          with: [ spec requires: 'GsSqueakCommon-Core' ];
         yourself.
       spec
         package: 'Monticello' with: [ spec file: 'Monticello.g' ];
@@ -190,11 +196,15 @@ baseline: spec
         package: 'Core' with: [ spec file: 'Core.v3' ];
         package: 'Base-Bootstrap' with: [ spec file: 'Base-Bootstrap.v3' ];
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v3' ];
+        package: 'GsSqueakCommon-Core'
+          with: [ spec includes: 'GsSqueakCommon-CoreV30' ];
+        package: 'GsSqueakCommon-CoreV30'
+          with: [ spec requires: 'GsSqueakCommon-Core' ];
         package: 'OB-Standard' with: [ spec file: 'OB-Standard.v3' ];
         package: 'OB-SymbolListBrowser'
           with: [ spec requires: #('OB-Standard') ];
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.v3' ];
-        package: 'Sport' with: [ spec file: 'Sport3.010.v3-dkh.30' ];
+        package: 'Sport' with: [ spec file: 'Sport3.010.v3-dkh.32' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v3' ];
         yourself.
       spec
@@ -219,9 +229,17 @@ baseline: spec
           with: [ spec file: 'GemStone-Deployment' ];
         package: 'Monticello' with: 'Monticello.v301';
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
+        package: 'Sport' with: [ spec includes: 'SportPatch30' ];
+        package: 'SportPatch30'
+          with: [ 
+              spec
+                requires: 'Sport';
+                file: 'SportPatch30-dkh.1';
+                repository: 'http://seaside.gemtalksystems.com/ss/hyper';
+                yourself ];
         yourself ].
   spec
-    for: #(#'gs3.1.x' #'gs3.2.x' #'gs3.3.x')
+    for: #(#'gs3.1.x' #'gs3.2.0.x' #'gs3.2.1.x')
     do: [ 
       spec
         package: 'Core' with: [ spec includes: #('Core31x') ];
@@ -239,6 +257,16 @@ baseline: spec
           spec
             file: 'Utf8Encoding.310';
             requires: #('GsCore') ] ].
+  spec
+    for: #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.3.x')
+    do: [ 
+      spec
+        package: 'Core' with: [ spec includes: #('Core322x') ];
+        package: 'Core322x'
+          with: [ 
+              spec
+                requires: #('Core');
+                yourself ] ].
   spec
     for: #(#'gs3.2.x' #'gs3.3.x')
     do: [ 

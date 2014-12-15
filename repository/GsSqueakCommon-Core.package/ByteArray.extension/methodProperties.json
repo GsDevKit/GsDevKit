@@ -1,5 +1,9 @@
 {
 	"class" : {
-		 },
+		"readHexFrom:" : "SvenVanCaekenberghe 03/07/2013 10:51:24" },
 	"instance" : {
-		"hex" : "dkh 05/17/2011 15:03" } }
+		"hex" : "dkh 05/17/2011 15:03",
+		"readHexFrom:" : "SvenVanCaekenberghe 03/07/2013 10:51:24",
+		"unsignedLongAt:bigEndian:" : "dkh 11/18/2014 14:45",
+		"unsignedLongAt:put:bigEndian:" : "dkh 11/18/2014 14:49",
+		"unsignedShortAt:bigEndian:" : "dkh 11/22/2014 14:52" } }

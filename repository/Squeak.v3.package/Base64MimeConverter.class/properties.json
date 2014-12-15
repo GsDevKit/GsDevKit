@@ -5,7 +5,7 @@
 	"classvars" : [
 		"FromCharTable",
 		"ToCharTable" ],
-	"commentStamp" : "",
+	"commentStamp" : "DataCurator 10/31/2011 15:31",
 	"instvars" : [
 		"data" ],
 	"name" : "Base64MimeConverter",

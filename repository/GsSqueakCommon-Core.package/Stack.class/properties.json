@@ -1,0 +1,14 @@
+{
+	"category" : "GsSqueakCommon-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Stack",
+	"pools" : [
+		 ],
+	"super" : "OrderedCollection",
+	"type" : "variable" }
