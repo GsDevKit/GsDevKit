@@ -131,7 +131,7 @@ baseline: spec
             #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Squeak' 'Regex-Core' 'Regex-Tests-Core');
         group: 'GsMisc'
           with:
-            #('Announcements' 'SmaCC' 'SMTPMail' 'System-Digital-Signatures' 'Utf8Encoding' 'XML-Parser');
+            #('Announcements' 'SmaCC' 'SMTPMail' 'System-Digital-Signatures' 'Utf8Encoding');
         group: 'GsMonticello'
           with:
             #('Change-Notification' 'PackageInfo-Base' 'Monticello' 'GemStone-Deployment');
