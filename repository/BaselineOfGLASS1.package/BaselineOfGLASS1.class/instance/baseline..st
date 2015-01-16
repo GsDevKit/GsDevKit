@@ -140,9 +140,7 @@ baseline: spec
             #('OmniBrowser' 'OB-GemStone-Platform' 'OB-Monticello' 'OB-SUnitIntegration' 'OB-SUnitGUI' 'OB-Standard' 'OB-Tools' 'JadeServer');
         group: 'GsSqueakCommon' with: #('GsSqueakCommon-Core');
         group: 'XML-Parser' with: #('XMLSupport');
-        group: 'CI'
-          with:
-            #('GLASS' 'GsMisc' 'XMLSupport-Tests' 'Gofer-Tests' 'Grease-Tests');
+        group: 'CI' with: #('GLASS' 'GsMisc' 'Gofer-Tests' 'Grease-Tests');
         yourself ].
   spec
     for: #'gs2.x'
