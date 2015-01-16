@@ -18,4 +18,4 @@ defaultAction
     ifTrue: [ ^ super defaultAction ].
   response == false
     ifTrue: [ self halt: 'Debugging: ' , self description ].
-  ^ GsProcess _current terminate
+  ^ Processor activeProcess terminate
