@@ -2,8 +2,13 @@
 	"class" : {
 		"prompt:" : "dkh 11/07/2013 19:50",
 		"prompt:confirm:" : "dkh 11/07/2013 19:50",
-		"prompt:confirm:cancel:" : "dkh 11/08/2013 12:47" },
+		"prompt:confirm:cancel:" : "dkh 11/08/2013 12:47",
+		"prompt:confirm:cancel:abort:" : "dkh 01/16/2015 11:01" },
 	"instance" : {
+		"abort" : "dkh 01/16/2015 11:01",
+		"abort:" : "dkh 01/16/2015 11:01",
+		"abortFor:" : "dkh 01/16/2015 11:02",
+		"abortResponse" : "dkh 01/16/2015 11:02",
 		"cancel" : "dkh 11/08/2013 16:04",
 		"cancel:" : "dkh 11/07/2013 19:47",
 		"cancelFor:" : "dkh 11/08/2013 16:05",

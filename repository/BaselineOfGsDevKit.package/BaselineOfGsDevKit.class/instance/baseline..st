@@ -131,7 +131,7 @@ baseline: spec
             #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Squeak' 'Regex-Core' 'Regex-Tests-Core');
         group: 'GsMisc'
           with:
-            #('Announcements' 'SmaCC' 'SMTPMail' 'System-Digital-Signatures' 'Utf8Encoding' 'XML-Parser');
+            #('Announcements' 'SmaCC' 'SMTPMail' 'System-Digital-Signatures' 'Utf8Encoding');
         group: 'GsMonticello'
           with:
             #('Change-Notification' 'PackageInfo-Base' 'Monticello' 'GemStone-Deployment');
@@ -140,9 +140,7 @@ baseline: spec
             #('OmniBrowser' 'OB-GemStone-Platform' 'OB-Monticello' 'OB-SUnitIntegration' 'OB-SUnitGUI' 'OB-Standard' 'OB-Tools' 'JadeServer');
         group: 'GsSqueakCommon' with: #('GsSqueakCommon-Core');
         group: 'XML-Parser' with: #('XMLSupport');
-        group: 'CI'
-          with:
-            #('GLASS' 'GsMisc' 'XMLSupport-Tests' 'Gofer-Tests' 'Grease-Tests');
+        group: 'CI' with: #('GLASS' 'GsMisc' 'Gofer-Tests' 'Grease-Tests');
         yourself ].
   spec
     for: #'gs2.x'
