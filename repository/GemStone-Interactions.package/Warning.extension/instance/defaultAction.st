@@ -7,10 +7,15 @@ defaultAction
 
 	It is not so clear how this would be done in GemStone."
 
-  (GsNotifyInteraction
+  | response |
+  response := (GsNotifyInteraction
     prompt:
       self description withoutGemstoneLineEndings , ' Press ''Proceed'' to continue.'
     confirm: 'Proceed'
-    cancel: 'Debug') signal == true
+    cancel: 'Debug'
+    abort: 'Cancel') signal.
+  response == true
     ifTrue: [ ^ super defaultAction ].
-  self halt: 'Debugging: ' , self description
+  response == false
+    ifTrue: [ self halt: 'Debugging: ' , self description ].
+  ^ Processor activeProcess terminate

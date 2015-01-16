@@ -1,11 +1,16 @@
 tests
 testSentButNotImplemented
   | sentNotImplemented |
-  (sentNotImplemented := self sentButNotImplemented)
-    removeAllPresent: self specialCases.
+  sentNotImplemented := self sentButNotImplemented.
   sentNotImplemented
-    do: [ :sel | 
+    keysAndValuesDo: [ :meth :selectors | 
       Transcript
         cr;
-        show: 'Sent but not implemented: ' , sel printString ].
+        show: 'Sent but not implemented from ' , meth printString.
+      selectors
+        do: [ :sel | 
+          Transcript
+            cr;
+            tab;
+            show: sel printString ] ].
   self assert: sentNotImplemented isEmpty
