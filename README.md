@@ -8,7 +8,7 @@
 
 Gofer new
   package: 'GsUpgrader-Core';
-  repository: (MCGitHubRepository location: 'github://GsDevKit/gsUpgrader:dev/repository)';
+  repository: (MCGitHubRepository location: 'github://GsDevKit/gsUpgrader:dev/repository');
   load.
 (Smalltalk at: #GsUpgrader) upgradeGsDevKit.
 ```
