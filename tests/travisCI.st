@@ -18,6 +18,11 @@ gitCache := 'git_cache'.
 gitPath := (FileDirectory default directoryNamed: gitCache ) fullName.
 
 GsDeployer deploy: [
+  Metacello new
+    baseline: 'FileTree';
+    repository: 'github://dalehenrich/filetree:gemstone2.4_dev/repository';
+    lock.
+
   "Load the GsDevKit baseline"
   Metacello new
     baseline: 'GsDevKit';
