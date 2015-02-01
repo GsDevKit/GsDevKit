@@ -21,6 +21,8 @@ GsDeployer deploy: [
   Metacello new
     baseline: 'FileTree';
     repository: 'github://dalehenrich/filetree:gemstone2.4_dev/repository';
+    get;
+    load;
     lock.
 
   "Load the GsDevKit baseline"
