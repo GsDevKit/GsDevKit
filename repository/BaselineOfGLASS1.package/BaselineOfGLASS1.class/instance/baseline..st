@@ -256,7 +256,7 @@ baseline: spec
             file: 'Utf8Encoding.310';
             requires: #('GsCore') ] ].
   spec
-    for: #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.3.x')
+    for: #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.2.5.x' #'gs3.3.x')
     do: [ 
       spec
         package: 'Core' with: [ spec includes: #('Core322x') ];
