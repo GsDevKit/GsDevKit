@@ -202,7 +202,7 @@ baseline: spec
         package: 'OB-SymbolListBrowser'
           with: [ spec requires: #('OB-Standard') ];
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.v3' ];
-        package: 'Sport' with: [ spec file: 'Sport3.010.v3-dkh.32' ];
+        package: 'Sport' with: [ spec file: 'Sport3.010.v3-jupiter.33' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v3' ];
         yourself.
       spec
