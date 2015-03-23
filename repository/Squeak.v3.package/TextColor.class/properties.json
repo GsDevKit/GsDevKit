@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DataCurator 07/13/2010 15:38",
+	"commentStamp" : "",
 	"instvars" : [
 		"color" ],
 	"name" : "TextColor",
