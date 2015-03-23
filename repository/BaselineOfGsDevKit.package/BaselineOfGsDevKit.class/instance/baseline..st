@@ -202,7 +202,7 @@ baseline: spec
         package: 'OB-SymbolListBrowser'
           with: [ spec requires: #('OB-Standard') ];
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.v3' ];
-        package: 'Sport' with: [ spec file: 'Sport3.010.v3-dkh.32' ];
+        package: 'Sport' with: [ spec file: 'Sport3.010.v3-jupiter.33' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v3' ];
         yourself.
       spec
@@ -256,7 +256,8 @@ baseline: spec
             file: 'Utf8Encoding.310';
             requires: #('GsCore') ] ].
   spec
-    for: #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.3.x')
+    for:
+      #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.2.5.x' #'gs3.2.6.x' #'gs3.2.7.x' #'gs3.2.8.x' #'gs3.3.x')
     do: [ 
       spec
         package: 'Core' with: [ spec includes: #('Core322x') ];
