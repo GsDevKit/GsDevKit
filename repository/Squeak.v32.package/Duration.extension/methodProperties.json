@@ -2,7 +2,7 @@
 	"class" : {
 		"days:" : "",
 		"days:hours:minutes:seconds:nanoSeconds:" : "jgf 02/03/2009 11:17",
-		"fromString:" : "DaleHenrichs 10/25/2010 16:01",
+		"fromString:" : "DaleHenrichs 08/20/2010 09:33",
 		"hours:" : "",
 		"milliSeconds:" : "jgf 02/03/2009 11:16",
 		"minutes:" : "",
@@ -14,5 +14,5 @@
 		"asMilliSeconds" : "dkh 01/28/2008 09:39",
 		"asNanoSeconds" : "DataCurator 04/23/2007 14:43",
 		"asString" : "dkh 10/30/2007 16:14",
-		"isZero" : "DaleHenrichs 10/25/2010 14:42",
+		"isZero" : "DaleHenrichs 06/03/2010 11:26",
 		"nanoSeconds" : "DataCurator 04/23/2007 14:43" } }

@@ -20,7 +20,7 @@ getResponseUpTo: markerString
 	 tester := 1 max: response position.	"OK if mm in the middle"
 	 (response position < buf size) & (self isActive | self readyForRead)
 		& ((tries := tries - 1) >= 0) ] whileTrue: [
-		(self waitForReadDataUpToMs: 120000) ifFalse: [
+		(self waitForReadDataUpToMs: 20000) ifFalse: [
 			self error: 'data was late'].
 		bytesRead := self readInto: buf startingAt: 1 for: buf size.
 		response nextPutAll: (buf copyFrom: 1 to: bytesRead)].	

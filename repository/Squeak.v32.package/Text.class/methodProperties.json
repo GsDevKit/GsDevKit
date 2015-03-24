@@ -9,11 +9,11 @@
 		"string:runs:" : "dkh 12/19/2007 15:56" },
 	"instance" : {
 		"=" : "dkh 12/19/2007 15:56",
-		"addAll:" : "DaleHenrichs 01/28/2010 16:19",
+		"addAll:" : "dkh 11/03/2009 11:49",
 		"addAttribute:" : "dkh 12/19/2007 15:56",
 		"addAttribute:from:to:" : "dkh 12/19/2007 15:57",
 		"allBold" : "dkh 11/19/2008 11:51",
-		"append:" : "DaleHenrichs 01/28/2010 16:19",
+		"append:" : "dkh 11/04/2009 12:49",
 		"asString" : "dkh 01/21/2008 09:25",
 		"asText" : "dkh 02/12/2009 13:44",
 		"at:" : "dkh 12/19/2007 15:56",
@@ -28,11 +28,11 @@
 		"lineCount" : "dkh 12/19/2007 15:56",
 		"makeBoldFrom:to:" : "dkh 11/19/2008 11:51",
 		"replaceFrom:to:with:" : "dkh 12/19/2007 15:56",
-		"replaceFrom:to:with:startingAt:" : "DaleHenrichs 01/28/2010 16:19",
+		"replaceFrom:to:with:startingAt:" : "dkh 11/03/2009 11:45",
 		"runs" : "dkh 12/19/2007 15:56",
 		"runs:" : "dkh 12/19/2007 15:56",
 		"setString:setRuns:" : "dkh 12/19/2007 15:56",
 		"size" : "dkh 12/19/2007 15:56",
 		"size:" : "dkh 12/20/2007 11:53",
 		"string" : "dkh 12/19/2007 15:56",
-		"withSqueakLineEndings" : "DaleHenrichs 01/28/2010 16:19" } }
+		"withSqueakLineEndings" : "dkh 11/03/2009 12:16" } }

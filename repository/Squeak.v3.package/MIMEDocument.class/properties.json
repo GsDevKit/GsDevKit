@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"MIMEdatabase" ],
-	"commentStamp" : "DataCurator 10/31/2011 15:31",
+	"commentStamp" : "",
 	"instvars" : [
 		"mainType",
 		"subType",
