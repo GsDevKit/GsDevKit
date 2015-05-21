@@ -4,5 +4,11 @@ stepPointForIp: ip
     ifTrue: [ gsMethod _nextStepPointForIp: ip ]
     ifFalse: [ 
       (gsMethod respondsTo: #'_stepPointForIp:level:isNative:')
-        ifTrue: [ gsMethod _stepPointForIp: ip level: index isNative: process _nativeStack ]
+        ifTrue: [ 
+          gsMethod
+            perform: #'_stepPointForIp:level:isNative:'
+            withArguments:
+              {ip.
+              index.
+              (process _nativeStack)} ]
         ifFalse: [ gsMethod _stepPointForIp: ip level: index useNext: process _nativeStack ] ]
