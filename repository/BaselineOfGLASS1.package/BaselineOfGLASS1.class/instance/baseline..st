@@ -278,7 +278,11 @@ baseline: spec
                 requires: #('GsCore') ] ].
   spec
     for: #(#'gs3.3.x')
-    do: [ spec package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ] ].
+    do: [ 
+      spec
+        package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ];
+        package: 'Squeak' with: [ spec file: 'Squeak.v33' ];
+        yourself ].
   spec
     for: #'maglev'
     do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ].
