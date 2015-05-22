@@ -15,12 +15,16 @@ stepPointForIp: ip
           (gsMethod respondsTo: #'_stepPointForIp:level:isNative:')
             ifTrue: [ 
               gsMethod
-                _stepPointForIp: self ipOffset
-                level: self frameIndex
-                isNative: self process _nativeStack ]
+                perform: #'_stepPointForIp:level:isNative:'
+                withArguments:
+                  {ip.
+                  index.
+                  (process _nativeStack)} ]
             ifFalse: [ 
               "v3.3"
               gsMethod
-                _stepPointForIp: self ipOffset
-                level: self frameIndex
-                useNext: self process _nativeStack ] ] ]
+                perform: #'_stepPointForIp:level:useNext:'
+                withArguments:
+                  {ip.
+                  index.
+                  (process _nativeStack)} ] ] ]
