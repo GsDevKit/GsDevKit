@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"infinity" : "dkh 03/07/2008 17:06",
+		"nan" : "dkh 02/12/2009 16:42",
+		"negativeZero" : "DaleHenrichs 08/18/2010 14:33",
+		"readFrom:" : "dkh 10/22/2008 12:11" },
+	"instance" : {
+		"absPrintOn:base:" : "DaleHenrichs 10/25/2010 14:42",
+		"asSqueakPrintString" : "DaleHenrichs 06/04/2010 15:53",
+		"exponent" : "DaleHenrichs 10/25/2010 14:42",
+		"isFloat" : "dkh 10/20/2008 12:10",
+		"isInfinite" : "DaleHenrichs 10/25/2010 16:01",
+		"printOn:base:" : "DaleHenrichs 10/25/2010 14:42",
+		"reciprocalLogBase2" : "DaleHenrichs 06/04/2010 14:59",
+		"significand" : "DaleHenrichs 06/04/2010 15:00",
+		"timesTwoPower:" : "DaleHenrichs 10/25/2010 14:42" } }

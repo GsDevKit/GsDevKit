@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"deprecationsWhile:" : "eem 7/3/2009 19:13",
+		"method:explanation:on:in:" : "eem 7/3/2009 19:15" },
+	"instance" : {
+		"=" : "eem 7/3/2009 19:10",
+		"defaultAction" : "DaleHenrichs 10/25/2010 16:04",
+		"deprecationDate" : "eem 7/3/2009 19:07",
+		"explanationString" : "eem 7/3/2009 19:07",
+		"hash" : "eem 7/3/2009 19:08",
+		"messageText" : "AndrewBlack 8/31/2009 03:15",
+		"method:explanation:on:in:" : "DaleHenrichs 08/12/2010 14:50",
+		"methodReference" : "eem 7/3/2009 19:07",
+		"versionString" : "eem 7/3/2009 19:07" } }
