@@ -16,7 +16,8 @@ baseline: spec
               spec
                 versionString: #'stable';
                 loads: #('Core');
-                repository: 'http://seaside.gemtalksystems.com/ss/metacello' ];
+                repository:
+                    'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
         project: 'Gofer-Tests'
           copyFrom: 'Gofer'
           with: [ spec loads: #('Tests') ];
