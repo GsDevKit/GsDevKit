@@ -1,0 +1,14 @@
+{
+	"category" : "Core-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 07/01/2015 11:11",
+	"instvars" : [
+		 ],
+	"name" : "FastUUIDTest",
+	"pools" : [
+		 ],
+	"super" : "AbstractUUIDTest",
+	"type" : "normal" }
