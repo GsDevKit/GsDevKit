@@ -1,3 +1,3 @@
 *monticello
 primMakeUUID
-	UUIDGenerator default generateBytes: self forVersion: 4.
+  self class generatorClass default generateBytes: self forVersion: 4
