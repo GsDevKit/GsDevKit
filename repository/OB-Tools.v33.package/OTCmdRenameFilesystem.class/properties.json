@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Filesystem",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OTCmdRenameFilesystem",
+	"pools" : [
+		 ],
+	"super" : "OTCmdFilesystem",
+	"type" : "normal" }

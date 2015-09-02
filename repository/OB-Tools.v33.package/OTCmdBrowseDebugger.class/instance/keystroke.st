@@ -1,0 +1,3 @@
+accessing
+keystroke
+	^ command keystroke

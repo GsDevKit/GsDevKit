@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Filesystem",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OTCmdFilesystem",
+	"pools" : [
+		 ],
+	"super" : "OBCommand",
+	"type" : "normal" }

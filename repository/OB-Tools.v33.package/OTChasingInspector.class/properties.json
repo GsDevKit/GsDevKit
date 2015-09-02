@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Inspector",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OTChasingInspector",
+	"pools" : [
+		 ],
+	"super" : "OTInspector",
+	"type" : "normal" }

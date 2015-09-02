@@ -1,0 +1,3 @@
+delegating
+characterLimit
+	^ stream characterLimit

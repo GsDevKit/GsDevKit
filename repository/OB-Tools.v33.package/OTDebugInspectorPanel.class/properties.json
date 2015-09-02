@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receiverInspector",
+		"contextInspector" ],
+	"name" : "OTDebugInspectorPanel",
+	"pools" : [
+		 ],
+	"super" : "OBPanel",
+	"type" : "normal" }

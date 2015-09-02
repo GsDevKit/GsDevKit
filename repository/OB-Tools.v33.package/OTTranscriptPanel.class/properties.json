@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-String",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream" ],
+	"name" : "OTTranscriptPanel",
+	"pools" : [
+		 ],
+	"super" : "OTStringHolderPanel",
+	"type" : "normal" }
