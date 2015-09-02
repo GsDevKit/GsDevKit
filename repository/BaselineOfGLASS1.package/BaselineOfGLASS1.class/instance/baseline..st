@@ -268,7 +268,7 @@ baseline: spec
                 requires: #('Core');
                 yourself ] ].
   spec
-    for: #(#'gs3.2.x' #'gs3.3.x')
+    for: #(#'gs3.2.x' #'gs3.3.x'  #'gs3.4.x')
     do: [ 
       spec
         package: 'Squeak' with: [ spec file: 'Squeak.v32' ];
@@ -278,12 +278,17 @@ baseline: spec
                 file: 'Utf8Encoding.310';
                 requires: #('GsCore') ] ].
   spec
-    for: #(#'gs3.3.x')
+    for: #(#'gs3.2.8.x'  #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.3.x' #'gs3.4.x')
+    do: [ 
+      spec
+        package: 'OB-Tools' with: [ spec file: 'OB-Tools.v33' ];
+        yourself ].
+  spec
+    for: #(#'gs3.3.x'  #'gs3.4.x')
     do: [ 
       spec
         package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v33' ];
-        package: 'OB-Tools' with: [ spec file: 'OB-Tools.v33' ];
         yourself ].
   spec
     for: #'maglev'
