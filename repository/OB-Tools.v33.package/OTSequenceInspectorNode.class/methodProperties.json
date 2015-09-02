@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"on:index:" : "lr 8/3/2007 20:44",
+		"threshold" : "dkh 11/14/2007 16:44" },
+	"instance" : {
+		"=" : "lr 7/15/2007 11:47",
+		"hash" : "lr 7/15/2007 11:47",
+		"index" : "lr 5/19/2007 11:03",
+		"isReadOnly" : "lr 5/29/2008 09:51",
+		"name" : "dkh 12/14/2008 19:03",
+		"printStringErrorText:" : "dkh 2/21/2009 09:42",
+		"setIndex:" : "lr 5/19/2007 11:03",
+		"value" : "lr 5/21/2008 10:31",
+		"value:" : "lr 5/19/2007 11:03" } }

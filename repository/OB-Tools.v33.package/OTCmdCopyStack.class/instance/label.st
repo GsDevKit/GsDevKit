@@ -1,0 +1,3 @@
+accessing
+label
+	^ 'copy stack'

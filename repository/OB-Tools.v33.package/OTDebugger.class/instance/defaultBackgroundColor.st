@@ -1,0 +1,3 @@
+building
+defaultBackgroundColor
+	^ Color lightRed

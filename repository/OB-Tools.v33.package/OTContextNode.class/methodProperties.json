@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"on:context:" : "lr 5/20/2008 13:28" },
+	"instance" : {
+		"context" : "lr 4/25/2007 19:48",
+		"definition" : "dkh 2/26/2009 11:43",
+		"errorReportOn:" : "dkh 2/22/2009 09:07",
+		"flush" : "lr 6/7/2008 18:50",
+		"isExecutingBlock" : "dkh 2/22/2009 09:39",
+		"name" : "lr 4/26/2007 09:22",
+		"parseTree" : "lr 6/7/2008 18:58",
+		"setContext:" : "lr 5/20/2008 13:28",
+		"sourceMap" : "lr 6/7/2008 18:59",
+		"value" : "lr 5/13/2008 12:20" } }

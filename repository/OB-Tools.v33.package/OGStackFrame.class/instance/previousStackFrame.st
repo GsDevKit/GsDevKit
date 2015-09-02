@@ -1,0 +1,4 @@
+accessing
+previousStackFrame
+
+	^previousStackFrame

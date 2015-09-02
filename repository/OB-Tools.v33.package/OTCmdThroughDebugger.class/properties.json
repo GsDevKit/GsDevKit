@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OTCmdThroughDebugger",
+	"pools" : [
+		 ],
+	"super" : "OTCmdDebugger",
+	"type" : "normal" }

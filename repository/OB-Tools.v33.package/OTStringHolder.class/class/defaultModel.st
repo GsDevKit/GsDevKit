@@ -1,0 +1,3 @@
+configuration
+defaultModel
+	self subclassResponsibility

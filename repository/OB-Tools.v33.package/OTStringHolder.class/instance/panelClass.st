@@ -1,0 +1,3 @@
+configuration
+panelClass
+	self subclassResponsibility

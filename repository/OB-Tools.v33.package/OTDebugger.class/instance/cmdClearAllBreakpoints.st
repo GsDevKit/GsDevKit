@@ -1,0 +1,4 @@
+commands
+cmdClearAllBreakpoints
+	^ OGCmdClearAllBreakpoints
+	
