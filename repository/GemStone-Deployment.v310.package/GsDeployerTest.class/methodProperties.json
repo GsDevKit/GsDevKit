@@ -11,7 +11,7 @@
 		"tearDownPackages:" : "DaleHenrichs 01/25/2011 14:05",
 		"testBug40559" : "dkh 03/08/2013 17:27",
 		"testBug40822" : "dkh 03/08/2013 16:31",
-		"testDeployerBulkMigrate" : "DaleHenrichs 02/18/2011 10:32",
+		"testDeployerBulkMigrate" : "dkh 09/12/2015 11:49",
 		"testDeployerRefactorBulkMigrate" : "DaleHenrichs 02/18/2011 10:32",
 		"testExtensionMethods" : "dkh 03/08/2013 16:32",
 		"testExtensionMethodsBulkMigrate" : "DaleHenrichs 02/18/2011 10:32",
