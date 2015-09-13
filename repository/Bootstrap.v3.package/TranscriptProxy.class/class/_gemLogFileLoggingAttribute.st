@@ -1,3 +1,3 @@
 session logging control
 _gemLogFileLoggingAttribute
-  ^ #'SkipGemLogFileLogging'
+  ^ #'TRANSCRIPT_PROXY_SkipGemLogFileLogging'

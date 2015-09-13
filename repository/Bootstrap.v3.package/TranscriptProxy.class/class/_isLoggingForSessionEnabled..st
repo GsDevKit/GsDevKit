@@ -1,3 +1,3 @@
 session logging control
 _isLoggingForSessionEnabled: attribute
-  ^ (GsSession currentSession symbolList objectNamed: attribute) isNil
+  ^ SessionTemps current at: attribute otherwise: true

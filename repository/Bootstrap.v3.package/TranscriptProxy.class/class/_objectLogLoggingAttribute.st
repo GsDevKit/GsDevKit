@@ -1,3 +1,3 @@
 session logging control
 _objectLogLoggingAttribute
-  ^ #'SkipObjectLogLogging'
+  ^ #'TRANSCRIPT_PROXY_SkipObjectLogLogging'
