@@ -1,3 +1,3 @@
 instance creation
 on: aStringOrStream
-	^self new on: aStringOrStream
+	^self defaultParserClass new on: aStringOrStream
