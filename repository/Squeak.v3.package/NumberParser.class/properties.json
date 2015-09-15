@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"DefaultParserClass" ],
 	"commentStamp" : "nice 2/13/2010 00:31",
 	"instvars" : [
 		"sourceStream",
