@@ -3,7 +3,7 @@
 		"ofSize:" : "dkh 11/20/2008 13:16" },
 	"instance" : {
 		"at:ifAbsentPut:" : "NickAger 07/28/2011 13:46",
-		"copyWith:" : "DaleHenrichs 06/03/2010 11:50",
-		"removeAll" : "DaleHenrichs 08/18/2010 14:33",
-		"removeLast:" : "DaleHenrichs 08/18/2010 14:33",
-		"reset" : "DaleHenrichs 08/18/2010 14:33" } }
+		"copyWith:" : "DaleHenrichs 10/25/2010 14:42",
+		"removeAll" : "DaleHenrichs 10/25/2010 16:01",
+		"removeLast:" : "DaleHenrichs 10/25/2010 16:01",
+		"reset" : "DaleHenrichs 10/25/2010 16:01" } }
