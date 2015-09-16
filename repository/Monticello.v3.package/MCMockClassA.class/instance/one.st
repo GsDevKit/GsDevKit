@@ -1,3 +1,3 @@
 numeric
 one
-  ^ 1
+	^ 1
