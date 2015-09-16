@@ -1,3 +1,3 @@
 accessing
 sourceString
-	^self sourceText asString
+  ^ self sourceText asString

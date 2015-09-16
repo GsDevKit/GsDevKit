@@ -1,5 +1,7 @@
 accessing
 prefixForOperation: aSymbol
-	aSymbol == #insert ifTrue: [^ '+'].
-	aSymbol == #remove ifTrue: [^ '-'].
-	^ ' '
+  aSymbol == #'insert'
+    ifTrue: [ ^ '+' ].
+  aSymbol == #'remove'
+    ifTrue: [ ^ '-' ].
+  ^ ' '
