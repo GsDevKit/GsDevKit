@@ -1,3 +1,3 @@
 querying
 isEmpty
-	^ operations isEmpty
+  ^ self operations isEmpty
