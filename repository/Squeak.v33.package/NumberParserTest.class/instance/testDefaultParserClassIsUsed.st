@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDefaultParserClassIsUsed
 	"NumberParser class methods default to using a concrete default parser class"
 	

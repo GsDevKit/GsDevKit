@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDefaultParserClassIsSqNumberParser
 	"The defaultParserClass of NumberParser is SqNumberParser, but can be changed"
 	
