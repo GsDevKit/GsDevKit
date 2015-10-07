@@ -1,3 +1,3 @@
 accessing
 annotations
-	^self annotations: MCPlatformSupport defaultAnnotationRequests
+  ^ self annotations: MCPlatformSupport defaultAnnotationRequests

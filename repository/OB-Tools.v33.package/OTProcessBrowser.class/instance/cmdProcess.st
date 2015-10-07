@@ -1,0 +1,3 @@
+commands
+cmdProcess
+	^ OTCmdProcessBrowser allSubclasses

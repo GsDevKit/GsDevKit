@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"on:index:name:" : "lr 8/3/2007 20:44" },
+	"instance" : {
+		"=" : "lr 7/15/2007 11:46",
+		"hash" : "lr 7/15/2007 11:48",
+		"index" : "lr 5/19/2007 10:21",
+		"isReadOnly" : "lr 5/29/2008 09:50",
+		"name" : "dkh 12/14/2008 19:02",
+		"printStringErrorText:" : "dkh 2/21/2009 09:42",
+		"setIndex:name:" : "lr 5/19/2007 10:19",
+		"value" : "dkh 2/21/2009 10:03",
+		"value:" : "lr 5/19/2007 10:20" } }

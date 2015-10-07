@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testIssue293
 	"http://code.google.com/p/glassdb/issues/detail?id=293"
 	

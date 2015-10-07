@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"process" ],
+	"name" : "OTDebugNode",
+	"pools" : [
+		 ],
+	"super" : "OBNode",
+	"type" : "normal" }

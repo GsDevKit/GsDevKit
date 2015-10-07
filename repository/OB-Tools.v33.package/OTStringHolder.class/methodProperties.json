@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"defaultModel" : "lr 1/20/2008 17:10",
+		"open" : "lr 1/20/2008 17:10",
+		"openOn:" : "lr 1/20/2008 17:09" },
+	"instance" : {
+		"announce:" : "lr 1/20/2008 17:03",
+		"buildOn:" : "lr 1/20/2008 17:02",
+		"close" : "lr 1/20/2008 17:03",
+		"defaultLabel" : "lr 1/20/2008 17:01",
+		"initializeOn:" : "lr 1/20/2008 17:11",
+		"labelString" : "lr 8/4/2008 11:30",
+		"open" : "lr 1/20/2008 17:03",
+		"panelClass" : "lr 1/20/2008 17:04",
+		"panels" : "dkh 03/04/2009 09:39" } }

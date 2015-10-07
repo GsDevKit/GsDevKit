@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"Y" ],
-	"commentStamp" : "DataCurator 10/31/2011 15:32",
+	"commentStamp" : "",
 	"instvars" : [
 		"x" ],
 	"name" : "MCMockASubclass",

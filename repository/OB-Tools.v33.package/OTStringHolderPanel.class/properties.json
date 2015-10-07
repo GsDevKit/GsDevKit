@@ -1,0 +1,16 @@
+{
+	"category" : "OB-Tools-String",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"text",
+		"bindings",
+		"shoutHighlighting" ],
+	"name" : "OTStringHolderPanel",
+	"pools" : [
+		 ],
+	"super" : "OBTextPanel",
+	"type" : "normal" }
