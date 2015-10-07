@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testDefaultParserClassIsSqNumberParser" : "IwanVosloo 09/15/2015 01:17",
-		"testDefaultParserClassIsUsed" : "IwanVosloo 09/15/2015 01:18" } }
+		"setUp" : "dkh 10/06/2015 21:25",
+		"tearDown" : "dkh 10/06/2015 21:25",
+		"testDefaultParserClassIsSqNumberParser" : "dkh 10/06/2015 21:27",
+		"testDefaultParserClassIsUsed" : "IwanVosloo 09/15/2015 01:18",
+		"testIssue20" : "dkh 10/06/2015 21:25" } }
