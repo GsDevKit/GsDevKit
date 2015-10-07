@@ -29,6 +29,12 @@ GsDeployer deploy: [
     onLock: [:ex | ex honor];
     load: #( 'CI') ].
 
+(System gemEnvironmentVariable: 'NumberParserClass') = 'ExtendedNumberParser'
+  ifTrue: [
+    "Extended coverage for https://github.com/GsDevKit/GsDevKit/issues/20" 
+    NumberParser defaultNumberParserClass: (Smalltalk at: 'ExtendedNumberParser').
+    System commitTransaction ].
+
 "Run the GLASS1 tests"
 MetacelloPlatform current authorName: 'testMonkey'. "These tests save code ... need an Author"
 
