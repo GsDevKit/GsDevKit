@@ -1,10 +1,21 @@
 {
 	"class" : {
+		"_disableLoggingForSession:" : "dkh 09/13/2015 08:52",
+		"_enableLoggingForSession:" : "dkh 09/13/2015 08:54",
+		"_gemLogFileLoggingAttribute" : "dkh 09/13/2015 08:53",
+		"_isLoggingForSessionEnabled:" : "dkh 09/13/2015 08:55",
+		"_objectLogLoggingAttribute" : "dkh 09/13/2015 08:53",
 		"cr" : "dkh 04/09/2008 12:00",
+		"disableLoggingToGemLogFileForSession" : "dkh 09/12/2015 20:14",
+		"disableLoggingToObjectLogForSession" : "dkh 09/12/2015 20:14",
+		"enableLoggingToGemLogFileForSession" : "dkh 09/12/2015 20:14",
+		"enableLoggingToObjectLogForSession" : "dkh 09/12/2015 20:15",
 		"initialize" : "dkh 02/07/2014 07:53",
+		"isLoggingToGemLogFileForSessionEnabled" : "dkh 09/12/2015 20:14",
+		"isLoggingToObjectLogForSessionEnabled" : "dkh 09/12/2015 20:15",
 		"proxyTranscript" : "dkh 03/28/2008 09:38",
 		"registerTranscriptClientForwarder:" : "dkh 03/27/2008 16:25",
-		"show:" : "DaleHenrichs 06/20/2010 10:26",
+		"show:" : "dkh 09/12/2015 20:17",
 		"tab" : "DaleHenrichs 03/08/2010 13:29" },
 	"instance" : {
 		 } }

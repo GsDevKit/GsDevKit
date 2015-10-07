@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"defaultMetaNode" : "lr 6/5/2008 10:22",
+		"defaultRootNode" : "dkh 01/12/2009 14:10",
+		"definitionPanel" : "lr 5/29/2008 13:34",
+		"on:" : "dkh 01/12/2009 14:10",
+		"openOn:" : "lr 3/3/2006 23:34",
+		"optionalButtonPanel" : "lr 5/19/2007 10:44",
+		"paneCount" : "lr 3/4/2006 17:33",
+		"title" : "lr 3/3/2006 23:32",
+		"titleForRoot:" : "lr 5/29/2008 13:51" },
+	"instance" : {
+		"cmdBrowse" : "dkh 3/5/2009 12:47",
+		"cmdInspect" : "dkh 3/5/2009 10:24",
+		"initialExtent" : "lr 5/29/2008 13:48",
+		"inspectorDoItReceiver" : "dkh 3/5/2009 11:38",
+		"setMetaNode:node:" : "lr 6/5/2008 11:40" } }

@@ -1,0 +1,4 @@
+defaults
+defaultLabel
+
+	^self currentOrRootNode object defaultLabelForInspector

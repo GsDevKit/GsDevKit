@@ -1,6 +1,3 @@
 Positioning
 atEnd
-
-	| ans |
-	(ans := super atEnd) == nil ifTrue: [ ^true ].
-	^ans
+  ^ super atEnd ifNil: [ self error: self lastErrorString ]

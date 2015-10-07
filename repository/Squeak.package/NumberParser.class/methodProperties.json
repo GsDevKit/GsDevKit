@@ -1,15 +1,17 @@
 {
 	"class" : {
-		"on:" : "nice 5/1/2006 00:45",
-		"parse:" : "nice 5/1/2006 02:02",
-		"parse:onError:" : "nice 5/1/2006 02:02",
+		"defaultParserClass" : "IwanVosloo 09/15/2015 01:03",
+		"defaultParserClass:" : "IwanVosloo 09/15/2015 01:18",
+		"on:" : "IwanVosloo 09/15/2015 00:58",
+		"parse:" : "IwanVosloo 09/15/2015 01:03",
+		"parse:onError:" : "IwanVosloo 09/15/2015 01:04",
 		"squeezeNumberOutOfString:" : "NikoSchwarz 10/23/2009 13:21",
 		"squeezeNumberOutOfString:onError:" : "NikoSchwarz 10/23/2009 13:22" },
 	"instance" : {
 		"allowPlusSign" : "nice 2/12/2010 23:56",
 		"allowPlusSignInExponent" : "nice 2/12/2010 23:56",
 		"decimalPoint" : "dkh 03/25/2011 11:40",
-		"expected:" : "dkh 10/19/2011 22:42",
+		"expected:" : "dkh 10/19/2011 22:40",
 		"exponentLetters" : "nice 2/12/2010 23:55",
 		"fail" : "NikoSchwarz 10/17/2009 10:45",
 		"failBlock:" : "nice 5/1/2006 01:58",

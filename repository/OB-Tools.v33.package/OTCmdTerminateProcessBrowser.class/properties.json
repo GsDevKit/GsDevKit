@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Processes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OTCmdTerminateProcessBrowser",
+	"pools" : [
+		 ],
+	"super" : "OTCmdProcessBrowser",
+	"type" : "normal" }

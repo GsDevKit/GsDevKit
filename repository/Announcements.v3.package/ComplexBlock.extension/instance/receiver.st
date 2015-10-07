@@ -1,4 +1,0 @@
-*announcements
-receiver
-
-	^selfValue
