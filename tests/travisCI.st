@@ -32,7 +32,7 @@ GsDeployer deploy: [
 (System gemEnvironmentVariable: 'NumberParserClass') = 'ExtendedNumberParser'
   ifTrue: [
     "Extended coverage for https://github.com/GsDevKit/GsDevKit/issues/20" 
-    NumberParser defaultNumberParserClass: (Smalltalk at: 'ExtendedNumberParser').
+    NumberParser defaultParserClass: (Smalltalk at: 'ExtendedNumberParser').
     System commitTransaction ].
 
 "Run the GLASS1 tests"
