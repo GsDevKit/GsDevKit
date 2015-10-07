@@ -1,3 +1,3 @@
 accessing
 definition
-	^ self subclassResponsibility
+  ^ self subclassResponsibility

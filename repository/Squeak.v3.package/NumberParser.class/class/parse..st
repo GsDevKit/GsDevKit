@@ -1,5 +1,5 @@
 instance creation
 parse: aStringOrStream 
-	^(self new)
+	^(self defaultParserClass new)
 		on: aStringOrStream;
 		nextNumber

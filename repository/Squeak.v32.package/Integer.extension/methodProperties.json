@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"readFrom:ifFail:" : "nice 3/15/2008 01:09",
+		"readFrom:ifFail:" : "dkh 10/06/2015 19:50",
 		"readFrom:radix:" : "laza 10/16/2004 14:34",
 		"readFromString:" : "" },
 	"instance" : {
@@ -13,7 +13,7 @@
 		"bitClear:" : "OttoBehrens 02/22/2011 22:35",
 		"hashMultiply" : "dkh 02/12/2009 16:48",
 		"isInteger" : "",
-		"isLarge" : "DaleHenrichs 08/18/2010 14:33",
+		"isLarge" : "DaleHenrichs 10/25/2010 16:01",
 		"printPaddedWith:to:" : "jgf 02/03/2009 10:29",
 		"printPaddedWith:to:base:" : "",
 		"printStringBase:" : "dkh 07/05/2007 17:23",

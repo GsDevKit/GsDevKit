@@ -1,3 +1,3 @@
 accessing
 inverse
-	self subclassResponsibility
+  self subclassResponsibility

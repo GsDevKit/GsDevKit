@@ -1,3 +1,3 @@
 accessing
 operations
-	^ operations
+  ^ operations reject: [ :each | each isEquality ]

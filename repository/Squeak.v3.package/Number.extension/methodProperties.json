@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"readFrom:" : "nice 10/22/2009 18:46",
-		"readFrom:base:" : "GuillermoPolito 8/24/2010 18:50",
-		"readFrom:ifFail:" : "nice 3/15/2008 00:42" },
+		"readFrom:" : "dkh 10/06/2015 21:26",
+		"readFrom:base:" : "dkh 10/06/2015 21:26",
+		"readFrom:ifFail:" : "dkh 10/06/2015 21:26" },
 	"instance" : {
 		"@" : "dkh 08/02/2007 13:15",
 		"_printAsDateAndTimeANSISecondsOn:" : "DaleHenrichs 10/25/2010 16:01",

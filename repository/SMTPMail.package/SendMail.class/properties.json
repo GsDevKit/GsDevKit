@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"Preference" ],
-	"commentStamp" : "DataCurator 11/09/2011 10:01",
+	"commentStamp" : "",
 	"instvars" : [
 		"mailhostName",
 		"smtpPort",
