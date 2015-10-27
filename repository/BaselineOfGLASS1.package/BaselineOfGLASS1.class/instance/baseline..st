@@ -258,7 +258,7 @@ baseline: spec
             requires: #('GsCore') ] ].
   spec
     for:
-      #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.2.5.x' #'gs3.2.6.x' #'gs3.2.7.x' #'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.3.x' #'gs3.4.x')
+      #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.2.5.x' #'gs3.2.6.x' #'gs3.2.7.x' #'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.3.x' #'gs3.4.x')
     do: [ 
       spec
         package: 'Core' with: [ spec includes: #('Core322x') ];
@@ -279,7 +279,7 @@ baseline: spec
                 requires: #('GsCore') ] ].
   spec
     for:
-      #(#'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.3.x' #'gs3.4.x')
+      #(#'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.3.x' #'gs3.4.x')
     do: [ 
       spec
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.v33' ];
