@@ -12,9 +12,9 @@ env:
 
    - ST=GemStone-2.4.6
    - ST=GemStone-3.1.0.6
-   - ST=GemStone-3.2.9
+   - ST=GemStone-3.2.10
    - ST=GemStone-3.1.0.6 NumberParserClass=ExtendedNumberParser
-   - ST=GemStone-3.2.9  NumberParserClass=ExtendedNumberParser
+   - ST=GemStone-3.2.10  NumberParserClass=ExtendedNumberParser
 
 install:
    - export PROJECT_HOME="$(pwd)"
