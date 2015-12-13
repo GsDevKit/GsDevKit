@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"testSelectors" : "dkh 02/19/2015 09:34" },
 	"instance" : {
 		"assert:equals:" : "DaleHenrichs 03/02/2011 16:03",
 		"comparingStringBetween:and:" : "DaleHenrichs 03/02/2011 16:03",
