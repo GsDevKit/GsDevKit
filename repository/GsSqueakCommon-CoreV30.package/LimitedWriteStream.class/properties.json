@@ -1,0 +1,15 @@
+{
+	"category" : "GsSqueakCommon-CoreV30",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"limit",
+		"limitBlock" ],
+	"name" : "LimitedWriteStream",
+	"pools" : [
+		 ],
+	"super" : "WriteStreamPortable",
+	"type" : "normal" }

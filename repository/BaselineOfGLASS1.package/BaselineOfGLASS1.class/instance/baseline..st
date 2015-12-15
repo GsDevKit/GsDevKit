@@ -199,6 +199,10 @@ baseline: spec
           with: [ spec includes: 'GsSqueakCommon-CoreV30' ];
         package: 'GsSqueakCommon-CoreV30'
           with: [ spec requires: 'GsSqueakCommon-Core' ];
+        package: 'GsSqueakCommon-Tests'
+          with: [ spec includes: 'GsSqueakCommon-TestsV30' ];
+        package: 'GsSqueakCommon-TestsV30'
+          with: [ spec requires: 'GsSqueakCommon-Tests' ];
         package: 'OB-Standard' with: [ spec file: 'OB-Standard.v3' ];
         package: 'OB-SymbolListBrowser'
           with: [ spec requires: #('OB-Standard') ];
