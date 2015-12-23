@@ -17,6 +17,6 @@
 		"testExtensionMethodsBulkMigrate" : "DaleHenrichs 02/18/2011 10:32",
 		"testGsDevKitIssue77" : "dkh 09/14/2015 21:08",
 		"testListInstancesInMemory" : "dkh 03/11/2013 18:03",
-		"testMonticelloAutoMigrate" : "dkh 03/08/2013 16:32",
+		"testMonticelloAutoMigrate" : "dkh 12/23/2015 15:37",
 		"testMonticelloAutoMigrateRefactor" : "dkh 03/08/2013 16:33",
 		"testMonticelloNoAutoMigrate" : "DaleHenrichs 01/25/2011 14:58" } }
