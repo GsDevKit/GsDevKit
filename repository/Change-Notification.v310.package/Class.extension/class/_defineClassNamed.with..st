@@ -1,6 +1,6 @@
 *change-notification
 _defineClassNamed: aClassName with: aBlock
-  | originalClass classOrganizer cls |
+  | originalClass classOrganizer cls failedMethodCompilations |
   originalClass := System myUserProfile symbolList
     objectNamed: aClassName asSymbol.
   originalClass ~~ nil
@@ -10,38 +10,26 @@ _defineClassNamed: aClassName with: aBlock
   cls := aBlock value.
   cls == nil
     ifTrue: [ ^ nil ].
+  failedMethodCompilations := {}.
   originalClass ~~ nil
     ifTrue: [ 
       SystemChangeNotifier uniqueInstance
         doSilently: [ 
-          | failedMethodCompilations |
-          failedMethodCompilations := cls
-            copyMCMethodsFrom: originalClass
-            dictionaries: GsSession currentSession symbolList.
+          failedMethodCompilations
+            addAll:
+              (cls
+                copyMCMethodsFrom: originalClass
+                dictionaries: GsSession currentSession symbolList).
+          [ 
+          "force redefinition of existing subclasses"
           MCPlatformSupport
             redefineSubclassesOf: originalClass
-            using: classOrganizer.	"force redefinition of existing subclasses"
-          MCPlatformSupport migrateInstancesWithSubclassesOf: cls.
-          failedMethodCompilations notEmpty
-            ifTrue: [ 
-              | errorStream |
-              errorStream := WriteStream on: String new.
-              errorStream
-                nextPutAll:
-                    'Not all methods for the class: ' , cls name printString
-                        , ' were successfully recompled.';
-                cr.
-              failedMethodCompilations
-                do: [ :ar | 
-                  | details def |
-                  details := ar at: 1.
-                  def := ar at: 2.
-                  errorStream
-                    tab;
-                    nextPutAll: def description , ': ';
-                    cr;
-                    nextPutAll: details;
-                    cr ]	"self error: errorStream contents" ] ].
+            using: classOrganizer ]
+            on: GsFailedMethodCompilationDuringCopyMethodToNewClass
+            do: [ :ex | 
+              failedMethodCompilations addAll: ex failedMethodCompilations.
+              ex resume: false ].
+          MCPlatformSupport migrateInstancesWithSubclassesOf: cls ].
       cls category = originalClass category
         ifTrue: [ 
           SystemChangeNotifier uniqueInstance
@@ -56,4 +44,29 @@ _defineClassNamed: aClassName with: aBlock
         announce: (ClassAddedAnnouncement itemClass: cls) ].
   SystemChangeNotifier uniqueInstance
     doSilently: [ Class _resolveUndeclaredSymbolsForClass: cls ].
+  failedMethodCompilations notEmpty
+    ifTrue: [ 
+      (GsFailedMethodCompilationDuringCopyMethodToNewClass
+        signal: 'failed compilations'
+        with: failedMethodCompilations)
+        ifTrue: [ 
+          | errorStream |
+          errorStream := WriteStream on: String new.
+          errorStream
+            nextPutAll:
+                'Not all methods for the class: ' , cls name printString
+                    , ' were successfully recompled.';
+            cr.
+          failedMethodCompilations
+            do: [ :ar | 
+              | details def |
+              details := ar at: 1.
+              def := ar at: 2.
+              errorStream
+                tab;
+                nextPutAll: def description , ': ';
+                cr;
+                nextPutAll: details;
+                cr ].
+          self error: errorStream contents ] ].
   ^ cls
