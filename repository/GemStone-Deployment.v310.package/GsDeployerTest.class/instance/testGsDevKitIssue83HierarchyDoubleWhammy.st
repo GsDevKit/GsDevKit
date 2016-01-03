@@ -1,13 +1,15 @@
 tests Issue 83
-testGsDevKitIssue83Hierarchy
+testGsDevKitIssue83HierarchyDoubleWhammy
   "https://github.com/GsDevKit/GsDevKit/issues/83"
 
-  | cls1 cat cls2 cls3 cls4 cls1Name cls2Name cls3Name cls4Name |
+  | cls1 cat cls2 cls3 cls4 cls5 cls6 cls1Name cls2Name cls3Name cls4Name cls5Name cls6Name |
   cat := 'GsDevKitIssue83'.
   cls1Name := 'GsDevKitIssue83A'.
   cls2Name := 'GsDevKitIssue83B'.
   cls3Name := 'GsDevKitIssue83C'.
   cls4Name := 'GsDevKitIssue83D'.
+  cls5Name := 'GsDevKitIssue83E'.
+  cls6Name := 'GsDevKitIssue83F'.
   cls1 := self
     createIssue83ClassNamed: cls1Name
     subclassOf: Object
@@ -26,7 +28,17 @@ testGsDevKitIssue83Hierarchy
     createIssue83ClassNamed: cls4Name
     subclassOf: cls2
     instVarNames: #().
-  self issue83VerifyClassHierarchy.
+  cls5 := self
+    createIssue83ClassNamed: cls5Name
+    subclassOf: cls4
+    instVarNames: #().
+  cls5 compileMethod: 'xxx | ivar | ivar := 1. ^ ivar' category: cat.
+  self assert: (cls5 compiledMethodAt: 'xxx' ifAbsent: [  ]) notNil.
+  cls6 := self
+    createIssue83ClassNamed: cls5Name
+    subclassOf: cls5
+    instVarNames: #().
+  self issue83VerifyClassHierarchyDoubleWhammy.
   self
     should: [ 
       self
@@ -34,4 +46,4 @@ testGsDevKitIssue83Hierarchy
         subclassOf: Object
         instVarNames: #(#'ivar') ]
     raise: Error.
-  self issue83VerifyClassHierarchy
+  self issue83VerifyClassHierarchyDoubleWhammy

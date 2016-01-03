@@ -18,6 +18,10 @@ _defineClassNamed: aClassName with: aBlock
           failedMethodCompilations := cls
             copyMCMethodsFrom: originalClass
             dictionaries: GsSession currentSession symbolList.
+          MCPlatformSupport
+            redefineSubclassesOf: originalClass
+            using: classOrganizer.	"force redefinition of existing subclasses"
+          MCPlatformSupport migrateInstancesWithSubclassesOf: cls.
           failedMethodCompilations notEmpty
             ifTrue: [ 
               | errorStream |
@@ -29,21 +33,15 @@ _defineClassNamed: aClassName with: aBlock
                 cr.
               failedMethodCompilations
                 do: [ :ar | 
-                  | details mth |
-                  details := ar at: 3.
-                  mth := ar at: 2.
+                  | details def |
+                  details := ar at: 1.
+                  def := ar at: 2.
                   errorStream
                     tab;
-                    nextPutAll:
-                        mth inClass name asString , '>>' , mth selector asString , ': ';
+                    nextPutAll: def description , ': ';
                     cr;
                     nextPutAll: details;
-                    cr ].
-              self error: errorStream contents ].
-          MCPlatformSupport
-            redefineSubclassesOf: originalClass
-            using: classOrganizer.	"force redefinition of existing subclasses"
-          MCPlatformSupport migrateInstancesWithSubclassesOf: cls ].
+                    cr ]	"self error: errorStream contents" ] ].
       cls category = originalClass category
         ifTrue: [ 
           SystemChangeNotifier uniqueInstance

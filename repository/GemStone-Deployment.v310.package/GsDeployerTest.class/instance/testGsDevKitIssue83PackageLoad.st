@@ -9,6 +9,7 @@ testGsDevKitIssue83PackageLoad
   self issue83Gofer
     version: 'GsDevKit83Bar-dkh.1';
     load.
+  self issue83VerifyClassHierarchy.
   g := self issue83Gofer
     version: 'GsDevKit83Foo-dkh.2';
     yourself.
@@ -17,4 +18,5 @@ testGsDevKitIssue83PackageLoad
       [ g load ]
         on: Warning
         do: [ :ex | ex resume ] ]
-    raise: Error
+    raise: Error.
+  self issue83VerifyClassHierarchy

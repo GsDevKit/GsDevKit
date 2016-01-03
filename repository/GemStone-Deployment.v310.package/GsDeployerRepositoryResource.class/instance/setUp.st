@@ -15,4 +15,6 @@ setUp
   ancestor := self setUpGsDevKitIssue77Bar3: {ancestor}.
   ancestor := self setUpGsDevKitIssue83Foo1.
   ancestor := self setUpGsDevKitIssue83Foo2: {ancestor}.
-  ancestor := self setUpGsDevKitIssue83Bar1
+  ancestor := self setUpGsDevKitIssue83Bar1.
+  ancestor := self setUpGsDevKitIssue83Baz1.
+  ancestor := self setUpGsDevKitIssue83Baz2: {ancestor}
