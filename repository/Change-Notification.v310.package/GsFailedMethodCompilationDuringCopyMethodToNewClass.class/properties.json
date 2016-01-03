@@ -1,0 +1,14 @@
+{
+	"category" : "Change-Notification",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"failedMethodCompilations" ],
+	"name" : "GsFailedMethodCompilationDuringCopyMethodToNewClass",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }
