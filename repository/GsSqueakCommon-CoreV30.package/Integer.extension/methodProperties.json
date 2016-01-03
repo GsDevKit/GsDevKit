@@ -1,5 +1,9 @@
 {
 	"class" : {
-		 },
+		"largePrimesUpTo:" : "dkh 12/15/2015 12:09",
+		"largePrimesUpTo:do:" : "dkh 12/15/2015 12:09",
+		"primesUpTo:" : "dkh 12/15/2015 12:04",
+		"primesUpTo:do:" : "dkh 12/15/2015 12:09" },
 	"instance" : {
-		"ansiBitAt:" : "dkh 12/01/2014 12:06" } }
+		"ansiBitAt:" : "dkh 12/01/2014 12:06",
+		"sqrtFloor" : "dkh 12/15/2015 12:14" } }
