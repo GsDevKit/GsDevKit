@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"monticelloRepository" : "DaleHenrichs 01/25/2011 13:39",
-		"setUp" : "dkh 09/14/2015 21:04",
+		"setUp" : "dkh 01/02/2016 16:21",
 		"setUpGsDeployerBar1" : "DaleHenrichs 02/18/2011 12:22",
 		"setUpGsDeployerBar2:" : "DaleHenrichs 02/18/2011 12:23",
 		"setUpGsDeployerBar3:" : "DaleHenrichs 02/18/2011 12:23",
@@ -12,6 +12,9 @@
 		"setUpGsDevKitIssue77Bar1" : "dkh 09/14/2015 21:04",
 		"setUpGsDevKitIssue77Bar2:" : "dkh 09/14/2015 21:04",
 		"setUpGsDevKitIssue77Bar3:" : "dkh 09/14/2015 21:04",
+		"setUpGsDevKitIssue83Bar1" : "dkh 01/02/2016 16:43",
+		"setUpGsDevKitIssue83Foo1" : "dkh 01/02/2016 16:30",
+		"setUpGsDevKitIssue83Foo2:" : "dkh 01/02/2016 16:20",
 		"setUpMonticelloRepository" : "DaleHenrichs 01/25/2011 13:39",
 		"setUpPackageClassDefs:methodDefs:named:ancestors:" : "dkh 09/14/2015 18:11",
 		"setUpPackageClassDefs:named:ancestors:" : "DaleHenrichs 01/26/2011 15:34" } }
