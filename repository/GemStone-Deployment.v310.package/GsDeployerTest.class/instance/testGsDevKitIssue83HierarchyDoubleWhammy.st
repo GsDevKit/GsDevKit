@@ -35,8 +35,8 @@ testGsDevKitIssue83HierarchyDoubleWhammy
   cls5 compileMethod: 'xxx | ivar | ivar := 1. ^ ivar' category: cat.
   self assert: (cls5 compiledMethodAt: 'xxx' ifAbsent: [  ]) notNil.
   cls6 := self
-    createIssue83ClassNamed: cls5Name
-    subclassOf: cls5
+    createIssue83ClassNamed: cls6Name
+    subclassOf: cls4
     instVarNames: #().
   self issue83VerifyClassHierarchyDoubleWhammy.
   self
