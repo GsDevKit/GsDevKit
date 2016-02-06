@@ -11,7 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"type" : [
-		"normal",
-		[
-			"dbTransient" ] ] }
+	"type" : "transient" }

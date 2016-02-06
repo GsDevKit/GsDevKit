@@ -11,7 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "TransientSemaphore",
-	"type" : [
-		"normal",
-		[
-			"dbTransient" ] ] }
+	"type" : "transient" }
