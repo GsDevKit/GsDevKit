@@ -19,14 +19,13 @@ installAlmostOutOfMemoryStaticHandler: initialCommitThreshold
           commitThreshold < 98
             ifTrue: [ System signalAlmostOutOfMemoryThreshold: commitThreshold ]
             ifFalse: [ 
-              "we're with 10% of out of memory, commit instance counts structure 
-               into objectlog for posterity."
-              (ObjectLogEntry
-                trace: 'almost out of memory: ' , commitThreshold printString
-                object:
-                  ((System _vmInstanceCounts: 3)
-                    sort: [ :a :b | (a value at: 2) > (b value at: 2) ]))
-                addToLog.
+              "We're within 2% of out of memory and cannot re-enable ."
+              Transcript
+                cr;
+                show:
+                    'Almost out of memory threshold ' , commitThreshold printString
+                        ,
+                          ' > 98. Unable to re-enable almost of out memory handler. Check log file for instance count report and Smalltalk stack.'.
               System commitTransaction
                 ifFalse: [ nil error: 'AutoCommit failed' ] ] ].
       ex resume ].
