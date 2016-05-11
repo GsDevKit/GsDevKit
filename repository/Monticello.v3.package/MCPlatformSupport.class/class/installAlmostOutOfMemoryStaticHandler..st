@@ -16,18 +16,12 @@ installAlmostOutOfMemoryStaticHandler: initialCommitThreshold
           "commit and mark sweep did drop us below threshold. cut threshold in half 
            and try again. Record an entry in the object log "
           commitThreshold := (100 - commitThreshold) // 2 + commitThreshold.
-          commitThreshold < 98
+          (commitThreshold > 0 and: [ commitThreshold < 98 ])
             ifTrue: [ System signalAlmostOutOfMemoryThreshold: commitThreshold ]
             ifFalse: [ 
-              "We're within 2% of out of memory and cannot re-enable ."
-              Transcript
-                cr;
-                show:
-                    'Almost out of memory threshold ' , commitThreshold printString
-                        ,
-                          ' > 98. Unable to re-enable almost of out memory handler. Check log file for instance count report and Smalltalk stack.'.
-              System commitTransaction
-                ifFalse: [ nil error: 'AutoCommit failed' ] ] ].
+              "We're within 2% of out of memory and cannot re-enable AlmostOutOfMemoryError, rely on GS_DEBUG_VMGC_VERBOSE_OUTOFMEM to record instance count report and Smalltalk stack to gem log. https://github.com/GsDevKit/GsDevKit/issues/90"
+              "set threshold to 110 and hope for the best"
+              commitThreshold := 110 ] ].
       ex resume ].
   SessionTemps current
     at: #'CommitOnAlmostOutOfMemoryStaticException'
