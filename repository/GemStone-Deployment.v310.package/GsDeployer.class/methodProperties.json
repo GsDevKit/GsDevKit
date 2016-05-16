@@ -1,9 +1,13 @@
 {
 	"class" : {
-		"autoMigrate:" : "DaleHenrichs 03/04/2011 13:41",
-		"bulkMigrate:" : "DaleHenrichs 03/04/2011 13:42",
+		"autoMigrate:" : "dkh 05/16/2016 11:22",
+		"bulkMigrate:" : "dkh 05/16/2016 11:22",
 		"cleanClassHistory" : "DaleHenrichs 02/18/2011 10:55",
+		"defaultDeployerClass" : "dkh 05/16/2016 11:22",
+		"defaultDeployerClass:" : "dkh 05/16/2016 11:25",
 		"deploy:" : "DaleHenrichs 03/04/2011 13:44",
+		"noMigrationDuring:" : "dkh 05/16/2016 12:16",
+		"select" : "dkh 05/16/2016 11:25",
 		"updateGLASSTo:" : "dkh 03/24/2011 11:20" },
 	"instance" : {
 		"atomicInstall" : "DaleHenrichs 02/18/2011 10:52",
@@ -18,5 +22,6 @@
 		"doBulkMigrate" : "dkh 09/12/2015 12:06",
 		"excluding" : "DaleHenrichs 01/25/2011 15:12",
 		"excluding:" : "DaleHenrichs 01/25/2011 15:12",
-		"mcPlatformSupportDo:" : "DaleHenrichs 02/18/2011 10:21",
-		"objectNamed:" : "DaleHenrichs 01/25/2011 11:52" } }
+		"mcPlatformSupportDo:" : "dkh 05/16/2016 11:35",
+		"objectNamed:" : "DaleHenrichs 01/25/2011 11:52",
+		"shouldAutoMigrateDuringDeploy" : "dkh 05/16/2016 11:34" } }

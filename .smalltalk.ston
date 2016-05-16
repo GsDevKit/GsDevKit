@@ -1,0 +1,11 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'GLASS1',
+      #load : [ 'CI' ],
+      #onWarningLog : true,
+      #directory : 'repository',
+      #platforms : [ #gemstone ]
+    }
+  ]
+}

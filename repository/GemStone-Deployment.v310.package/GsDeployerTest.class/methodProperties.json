@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"createIssue83ClassNamed:subclassOf:instVarNames:" : "dkh 01/02/2016 11:15",
+		"doDeployForAutoMigrationTest" : "dkh 05/16/2016 11:56",
 		"doSilently" : "DaleHenrichs 01/25/2011 14:00",
 		"hasPackage:" : "DaleHenrichs 01/25/2011 14:11",
 		"issue83ClassCategory" : "dkh 01/02/2016 11:09",
@@ -28,7 +29,8 @@
 		"testGsDevKitIssue83Hierarchy" : "dkh 01/02/2016 17:30",
 		"testGsDevKitIssue83HierarchyDoubleWhammy" : "dkh 01/02/2016 19:01",
 		"testGsDevKitIssue83PackageLoad" : "dkh 01/02/2016 17:42",
+		"testGsDevKitIssue91" : "dkh 05/16/2016 12:15",
 		"testListInstancesInMemory" : "dkh 03/11/2013 18:03",
-		"testMonticelloAutoMigrate" : "dkh 12/23/2015 15:38",
+		"testMonticelloAutoMigrate" : "dkh 05/16/2016 11:57",
 		"testMonticelloAutoMigrateRefactor" : "dkh 03/08/2013 16:33",
 		"testMonticelloNoAutoMigrate" : "DaleHenrichs 01/25/2011 14:58" } }
