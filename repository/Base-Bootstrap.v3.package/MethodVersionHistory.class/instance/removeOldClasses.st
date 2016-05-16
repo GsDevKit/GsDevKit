@@ -1,3 +1,3 @@
 actions
 removeOldClasses
-	self queryOldClasses do: [:cl | dictionary removeKey: cl]
+  self queryOldClasses do: [ :cl | self dictionary removeKey: cl ]

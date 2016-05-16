@@ -2,7 +2,7 @@ actions
 removeUnreferencedClasses
   | symbolList |
   symbolList := GsSession currentSession symbolList.
-  dictionary keys
+  self dictionary keys
     do: [ :cl | 
       (symbolList objectNamed: cl thisClass name) isNil
-        ifTrue: [ dictionary removeKey: cl ] ]
+        ifTrue: [ self dictionary removeKey: cl ] ]

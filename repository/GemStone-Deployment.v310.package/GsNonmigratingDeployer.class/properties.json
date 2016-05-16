@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Deployment-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 05/16/2016 12:24",
+	"instvars" : [
+		 ],
+	"name" : "GsNonmigratingDeployer",
+	"pools" : [
+		 ],
+	"super" : "GsDeployer",
+	"type" : "normal" }

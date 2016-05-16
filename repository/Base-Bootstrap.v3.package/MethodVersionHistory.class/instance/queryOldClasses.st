@@ -4,7 +4,7 @@ queryOldClasses
 
   | symbolList |
   symbolList := GsSession currentSession symbolList.
-  ^ dictionary keys
+  ^ self dictionary keys
     select: [ :cl | 
       cl isMeta
         ifTrue: [ 
