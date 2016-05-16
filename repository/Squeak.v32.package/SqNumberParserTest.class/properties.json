@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "nice 5/7/2006 17:54",
 	"instvars" : [
-		 ],
+		"defaultParserClass" ],
 	"name" : "SqNumberParserTest",
 	"pools" : [
 		 ],
