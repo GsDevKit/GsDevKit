@@ -1,6 +1,6 @@
 deploying
 bulkMigrate: deployNoArgBlock
-	"
+  "
 		1. set autoCommit to true
 		2. set autoMigrate to false
 		3. commit on AlmostOutOfMemoryException during evaluation of  deployNoArgBlock
@@ -10,7 +10,8 @@ bulkMigrate: deployNoArgBlock
 		7. commit
 		8. restore original autoCommit and autoMigrate.
 	"
-	^(self new) 
-		bulkMigrate: true;
-		deploy: deployNoArgBlock;
-		yourself
+
+  ^ self defaultDeployerClass new
+    bulkMigrate: true;
+    deploy: deployNoArgBlock;
+    yourself

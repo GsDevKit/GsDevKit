@@ -1,0 +1,6 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"doBulkMigrate" : "dkh 05/16/2016 11:36",
+		"shouldAutoMigrateDuringDeploy" : "dkh 05/16/2016 11:35" } }

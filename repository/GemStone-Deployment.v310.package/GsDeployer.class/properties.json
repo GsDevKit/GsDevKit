@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"DefaultClassBinding" ],
 	"commentStamp" : "DaleHenrichs 01/25/2011 16:27",
 	"instvars" : [
 		"atomicInstall",
