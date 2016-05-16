@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "nice 5/7/2006 17:54",
+	"commentStamp" : "",
 	"instvars" : [
-		"defaultParserClass" ],
-	"name" : "SqNumberParserTest",
+		 ],
+	"name" : "SqNumberParserGsDevKitIssue75Test",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "SqNumberParserTest",
 	"type" : "normal" }
