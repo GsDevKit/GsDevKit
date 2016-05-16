@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NumberParserGsDevKitIssue75Test",
+	"pools" : [
+		 ],
+	"super" : "NumberParserTest",
+	"type" : "normal" }
