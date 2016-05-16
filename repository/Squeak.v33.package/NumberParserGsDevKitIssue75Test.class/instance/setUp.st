@@ -4,5 +4,6 @@ setUp
 
   "https://github.com/GsDevKit/GsDevKit/issues/75"
 
-  super setUp.
-  NumberParser defaultParserClass: ExtendedNumberParser
+  theDefaultParserNumberClass := NumberParser defaultParserClass.
+  NumberParser defaultParserClass: ExtendedNumberParser.
+  super setUp
