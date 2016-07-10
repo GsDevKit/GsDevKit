@@ -13,7 +13,8 @@ withSqueakLineEndingsNew
   lineEndPos := self class
     findFirstInString: self
     inSet: self class crlfMap
-    startingAt: inPos lineEndPos ~= 0 ]
+    startingAt: inPos.
+  lineEndPos ~= 0 ]
     whileTrue: [ 
       newOutPos := outPos + (lineEndPos - inPos + 1).
       outString
