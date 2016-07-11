@@ -23,14 +23,23 @@ coreMethodsOld: coreMethodBlock extensionMethods: extensionMethodBlock overridde
             ifTrue: [ coreMethodBlock value: m ] ] ].
   MCPlatformSupport
     allBehaviorsDo: [ :beh | 
-      (self overriddenMethodsInClass: beh)
-        do: [ :m | 
-          (self isOverrideOfYourMethod: m)
-            ifTrue: [ overriddenMethodBlock value: m ] ].
-      (myBehaviors includes: beh)
-        ifFalse: [ 
-          (self extensionMethodsForClass: beh)
-            do: [ :m | 
-              (m isValid and: [ (#(#'DoIt' #'DoItIn:') includes: m methodSymbol) not ])
-                ifTrue: [ extensionMethodBlock value: m ] ] ] ].
+      | isExtensionBehavior |
+      isExtensionBehavior := (myBehaviors includes: beh) not.
+      beh
+        env: 0
+        categorysDo: [ :cat :selectors | 
+          (self isOverrideCategory: cat)
+            ifTrue: [ 
+              (self methodsInCategory: cat ofClass: beh)
+                do: [ :m | 
+                  (self isOverrideOfYourMethod: m)
+                    ifTrue: [ overriddenMethodBlock value: m ] ] ].
+          isExtensionBehavior
+            ifTrue: [ 
+              (self isYourClassExtension: cat)
+                ifTrue: [ 
+                  (self methodsInCategory: cat ofClass: beh)
+                    do: [ :m | 
+                      (m isValid and: [ (#(#'DoIt' #'DoItIn:') includes: m methodSymbol) not ])
+                        ifTrue: [ extensionMethodBlock value: m ] ] ] ] ] ].
   myClasses do: classesBlock

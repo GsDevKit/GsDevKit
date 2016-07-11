@@ -30,16 +30,21 @@ coreMethodsNew: coreMethodBlock extensionMethods: extensionMethodBlock overridde
         categorysDo: [ :cat :selectors | 
           (self isOverrideCategory: cat)
             ifTrue: [ 
-              (self methodsInCategory: cat ofClass: beh)
-                do: [ :m | 
+              selectors
+                do: [ :sel | 
+                  | m |
+                  m := self referenceForMethod: sel ofClass: beh.
                   (self isOverrideOfYourMethod: m)
                     ifTrue: [ overriddenMethodBlock value: m ] ] ].
           isExtensionBehavior
             ifTrue: [ 
-              (self self isYourClassExtension: cat)
+              (self isYourClassExtension: cat)
                 ifTrue: [ 
-                  (self methodsInCategory: cat ofClass: beh)
-                    do: [ :m | 
-                      (m isValid and: [ (#(#'DoIt' #'DoItIn:') includes: m methodSymbol) not ])
+                  selectors
+                    do: [ :sel | 
+                      | m |
+                      m := self referenceForMethod: sel ofClass: beh.
+                      (m isValid
+                        and: [ (#(#'DoIt' #'DoItIn:') includes: m methodSymbol) not ])
                         ifTrue: [ extensionMethodBlock value: m ] ] ] ] ] ].
   myClasses do: classesBlock
