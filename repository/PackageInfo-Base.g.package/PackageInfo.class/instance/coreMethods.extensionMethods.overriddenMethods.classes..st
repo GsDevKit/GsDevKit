@@ -17,7 +17,7 @@ coreMethods: coreMethodBlock extensionMethods: extensionMethodBlock overriddenMe
             add: cl class ] ].
   myBehaviors
     do: [ :beh | 
-      (beh coreMethodsForClass: beh)
+      (self coreMethodsForClass: beh)
         do: [ :m | 
           (m isValid and: [ (#(#'DoIt' #'DoItIn:') includes: m methodSymbol) not ])
             ifTrue: [ coreMethodBlock value: m ] ] ].
