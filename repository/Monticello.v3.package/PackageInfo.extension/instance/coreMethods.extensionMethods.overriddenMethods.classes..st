@@ -1,5 +1,5 @@
-listing
-coreMethodsOld: coreMethodBlock extensionMethods: extensionMethodBlock overriddenMethods: overriddenMethodBlock classes: classesBlock
+*monticello
+coreMethods: coreMethodBlock extensionMethods: extensionMethodBlock overriddenMethods: overriddenMethodBlock classes: classesBlock
   "optimization for doing a snapshot"
 
   | myBehaviors myClasses |
@@ -26,20 +26,24 @@ coreMethodsOld: coreMethodBlock extensionMethods: extensionMethodBlock overridde
       | isExtensionBehavior |
       isExtensionBehavior := (myBehaviors includes: beh) not.
       beh
-        env: 0
         categorysDo: [ :cat :selectors | 
           (self isOverrideCategory: cat)
             ifTrue: [ 
-              (self methodsInCategory: cat ofClass: beh)
-                do: [ :m | 
+              selectors
+                do: [ :sel | 
+                  | m |
+                  m := self referenceForMethod: sel ofClass: beh.
                   (self isOverrideOfYourMethod: m)
                     ifTrue: [ overriddenMethodBlock value: m ] ] ].
           isExtensionBehavior
             ifTrue: [ 
               (self isYourClassExtension: cat)
                 ifTrue: [ 
-                  (self methodsInCategory: cat ofClass: beh)
-                    do: [ :m | 
-                      (m isValid and: [ (#(#'DoIt' #'DoItIn:') includes: m methodSymbol) not ])
+                  selectors
+                    do: [ :sel | 
+                      | m |
+                      m := self referenceForMethod: sel ofClass: beh.
+                      (m isValid
+                        and: [ (#(#'DoIt' #'DoItIn:') includes: m methodSymbol) not ])
                         ifTrue: [ extensionMethodBlock value: m ] ] ] ] ] ].
   myClasses do: classesBlock

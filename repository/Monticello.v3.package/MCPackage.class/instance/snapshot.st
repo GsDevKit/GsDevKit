@@ -2,6 +2,11 @@ as yet unclassified
 snapshot
   | packageInfo definitions categories |
   packageInfo := self packageInfo.
+  packageInfo class == PackageInfo
+    ifFalse: [ 
+      "subclasses are not likely to function correctly with PackageInfo>>coreMethods:extensionMethods:overriddenMethods:classes:.
+       Use the old snapshot code"
+      ^ self snapshotOld ].
   definitions := OrderedCollection new.
   categories := packageInfo systemCategories.
   categories isEmpty
