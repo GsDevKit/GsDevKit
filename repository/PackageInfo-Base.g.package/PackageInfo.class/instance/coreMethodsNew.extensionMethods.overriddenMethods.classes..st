@@ -1,5 +1,5 @@
 listing
-coreMethods: coreMethodBlock extensionMethods: extensionMethodBlock overriddenMethods: overriddenMethodBlock classes: classesBlock
+coreMethodsNew: coreMethodBlock extensionMethods: extensionMethodBlock overriddenMethods: overriddenMethodBlock classes: classesBlock
   "optimization for doing a snapshot"
 
   | myBehaviors myClasses |
@@ -36,7 +36,7 @@ coreMethods: coreMethodBlock extensionMethods: extensionMethodBlock overriddenMe
                     ifTrue: [ overriddenMethodBlock value: m ] ] ].
           isExtensionBehavior
             ifTrue: [ 
-              (self isYourClassExtension: cat)
+              (self self isYourClassExtension: cat)
                 ifTrue: [ 
                   (self methodsInCategory: cat ofClass: beh)
                     do: [ :m | 
