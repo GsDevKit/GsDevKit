@@ -1,0 +1,36 @@
+listing
+coreMethods: coreMethodBlock extensionMethods: extensionMethodBlock overriddenMethods: overriddenMethodBlock classes: classesBlock
+  "optimization for doing a snapshot"
+
+  | myBehaviors myClasses |
+  myBehaviors := IdentitySet new.
+  myClasses := IdentitySet new.
+  self systemCategories
+    do: [ :cat | 
+      (SystemOrganizer new listAtCategoryNamed: cat)
+        do: [ :className | 
+          | cl |
+          cl := Smalltalk classNamed: className.
+          myClasses add: cl.
+          myBehaviors
+            add: cl;
+            add: cl class ] ].
+  myBehaviors
+    do: [ :beh | 
+      (beh coreMethodsForClass: beh)
+        do: [ :m | 
+          (m isValid and: [ (#(#'DoIt' #'DoItIn:') includes: m methodSymbol) not ])
+            ifTrue: [ coreMethodBlock value: m ] ] ].
+  MCPlatformSupport
+    allBehaviorsDo: [ :beh | 
+      (self overriddenMethodsInClass: beh)
+        do: [ :m | 
+          (self isOverrideOfYourMethod: m)
+            ifTrue: [ overriddenMethodBlock value: m ] ].
+      (myBehaviors includes: beh)
+        ifFalse: [ 
+          (self extensionMethodsForClass: beh)
+            do: [ :m | 
+              (m isValid and: [ (#(#'DoIt' #'DoItIn:') includes: m methodSymbol) not ])
+                ifTrue: [ extensionMethodBlock value: m ] ] ] ].
+  myClasses do: classesBlock
