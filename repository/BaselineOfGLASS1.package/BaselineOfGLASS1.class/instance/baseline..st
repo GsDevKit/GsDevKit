@@ -289,11 +289,18 @@ baseline: spec
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.v33' ];
         yourself ].
   spec
-    for: #(#'gs3.3.x' #'gs3.4.x')
+    for: #'gs3.3.x'
     do: [ 
       spec
         package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v33' ];
+        yourself ].
+  spec
+    for: #'gs3.4.x'
+    do: [ 
+      spec
+        package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ];
+        package: 'Squeak' with: [ spec file: 'Squeak.v34' ];
         yourself ].
   spec
     for: #'maglev'
