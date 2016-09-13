@@ -300,6 +300,7 @@ baseline: spec
     do: [ 
       spec
         package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ];
+        package: 'Bootstrap' with: [ spec file: 'Bootstrap.v34' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v34' ];
         yourself ].
   spec

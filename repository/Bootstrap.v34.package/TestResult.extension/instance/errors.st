@@ -1,0 +1,4 @@
+*bootstrap
+errors
+
+	^ self unexpectedErrors

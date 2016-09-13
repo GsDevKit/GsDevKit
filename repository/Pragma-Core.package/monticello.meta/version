@@ -1,0 +1,1 @@
+(name 'Pragma-Core-dkh.1' message 'moving Pragma support to GemStone base image ... keep Pragma-Core package available for use by the GemStone base image' id '40c1b9a6-cd4b-4978-b99a-24cdeb9c118a' date '09/13/2016' time '10:28:10' author 'dkh' ancestors () stepChildren ())
