@@ -1,4 +1,4 @@
-*core-squeak
+*bootstrap
 crlfMap
   ^ SessionTemps current
     at: #'Squeak_Line_Ending_CRLF_Map'
