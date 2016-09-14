@@ -1,1 +1,1 @@
-(name 'Pragma-Tests-dkh.1' message 'Move pragma tests out of Bootstrap package, since Pragma has been moved to GemStone base image ... keep the tests around for GsDevKit' id 'c4495e48-b68c-477e-983e-751b0f89a8da' date '09/13/2016' time '19:26:04' author 'dkh' ancestors () stepChildren ())
+(name 'Pragma-Tests-dkh.2' message 'refresh Pragma-Tests package after finishing initial port of MethodPragmaTests to GemStone base' id '38c10dfd-7909-423d-a612-545c5ce7b476' date '09/13/2016' time '20:05:43' author 'dkh' ancestors () stepChildren ())
