@@ -1,0 +1,16 @@
+{
+	"category" : "Pragma-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"args",
+		"lookupClass" ],
+	"name" : "Message",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

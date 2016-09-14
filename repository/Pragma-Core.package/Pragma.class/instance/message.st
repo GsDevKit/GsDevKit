@@ -1,5 +1,5 @@
 accessing-pragma
 message
-	"Answer the message of the recieving pragma."
+	"Answer the message of the receiving pragma."
 	
-	^ { self keyword. self arguments. }
+	^ Message selector: self keyword arguments: self arguments. 
