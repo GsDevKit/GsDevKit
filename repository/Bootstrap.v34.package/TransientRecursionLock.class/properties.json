@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lockingProcess" ],
+	"name" : "TransientRecursionLock",
+	"pools" : [
+		 ],
+	"super" : "TransientMutex",
+	"type" : "normal" }

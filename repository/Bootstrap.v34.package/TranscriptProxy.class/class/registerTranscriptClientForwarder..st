@@ -1,0 +1,4 @@
+proxy
+registerTranscriptClientForwarder: aClientForwarder
+
+	SessionTemps current at: #TranscriptProxy_ClientForwarder put: aClientForwarder

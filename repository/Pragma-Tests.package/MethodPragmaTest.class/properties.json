@@ -1,0 +1,14 @@
+{
+	"category" : "Pragma-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"randomForPicking" ],
+	"name" : "MethodPragmaTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

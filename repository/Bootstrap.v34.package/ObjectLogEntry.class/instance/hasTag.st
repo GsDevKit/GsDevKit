@@ -1,0 +1,4 @@
+testing
+hasTag
+
+	^tag ~~ nil

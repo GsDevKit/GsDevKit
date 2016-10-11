@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ActionSequence",
+	"pools" : [
+		 ],
+	"super" : "Array",
+	"type" : "normal" }
