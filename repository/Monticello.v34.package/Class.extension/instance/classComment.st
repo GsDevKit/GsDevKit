@@ -1,0 +1,4 @@
+*monticello
+classComment
+
+	^self comment

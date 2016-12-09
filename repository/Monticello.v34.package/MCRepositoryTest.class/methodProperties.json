@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"isAbstract" : "ab 7/6/2003 12:45" },
+	"instance" : {
+		"addVersion:" : "dkh 08/09/2007 10:57",
+		"addVersionWithSnapshot:name:" : "dkh 08/09/2007 10:57",
+		"assertMissing:" : "dkh 08/09/2007 10:57",
+		"assertVersionInfos:" : "dkh 08/09/2007 10:57",
+		"saveSnapshot1" : "dkh 08/09/2007 10:57",
+		"saveSnapshot2" : "dkh 08/09/2007 10:57",
+		"saveSnapshot:named:" : "dkh 08/09/2007 10:57",
+		"snapshot1" : "dkh 08/09/2007 10:57",
+		"snapshot2" : "dkh 08/09/2007 10:57",
+		"snapshotAt:" : "dkh 08/09/2007 10:57",
+		"testAddAndLoad" : "dkh 08/09/2007 10:57",
+		"testIncludesName" : "dkh 08/09/2007 10:57",
+		"testLoadMissingNode" : "dkh 08/09/2007 10:57",
+		"testStoreAndLoad" : "dkh 08/09/2007 10:57",
+		"versionWithSnapshot:name:" : "dkh 08/09/2007 10:57" } }

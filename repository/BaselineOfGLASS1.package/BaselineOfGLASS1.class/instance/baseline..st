@@ -1,19 +1,12 @@
 baseline
 baseline: spec
   <baseline>
-  spec
-    for: #'gemstone'
-    do: [ 
-      spec
-        configuration: 'GoferProjectLoader'
-          with: [ 
-              spec
+  spec for: #'gemstone' do: [ spec
+        configuration: 'GoferProjectLoader' with: [ spec
                 versionString: #'stable';
                 repository:
                     'http://seaside.gemtalksystems.com/ss/MetacelloRepository' ];
-        configuration: 'Gofer'
-          with: [ 
-              spec
+        configuration: 'Gofer' with: [ spec
                 versionString: #'stable';
                 loads: #('Core');
                 repository:
@@ -21,9 +14,7 @@ baseline: spec
         project: 'Gofer-Tests'
           copyFrom: 'Gofer'
           with: [ spec loads: #('Tests') ];
-        baseline: 'Grease'
-          with: [ 
-              spec
+        baseline: 'Grease' with: [ spec
                 loads: #('Core');
                 repository: 'github://GsDevKit/Grease:master/repository' ];
         project: 'Grease-Tests'
@@ -31,9 +22,7 @@ baseline: spec
           with: [ spec loads: #('Tests') ];
         baseline: 'Metacello'
           with: [ spec repository: 'github://dalehenrich/metacello-work:master/repository' ];
-        configuration: 'XMLSupport'
-          with: [ 
-              spec
+        configuration: 'XMLSupport' with: [ spec
                 versionString: #'stable';
                 loads: #('Core');
                 repository: 'http://www.squeaksource.com/XMLSupport' ];
@@ -43,9 +32,7 @@ baseline: spec
         yourself.
       spec
         package: 'GemStone-Interactions';
-        package: 'Core'
-          with: [ 
-              spec
+        package: 'Core' with: [ spec
                 requires: #('GemStone-Interactions');
                 includes: #('GemStone-Compression');
                 yourself ];
@@ -57,9 +44,7 @@ baseline: spec
           with: [ spec requires: #('Bootstrap') ];
         package: 'GemStone-Release-Support'
           with: [ spec requires: #('GsCore') ];
-        package: 'Sport'
-          with: [ 
-              spec
+        package: 'Sport' with: [ spec
                 file: 'Sport3.010-dkh.38';
                 requires: #('Bootstrap');
                 repository: 'http://seaside.gemtalksystems.com/ss/hyper' ];
@@ -77,20 +62,14 @@ baseline: spec
         yourself.
       spec
         package: 'Change-Notification' with: [ spec requires: #('Monticello') ];
-        package: 'PackageInfo-Base'
-          with: [ 
-              spec
+        package: 'PackageInfo-Base' with: [ spec
                 file: 'PackageInfo-Base.g';
                 requires: #('GsCore') ];
-        package: 'Monticello'
-          with: [ 
-              spec
+        package: 'Monticello' with: [ spec
                 includes: #('MonticelloGs');
                 requires: #('PackageInfo-Base') ];
         package: 'MonticelloGs' with: [ spec requires: #('Monticello') ];
-        package: 'GemStone-Deployment'
-          with: [ 
-              spec
+        package: 'GemStone-Deployment' with: [ spec
                 postLoadDoIt: #'deploymentPostLoadDoIt';
                 requires: #('Monticello') ];
         yourself.
@@ -103,9 +82,7 @@ baseline: spec
           with: [ spec requires: #('OB-Standard' 'Monticello') ];
         package: 'OB-SUnitIntegration'
           with: [ spec requires: #('OB-Standard') ];
-        package: 'OB-SUnitGUI'
-          with: [ 
-              spec
+        package: 'OB-SUnitGUI' with: [ spec
                 file: 'OB-SUnitGUI.g';
                 requires: #('OB-Standard') ];
         package: 'OB-Standard'
@@ -143,10 +120,7 @@ baseline: spec
         group: 'XML-Parser' with: #('XMLSupport');
         group: 'CI' with: #('GLASS' 'GsMisc' 'Gofer-Tests' 'Grease-Tests');
         yourself ].
-  spec
-    for: #'gs2.x'
-    do: [ 
-      spec
+  spec for: #'gs2.x' do: [ spec
         package: 'Announcements' with: [ spec file: 'Announcements.g' ];
         package: 'GemStone-Exceptions'
           with: [ spec requires: #('Bootstrap' 'Sport') ];
@@ -170,28 +144,19 @@ baseline: spec
       spec
         group: 'GsCore' with: #('GsRandom' 'GemStone-Exceptions');
         yourself ].
-  spec
-    for: #'Issue29FixANeeded'
-    do: [ 
-      spec
+  spec for: #'Issue29FixANeeded' do: [ spec
         package: 'GemStone-244-Exceptions'
         with: [ spec requires: #('GemStone-Exceptions') ].
       spec
         group: 'GsCore' with: #('GemStone-244-Exceptions');
         yourself ].
-  spec
-    for: #'Issue29FixBNeeded'
-    do: [ 
-      spec
+  spec for: #'Issue29FixBNeeded' do: [ spec
         package: 'GemStone-245-Exceptions'
         with: [ spec requires: #('GemStone-Exceptions') ].
       spec
         group: 'GsCore' with: #('GemStone-245-Exceptions');
         yourself ].
-  spec
-    for: #'gs3.x'
-    do: [ 
-      spec
+  spec for: #'gs3.x' do: [ spec
         package: 'Core' with: [ spec file: 'Core.v3' ];
         package: 'Base-Bootstrap' with: [ spec file: 'Base-Bootstrap.v3' ];
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v3' ];
@@ -220,10 +185,7 @@ baseline: spec
       spec
         group: 'GsOB' with: #('OB-SymbolListBrowser');
         yourself ].
-  spec
-    for: #'gs3.0.x'
-    do: [ 
-      spec
+  spec for: #'gs3.0.x' do: [ spec
         package: 'Change-Notification'
           with: [ spec file: 'Change-Notification.v300' ];
         package: 'Core' with: [ spec includes: #('Core300') ];
@@ -233,72 +195,45 @@ baseline: spec
         package: 'Monticello' with: 'Monticello.v301';
         package: 'Utf8Encoding' with: [ spec file: 'Utf8Encoding.230' ];
         package: 'Sport' with: [ spec includes: 'SportPatch30' ];
-        package: 'SportPatch30'
-          with: [ 
-              spec
+        package: 'SportPatch30' with: [ spec
                 requires: 'Sport';
                 file: 'SportPatch30-dkh.1';
                 repository: 'http://seaside.gemtalksystems.com/ss/hyper';
                 yourself ];
         yourself ].
-  spec
-    for: #(#'gs3.1.x' #'gs3.2.0.x' #'gs3.2.1.x')
-    do: [ 
-      spec
+  spec for: #(#'gs3.1.x' #'gs3.2.0.x' #'gs3.2.1.x') do: [ spec
         package: 'Core' with: [ spec includes: #('Core31x') ];
-        package: 'Core31x'
-          with: [ 
-              spec
+        package: 'Core31x' with: [ spec
                 requires: #('Core');
                 yourself ] ].
-  spec
-    for: #'gs3.1.x'
-    do: [ 
-      spec
-        package: 'Utf8Encoding'
-        with: [ 
-          spec
+  spec for: #'gs3.1.x' do: [ spec package: 'Utf8Encoding' with: [ spec
             file: 'Utf8Encoding.310';
             requires: #('GsCore') ] ].
   spec
     for:
       #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.2.5.x' #'gs3.2.6.x' #'gs3.2.7.x' #'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.3.x' #'gs3.4.x')
-    do: [ 
-      spec
+    do: [ spec
         package: 'Core' with: [ spec includes: #('Core322x') ];
-        package: 'Core322x'
-          with: [ 
-              spec
+        package: 'Core322x' with: [ spec
                 requires: #('Core');
                 yourself ] ].
-  spec
-    for: #(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x')
-    do: [ 
-      spec
+  spec for: #(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x') do: [ spec
         package: 'Squeak' with: [ spec file: 'Squeak.v32' ];
-        package: 'Utf8Encoding'
-          with: [ 
-              spec
+        package: 'Utf8Encoding' with: [ spec
                 file: 'Utf8Encoding.310';
                 requires: #('GsCore') ] ].
   spec
     for:
       #(#'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.3.x' #'gs3.4.x')
-    do: [ 
-      spec
+    do: [ spec
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.v33' ];
         yourself ].
-  spec
-    for: #'gs3.3.x'
-    do: [ 
-      spec
+  spec for: #'gs3.3.x' do: [ spec
         package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v33' ];
         yourself ].
-  spec
-    for: #'gs3.4.x'
-    do: [ 
-      spec
+  spec for: #'gs3.4.x' do: [ spec
+        package: 'Monticello' with: [ spec file: 'Monticello.v4' ];
         package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ];
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v34' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v34' ];
@@ -306,9 +241,6 @@ baseline: spec
   spec
     for: #'maglev'
     do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ].
-  spec
-    for: #'Issue3TraitLoadFixNeeded'
-    do: [ 
-      spec
+  spec for: #'Issue3TraitLoadFixNeeded' do: [ spec
         package: 'Monticello'
         with: [ spec preLoadDoIt: #'traitsMonticelloPreLoadDoIt' ] ]

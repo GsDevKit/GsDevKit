@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"of:" : "cwp 11/27/2002 10:03" },
+	"instance" : {
+		"applyInverseTo:" : "DaleHenrichs 02/24/2010 16:31",
+		"applyTo:" : "dkh 08/09/2007 10:57",
+		"baseDefinition" : "dkh 08/09/2007 10:57",
+		"definition" : "dkh 08/09/2007 10:57",
+		"fromSource" : "dkh 08/09/2007 10:57",
+		"intializeWithDefinition:" : "dkh 08/09/2007 10:57",
+		"inverse" : "dkh 08/09/2007 10:57",
+		"isAddition" : "dkh 08/09/2007 10:57",
+		"isClassPatch" : "dkh 08/09/2007 10:57",
+		"printString" : "DataCurator 07/13/2010 13:06",
+		"sourceString" : "dkh 12/20/2007 12:08",
+		"summary" : "dkh 08/09/2007 10:57",
+		"targetClass" : "dkh 08/09/2007 10:57",
+		"targetDefinition" : "dkh 08/09/2007 10:57",
+		"toSource" : "dkh 08/09/2007 10:57" } }
