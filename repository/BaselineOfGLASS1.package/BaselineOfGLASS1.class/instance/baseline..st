@@ -233,7 +233,7 @@ baseline: spec
         package: 'Squeak' with: [ spec file: 'Squeak.v33' ];
         yourself ].
   spec for: #'gs3.4.x' do: [ spec
-        package: 'Monticello' with: [ spec file: 'Monticello.v4' ];
+        package: 'Monticello' with: [ spec file: 'Monticello.v34' ];
         package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ];
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v34' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v34' ];
