@@ -1,8 +1,7 @@
 language: smalltalk
 sudo: false
 
-os:
-  - linux
+os: linux
 
 smalltalk:
   - GemStone-2.4.8
@@ -12,4 +11,4 @@ smalltalk:
 
 cache:
   directories:
-- $SMALLTALK_CI_CACHE
+    - $SMALLTALK_CI_CACHE
