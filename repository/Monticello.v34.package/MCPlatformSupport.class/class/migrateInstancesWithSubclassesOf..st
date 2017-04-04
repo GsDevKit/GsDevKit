@@ -1,0 +1,4 @@
+smalltalk
+migrateInstancesWithSubclassesOf: topClass
+
+	self _migrateInstancesWithSubclassesOf: topClass

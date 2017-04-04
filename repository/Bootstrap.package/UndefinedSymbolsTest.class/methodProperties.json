@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"cleanUndefinedSymbols" : "dkh 03/04/2009 13:20",
+		"expectedFailures" : "dkh 04/04/2017 11:36",
 		"specialCases" : "dkh 03/04/2009 13:26",
 		"testUndefinedSymbols" : "dkh 09/12/2014 15:17",
 		"undefinedSymbolsName" : "dkh 03/04/2009 13:26" } }

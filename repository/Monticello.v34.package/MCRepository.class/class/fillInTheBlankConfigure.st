@@ -1,0 +1,4 @@
+as yet unclassified
+fillInTheBlankConfigure
+	^ self fillInTheBlankConfigure: self creationTemplate
+			

@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"<=" : "ab 7/19/2003 18:11",
+		"annotations" : "dkh 09/15/2015 17:18",
+		"annotations:" : "dkh 09/15/2015 17:18",
+		"definition" : "dkh 09/15/2015 17:19",
+		"inverse" : "dkh 09/15/2015 17:19",
+		"isAddition" : "cwp 11/27/2002 09:30",
+		"isClassPatch" : "nk 2/25/2005 17:28",
+		"isEquality" : "dkh 09/15/2015 17:23",
+		"isModification" : "cwp 11/27/2002 09:30",
+		"isRemoval" : "cwp 11/27/2002 09:30",
+		"prefixForOperation:" : "dkh 09/15/2015 17:17",
+		"printAnnotations:on:" : "dkh 09/15/2015 17:19",
+		"printString" : "DataCurator 07/13/2010 13:06",
+		"source" : "dkh 09/15/2015 17:19",
+		"sourceString" : "dkh 09/15/2015 17:19",
+		"sourceText" : "dkh 09/15/2015 17:19",
+		"summary" : "ab 7/6/2003 00:06",
+		"summarySuffix" : "ab 7/6/2003 00:06",
+		"targetClass" : "nk 2/23/2005 18:17" } }
