@@ -300,7 +300,7 @@ baseline: spec
     do: [ 
       spec
         package: 'GemStone-Indexing-Extensions'
-          with: [ spec file: #('GemStone-Indexing-Extensions.v34') ];
+          with: [ spec file: 'GemStone-Indexing-Extensions.v34' ];
         package: 'Monticello' with: [ spec file: 'Monticello.v34' ];
         package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ];
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v34' ];
