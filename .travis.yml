@@ -9,9 +9,9 @@ smalltalk:
   - GemStone-3.2.15
   - GemStone-3.3.3
 
-matrix:
-   allow_failures:
-     - smalltalk: GemStone-2.4.8 #sent but implemented, undefined symbols, and date arithmetic
+#matrix:
+#   allow_failures:
+#     - smalltalk: GemStone-2.4.8 #sent but implemented, undefined symbols, and date arithmetic
 
 cache:
   directories:
