@@ -1,0 +1,15 @@
+{
+	"category" : "GemStone-Indexing-Extensions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nscs",
+		"queryValue" ],
+	"name" : "IndexedQueryExtensionsTestCase",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
