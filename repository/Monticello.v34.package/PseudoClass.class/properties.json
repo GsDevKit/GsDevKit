@@ -1,0 +1,18 @@
+{
+	"category" : "Monticello-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"definition",
+		"organization",
+		"source",
+		"metaClass" ],
+	"name" : "PseudoClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

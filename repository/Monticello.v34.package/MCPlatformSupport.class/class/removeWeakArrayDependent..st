@@ -1,0 +1,2 @@
+weak support
+removeWeakArrayDependent: aDependent

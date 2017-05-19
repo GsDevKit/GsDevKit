@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_detect:comparing:with:" : "dkh 01/16/2009 13:06",
+		"_evaluatorFor:isRangeEqualityOperation:" : " 03/28/2017 12:03:16",
+		"_isRangeEqualityOperation:" : "dkh 01/16/2009 12:54",
+		"_isValidQueryOperation:" : "dkh 01/16/2009 12:55",
+		"_isValidRangeOperation:" : "dkh 01/16/2009 13:59",
+		"_select:comparing:with:" : "dkh 01/16/2009 15:18",
+		"detect:comparing:with:" : "dkh 01/16/2009 15:42",
+		"detect:comparing:with:ifNone:" : "dkh 01/16/2009 15:39",
+		"low:comparing:detect:comparing:high:" : "dkh 01/16/2009 16:37",
+		"low:comparing:detect:comparing:high:ifNone:" : "dkh 01/16/2009 16:36",
+		"low:comparing:reject:comparing:high:" : "dkh 12/01/2009 11:48",
+		"low:comparing:select:comparing:high:" : "dkh 12/01/2009 11:48",
+		"reject:comparing:with:" : "dkh 12/01/2009 11:49",
+		"select:comparing:with:" : "dkh 12/01/2009 11:49" } }

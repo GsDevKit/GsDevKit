@@ -1,0 +1,4 @@
+weak support
+newWeakIdentityKeyDictionary
+
+	^IdentityKeyValueDictionary new

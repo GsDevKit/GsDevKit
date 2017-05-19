@@ -6,6 +6,8 @@ testDateArithmetic
 	self assert: (Date today + 12 hours) = Date today.
 	self assert: (Date today - 12 hours) = Date yesterday.
 	self assert: (Date tomorrow - Date today) days = 1.
+	((System stoneVersionAt: 'gsVersion') beginsWith: '2.')
+    ifTrue: [ ^self ].
 	x := Time now asDateAndTime.
 	y := DateAndTime now + 1 seconds.
 	Transcript cr; show: 'x: ', x printString, ' y: ', y printString.

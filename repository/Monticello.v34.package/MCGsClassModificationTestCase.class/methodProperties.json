@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"mockClass:instVarNames:pools:super:" : "dkh 04/16/2012 16:56",
+		"mockClass:instVarNames:super:" : "dkh 04/16/2012 16:56",
+		"mockClass:super:" : "dkh 12/15/2009 16:22",
+		"setUp" : "dkh 12/15/2009 16:44",
+		"tearDown" : "dkh 12/15/2009 16:41",
+		"test1" : "DataCurator 12/13/2010 19:35",
+		"test2" : "DataCurator 12/13/2010 19:35",
+		"testIssue247a" : "DaleHenrichs 03/03/2011 11:46",
+		"testIssue247b" : "DaleHenrichs 03/03/2011 11:46",
+		"testIssue247c" : "DaleHenrichs 03/03/2011 11:46",
+		"testIssue247d" : "DaleHenrichs 03/03/2011 10:47",
+		"testIssue343" : "dkh 04/16/2012 17:36" } }
