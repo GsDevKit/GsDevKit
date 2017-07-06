@@ -1,7 +1,7 @@
 testing
 testAsInteger
-
-	self assert: '123' asInteger = 123.
-	self assert: '12r' asInteger = 12.
-	self assert: ('12r', (String with: (Character value: 8364))) asInteger = 12.
-	self assert: 'error' asInteger == nil
+  self assert: '1796exportFixes-tkMX' asInteger = 1796.
+  self assert: 'donald' asInteger isNil.
+  self assert: 'abc234def567' asInteger = 234.
+  self assert: '-94' asInteger = -94.
+  self assert: 'foo-bar-92' asInteger = -92
