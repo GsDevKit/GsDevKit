@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"errors" : "dkh 11/09/2009 15:13",
+		"expectedDefectCount" : "dkh 11/09/2009 15:11",
+		"expectedDefects" : "dkh 11/09/2009 15:02",
+		"expectedPassCount" : "dkh 11/09/2009 15:11",
+		"expectedPasses" : "dkh 11/09/2009 15:02",
+		"failures" : "dkh 11/09/2009 15:13",
+		"initialize" : "dkh 11/09/2009 15:07",
+		"isError:" : "dkh 11/09/2009 15:56",
+		"isFailure:" : "dkh 11/09/2009 15:56",
+		"isPassed:" : "dkh 11/09/2009 15:56",
+		"passed" : "dkh 11/09/2009 15:08",
+		"printOn:" : "DataCurator 12/23/2012 15:56",
+		"runCase:" : "dkh 11/10/2009 09:16",
+		"unexpectedErrorCount" : "dkh 11/09/2009 15:12",
+		"unexpectedErrors" : "dkh 11/09/2009 15:02",
+		"unexpectedFailureCount" : "dkh 11/09/2009 15:11",
+		"unexpectedFailures" : "dkh 11/09/2009 15:02",
+		"unexpectedPassCount" : "dkh 11/09/2009 15:12",
+		"unexpectedPasses" : "dkh 11/09/2009 15:02" } }

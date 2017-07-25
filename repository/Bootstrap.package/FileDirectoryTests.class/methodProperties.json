@@ -6,6 +6,6 @@
 		"setUp" : "dkh 05/28/2012 13:04",
 		"tearDown" : "dkh 05/28/2012 13:04",
 		"testBug39468" : "dkh 05/28/2012 13:16",
-		"testBug39767" : "dkh 05/28/2012 13:04",
+		"testBug39767" : "dkh 08/30/2016 14:36",
 		"testDirectoryNamedWithAbsolutePath" : "NorbertHartl 11/30/2010 14:18",
 		"testIssue293" : "dkh 09/14/2011 14:37" } }

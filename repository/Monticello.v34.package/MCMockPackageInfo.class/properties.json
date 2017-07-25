@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Mocks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCMockPackageInfo",
+	"pools" : [
+		 ],
+	"super" : "PackageInfo",
+	"type" : "normal" }

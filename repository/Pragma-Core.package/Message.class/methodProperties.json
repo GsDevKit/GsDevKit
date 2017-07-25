@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"selector:" : "",
+		"selector:argument:" : "",
+		"selector:arguments:" : "" },
+	"instance" : {
+		"analogousCodeTo:" : "",
+		"argument" : "",
+		"argument:" : "",
+		"arguments" : "",
+		"hasArguments" : "",
+		"lookupClass" : "",
+		"lookupClass:" : "",
+		"numArgs" : "",
+		"printOn:" : "",
+		"selector" : "",
+		"sendTo:" : "",
+		"sends:" : "",
+		"setSelector:" : "",
+		"setSelector:arguments:" : "",
+		"storeOn:" : "" } }

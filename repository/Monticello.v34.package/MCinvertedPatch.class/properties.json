@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Patching",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCinvertedPatch",
+	"pools" : [
+		 ],
+	"super" : "MCPatch",
+	"type" : "normal" }

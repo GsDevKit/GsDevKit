@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "dkh 04/04/2017 11:35",
 		"nonImplementedSelectors24" : "dkh 03/04/2009 08:22",
 		"nonImplementedSelectorsBaseBugs" : "dkh 03/06/2009 17:10",
 		"nonImplementedSelectorsGemEnterprise" : "dkh 03/06/2009 17:11",

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"default" : "ab 7/22/2003 00:17",
+		"new" : "avi 9/13/2004 18:03" },
+	"instance" : {
+		"addRepository:" : "avi 1/27/2004 00:29",
+		"includes:" : "avi 11/7/2003 00:20",
+		"includesVersionNamed:" : "abc 11/6/2004 20:32",
+		"initialize" : "avi 8/31/2003 00:14",
+		"removeRepository:" : "ab 7/22/2003 00:11",
+		"repositories" : "nk 11/2/2003 10:57",
+		"repositoriesDo:" : "dkh 02/12/2008 13:26",
+		"versionWithInfo:" : "dvf 8/10/2004 23:02",
+		"versionWithInfo:ifNone:" : "nk 1/23/2004 18:15" } }

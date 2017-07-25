@@ -1,0 +1,3 @@
+notifications
+classRemoved: aSystemChangeAnnouncement
+	self classModified: aSystemChangeAnnouncement

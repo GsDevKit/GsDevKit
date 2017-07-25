@@ -1,0 +1,4 @@
+constants
+fatal
+
+	^1

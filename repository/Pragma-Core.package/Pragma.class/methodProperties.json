@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"allNamed:from:to:" : "",
+		"allNamed:from:to:sortedByArgument:" : "",
+		"allNamed:from:to:sortedUsing:" : "",
+		"allNamed:in:" : "",
+		"allNamed:in:sortedByArgument:" : "",
+		"allNamed:in:sortedUsing:" : "",
+		"keyword:arguments:" : "",
+		"withPragmasIn:do:" : "" },
+	"instance" : {
+		"argumentAt:" : "",
+		"arguments" : "",
+		"hasLiteral:" : "",
+		"hasLiteralSuchThat:" : "",
+		"keyword" : "",
+		"message" : "",
+		"method" : "",
+		"methodClass" : "",
+		"numArgs" : "",
+		"printOn:" : "",
+		"selector" : "",
+		"setArguments:" : "",
+		"setKeyword:" : "",
+		"setMethod:" : "" } }

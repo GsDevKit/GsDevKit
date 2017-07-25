@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"baseOverridesBootstrapBehavior:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesBootstrapClass:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesBootstrapDate:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesBootstrapDateAndTimeANSI:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesBootstrapDateClass:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesBootstrapObject:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesBootstrapSessionMethodBehavior:" : "dkh 07/25/2011 16:59",
+		"baseOverridesBootstrapSessionMethodClass:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesBootstrapSymbol:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesBootstrapSystemLoginNotificationClass:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesBootstrapTestCase:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesBootstrapTestResourceClass:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesBootstrapTestResult:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesBootstrapWriteStreamClass:" : "DaleHenrichs 10/25/2010 15:43" } }

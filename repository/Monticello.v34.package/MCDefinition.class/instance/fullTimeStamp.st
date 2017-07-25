@@ -1,0 +1,3 @@
+comparing
+fullTimeStamp
+	^MCPlatformSupport timeStamp
