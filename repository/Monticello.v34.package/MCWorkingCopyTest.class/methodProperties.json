@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertNameWhenSavingTo:is:" : "dkh 08/09/2007 10:57",
+		"assertNumberWhenSavingTo:is:" : "dkh 08/09/2007 10:57",
+		"basicMerge:" : "avi 2/13/2004 14:30",
+		"clearPackageCache" : "dkh 11/28/2007 14:01",
+		"description" : "ab 7/7/2003 18:02",
+		"load:" : "avi 1/24/2004 20:13",
+		"merge:" : "dkh 08/09/2007 10:57",
+		"packageName" : "cwp 8/2/2003 15:03",
+		"setUp" : "abc 03/02/2009 16:59",
+		"snapshot" : "ab 8/24/2003 20:36",
+		"tearDown" : "dkh 03/03/2009 12:20",
+		"testAncestorMerge" : "jf 8/21/2003 20:23",
+		"testBackport" : "dkh 08/09/2007 10:57",
+		"testCyclicRequiredPackages" : "dkh 03/31/2009 10:46",
+		"testDoubleRepeatedMerge" : "cwp 8/10/2003 02:12",
+		"testMergeIntoImageWithNoChanges" : "avi 2/12/2004 20:14",
+		"testMergeIntoUnmodifiedImage" : "avi 2/12/2004 20:14",
+		"testNaming" : "dkh 08/09/2007 10:57",
+		"testRedundantMerge" : "ab 7/7/2003 14:47",
+		"testRepeatedMerge" : "cwp 8/10/2003 02:13",
+		"testRepositoryFallback" : "dkh 11/28/2007 14:02",
+		"testSelectiveBackport" : "abc 9/11/2004 16:00",
+		"testSimpleMerge" : "cwp 8/10/2003 02:13",
+		"testSnapshotAndLoad" : "cwp 8/10/2003 02:14" } }

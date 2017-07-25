@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"name:traitComposition:category:comment:commentStamp:" : "al 10/9/2005 20:28" },
+	"instance" : {
+		"=" : "nice 10/31/2009 13:10",
+		"accept:" : "topa 08/27/2013 01:37",
+		"classTraitCompositionString" : "al 6/5/2006 14:05",
+		"createClass" : "topa 04/02/2013 07:48",
+		"hasClassInstanceVariables" : "al 10/9/2005 20:28",
+		"hasTraitComposition" : "al 6/5/2006 14:13",
+		"hash" : "topa 05/22/2013 02:31",
+		"initializeWithName:traitComposition:category:comment:commentStamp:" : "al 6/5/2006 14:14",
+		"load" : "topa 08/27/2013 11:08",
+		"printDefinitionOn:" : "al 6/5/2006 14:15",
+		"requirements" : "al 6/5/2006 14:13",
+		"traitComposition" : "al 10/9/2005 20:29" } }

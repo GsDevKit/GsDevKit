@@ -18,7 +18,7 @@
 		"tearDownClasses" : "dkh 01/02/2016 11:10",
 		"tearDownPackages:" : "dkh 01/02/2016 17:43",
 		"testBug40559" : "dkh 03/08/2013 17:27",
-		"testBug40822" : "dkh 03/08/2013 16:31",
+		"testBug40822" : "dkh 07/11/2016 10:46",
 		"testDeployerBulkMigrate" : "dkh 09/12/2015 11:49",
 		"testDeployerRefactorBulkMigrate" : "DaleHenrichs 02/18/2011 10:32",
 		"testExtensionMethods" : "dkh 12/23/2015 16:03",

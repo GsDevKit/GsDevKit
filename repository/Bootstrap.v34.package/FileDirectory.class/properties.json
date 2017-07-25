@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pathName" ],
+	"name" : "FileDirectory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
