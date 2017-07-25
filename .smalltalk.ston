@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'GLASS1',
+      #baseline : 'GsDevKit',
       #load : [ 'CI' ],
       #onWarningLog : true,
       #directory : 'repository',
