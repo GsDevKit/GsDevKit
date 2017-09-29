@@ -262,7 +262,7 @@ baseline: spec
             requires: #('GsCore') ] ].
   spec
     for:
-      #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.2.5.x' #'gs3.2.6.x' #'gs3.2.7.x' #'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.2.16.x' #'gs3.2.17.x' #'gs3.2.18.x' #'gs3.3.x' #'gs3.4.x')
+      #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.2.5.x' #'gs3.2.6.x' #'gs3.2.7.x' #'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.2.16.x' #'gs3.2.17.x' #'gs3.2.18.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x')
     do: [ 
       spec
         package: 'Core' with: [ spec includes: #('Core322x') ];
@@ -272,7 +272,7 @@ baseline: spec
                 requires: #('Core');
                 yourself ] ].
   spec
-    for: #(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x')
+    for: #(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x')
     do: [ 
       spec
         package: 'Squeak' with: [ spec file: 'Squeak.v32' ];
@@ -283,7 +283,7 @@ baseline: spec
                 requires: #('GsCore') ] ].
   spec
     for:
-      #(#'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.2.16.x' #'gs3.2.17.x' #'gs3.2.18.x' #'gs3.3.x' #'gs3.4.x')
+      #(#'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.2.16.x' #'gs3.2.17.x' #'gs3.2.18.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x')
     do: [ 
       spec
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.v33' ];
@@ -296,7 +296,7 @@ baseline: spec
         package: 'Squeak' with: [ spec file: 'Squeak.v33' ];
         yourself ].
   spec
-    for: #'gs3.4.x'
+    for: #(#'gs3.4.x' #'gs3.5.x' #'gs3.6.x')
     do: [ 
       spec
         package: 'GemStone-Indexing-Extensions'
