@@ -2,7 +2,7 @@ accessing
 customProjectAttributes
   | gsVersion projectAttributes |
   projectAttributes := #().
-  ((gsVersion := System stoneVersionAt: 'gsVersion') beginsWith: '2.4')
+  (((gsVersion := System stoneVersionAt: 'gsVersion') indexOfSubCollection: '2.4') = 1)
     ifTrue: [ 
       (MetacelloVersionNumber fromString: gsVersion)
         < (MetacelloVersionNumber fromString: '2.4.4.2')
@@ -12,7 +12,8 @@ customProjectAttributes
         ifFalse: [ 
           "post 2.4.4.1 a slightly different patch required"
           projectAttributes := #(#'Issue29FixBNeeded') ] ].
-  ((Smalltalk classNamed: 'MCClassDefinition') ifNotNil: [:cls | (cls canUnderstand: #traitCompositionString) not])
-    ifTrue: [
-      projectAttributes := projectAttributes copyWith: #'Issue3TraitLoadFixNeeded' ].
+  (GsSession currentSession symbolList objectNamed: 'MCClassDefinition') 
+    ifNotNil: [:cls | 
+      (cls canUnderstand: #traitCompositionString) not
+        ifTrue: [ projectAttributes := projectAttributes copyWith: #'Issue3TraitLoadFixNeeded' ] ].
   ^ projectAttributes

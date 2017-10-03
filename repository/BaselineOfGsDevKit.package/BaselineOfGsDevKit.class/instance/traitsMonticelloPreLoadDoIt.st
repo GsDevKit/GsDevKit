@@ -4,7 +4,7 @@ traitsMonticelloPreLoadDoIt
     cr;
     show: 'patching Monticello for load of trait support';
     cr.
-  (Smalltalk classNamed: 'MCClassDefinition')
+  (GsSession currentSession symbolList objectNamed: 'MCClassDefinition')
     ifNotNil: [ :cls | 
       cls compile: 'traitCompositionString ^ ''{}''' classified: 'traits-compat'.
       cls

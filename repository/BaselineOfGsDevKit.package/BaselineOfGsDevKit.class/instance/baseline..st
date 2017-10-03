@@ -2,7 +2,7 @@ baseline
 baseline: spec
   <baseline>
   spec
-    for: #'gemstone'
+    for: #(#'gemstone')
     do: [ 
       spec
         configuration: 'GoferProjectLoader'
@@ -21,6 +21,35 @@ baseline: spec
         project: 'Gofer-Tests'
           copyFrom: 'Gofer'
           with: [ spec loads: #('Tests') ];
+        configuration: 'XMLSupport'
+          with: [ 
+              spec
+                versionString: #'stable';
+                loads: #('Core');
+                repository: 'http://www.squeaksource.com/XMLSupport' ];
+        project: 'XMLSupport-Tests'
+          copyFrom: 'XMLSupport'
+          with: [ spec loads: #('Tests') ];
+        yourself.
+      spec
+        package: 'GemStone-Release-Support'
+          with: [ spec requires: #('GsCore') ];
+        package: 'Sport'
+          with: [ 
+              spec
+                file: 'Sport3.010-dkh.38';
+                requires: #('Bootstrap');
+                repository: 'http://seaside.gemtalksystems.com/ss/hyper' ];
+        yourself.
+      spec
+        group: 'GLASS'
+          with: #('GsOB' 'GoferProjectLoader' 'GemStone-Release-Support');
+        yourself ].
+  spec for: #(#'gemstone64') do: [  ].
+  spec
+    for: #(#'gemstone' #'gemstone64')
+    do: [ 
+      spec
         baseline: 'Grease'
           with: [ 
               spec
@@ -31,15 +60,6 @@ baseline: spec
           with: [ spec loads: #('Tests') ];
         baseline: 'Metacello'
           with: [ spec repository: 'github://dalehenrich/metacello-work:master/repository' ];
-        configuration: 'XMLSupport'
-          with: [ 
-              spec
-                versionString: #'stable';
-                loads: #('Core');
-                repository: 'http://www.squeaksource.com/XMLSupport' ];
-        project: 'XMLSupport-Tests'
-          copyFrom: 'XMLSupport'
-          with: [ spec loads: #('Tests') ];
         yourself.
       spec
         package: 'GemStone-Interactions';
@@ -55,14 +75,6 @@ baseline: spec
         package: 'GemStone-Compression' with: [ spec requires: #('Core') ];
         package: 'GemStone-Indexing-Extensions'
           with: [ spec requires: #('Bootstrap') ];
-        package: 'GemStone-Release-Support'
-          with: [ spec requires: #('GsCore') ];
-        package: 'Sport'
-          with: [ 
-              spec
-                file: 'Sport3.010-dkh.38';
-                requires: #('Bootstrap');
-                repository: 'http://seaside.gemtalksystems.com/ss/hyper' ];
         package: 'Squeak' with: [ spec requires: #('Sport') ];
         package: 'Regex-Core' with: [ spec requires: #('Core' 'Squeak') ];
         package: 'Regex-Tests-Core' with: [ spec requires: #('Regex-Core') ];
@@ -124,9 +136,7 @@ baseline: spec
         group: 'default' with: #('GLASS');
         group: 'Base'
           with: #('GsCore' 'GsMonticello' 'Gofer' 'Grease' 'GsSqueakCommon');
-        group: 'GLASS'
-          with:
-            #('Base' 'GsOB' 'GoferProjectLoader' 'Metacello' 'GemStone-Release-Support');
+        group: 'GLASS' with: #('Base' 'Metacello');
         group: 'GsCore'
           with:
             #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Squeak' 'Regex-Core' 'Regex-Tests-Core');
@@ -148,10 +158,10 @@ baseline: spec
     do: [ 
       spec
         package: 'Announcements' with: [ spec file: 'Announcements.g' ];
-        package: 'GemStone-Exceptions'
-          with: [ spec requires: #('Bootstrap' 'Sport') ];
         package: 'GemStone-Release-Support'
           with: [ spec file: 'GemStone-Release-Support.v2x' ];
+        package: 'GemStone-Exceptions'
+          with: [ spec requires: #('Bootstrap' 'Sport') ];
         package: 'GsRandom' with: [ spec requires: #('Base-Bootstrap') ];
         package: 'OB-Standard' with: [ spec file: 'OB-Standard.g' ];
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.g' ];
@@ -189,7 +199,14 @@ baseline: spec
         group: 'GsCore' with: #('GemStone-245-Exceptions');
         yourself ].
   spec
-    for: #'gs3.x'
+    for: #(#'gs3.x')
+    do: [ 
+      spec
+        package: 'Sport' with: [ spec file: 'Sport3.010.v3-jupiter.33' ];
+        yourself ].
+  spec for: #(#'gs643.x') do: [  ].
+  spec
+    for: #(#'gs3.x' #'gs643.x')
     do: [ 
       spec
         package: 'Core' with: [ spec file: 'Core.v3' ];
@@ -207,7 +224,6 @@ baseline: spec
         package: 'OB-SymbolListBrowser'
           with: [ spec requires: #('OB-Standard') ];
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.v3' ];
-        package: 'Sport' with: [ spec file: 'Sport3.010.v3-jupiter.33' ];
         package: 'Squeak' with: [ spec file: 'Squeak.v3' ];
         yourself.
       spec
@@ -252,7 +268,7 @@ baseline: spec
                 requires: #('Core');
                 yourself ] ].
   spec
-    for: #'gs3.1.x'
+    for: #(#'gs3.1.x')
     do: [ 
       spec
         package: 'Utf8Encoding'
@@ -262,7 +278,7 @@ baseline: spec
             requires: #('GsCore') ] ].
   spec
     for:
-      #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.2.5.x' #'gs3.2.6.x' #'gs3.2.7.x' #'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.2.16.x' #'gs3.2.17.x' #'gs3.2.18.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x')
+      #(#'gs3.2.2.x' #'gs3.2.3.x' #'gs3.2.4.x' #'gs3.2.5.x' #'gs3.2.6.x' #'gs3.2.7.x' #'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.2.16.x' #'gs3.2.17.x' #'gs3.2.18.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x' #'gs643.4.x' #'gs643.5.x' #'gs643.6.x')
     do: [ 
       spec
         package: 'Core' with: [ spec includes: #('Core322x') ];
@@ -272,7 +288,8 @@ baseline: spec
                 requires: #('Core');
                 yourself ] ].
   spec
-    for: #(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x')
+    for:
+      #(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x' #'gs643.4.x' #'gs643.5.x' #'gs643.6.x')
     do: [ 
       spec
         package: 'Squeak' with: [ spec file: 'Squeak.v32' ];
@@ -283,7 +300,7 @@ baseline: spec
                 requires: #('GsCore') ] ].
   spec
     for:
-      #(#'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.2.16.x' #'gs3.2.17.x' #'gs3.2.18.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x')
+      #(#'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.2.16.x' #'gs3.2.17.x' #'gs3.2.18.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x' #'gs643.4.x' #'gs643.5.x' #'gs643.6.x')
     do: [ 
       spec
         package: 'OB-Tools' with: [ spec file: 'OB-Tools.v33' ];
@@ -296,7 +313,8 @@ baseline: spec
         package: 'Squeak' with: [ spec file: 'Squeak.v33' ];
         yourself ].
   spec
-    for: #(#'gs3.4.x' #'gs3.5.x' #'gs3.6.x')
+    for:
+      #(#'gs3.4.x' #'gs3.5.x' #'gs3.6.x' #'gs643.4.x' #'gs643.5.x' #'gs643.6.x')
     do: [ 
       spec
         package: 'GemStone-Indexing-Extensions'
