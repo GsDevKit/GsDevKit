@@ -55,7 +55,11 @@ baseline: spec
           with: [ spec repository: 'github://GsDevKit/Sport:master/src' ];
         yourself.
       spec
-        package: 'Gofer-Core' with: [ spec file: 'Gofer-Core.gemstone' ];
+        package: 'Gofer-Core'
+          with: [ 
+              spec
+                requires: #('Core' 'Monticello');
+                file: 'Gofer-Core.gemstone' ];
         package: 'Gofer-Tests'
           with: [ 
               spec
