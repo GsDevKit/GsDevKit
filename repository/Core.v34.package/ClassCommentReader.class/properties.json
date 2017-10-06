@@ -1,0 +1,14 @@
+{
+	"category" : "Core-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ClassCommentReader",
+	"pools" : [
+		 ],
+	"super" : "ClassCategoryReader",
+	"type" : "normal" }

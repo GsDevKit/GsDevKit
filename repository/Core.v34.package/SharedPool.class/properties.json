@@ -1,0 +1,14 @@
+{
+	"category" : "Core-SharedPool",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SharedPool",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

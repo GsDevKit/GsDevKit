@@ -86,11 +86,11 @@ baseline: spec
           with: [ spec repository: 'github://dalehenrich/metacello-work:master/repository' ];
         yourself.
       spec
-        package: 'GemStone-Interactions';
+        package: 'GemStone-Interactions'
+          with: [ spec requires: #('Bootstrap') ];
         package: 'Core'
           with: [ 
               spec
-                requires: #('GemStone-Interactions');
                 includes: #('GemStone-Compression');
                 yourself ];
         package: 'Base-Bootstrap' with: [ spec requires: #('Core') ];
@@ -341,6 +341,7 @@ baseline: spec
       #(#'gs3.4.x' #'gs3.5.x' #'gs3.6.x' #'gs643.4.x' #'gs643.5.x' #'gs643.6.x')
     do: [ 
       spec
+        package: 'Core' with: [ spec file: 'Core.v34' ];
         package: 'GemStone-Indexing-Extensions'
           with: [ spec file: 'GemStone-Indexing-Extensions.v34' ];
         package: 'Monticello' with: [ spec file: 'Monticello.v34' ];
