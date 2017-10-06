@@ -1,0 +1,14 @@
+{
+	"category" : "Gofer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GoferRemoteChanges",
+	"pools" : [
+		 ],
+	"super" : "GoferChanges",
+	"type" : "normal" }

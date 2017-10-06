@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultModel" : "dkh 10/11/2011 11:05",
+		"execute" : "lr 10/3/2009 11:45",
+		"unload:" : "lr 10/3/2009 11:46",
+		"unloadClasses:" : "DaleHenrichs 3/5/2010 09:25",
+		"unloadPackage:" : "lr 8/19/2009 14:00",
+		"unregister:" : "lr 8/19/2009 13:49",
+		"unregisterPackageInfo:" : "lr 8/19/2009 13:50",
+		"unregisterRepositories:" : "lr 8/19/2009 13:50",
+		"unregisterWorkingCopy:" : "lr 8/20/2009 11:54" } }

@@ -42,10 +42,30 @@ baseline: spec
                 repository: 'http://seaside.gemtalksystems.com/ss/hyper' ];
         yourself.
       spec
+        group: 'Base' with: #('Gofer');
         group: 'GLASS'
           with: #('GsOB' 'GoferProjectLoader' 'GemStone-Release-Support');
+        group: 'CI' with: #('Gofer-Tests');
         yourself ].
-  spec for: #(#'gemstone64') do: [  ].
+  spec
+    for: #(#'gemstone64')
+    do: [ 
+      spec
+        baseline: 'Sport'
+          with: [ spec repository: 'github://GsDevKit/Sport:master/src' ];
+        yourself.
+      spec
+        package: 'Gofer-Core' with: [ spec file: 'Gofer-Core.gemstone' ];
+        package: 'Gofer-Tests'
+          with: [ 
+              spec
+                requires: #('Gofer-Core');
+                file: 'Gofer-Tests.gemstone' ];
+        yourself.
+      spec
+        group: 'Base' with: #('Gofer-Core');
+        group: 'CI' with: #('Gofer-Tests');
+        yourself ].
   spec
     for: #(#'gemstone' #'gemstone64')
     do: [ 
@@ -135,7 +155,7 @@ baseline: spec
       spec
         group: 'default' with: #('GLASS');
         group: 'Base'
-          with: #('GsCore' 'GsMonticello' 'Gofer' 'Grease' 'GsSqueakCommon');
+          with: #('GsCore' 'GsMonticello' 'Grease' 'GsSqueakCommon');
         group: 'GLASS' with: #('Base' 'Metacello');
         group: 'GsCore'
           with:
@@ -151,7 +171,7 @@ baseline: spec
             #('OmniBrowser' 'OB-GemStone-Platform' 'OB-Monticello' 'OB-SUnitIntegration' 'OB-SUnitGUI' 'OB-Standard' 'OB-Tools' 'JadeServer');
         group: 'GsSqueakCommon' with: #('GsSqueakCommon-Core');
         group: 'XML-Parser' with: #('XMLSupport');
-        group: 'CI' with: #('GLASS' 'GsMisc' 'Gofer-Tests' 'Grease-Tests');
+        group: 'CI' with: #('GLASS' 'GsMisc' 'Grease-Tests');
         yourself ].
   spec
     for: #'gs2.x'

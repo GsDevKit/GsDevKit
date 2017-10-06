@@ -1,0 +1,14 @@
+{
+	"category" : "Gofer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 10/11/2011 14:38",
+	"instvars" : [
+		"gofer" ],
+	"name" : "GoferTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
