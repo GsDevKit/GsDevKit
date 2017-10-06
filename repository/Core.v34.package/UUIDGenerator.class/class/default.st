@@ -1,11 +1,14 @@
 *monticello
 default
 
+  Smalltalk 
+    at: #MCPlatformSupport
+    ifPresent: [:cl |
 	| d |
-	d := MCPlatformSupport transientGlobalForKey: #UUID_DEFUALT.
+	d := cl transientGlobalForKey: #UUID_DEFUALT.
 	d == nil 
 		ifTrue: [
 		 	d := self new initialize.
-			MCPlatformSupport transientGlobalForKey: #UUID_DEFUALT value: d.
+			cl transientGlobalForKey: #UUID_DEFUALT value: d.
 		].
-	^d
+	^d ]
