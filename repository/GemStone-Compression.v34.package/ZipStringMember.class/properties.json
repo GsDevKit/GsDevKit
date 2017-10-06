@@ -1,0 +1,15 @@
+{
+	"category" : "GemStone-Compression",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contents",
+		"stream" ],
+	"name" : "ZipStringMember",
+	"pools" : [
+		"ZipFileConstants" ],
+	"super" : "ZipArchiveMember",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Compression",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ZipWriteStreamTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,30 @@
+{
+	"category" : "GemStone-Compression",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BlockProceedBit",
+		"BlockTypes",
+		"FixedDistCodes",
+		"FixedLitCodes",
+		"MaxBits",
+		"StateNewBlock",
+		"StateNoMoreData" ],
+	"commentStamp" : "dkh 05/23/2014 15:17",
+	"instvars" : [
+		"readLimit",
+		"state",
+		"bitBuf",
+		"bitPos",
+		"source",
+		"sourcePos",
+		"sourceLimit",
+		"litTable",
+		"distTable",
+		"sourceStream",
+		"crc" ],
+	"name" : "InflateStream",
+	"pools" : [
+		 ],
+	"super" : "ReadStream",
+	"type" : "normal" }

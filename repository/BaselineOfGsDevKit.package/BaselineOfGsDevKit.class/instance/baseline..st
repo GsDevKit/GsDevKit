@@ -342,6 +342,11 @@ baseline: spec
     do: [ 
       spec
         package: 'Core' with: [ spec file: 'Core.v34' ];
+        package: 'GemStone-Compression'
+          with: [ 
+              spec
+                file: 'GemStone-Compression.v34';
+                requires: #('Bootstrap') ];
         package: 'GemStone-Indexing-Extensions'
           with: [ spec file: 'GemStone-Indexing-Extensions.v34' ];
         package: 'Monticello'
