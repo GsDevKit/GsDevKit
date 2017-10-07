@@ -151,8 +151,7 @@ baseline: spec
         package: 'JadeServer' with: [ spec requires: #('OB-Tools') ];
         yourself.
       spec
-        package: 'GsSqueakCommon-Core'
-          with: [ spec requires: #('GsCore' 'Grease') ];
+        package: 'GsSqueakCommon-Core' with: [ spec requires: #('GsCore') ];
         package: 'GsSqueakCommon-Tests'
           with: [ spec requires: #('GsSqueakCommon-Core') ];
         yourself.
