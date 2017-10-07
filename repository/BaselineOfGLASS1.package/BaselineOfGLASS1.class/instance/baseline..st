@@ -304,7 +304,12 @@ baseline: spec
         package: 'Monticello' with: [ spec file: 'Monticello.v34' ];
         package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ];
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v34' ];
-        package: 'Squeak' with: [ spec file: 'Squeak.v34' ];
+        package: 'Network-Url';
+        package: 'Squeak'
+          with: [ 
+              spec
+                requires: 'Network-Url';
+                file: 'Squeak.v34' ];
         yourself ].
   spec
     for: #'maglev'
