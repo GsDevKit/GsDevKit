@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"unauthorizedFor:" : "" },
+	"instance" : {
+		"encode:password:" : "",
+		"mapFrom:to:" : "",
+		"mapName:password:to:" : "",
+		"realm" : "",
+		"realm:" : "",
+		"user:" : "" } }
