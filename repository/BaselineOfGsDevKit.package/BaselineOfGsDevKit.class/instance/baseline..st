@@ -65,6 +65,8 @@ baseline: spec
               spec
                 requires: #('Gofer-Core');
                 file: 'Gofer-Tests.gemstone' ];
+        package: 'GemStone-Deployment'
+          with: [ spec requires: #('Gofer-Core') ];
         yourself.
       spec
         group: 'Base' with: #('Gofer-Core');
