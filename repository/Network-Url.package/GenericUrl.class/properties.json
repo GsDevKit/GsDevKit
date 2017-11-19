@@ -1,0 +1,15 @@
+{
+	"category" : "Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"schemeName",
+		"locator" ],
+	"name" : "GenericUrl",
+	"pools" : [
+		 ],
+	"super" : "Url",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"host",
+		"path",
+		"isAbsolute" ],
+	"name" : "FileUrl",
+	"pools" : [
+		 ],
+	"super" : "Url",
+	"type" : "normal" }
