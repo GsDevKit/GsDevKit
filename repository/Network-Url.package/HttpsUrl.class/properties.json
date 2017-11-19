@@ -1,0 +1,14 @@
+{
+	"category" : "Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HttpsUrl",
+	"pools" : [
+		 ],
+	"super" : "HttpUrl",
+	"type" : "normal" }

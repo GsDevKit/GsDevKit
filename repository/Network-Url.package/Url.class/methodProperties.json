@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"absoluteFromFileNameOrUrlString:" : "",
+		"absoluteFromText:" : "",
+		"combine:withRelative:" : "",
+		"schemeName" : "",
+		"schemeNameForString:" : "",
+		"urlClassForScheme:" : "" },
+	"instance" : {
+		"activate" : "",
+		"asString" : "",
+		"asURI" : "",
+		"asUrl" : "",
+		"asUrlRelativeTo:" : "",
+		"authority" : "",
+		"downloadUrl" : "",
+		"fragment" : "",
+		"hasContents" : "",
+		"newFromRelativeText:" : "",
+		"printOn:" : "",
+		"privateFragment:" : "",
+		"privateInitializeFromText:" : "",
+		"privateInitializeFromText:relativeTo:" : "",
+		"scheme" : "",
+		"schemeName" : "",
+		"withFragment:" : "",
+		"withoutFragment" : "" } }

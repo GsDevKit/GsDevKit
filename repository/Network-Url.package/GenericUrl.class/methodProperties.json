@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"absoluteFromText:" : "",
+		"schemeName:locator:" : "" },
+	"instance" : {
+		"locator" : "",
+		"printOn:" : "",
+		"privateInitializeFromText:" : "",
+		"privateInitializeFromText:relativeTo:" : "",
+		"scheme" : "",
+		"schemeName" : "",
+		"schemeName:locator:" : "" } }
