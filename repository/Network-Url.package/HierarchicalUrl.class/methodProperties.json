@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"schemeName:authority:path:query:" : "" },
+	"instance" : {
+		"authority" : "",
+		"fileName" : "",
+		"fullPath" : "",
+		"hasContents" : "",
+		"isAbsolute" : "",
+		"password" : "",
+		"path" : "",
+		"path:" : "",
+		"port" : "",
+		"postCopy" : "",
+		"printOn:" : "",
+		"privateInitializeFromText:" : "",
+		"privateInitializeFromText:relativeTo:" : "",
+		"privateParsePath:relativeTo:" : "",
+		"query" : "",
+		"scheme" : "",
+		"schemeName" : "",
+		"schemeName:authority:path:query:" : "",
+		"username" : "" } }

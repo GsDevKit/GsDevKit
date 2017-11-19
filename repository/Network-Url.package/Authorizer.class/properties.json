@@ -1,0 +1,15 @@
+{
+	"category" : "Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"users",
+		"realm" ],
+	"name" : "Authorizer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
