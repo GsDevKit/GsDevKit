@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"baseline:" : "dkh 11/21/2017 13:59",
-		"customProjectAttributes" : "dkh 10/21/2014 12:56",
+		"baseline:" : "dkh 11/22/2017 18:44",
 		"deploymentPostLoadDoIt" : "dkh 10/21/2014 12:58:41",
-		"resetMcPlatformUUID_DEFAULT" : "dkh 10/06/2017 14:57",
-		"traitsMonticelloPreLoadDoIt" : "dkh 10/21/2014 12:56" } }
+		"resetMcPlatformUUID_DEFAULT" : "dkh 10/06/2017 14:57" } }

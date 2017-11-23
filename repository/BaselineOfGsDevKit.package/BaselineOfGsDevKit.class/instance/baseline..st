@@ -205,24 +205,6 @@ baseline: spec
         group: 'GsCore' with: #('GsRandom' 'GemStone-Exceptions');
         yourself ].
   spec
-    for: #'Issue29FixANeeded'
-    do: [ 
-      spec
-        package: 'GemStone-244-Exceptions'
-        with: [ spec requires: #('GemStone-Exceptions') ].
-      spec
-        group: 'GsCore' with: #('GemStone-244-Exceptions');
-        yourself ].
-  spec
-    for: #'Issue29FixBNeeded'
-    do: [ 
-      spec
-        package: 'GemStone-245-Exceptions'
-        with: [ spec requires: #('GemStone-Exceptions') ].
-      spec
-        group: 'GsCore' with: #('GemStone-245-Exceptions');
-        yourself ].
-  spec
     for: #(#'gs3.x')
     do: [ 
       spec
@@ -365,10 +347,4 @@ baseline: spec
         yourself ].
   spec
     for: #'maglev'
-    do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ].
-  spec
-    for: #'Issue3TraitLoadFixNeeded'
-    do: [ 
-      spec
-        package: 'Monticello'
-        with: [ spec preLoadDoIt: #'traitsMonticelloPreLoadDoIt' ] ]
+    do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ]
