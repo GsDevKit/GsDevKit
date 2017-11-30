@@ -338,7 +338,7 @@ baseline: spec
                 file: 'Monticello.v34' ];
         package: 'MonticelloGs' with: [ spec file: 'MonticelloGs.v33' ];
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v34' ];
-        package: 'GemStone-Network-Url';
+        package: 'GemStone-Network-Url' with: [ spec requires: 'Bootstrap' ];
         package: 'Squeak'
           with: [ 
               spec
