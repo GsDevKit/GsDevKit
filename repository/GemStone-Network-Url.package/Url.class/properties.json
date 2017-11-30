@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fragment" ],
+	"name" : "Url",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

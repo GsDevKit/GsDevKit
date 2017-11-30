@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MailtoUrl",
+	"pools" : [
+		 ],
+	"super" : "GenericUrl",
+	"type" : "normal" }
