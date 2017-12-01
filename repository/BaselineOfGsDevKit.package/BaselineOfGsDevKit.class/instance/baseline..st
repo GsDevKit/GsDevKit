@@ -319,6 +319,10 @@ baseline: spec
         package: 'Squeak' with: [ spec file: 'Squeak.v33' ];
         yourself ].
   spec
+    for: #( #'gs64_3.x' )
+    do: [
+      spec postLoadDoIt: #'gsDevKit_init' ].
+  spec
     for:
       #(#'gs3.4.x' #'gs3.5.x' #'gs3.6.x' #'gs64_3.4.x' #'gs64_3.5.x' #'gs64_3.6.x')
     do: [ 
