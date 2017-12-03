@@ -84,7 +84,7 @@ baseline: spec
           copyFrom: 'Grease'
           with: [ spec loads: #('Tests') ];
         baseline: 'Metacello'
-          with: [ spec repository: 'github://dalehenrich/metacello-work:master/repository' ];
+          with: [ spec repository: 'github://Metacello/metacello:gs_port/repository' ];
         yourself.
       spec
         package: 'GemStone-Interactions'
