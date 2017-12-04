@@ -30,7 +30,7 @@ testGsDevKitIssue77
       cl := (Smalltalk at: #'GsDevKitBarB')
         subclass: 'GsDevKitBarA'
         instVarNames: #()
-        inDictionary: GsPackagePolicy current homeSymbolDict
+        inDictionary: Class homeSymbolDict
         options: #().
       cl category: 'GsDevKitBar' ].
   false

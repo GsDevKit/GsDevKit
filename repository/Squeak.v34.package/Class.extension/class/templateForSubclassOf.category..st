@@ -6,7 +6,7 @@ templateForSubclassOf: priorClassName category: systemCategoryName
   | aClass anArray dictionaryName str |
   aClass := System myUserProfile symbolList objectNamed: priorClassName asString asSymbol.
   anArray := System myUserProfile dictionaryAndSymbolOf: aClass.
-  dictionaryName :=  (anArray == nil or: [ (anArray at: 1) == GsPackagePolicy current homeSymbolDict])
+  dictionaryName :=  (anArray == nil or: [ (anArray at: 1) == Class homeSymbolDict ])
       ifTrue: [ '' ]
       ifFalse: [
     anArray := System myUserProfile dictionaryAndSymbolOf: (anArray at: 1).

@@ -9,7 +9,7 @@ options: optionsArray
 
 ^Class _defineClassNamed: aString with: [ | symbolDict |
     symbolDict := aDictionaryName isEmpty
-	    ifTrue: [GsPackagePolicy current homeSymbolDict]
+	    ifTrue: [ Class homeSymbolDict ]
 	    ifFalse: [System myUserProfile symbolList objectNamed: aDictionaryName asSymbol].
 
     self byteSubclass: aString

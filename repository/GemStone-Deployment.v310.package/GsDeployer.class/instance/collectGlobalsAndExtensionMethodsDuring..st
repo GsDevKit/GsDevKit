@@ -1,5 +1,7 @@
 private
 collectGlobalsAndExtensionMethodsDuring: aBlock
+  GsPackagePolicy enabled
+    ifTrue: [
  	| home external deploymentDict |
 	home := GsPackagePolicy current homeSymbolDict.
 	external := GsPackagePolicy current externalSymbolList.
@@ -12,4 +14,8 @@ collectGlobalsAndExtensionMethodsDuring: aBlock
 			ensure:  [ 
 				GsPackagePolicy current homeSymbolDict: home.
 				GsPackagePolicy current externalSymbolList: external ].
-	^deploymentDict
+	^deploymentDict ]
+    ifFalse: [
+      "if GsPackagePolicy is not enabled, assume we are running as SystemUser"
+      aBlock value.
+      ^ Globals ]

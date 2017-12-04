@@ -87,7 +87,7 @@ _ogDefinitionInContext: aUserProfile className: className superClassName: superC
     addAll: 'inDictionary: '.
   anArray := System myUserProfile dictionaryAndSymbolOf: self.
   (anArray == nil
-    or: [ (anArray at: 1) == GsPackagePolicy current homeSymbolDict ])
+    or: [ (anArray at: 1) == Class homeSymbolDict ])
     ifTrue: [ result addAll: '''''' ]
     ifFalse: [ 
       (anArray := System myUserProfile dictionaryAndSymbolOf: (anArray at: 1))
