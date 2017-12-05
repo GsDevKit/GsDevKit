@@ -234,6 +234,7 @@ baseline: spec
     for: #(#'gs3.x' #'gs64_3.x')
     do: [ 
       spec
+        package: 'Announcements' with: [ spec file: 'Announcements.v3' ];
         package: 'Core' with: [ spec file: 'Core.v3' ];
         package: 'Base-Bootstrap' with: [ spec file: 'Base-Bootstrap.v3' ];
         package: 'Bootstrap' with: [ spec file: 'Bootstrap.v3' ];
