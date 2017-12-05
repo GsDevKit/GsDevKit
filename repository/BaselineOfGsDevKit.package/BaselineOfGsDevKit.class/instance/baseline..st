@@ -164,7 +164,7 @@ baseline: spec
         group: 'GLASS' with: #('Base' 'Metacello');
         group: 'GsCore'
           with:
-            #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Squeak' 'Regex-Core' 'Regex-Tests-Core');
+            #('Core' 'Base-Bootstrap' 'Bootstrap' 'GemStone-ANSI-Streams' 'GemStone-Indexing-Extensions' 'Sport' 'Squeak' 'Regex-Core' 'Regex-Tests-Core' 'GemStone-Interactions' );
         group: 'GsMisc'
           with:
             #('Announcements' 'SmaCC' 'SMTPMail' 'System-Digital-Signatures' 'Utf8Encoding');
