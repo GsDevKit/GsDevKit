@@ -1,4 +1,4 @@
-multi-character scans
+*squeak
 xDigit
   "Form a number."
 

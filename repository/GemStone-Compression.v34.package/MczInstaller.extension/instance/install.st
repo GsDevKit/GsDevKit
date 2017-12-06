@@ -1,4 +1,4 @@
-as yet unclassified
+*gemstone-compression
 install
 	| sources |
 	zip _ ZipArchive new.

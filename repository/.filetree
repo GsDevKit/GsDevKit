@@ -1,1 +1,2 @@
-{ "packageExtension" : ".package" }
+{ "packageExtension" : ".package",
+  "Metadata" : "false" }
