@@ -312,6 +312,13 @@ baseline: spec
                 file: 'Squeak.v34' ];
         yourself ].
   spec
+    for: #(#'gs3.5.x' #'gs3.6.x')
+    do: [ 
+      spec
+        package: 'Core35x' with: [ spec requires: 'Core.v3' ];
+        package: 'Core.v3' with: [ spec includes: 'Core35x' ];
+        yourself ].
+  spec
     for: #'maglev'
     do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ].
   spec
