@@ -315,8 +315,8 @@ baseline: spec
     for: #(#'gs3.5.x' #'gs3.6.x')
     do: [ 
       spec
-        package: 'Core35x' with: [ spec requires: 'Core' ];
-        package: 'Core' with: [ spec includes: 'Core35x' ];
+        package: 'Core35x';
+        package: 'Core' with: [ spec requires: 'Core35x' ];
         yourself ].
   spec
     for: #'maglev'
