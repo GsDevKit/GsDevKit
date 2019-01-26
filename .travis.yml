@@ -8,7 +8,7 @@ smalltalk:
   - GemStone-3.1.0.6
   - GemStone-3.2.17
   - GemStone-3.3.9
-  - GemStone-3.4.2
+  - GemStone-3.4.3
 
 #matrix:
 #   allow_failures:
