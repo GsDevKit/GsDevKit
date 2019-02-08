@@ -317,6 +317,8 @@ baseline: spec
       spec
         package: 'Core35x';
         package: 'Core' with: [ spec requires: 'Core35x' ];
+        package: 'Network-Url35x' with: [ spec requires: 'Network-Url' ];
+        package: 'Network-Url' with: [ spec includes: 'Network-Url35x' ];
         yourself ].
   spec
     for: #'maglev'

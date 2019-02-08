@@ -1,4 +1,3 @@
 instance creation
 workingDirectory
-
-	^self absoluteFromText: CypressFileUtilities current workingDirectory
+  ^ self absoluteFromText: MCFileTreeFileUtils current workingDirectory
