@@ -312,6 +312,15 @@ baseline: spec
                 file: 'Squeak.v34' ];
         yourself ].
   spec
+    for: #(#'gs3.5.x' #'gs3.6.x')
+    do: [ 
+      spec
+        package: 'Core35x';
+        package: 'Core' with: [ spec requires: 'Core35x' ];
+        package: 'Network-Url35x' with: [ spec requires: 'Network-Url' ];
+        package: 'Network-Url' with: [ spec includes: 'Network-Url35x' ];
+        yourself ].
+  spec
     for: #'maglev'
     do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ].
   spec
