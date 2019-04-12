@@ -1,0 +1,3 @@
+No class-specific documentation for GLASSBootstrapDriver, hierarchy is: 
+Object
+  GLASSBootstrapDriver( bootStrapSymbolDictionary repositoryDirectory useRepositoryDirectory configurationClass configurationPackageLoads configurationVersionString configurationPackageName configurationRepository metacelloVersionString coreFilenames monticelloFilenames metacelloFilenames repositoryMap)

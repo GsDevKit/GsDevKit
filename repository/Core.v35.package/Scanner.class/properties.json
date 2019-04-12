@@ -1,0 +1,24 @@
+{
+	"category" : "Core-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AllowUnderscoreAsAssignment",
+		"DoItCharacter",
+		"TypeTable" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"source",
+		"mark",
+		"hereChar",
+		"aheadChar",
+		"token",
+		"tokenType",
+		"currentComment",
+		"buffer",
+		"typeTable" ],
+	"name" : "Scanner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

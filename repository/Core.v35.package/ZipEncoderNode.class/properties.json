@@ -1,0 +1,21 @@
+{
+	"category" : "Core-SharedPool",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 02/25/2019 16:01",
+	"instvars" : [
+		"value",
+		"frequency",
+		"height",
+		"bitLength",
+		"code",
+		"parent",
+		"left",
+		"right" ],
+	"name" : "ZipEncoderNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
