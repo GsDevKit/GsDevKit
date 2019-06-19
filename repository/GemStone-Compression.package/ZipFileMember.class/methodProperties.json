@@ -3,6 +3,7 @@
 		"newFrom:named:" : "dkh 06/05/2007 21:30" },
 	"instance" : {
 		"canonicalizeFileName" : "dkh 06/05/2007 21:30",
+		"close" : "dkh 06/18/2019 17:31",
 		"copyDataTo:" : "dkh 06/05/2007 21:30",
 		"initialize" : "dkh 06/05/2007 21:30",
 		"looksLikeDirectory" : "dkh 06/05/2007 21:30",
