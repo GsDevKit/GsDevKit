@@ -13,7 +13,7 @@ smalltalk:
 
 #matrix:
 #   allow_failures:
-#     - smalltalk: GemStone-2.4.8 #sent but implemented, undefined symbols, and date arithmetic
+     - smalltalk: GemStone-2.4.8 #not sure it is worth the effort to clean up 2.4.x problems
 
 cache:
   directories:
