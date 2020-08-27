@@ -308,6 +308,12 @@ baseline: spec
 				package: 'Network-Url' with: [ spec includes: 'Network-Url35x' ];
 				yourself ].
 	spec
+		for: #(#'gs3.6.x')
+		do: [ 
+			spec
+				package: 'Monticello' with: [ spec file: 'Monticello.v36' ];
+				yourself ].
+	spec
 		for: #'maglev'
 		do: [ spec package: 'Bootstrap' with: [ spec file: 'Bootstrap.maglev' ] ].
 	spec

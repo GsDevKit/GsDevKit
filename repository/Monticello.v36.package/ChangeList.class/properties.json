@@ -1,0 +1,21 @@
+{
+	"category" : "Monticello-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contentsSymbol",
+		"changeList",
+		"list",
+		"listIndex",
+		"listSelections",
+		"file",
+		"lostMethodPointer",
+		"showsVersions" ],
+	"name" : "ChangeList",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
