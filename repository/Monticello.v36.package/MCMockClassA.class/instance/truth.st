@@ -1,0 +1,3 @@
+numeric
+truth
+	^ true

@@ -1,0 +1,4 @@
+*core-squeak
+isCharacter
+
+	^ false.
