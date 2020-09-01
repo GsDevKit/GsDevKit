@@ -325,6 +325,11 @@ baseline: spec
       spec
         package: 'Core' with: [ spec file: 'Core.v36' ];
         package: 'Monticello' with: [ spec file: 'Monticello.v36' ];
+        package: 'Squeak'
+          with: [ 
+              spec
+                requires: 'Network-Url';
+                file: 'Squeak.v36' ];
         yourself ].
   spec
     for: #'maglev'
