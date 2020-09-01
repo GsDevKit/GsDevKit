@@ -6,5 +6,5 @@ _shiftToUTC
 	 printStrings."
 
 	^self class
-		secondsLocal: seconds + offset
+		secondsLocal: self asSeconds + self _offsetSeconds
 		offset: Duration zero.
