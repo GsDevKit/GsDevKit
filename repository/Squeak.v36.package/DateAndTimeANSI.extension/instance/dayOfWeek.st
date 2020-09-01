@@ -9,4 +9,4 @@ dayOfWeek
 	Return Values
 	<integer>unspecified"
 
-	^seconds + offset // 60 // 60 // 24 + 1 \\ 7 + 1  "1 January 2001 was a Monday"
+	^self asSeconds + self _offsetSeconds // 60 // 60 // 24 + 1 \\ 7 + 1  "1 January 2001 was a Monday"

@@ -2,4 +2,4 @@
 asDuration
   "Answer the duration since midnight"
 
-  ^ Duration seconds: seconds
+  ^ Duration seconds: self asSeconds
