@@ -1,0 +1,4 @@
+metaclass
+selectedClassOrMetaClass
+
+	^ self selectedClassDefinition

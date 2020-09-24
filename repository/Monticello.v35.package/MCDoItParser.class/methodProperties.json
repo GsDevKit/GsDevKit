@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"concreteSubclasses" : "avi 3/10/2004 12:29",
+		"forDoit:" : "avi 3/10/2004 12:40",
+		"isAbstract" : "avi 3/10/2004 12:51",
+		"pattern" : "avi 3/10/2004 12:30",
+		"subclassForDoit:" : "DataCurator 04/23/2007 14:43" },
+	"instance" : {
+		"addDefinitionsTo:" : "avi 3/10/2004 12:40",
+		"source" : "avi 3/10/2004 12:40",
+		"source:" : "avi 3/10/2004 12:40" } }

@@ -1,0 +1,3 @@
+*monticello
+isMessageStream
+	^ false

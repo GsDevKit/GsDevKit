@@ -1,0 +1,15 @@
+{
+	"category" : "Monticello-Tests-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"snap1",
+		"snap2" ],
+	"name" : "MCGsClassModificationTestCase",
+	"pools" : [
+		 ],
+	"super" : "MCTestCase",
+	"type" : "normal" }
