@@ -320,7 +320,7 @@ baseline: spec
         package: 'Network-Url' with: [ spec includes: 'Network-Url35x' ];
         yourself ].
   spec
-    for: #(#'gs3.5.x')
+    for: #(#'gs3.5.4' #'gs3.5.5' #'gs3.5.6')
     do: [ 
       spec
         package: 'Monticello' with: [ spec file: 'Monticello.v35' ];
