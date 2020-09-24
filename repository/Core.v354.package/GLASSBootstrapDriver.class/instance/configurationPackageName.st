@@ -1,0 +1,4 @@
+accessing
+configurationPackageName
+
+   ^configurationPackageName
