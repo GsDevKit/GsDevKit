@@ -97,6 +97,7 @@
 		"testPrecodeCommentOrInheritedCommentFor" : "dkh 02/10/2009 17:09",
 		"testQuadByteStringMatch" : "dkh 10/20/2008 16:33",
 		"testReadFrom" : "dkh 02/21/2014 11:02",
+		"testScaledDecimalANSIPrinting" : "",
 		"testSendTo" : "DaleHenrichs 10/25/2010 16:01",
 		"testSkipAnySubstrStartingAt" : "dkh 06/30/2008 11:20",
 		"testStartsWith" : "dkh 06/27/2008 16:46",

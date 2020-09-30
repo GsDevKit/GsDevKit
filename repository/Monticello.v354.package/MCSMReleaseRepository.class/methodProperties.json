@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"creationTemplate" : "avi 2/10/2004 14:15",
+		"description" : "dkh 08/13/2007 10:03",
+		"fillInTheBlankRequest" : "bkv 2/18/2004 21:03",
+		"morphicConfigure" : "bkv 2/18/2004 21:03",
+		"package:user:password:" : "avi 2/10/2004 14:14" },
+	"instance" : {
+		"basicStoreVersion:" : "dkh 08/09/2007 10:57",
+		"checkResult:" : "dkh 08/09/2007 10:57",
+		"description" : "dkh 08/09/2007 10:57",
+		"initializeWithPackage:user:password:" : "dkh 08/09/2007 10:57",
+		"releaseVersion:url:" : "dkh 08/09/2007 10:57",
+		"squeakMapUrl" : "dkh 08/09/2007 10:57",
+		"stringForVersion:" : "dkh 08/09/2007 10:57",
+		"uploadVersion:" : "dkh 08/09/2007 10:57" } }

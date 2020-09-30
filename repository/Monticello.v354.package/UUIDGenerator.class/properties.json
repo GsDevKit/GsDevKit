@@ -1,0 +1,22 @@
+{
+	"category" : "Monticello-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"timeLow",
+		"timeMid",
+		"timeHiAndVersion",
+		"clockSeqHiAndReserved",
+		"clockSeqLow",
+		"node",
+		"randomCounter",
+		"randomGenerator",
+		"semaphoreForGenerator" ],
+	"name" : "UUIDGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

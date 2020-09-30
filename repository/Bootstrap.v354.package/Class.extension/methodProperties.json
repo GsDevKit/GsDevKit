@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_sharedPoolsString" : "dkh 11/11/2008 22:26",
+		"_varNameStringFor:" : "dkh 11/11/2008 21:06",
+		"addSharedPool:" : "dkh 07/17/2009 15:36",
+		"allSubclasses" : "dkh 09/11/2007 12:59",
+		"finalizeCreation" : "",
+		"poolDictionariesForNames:" : "DataCurator 07/25/2011 14:51",
+		"removeSharedPool:" : "dkh 07/17/2009 15:37",
+		"subclasses" : "dkh 09/11/2007 12:59" } }

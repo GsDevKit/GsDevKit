@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"value:frequency:height:" : "dkh 06/05/2007 21:30" },
+	"instance" : {
+		"bitLength" : "dkh 06/05/2007 21:30",
+		"code" : "dkh 06/05/2007 21:30",
+		"code:" : "dkh 06/05/2007 21:30",
+		"computeHeight" : "dkh 06/05/2007 21:30",
+		"encodeBitLength:from:" : "dkh 06/05/2007 21:30",
+		"frequency" : "dkh 06/05/2007 21:30",
+		"height" : "dkh 06/05/2007 21:30",
+		"isLeaf" : "dkh 06/05/2007 21:30",
+		"left" : "dkh 06/05/2007 21:30",
+		"left:" : "dkh 06/05/2007 21:30",
+		"parent" : "dkh 06/05/2007 21:30",
+		"parent:" : "dkh 06/05/2007 21:30",
+		"right" : "dkh 06/05/2007 21:30",
+		"right:" : "dkh 06/05/2007 21:30",
+		"rotateToHeight:" : "dkh 06/05/2007 21:30",
+		"setBitLengthTo:" : "dkh 06/05/2007 21:30",
+		"setValue:frequency:height:" : "dkh 06/05/2007 21:30",
+		"value" : "dkh 06/05/2007 21:30" } }

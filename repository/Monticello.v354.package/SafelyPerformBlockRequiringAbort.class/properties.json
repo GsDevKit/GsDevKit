@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 10/29/2008 12:24",
+	"instvars" : [
+		"block" ],
+	"name" : "SafelyPerformBlockRequiringAbort",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

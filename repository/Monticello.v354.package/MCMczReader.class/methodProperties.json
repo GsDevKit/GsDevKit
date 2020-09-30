@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"extension" : "cwp 8/1/2003 14:59",
+		"supportsDependencies" : "avi 1/19/2004 14:48",
+		"supportsVersions" : "cwp 8/1/2003 12:19" },
+	"instance" : {
+		"associate:" : "dkh 08/09/2007 10:57",
+		"extractDefinitionsFrom:" : "avi 1/21/2004 18:59",
+		"extractDependencyFrom:" : "dkh 08/09/2007 10:57",
+		"extractInfoFrom:" : "dkh 06/11/2008 00:13",
+		"infoCache" : "dkh 08/09/2007 10:57",
+		"loadDefinitions" : "dkh 04/30/2009 15:16",
+		"loadDependencies" : "dkh 04/28/2008 15:49",
+		"loadPackage" : "dkh 08/09/2007 10:57",
+		"loadVersionInfo" : "dkh 08/09/2007 10:57",
+		"parseMember:" : "dkh 08/09/2007 10:57",
+		"scanner" : "dkh 08/09/2007 10:57",
+		"zip" : "dkh 08/09/2007 10:57" } }

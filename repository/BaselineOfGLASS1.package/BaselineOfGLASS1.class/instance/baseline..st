@@ -320,9 +320,18 @@ baseline: spec
         package: 'Network-Url' with: [ spec includes: 'Network-Url35x' ];
         yourself ].
   spec
+    for: #(#'gs3.5.4.x' #'gs3.5.5.x' #'gs3.5.6.x')
+    do: [ 
+      spec
+        package: 'Bootstrap' with: [ spec file: 'Bootstrap.v354' ];
+        package: 'Core' with: [ spec file: 'Core.v354' ];
+        package: 'Monticello' with: [ spec file: 'Monticello.v354' ];
+        yourself ].
+  spec
     for: #(#'gs3.6.x')
     do: [ 
       spec
+        package: 'Bootstrap' with: [ spec file: 'Bootstrap.v354' ];
         package: 'Core' with: [ spec file: 'Core.v36' ];
         package: 'Monticello' with: [ spec file: 'Monticello.v36' ];
         package: 'Squeak'

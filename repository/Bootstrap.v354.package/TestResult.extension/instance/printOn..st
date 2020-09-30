@@ -1,0 +1,15 @@
+*bootstrap
+printOn: aStream
+  aStream
+    nextPutAll: self runCount printString;
+    nextPutAll: ' run, ';
+    nextPutAll: self expectedPassCount printString;
+    nextPutAll: ' passes, ';
+    nextPutAll: self expectedDefectCount printString;
+    nextPutAll: ' expected defects, ';
+    nextPutAll: self unexpectedFailureCount printString;
+    nextPutAll: ' failures, ';
+    nextPutAll: self unexpectedErrorCount printString;
+    nextPutAll: ' errors, ';
+    nextPutAll: self unexpectedPassCount printString;
+    nextPutAll: ' unexpected passes'
