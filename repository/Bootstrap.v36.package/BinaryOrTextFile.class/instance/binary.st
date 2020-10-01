@@ -1,0 +1,3 @@
+Accessing
+binary
+	isBinary := true

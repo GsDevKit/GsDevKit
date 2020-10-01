@@ -1,0 +1,4 @@
+enumeration
+fullName
+
+	^pathName

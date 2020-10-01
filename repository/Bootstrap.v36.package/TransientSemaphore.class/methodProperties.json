@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"forMutualExclusion" : "DataCurator 04/23/2007 14:43" },
+	"instance" : {
+		"critical:" : "DaleHenrichs 01/27/2011 11:27",
+		"forMutualExclusion" : "DataCurator 04/23/2007 14:43",
+		"semaphore" : "DataCurator 07/08/2009 17:35",
+		"signal" : "DataCurator 04/23/2007 14:43",
+		"signalAll" : "DataCurator 04/23/2007 14:43",
+		"wait" : "DataCurator 04/23/2007 14:43",
+		"waitForMilliseconds:" : "DataCurator 04/23/2007 14:43",
+		"waitForSeconds:" : "DataCurator 04/23/2007 14:43" } }
