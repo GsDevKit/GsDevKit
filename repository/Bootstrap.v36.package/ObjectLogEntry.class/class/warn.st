@@ -1,0 +1,4 @@
+constants
+warn
+
+	^3

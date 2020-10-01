@@ -1,0 +1,4 @@
+accessing
+pathName
+
+	^pathName

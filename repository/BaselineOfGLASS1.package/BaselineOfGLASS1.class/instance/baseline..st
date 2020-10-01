@@ -331,7 +331,10 @@ baseline: spec
     for: #(#'gs3.6.x')
     do: [ 
       spec
-        package: 'Bootstrap' with: [ spec file: 'Bootstrap.v354' ];
+        package: 'Base-Bootstrap' with: [ spec file: 'Base-Bootstrap.v36' ];
+        package: 'Bootstrap' with: [ spec file: 'Bootstrap.v36' ];
+        package: 'Change-Notification'
+          with: [ spec file: 'Change-Notification.v36' ];
         package: 'Core' with: [ spec file: 'Core.v36' ];
         package: 'Monticello' with: [ spec file: 'Monticello.v36' ];
         package: 'Squeak'
