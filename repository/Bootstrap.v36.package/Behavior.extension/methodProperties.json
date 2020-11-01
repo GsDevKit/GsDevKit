@@ -4,8 +4,6 @@
 	"instance" : {
 		"_addUndefinedSymbol:to:for:" : "dkh 02/26/2009 15:22",
 		"_categories" : "DataCurator 10/13/2010 11:17",
-		"allSelectors" : "DataCurator 12/13/2010 19:35",
-		"createPragmaFrom:for:" : "dkh 11/15/2007 22:57",
 		"isTransientDB" : "",
 		"methodsFor:" : "dkh 11/20/2008 15:29",
 		"whichCategoryIncludesSelector:" : "dkh 08/10/2009 17:11" } }
