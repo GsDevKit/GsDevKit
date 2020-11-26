@@ -1,3 +1,5 @@
 private
 itemsRequiring: anObject
-	^ required at: anObject ifAbsentPut: [Set new]
+	anObject = 'nil'
+		ifTrue: [ self halt ].
+	^ required at: anObject ifAbsentPut: [ Set new ]
