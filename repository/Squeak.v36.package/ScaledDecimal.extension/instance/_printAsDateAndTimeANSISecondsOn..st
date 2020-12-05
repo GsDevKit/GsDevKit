@@ -5,8 +5,8 @@ _printAsDateAndTimeANSISecondsOn: aStream
 	self = 0
 		ifTrue: [ aStream nextPutAll: '00' ]
 		ifFalse: [ 
-			string := (self + 100) asString.
-			(string at: 4) = (Locale decimalPoint at: 1)
+			string := (self + 100) asStringLocaleC.
+			(string at: 4) = $.
 				ifFalse: [ self error: 'unexpected format' ].
 			i := string size.
 			noDecimalPoint := true.
