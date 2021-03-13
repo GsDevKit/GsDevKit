@@ -1,0 +1,3 @@
+commands
+cmdBrowse
+	^ OTCmdBrowseInspector all

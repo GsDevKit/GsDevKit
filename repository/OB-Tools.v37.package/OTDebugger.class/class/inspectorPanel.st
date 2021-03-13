@@ -1,0 +1,3 @@
+configuration
+inspectorPanel
+	^ OTDebugInspectorPanel new

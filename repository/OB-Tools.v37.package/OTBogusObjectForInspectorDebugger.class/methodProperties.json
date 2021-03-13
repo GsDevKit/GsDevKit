@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"generateHalt" : "dkh 2/21/2009 10:19" },
+	"instance" : {
+		"buggyInspectorNodes" : "dkh 3/5/2009 12:10",
+		"generateError" : "dkh 2/21/2009 10:19",
+		"generateError:" : "dkh 2/21/2009 10:19",
+		"initialize" : "dkh 2/21/2009 09:04",
+		"printOn:" : "dkh 2/21/2009 10:44" } }

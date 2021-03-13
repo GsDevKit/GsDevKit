@@ -272,7 +272,7 @@ baseline: spec
 								requires: #('GsCore') ] ].
 	spec
 		for:
-			#(#'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.2.16.x' #'gs3.2.17.x' #'gs3.2.18.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x' #'gs3.7.x' #'gs3.8.x' #'gs3.9.x')
+			#(#'gs3.2.8.x' #'gs3.2.9.x' #'gs3.2.10.x' #'gs3.2.11.x' #'gs3.2.12.x' #'gs3.2.13.x' #'gs3.2.14.x' #'gs3.2.15.x' #'gs3.2.16.x' #'gs3.2.17.x' #'gs3.2.18.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x')
 		do: [ 
 			spec
 				package: 'OB-Tools' with: [ spec file: 'OB-Tools.v33' ];
@@ -317,7 +317,7 @@ baseline: spec
 				package: 'Monticello' with: [ spec file: 'Monticello.v354' ];
 				yourself ].
 	spec
-		for: #(#'gs3.6.x' #'gs3.7.x' #'gs3.8.x' #'gs3.9.x')
+		for: #(#'gs3.6.x')
 		do: [ 
 			spec
 				package: 'Base-Bootstrap' with: [ spec file: 'Base-Bootstrap.v36' ];
@@ -326,6 +326,23 @@ baseline: spec
 					with: [ spec file: 'Change-Notification.v36' ];
 				package: 'Core' with: [ spec file: 'Core.v36' ];
 				package: 'Monticello' with: [ spec file: 'Monticello.v36' ];
+				package: 'Squeak'
+					with: [ 
+							spec
+								requires: 'Network-Url';
+								file: 'Squeak.v36' ];
+				yourself ].
+	spec
+		for: #(#'gs3.7.x' #'gs3.8.x' #'gs3.9.x')
+		do: [ 
+			spec
+				package: 'Base-Bootstrap' with: [ spec file: 'Base-Bootstrap.v36' ];
+				package: 'Bootstrap' with: [ spec file: 'Bootstrap.v37' ];
+				package: 'Change-Notification'
+					with: [ spec file: 'Change-Notification.v36' ];
+				package: 'Core' with: [ spec file: 'Core.v36' ];
+				package: 'Monticello' with: [ spec file: 'Monticello.v36' ];
+				package: 'OB-Tools' with: [ spec file: 'OB-Tools.v37' ];
 				package: 'Squeak'
 					with: [ 
 							spec

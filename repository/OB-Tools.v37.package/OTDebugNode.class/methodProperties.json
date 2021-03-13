@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"on:" : "lr 5/20/2008 13:28" },
+	"instance" : {
+		"context" : "lr 5/20/2008 16:28",
+		"doItContext" : "lr 5/20/2008 13:22",
+		"doItReceiver" : "lr 5/20/2008 13:22",
+		"hasSelector" : "lr 5/21/2008 08:55",
+		"isDescendantOf:" : "lr 5/20/2008 16:26",
+		"isEditable" : "lr 5/20/2008 13:41",
+		"method" : "lr 6/7/2008 19:02",
+		"methodNode" : "lr 6/7/2008 19:24",
+		"parseTree" : "lr 6/7/2008 19:00",
+		"process" : "lr 5/20/2008 13:24",
+		"selection" : "dkh 02/18/2009 10:00",
+		"selector" : "lr 5/20/2008 13:30",
+		"setProcess:" : "lr 5/20/2008 13:27",
+		"shoutStylingType" : "DaleHenrichs 02/20/2010 08:19",
+		"source" : "lr 6/7/2008 18:59",
+		"sourceMap" : "lr 6/7/2008 18:59",
+		"theClass" : "dkh 12/16/2008 08:02" } }

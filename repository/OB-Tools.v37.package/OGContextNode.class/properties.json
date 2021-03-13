@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Platform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OGContextNode",
+	"pools" : [
+		 ],
+	"super" : "OTContextNode",
+	"type" : "normal" }

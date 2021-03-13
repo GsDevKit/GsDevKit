@@ -1,0 +1,4 @@
+private
+environmentAt: anItemKind
+
+	^itemClass

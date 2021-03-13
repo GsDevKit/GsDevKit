@@ -1,0 +1,3 @@
+converting
+asActionSequence
+	^ self
