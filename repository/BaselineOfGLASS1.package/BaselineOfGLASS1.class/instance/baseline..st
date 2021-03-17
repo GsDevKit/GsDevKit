@@ -340,7 +340,7 @@ baseline: spec
 				package: 'Bootstrap' with: [ spec file: 'Bootstrap.v37' ];
 				package: 'Change-Notification'
 					with: [ spec file: 'Change-Notification.v36' ];
-				package: 'Core' with: [ spec file: 'Core.v36' ];
+				package: 'Core' with: [ spec file: 'Core.v37' ];
 				package: 'Monticello' with: [ spec file: 'Monticello.v36' ];
 				package: 'OB-Tools' with: [ spec file: 'OB-Tools.v37' ];
 				package: 'Squeak'
