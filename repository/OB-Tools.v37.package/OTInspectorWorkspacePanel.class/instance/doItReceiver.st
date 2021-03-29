@@ -1,0 +1,3 @@
+evaluating
+doItReceiver
+	^ browser inspectorDoItReceiver

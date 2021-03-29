@@ -1,0 +1,3 @@
+configuration
+labelString
+	^ self defaultLabel

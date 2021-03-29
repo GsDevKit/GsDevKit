@@ -1,0 +1,14 @@
+{
+	"category" : "Core-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GeneratorClass" ],
+	"commentStamp" : "DataCurator 02/25/2019 16:01",
+	"instvars" : [
+		 ],
+	"name" : "UUID",
+	"pools" : [
+		 ],
+	"super" : "ByteArray",
+	"type" : "bytes" }

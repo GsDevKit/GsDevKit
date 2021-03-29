@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Platform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"debugger" ],
+	"name" : "OGDebuggerProceedRequest",
+	"pools" : [
+		 ],
+	"super" : "OBInteractionRequest",
+	"type" : "normal" }

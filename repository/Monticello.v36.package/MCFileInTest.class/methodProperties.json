@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"alterInitialState" : "dkh 08/09/2007 10:57",
+		"assertFileOutFrom:canBeFiledInWith:" : "dkh 08/09/2007 10:57",
+		"assertInitializersCalled" : "dkh 08/09/2007 10:57",
+		"assertNoChange" : "dkh 08/09/2007 10:57",
+		"assertSuccessfulLoadWith:" : "dkh 08/09/2007 10:57",
+		"setUp" : "dkh 03/02/2009 14:55",
+		"tearDown" : "dkh 03/03/2009 12:19",
+		"testStWriter" : "dkh 08/09/2007 10:57" } }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"apply:to:" : "ab 6/2/2003 00:53",
+		"snapshot:" : "ab 6/1/2003 14:22" },
+	"instance" : {
+		"addDefinition:" : "ab 6/2/2003 00:46",
+		"equalDefinition:to:" : "dkh 09/15/2015 16:48",
+		"initializeWithSnapshot:" : "ab 7/6/2003 23:49",
+		"modifyDefinition:to:" : "ab 6/1/2003 14:23",
+		"patchedSnapshot" : "dkh 08/09/2007 10:57",
+		"removeDefinition:" : "ab 6/2/2003 00:46" } }

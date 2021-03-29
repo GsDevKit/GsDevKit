@@ -1,0 +1,2 @@
+*core-squeak
+initialize

@@ -1,0 +1,17 @@
+{
+	"category" : "Bootstrap-Change Notification",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"item",
+		"oldItem",
+		"itemClass",
+		"oldCategory" ],
+	"name" : "SystemChangeAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"binary" : "dkh 07/01/2009 10:10",
+		"next:into:startingAt:" : "dkh 07/01/2009 12:12",
+		"nextChunk" : "dkh 07/01/2009 11:36",
+		"nextInt32" : "dkh 07/01/2009 10:05",
+		"nextInto:" : "dkh 07/01/2009 12:12",
+		"nextLittleEndianNumber:" : "dkh 07/01/2009 11:51",
+		"nextNumber:" : "dkh 07/10/2009 15:47",
+		"nextString" : "dkh 07/01/2009 10:08",
+		"setToEnd" : "dkh 07/01/2009 11:55" } }

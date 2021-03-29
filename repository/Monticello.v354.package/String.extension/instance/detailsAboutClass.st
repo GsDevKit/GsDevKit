@@ -1,0 +1,3 @@
+*monticello
+detailsAboutClass
+  ^ self

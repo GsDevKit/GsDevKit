@@ -1,0 +1,20 @@
+{
+	"category" : "Bootstrap-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ObjectLog",
+		"ObjectQueue" ],
+	"commentStamp" : "DataCurator 02/25/2019 16:01",
+	"instvars" : [
+		"pid",
+		"stamp",
+		"label",
+		"priority",
+		"object",
+		"tag" ],
+	"name" : "ObjectLogEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

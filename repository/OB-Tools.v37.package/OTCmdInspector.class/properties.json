@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Inspector",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OTCmdInspector",
+	"pools" : [
+		 ],
+	"super" : "OBCommand",
+	"type" : "normal" }

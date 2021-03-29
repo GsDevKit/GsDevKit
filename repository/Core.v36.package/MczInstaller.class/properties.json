@@ -1,0 +1,15 @@
+{
+	"category" : "Core-MCInstaller",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Versions" ],
+	"commentStamp" : "DataCurator 02/25/2019 16:01",
+	"instvars" : [
+		"stream",
+		"zip" ],
+	"name" : "MczInstaller",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

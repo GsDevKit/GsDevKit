@@ -1,0 +1,4 @@
+remote debugging
+selectedLogEntry
+
+	^SelectedLogEntry

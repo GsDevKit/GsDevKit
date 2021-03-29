@@ -1,0 +1,3 @@
+session logging control
+disableLoggingToObjectLogForSession
+  ^ self _disableLoggingForSession: self _objectLogLoggingAttribute

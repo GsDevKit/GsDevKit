@@ -1,0 +1,19 @@
+{
+	"category" : "Bootstrap-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceDirectory",
+		"name",
+		"creationTime",
+		"modificationTime",
+		"dirFlag",
+		"fileSize" ],
+	"name" : "DirectoryEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

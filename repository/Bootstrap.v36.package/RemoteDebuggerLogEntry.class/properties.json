@@ -1,0 +1,15 @@
+{
+	"category" : "Bootstrap-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"resumption",
+		"resumed" ],
+	"name" : "RemoteDebuggerLogEntry",
+	"pools" : [
+		 ],
+	"super" : "DebuggerLogEntry",
+	"type" : "normal" }

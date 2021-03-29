@@ -1,0 +1,4 @@
+*monticello
+commentStamp
+
+	^super commentStamp

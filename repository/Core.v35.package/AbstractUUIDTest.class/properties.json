@@ -1,0 +1,14 @@
+{
+	"category" : "Core-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentUuidGeneratorClass" ],
+	"name" : "AbstractUUIDTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

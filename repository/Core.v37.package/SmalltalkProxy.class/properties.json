@@ -1,0 +1,14 @@
+{
+	"category" : "Core-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SmalltalkProxy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+commands
+cmdInspect
+	^ OTCmdInspector allSubclasses

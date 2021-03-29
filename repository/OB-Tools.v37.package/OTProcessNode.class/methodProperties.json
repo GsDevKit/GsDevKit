@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allowDebug" : "dkh 12/16/2008 09:15",
+		"allowStop" : "dkh 04/01/2009 12:33",
+		"context" : "dkh 2/25/2009 05:30",
+		"contextNode" : "dkh 12/14/2008 08:21",
+		"debuggerIsClosing" : "dkh 1/9/2009 14:23",
+		"hasVersions" : "lr 8/3/2007 19:18",
+		"initialize" : "lr 5/20/2008 13:28",
+		"isActiveProcess" : "dkh 12/16/2008 09:15",
+		"label" : "dkh 1/9/2009 15:36",
+		"label:" : "dkh 1/9/2009 15:37",
+		"longStack" : "lr 4/25/2007 20:24",
+		"name" : "dkh 12/16/2008 08:10",
+		"nodeAt:" : "dkh 12/15/2008 14:56",
+		"shortStack" : "lr 4/25/2007 20:25",
+		"shoutStylingType" : "DaleHenrichs 02/20/2010 08:19",
+		"stackOfSize:" : "dkh 04/02/2009 16:19",
+		"targetContext" : "dkh 2/25/2009 05:30",
+		"targetContext:" : "dkh 2/25/2009 05:29",
+		"value" : "lr 5/13/2008 12:19" } }

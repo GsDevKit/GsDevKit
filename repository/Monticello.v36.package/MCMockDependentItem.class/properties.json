@@ -1,0 +1,16 @@
+{
+	"category" : "Monticello-Mocks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"provides",
+		"requires" ],
+	"name" : "MCMockDependentItem",
+	"pools" : [
+		 ],
+	"super" : "MCMock",
+	"type" : "normal" }

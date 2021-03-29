@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OTCmdCopyStack",
+	"pools" : [
+		 ],
+	"super" : "OTCmdDebugger",
+	"type" : "normal" }
