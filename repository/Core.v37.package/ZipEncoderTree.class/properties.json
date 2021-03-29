@@ -1,0 +1,16 @@
+{
+	"category" : "Core-SharedPool",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bitLengths",
+		"codes",
+		"maxCode" ],
+	"name" : "ZipEncoderTree",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

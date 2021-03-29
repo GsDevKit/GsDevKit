@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Inspector",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "OTNamedIndexedVariableNode",
+	"pools" : [
+		 ],
+	"super" : "OTIndexedVariableNode",
+	"type" : "normal" }

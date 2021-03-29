@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"allManagers" : "ab 3/31/2003 20:45",
+		"classModified:" : "dkh 01/07/2008 14:50",
+		"classMoved:" : "dkh 01/07/2008 14:49",
+		"classRemoved:" : "dkh 01/07/2008 14:49",
+		"forPackage:" : "DaleHenrichs 03/11/2011 10:30",
+		"managersForCategory:do:" : "dkh 11/09/2013 07:05",
+		"managersForClass:category:do:" : "dkh 11/09/2013 06:42",
+		"managersForClass:do:" : "dkh 01/07/2008 14:33",
+		"managersForClass:selector:do:" : "dkh 01/07/2008 14:35",
+		"methodModified:" : "dkh 01/07/2008 14:49",
+		"methodMoved:" : "dkh 01/07/2008 14:52",
+		"methodRemoved:" : "dkh 01/07/2008 14:52",
+		"registerForNotifications" : "DaleHenrichs 03/11/2011 11:28",
+		"registry" : "ab 5/9/2003 12:59" },
+	"instance" : {
+		"initialize" : "dkh 01/07/2008 14:11",
+		"initializeWithPackage:" : "ab 7/7/2003 16:27",
+		"modified" : "cwp 11/13/2003 14:12",
+		"modified:" : "DaleHenrichs 03/11/2011 10:32",
+		"package" : "ab 7/7/2003 16:47",
+		"packageInfo" : "ab 7/7/2003 13:33",
+		"packageName" : "ab 7/7/2003 12:18",
+		"packageNameWithStar" : "ab 7/5/2003 23:18",
+		"unregister" : "DaleHenrichs 03/11/2011 10:31",
+		"update:" : "dkh 08/09/2007 10:57" } }

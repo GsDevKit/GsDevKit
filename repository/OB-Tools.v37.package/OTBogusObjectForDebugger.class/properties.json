@@ -1,0 +1,16 @@
+{
+	"category" : "OB-Tools-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 2/22/2009 09:21",
+	"instvars" : [
+		"x",
+		"y",
+		"z" ],
+	"name" : "OTBogusObjectForDebugger",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

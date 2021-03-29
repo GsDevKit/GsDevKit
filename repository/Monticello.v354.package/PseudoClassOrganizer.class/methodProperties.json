@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"defaultList:" : "DataCurator 04/23/2007 14:43",
+		"initialize" : "DataCurator 04/23/2007 14:43" },
+	"instance" : {
+		"addCategory:" : "DataCurator 04/23/2007 14:43",
+		"addCategory:before:" : "DataCurator 04/23/2007 14:43",
+		"categoryOfElement:" : "DataCurator 04/23/2007 14:43",
+		"classComment" : "DataCurator 04/23/2007 14:43",
+		"classComment:" : "DataCurator 04/23/2007 14:43",
+		"classify:under:" : "DataCurator 04/23/2007 14:43",
+		"classify:under:suppressIfDefault:" : "DataCurator 04/23/2007 14:43",
+		"firstIndexOfCategoryNumber:" : "DataCurator 04/23/2007 14:43",
+		"lastIndexOfCategoryNumber:" : "DataCurator 04/23/2007 14:43",
+		"listAtCategoryNamed:" : "DataCurator 04/23/2007 14:43",
+		"listAtCategoryNumber:" : "DataCurator 04/23/2007 14:43",
+		"numberOfCategoryOfElement:" : "DataCurator 04/23/2007 14:43",
+		"removeCategory:" : "DataCurator 04/23/2007 14:43",
+		"removeElement:" : "DataCurator 04/23/2007 14:43",
+		"setDefaultList:" : "DataCurator 04/23/2007 14:43" } }

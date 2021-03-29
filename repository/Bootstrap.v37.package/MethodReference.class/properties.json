@@ -1,0 +1,18 @@
+{
+	"category" : "Bootstrap-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classSymbol",
+		"classIsMeta",
+		"methodSymbol",
+		"stringVersion",
+		"symbolDictionary" ],
+	"name" : "MethodReference",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

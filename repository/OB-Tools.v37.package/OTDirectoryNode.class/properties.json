@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Filesystem",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"directory" ],
+	"name" : "OTDirectoryNode",
+	"pools" : [
+		 ],
+	"super" : "OTFilesystemNode",
+	"type" : "normal" }

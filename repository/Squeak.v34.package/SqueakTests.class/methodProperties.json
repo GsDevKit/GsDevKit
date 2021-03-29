@@ -41,6 +41,7 @@
 		"testDateAndTimePrinting" : "dkh 03/08/2013 14:30",
 		"testDateAndTimePrinting31" : "dkh 03/08/2013 14:29",
 		"testDateArithmetic" : "rjl 04/28/2009 12:39",
+		"testDateTime_asDateAndTime" : "dkh 10/21/2019 16:39",
 		"testDate_accessing" : "DaleHenrichs 10/25/2010 16:01",
 		"testDate_converting" : "DaleHenrichs 10/25/2010 16:01",
 		"testDate_fromDays" : "DaleHenrichs 10/25/2010 16:01",

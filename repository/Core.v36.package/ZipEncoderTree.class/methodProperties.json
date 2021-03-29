@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"buildTreeFrom:maxDepth:" : "dkh 06/05/2007 21:30" },
+	"instance" : {
+		"bitLengthAt:" : "dkh 06/05/2007 21:30",
+		"bitLengths" : "dkh 06/05/2007 21:30",
+		"bitLengths:codes:" : "dkh 06/05/2007 21:30",
+		"buildCodes:counts:maxDepth:" : "dkh 06/05/2007 21:30",
+		"buildHierarchyFrom:" : "dkh 06/05/2007 21:30",
+		"buildTree:maxDepth:" : "dkh 06/05/2007 21:30",
+		"buildTreeFrom:maxDepth:" : "dkh 06/05/2007 21:30",
+		"codeAt:" : "dkh 06/05/2007 21:30",
+		"maxCode" : "dkh 06/05/2007 21:30",
+		"maxCode:" : "dkh 06/05/2007 21:30",
+		"nodeSortBlock" : "dkh 06/05/2007 21:30",
+		"reverseBits:length:" : "dkh 06/05/2007 21:30",
+		"setValuesFrom:" : "dkh 06/05/2007 21:30" } }

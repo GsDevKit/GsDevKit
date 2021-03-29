@@ -1,0 +1,16 @@
+{
+	"category" : "Core-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 02/25/2019 16:01",
+	"instvars" : [
+		"class",
+		"category",
+		"changeStamp" ],
+	"name" : "ClassCategoryReader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Platform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCPlatformSupport",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

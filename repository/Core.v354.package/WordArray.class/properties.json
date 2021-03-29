@@ -1,0 +1,14 @@
+{
+	"category" : "Core-SharedPool",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "WordArray",
+	"pools" : [
+		 ],
+	"super" : "ArrayedCollection",
+	"type" : "normal" }

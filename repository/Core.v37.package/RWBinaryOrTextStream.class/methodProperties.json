@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"on:" : "dkh 11/18/2008 09:24" },
+	"instance" : {
+		"_initStreamWith:" : "dkh 06/05/2007 21:30",
+		"ascii" : "dkh 06/05/2007 21:30",
+		"binary" : "dkh 06/05/2007 21:30",
+		"contents" : "dkh 10/24/2007 11:15",
+		"fileIn" : "DataCurator 12/13/2010 19:35",
+		"isBinary" : "dkh 06/05/2007 21:30",
+		"name" : "dkh 06/05/2007 21:30",
+		"name:" : "dkh 06/05/2007 21:30",
+		"next" : "dkh 06/05/2007 21:30",
+		"next:" : "dkh 06/05/2007 21:30",
+		"next:into:startingAt:" : "dkh 06/05/2007 21:30",
+		"next:putAll:startingAt:" : "dkh 06/05/2007 21:30",
+		"nextPut:" : "dkh 06/05/2007 21:30",
+		"nextPutAll:" : "dkh 06/05/2007 21:30",
+		"readStream" : "dkh 09/26/2008 10:11",
+		"reset" : "dkh 06/05/2007 21:30",
+		"text" : "dkh 06/05/2007 21:30" } }

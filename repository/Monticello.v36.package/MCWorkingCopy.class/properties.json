@@ -1,0 +1,18 @@
+{
+	"category" : "Monticello-Versioning",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"versionInfo",
+		"ancestry",
+		"counter",
+		"repositoryGroup",
+		"requiredPackages" ],
+	"name" : "MCWorkingCopy",
+	"pools" : [
+		 ],
+	"super" : "MCPackageManager",
+	"type" : "normal" }

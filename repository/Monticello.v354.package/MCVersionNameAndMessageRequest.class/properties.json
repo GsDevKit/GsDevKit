@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Versioning",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"suggestion" ],
+	"name" : "MCVersionNameAndMessageRequest",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+methodNode
+
+	^self method

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_breakpointLevel" : "dkh 03/12/2021 17:57",
+		"breakMethod" : "dkh 10/14/2011 15:32",
+		"setUp" : "dkh 03/12/2021 17:59",
+		"tearDown" : "dkh 03/11/2021 13:30",
+		"test" : "dkh 03/12/2021 17:58",
+		"testResumeAndSignal" : "dkh 03/12/2021 18:00",
+		"warningBreakMethod" : "dkh 10/18/2011 14:14" } }

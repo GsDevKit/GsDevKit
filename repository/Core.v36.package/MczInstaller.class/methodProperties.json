@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"clearVersionInfo" : "avi 1/19/2004 13:13",
+		"defaultSymbolDictionary" : "dkh 06/05/2007 21:30",
+		"initialize" : "dkh 06/05/2007 21:30",
+		"installFileNamed:" : "dkh 06/05/2007 21:30",
+		"installFileNamed:in:" : "dkh 06/05/2007 21:30",
+		"installStream:" : "dkh 06/05/2007 21:30",
+		"installStream:in:" : "dkh 06/05/2007 21:30",
+		"loadVersionFile:" : "dkh 06/05/2007 21:30",
+		"loadVersionFile:in:" : "dkh 06/05/2007 21:30",
+		"on:" : "cwp 8/7/2003 17:56",
+		"versionInfo" : "avi 2/17/2004 02:49" },
+	"instance" : {
+		"associate:" : "dkh 06/05/2007 21:30",
+		"checkDependencies" : "dkh 07/01/2009 13:10",
+		"extractInfoFrom:" : "avi 2/17/2004 03:26",
+		"extractPackageName" : "cwp 8/13/2003 01:58",
+		"extractVersionInfo" : "cwp 8/13/2003 02:17",
+		"install" : "DaleHenrichs 05/11/2010 16:10",
+		"installMember:" : "yo 8/17/2004 10:03",
+		"parseMember:" : "cwp 8/13/2003 01:58",
+		"recordVersionInfo" : "cwp 8/7/2003 19:18",
+		"scanner" : "cwp 8/13/2003 02:04",
+		"stream:" : "avi 2/17/2004 02:55",
+		"useNewChangeSetDuring:" : "dkh 06/05/2007 21:30",
+		"versions:anySatisfy:" : "bf 2/9/2004 15:00" } }

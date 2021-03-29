@@ -1,0 +1,3 @@
+*bootstrap
+expectedFailures
+	^ Array new

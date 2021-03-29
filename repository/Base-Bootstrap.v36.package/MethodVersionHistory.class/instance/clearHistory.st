@@ -1,0 +1,4 @@
+actions
+clearHistory
+
+	dictionary := nil

@@ -1,0 +1,15 @@
+{
+	"category" : "Core-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isBinary",
+		"name" ],
+	"name" : "RWBinaryOrTextStream",
+	"pools" : [
+		 ],
+	"super" : "ReadWriteStream",
+	"type" : "normal" }

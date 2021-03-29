@@ -1,0 +1,4 @@
+constants
+error
+
+	^2

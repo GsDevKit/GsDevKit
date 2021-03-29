@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Mocks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tester-dkh 1/1/2000 00:00",
+	"instvars" : [
+		 ],
+	"name" : "MCMockAPoolDictionary",
+	"pools" : [
+		 ],
+	"super" : "SharedPool",
+	"type" : "normal" }

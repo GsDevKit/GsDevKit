@@ -53,7 +53,8 @@ doBulkMigrate
     do: [ :each | 
       | history |
       history := each classHistory.
-      [ 1 < history size ] whileTrue: [ history first removeFromClassHistory ] ] ]
+      history canBeWritten
+        ifTrue: [ [ 1 < history size ] whileTrue: [ history first removeFromClassHistory ] ] ] ]
     ensure: [ 
       (self objectNamed: #'UserGlobals')
         removeKey: #'GS_BULK_MIGRATE_INSTANCE_LISTS'

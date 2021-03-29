@@ -1,0 +1,15 @@
+{
+	"category" : "OB-Tools-String",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"announcer",
+		"panel" ],
+	"name" : "OTStringHolder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

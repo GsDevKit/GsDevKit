@@ -1,0 +1,4 @@
+class accessing
+mCServerDirectoryRepositoryClass
+
+	^System myUserProfile symbolList objectNamed: #MCServerDirectoryRepository

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"extractBaseOverrideMethodsFrom:" : "DaleHenrichs 10/25/2010 15:43",
+		"generateBaseOverrideMethodsFrom:" : "DaleHenrichs 10/25/2010 15:43" },
+	"instance" : {
+		"addTo:forBehavior:overrides:" : "DaleHenrichs 10/25/2010 15:43",
+		"baseOverridesCoreCharacterCollection:" : "DaleHenrichs 10/27/2010 13:13",
+		"baseOverridesCoreClass:" : "DaleHenrichs 10/27/2010 13:13",
+		"baseOverridesCorePositionableStream:" : "DaleHenrichs 10/27/2010 13:13",
+		"baseOverridesCoreSequenceableCollection:" : "DaleHenrichs 10/27/2010 13:13",
+		"expectedFailures" : "DaleHenrichs 04/29/2011 08:37",
+		"findOverridenMethodsFor:overrides:knownOverrides:" : "DaleHenrichs 12/14/2010 11:59",
+		"knownOverrides" : "DataCurator 12/13/2010 19:35",
+		"testOverriddenBaseMethods" : "DaleHenrichs 10/25/2010 15:43" } }

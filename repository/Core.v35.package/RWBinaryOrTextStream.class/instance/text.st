@@ -1,0 +1,4 @@
+accessing
+text
+
+	isBinary := false

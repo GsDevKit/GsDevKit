@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"behavior:selector:category:changeStamp:source:" : "dkh 05/02/2008 09:51",
+		"behavior:selector:changeStamp:source:" : "dkh 05/01/2008 16:56" },
+	"instance" : {
+		"=" : "dkh 05/02/2008 10:48",
+		"asDateTime" : "obi 04/17/2009 11:47",
+		"behavior" : "dkh 05/01/2008 16:57",
+		"behavior:" : "dkh 05/01/2008 16:56",
+		"category" : "dkh 05/02/2008 09:51",
+		"category:" : "dkh 05/02/2008 09:51",
+		"changeStamp" : "dkh 05/01/2008 16:57",
+		"changeStamp:" : "dkh 05/01/2008 16:57",
+		"hash" : "dkh 05/02/2008 10:53",
+		"selector" : "dkh 05/01/2008 16:57",
+		"selector:" : "dkh 05/01/2008 16:57",
+		"source" : "dkh 05/01/2008 16:58",
+		"source:" : "dkh 05/01/2008 16:58" } }

@@ -3,6 +3,7 @@
 		"compressionDeflated" : "dkh 06/05/2007 21:30",
 		"findEndOfCentralDirectoryFrom:" : "dkh 06/05/2007 21:30" },
 	"instance" : {
+		"close" : "dkh 06/18/2019 17:29",
 		"initialize" : "dkh 06/05/2007 21:30",
 		"memberClass" : "dkh 06/05/2007 21:30",
 		"readEndOfCentralDirectoryFrom:" : "dkh 06/05/2007 21:30",

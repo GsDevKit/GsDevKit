@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"default" : "dkh 06/13/2007 11:32",
+		"defaultList:" : "dkh 06/13/2007 11:32" },
+	"instance" : {
+		"addCategory:" : "dkh 06/13/2007 13:38",
+		"addCategory:before:" : "dkh 06/13/2007 11:32",
+		"categories" : "dkh 07/16/2007 13:57",
+		"categoryDict" : "dkh 07/14/2008 12:11",
+		"categoryOfElement:" : "dkh 06/13/2007 11:32",
+		"classify:under:" : "dkh 06/13/2007 11:42",
+		"fileOutClasses:on:" : "dkh 02/07/2014 07:49",
+		"listAtCategoryNamed:" : "dkh 02/07/2014 07:49",
+		"listClassesAtCategoryNamed:" : "dkh 07/16/2007 10:03",
+		"removeElement:" : "dkh 06/13/2007 11:40",
+		"removeEmptyCategories" : "dkh 06/13/2007 12:03",
+		"removeSystemCategory:" : "dkh 06/13/2007 13:39",
+		"renameCategory:toBe:" : "dkh 06/13/2007 12:25",
+		"setDefaultList:" : "dkh 06/13/2007 13:39" } }
