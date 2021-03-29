@@ -1,0 +1,3 @@
+session logging control
+isLoggingToGemLogFileForSessionEnabled
+  ^ self _isLoggingForSessionEnabled: self _gemLogFileLoggingAttribute

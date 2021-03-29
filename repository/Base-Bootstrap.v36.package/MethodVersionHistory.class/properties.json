@@ -1,0 +1,14 @@
+{
+	"category" : "Base-Bootstrap",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dictionary" ],
+	"name" : "MethodVersionHistory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

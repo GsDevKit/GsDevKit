@@ -1,0 +1,14 @@
+{
+	"category" : "Monticello-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "InMidstOfFileinNotification",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+configuration
+definitionPanel
+	^ OTInspectorDefinitionPanel new

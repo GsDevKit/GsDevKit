@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"embeddedComment" : "dkh 10/03/2012 10:23",
+		"selectorCase1" : "dkh 10/03/2012 11:43",
+		"selectorCase2" : "dkh 10/03/2012 11:42",
+		"selectorCase3" : "dkh 10/03/2012 11:43",
+		"selectorCase4" : "dkh 10/03/2012 11:43",
+		"selectorCase5" : "dkh 10/03/2012 11:48",
+		"selectorCase6" : "dkh 10/03/2012 11:49",
+		"testEmbeddedCommentSelector" : "dkh 10/03/2012 10:23",
+		"testParseBinarySelector" : "dkh 10/03/2012 10:24",
+		"testParseSelector" : "dkh 10/03/2012 11:28",
+		"testParseSelectorBug" : "dkh 10/03/2012 10:24",
+		"testParseSelectorCases" : "dkh 10/03/2012 11:49",
+		"testParseSelectorUnderbar" : "dkh 10/03/2012 11:04" } }

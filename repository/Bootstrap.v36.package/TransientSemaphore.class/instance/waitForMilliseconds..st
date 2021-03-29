@@ -1,0 +1,4 @@
+Communication
+waitForMilliseconds: millisecondCount
+
+	self semaphore waitForMilliseconds: millisecondCount

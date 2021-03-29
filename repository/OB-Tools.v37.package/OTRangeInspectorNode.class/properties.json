@@ -1,0 +1,16 @@
+{
+	"category" : "OB-Tools-Inspector",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"startIndex",
+		"count",
+		"label" ],
+	"name" : "OTRangeInspectorNode",
+	"pools" : [
+		 ],
+	"super" : "OTInspectorNode",
+	"type" : "normal" }

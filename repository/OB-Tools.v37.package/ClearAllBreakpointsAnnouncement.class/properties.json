@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ClearAllBreakpointsAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "GemToGemAnnouncement",
+	"type" : "normal" }

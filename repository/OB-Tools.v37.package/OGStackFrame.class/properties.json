@@ -1,0 +1,26 @@
+{
+	"category" : "OB-Tools-Platform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"index",
+		"label",
+		"process",
+		"gsMethod",
+		"stepPoint",
+		"offset",
+		"ipOffset",
+		"receiver",
+		"frameSelf",
+		"variables",
+		"frame",
+		"breakpointOnStack",
+		"previousStackFrame" ],
+	"name" : "OGStackFrame",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "OB-Tools-Platform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OGProcessNode",
+	"pools" : [
+		 ],
+	"super" : "OTProcessNode",
+	"type" : "normal" }

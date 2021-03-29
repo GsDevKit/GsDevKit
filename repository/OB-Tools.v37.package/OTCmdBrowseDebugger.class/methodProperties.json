@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"all" : "DaleHenrichs 02/25/2010 15:34",
+		"with:" : "lr 6/7/2008 19:14" },
+	"instance" : {
+		"cluster" : "lr 6/7/2008 19:11",
+		"execute" : "dkh 04/02/2009 16:04",
+		"group" : "lr 6/7/2008 19:10",
+		"icon" : "lr 6/7/2008 19:11",
+		"isActive" : "lr 6/7/2008 20:18",
+		"isEnabled" : "lr 6/7/2008 19:32",
+		"keystroke" : "lr 6/7/2008 19:10",
+		"label" : "lr 6/7/2008 19:10",
+		"on:for:" : "dkh 04/02/2009 16:06",
+		"setCommand:" : "lr 6/7/2008 19:12" } }

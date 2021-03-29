@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_announceMethodMoved:oldCategory:" : "DataCurator 10/13/2010 11:17",
+		"_announceReorganized" : "DataCurator 10/13/2010 11:17",
+		"_basicRemoveSelector:environmentId:" : "dkh 10/01/2020 13:36",
+		"_needsAnnouncement" : "DataCurator 10/13/2010 11:17",
+		"classify:under:" : "DataCurator 07/13/2010 13:06",
+		"compileMethod:category:using:environmentId:" : "dkh 10/31/2017 16:49",
+		"moveMethod:toCategory:" : "dkh 12/24/2013 08:32",
+		"removeEmptyCategories" : "dkh 07/10/2009 14:25" } }

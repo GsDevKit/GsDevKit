@@ -1,0 +1,16 @@
+{
+	"category" : "Monticello-Repositories",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DataCurator 07/08/2009 17:35",
+	"instvars" : [
+		"packageName",
+		"user",
+		"password" ],
+	"name" : "MCSMReleaseRepository",
+	"pools" : [
+		 ],
+	"super" : "MCWriteOnlyRepository",
+	"type" : "normal" }

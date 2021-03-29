@@ -1,0 +1,4 @@
+class accessing
+metacelloGemStonePlatformClass
+
+	^System myUserProfile symbolList objectNamed: #MetacelloGemStonePlatform

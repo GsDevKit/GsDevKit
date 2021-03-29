@@ -1,0 +1,3 @@
+smalltalk
+garbageCollect
+System _generationScavenge_vmMarkSweep.

@@ -1,0 +1,4 @@
+private
+breakMethod
+
+	^self

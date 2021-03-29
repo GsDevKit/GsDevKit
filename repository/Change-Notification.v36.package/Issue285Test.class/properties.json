@@ -1,0 +1,14 @@
+{
+	"category" : "Change-Notification",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Issue285Test",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

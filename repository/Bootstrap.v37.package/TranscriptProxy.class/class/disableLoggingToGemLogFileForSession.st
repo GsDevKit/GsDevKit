@@ -1,0 +1,3 @@
+session logging control
+disableLoggingToGemLogFileForSession
+  ^ self _disableLoggingForSession: self _gemLogFileLoggingAttribute

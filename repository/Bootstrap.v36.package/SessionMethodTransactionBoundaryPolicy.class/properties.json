@@ -1,0 +1,16 @@
+{
+	"category" : "Bootstrap-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"enabled",
+		"sessionMethodChangeCount",
+		"classChangeCount" ],
+	"name" : "SessionMethodTransactionBoundaryPolicy",
+	"pools" : [
+		 ],
+	"super" : "TransactionBoundaryDefaultPolicy",
+	"type" : "normal" }

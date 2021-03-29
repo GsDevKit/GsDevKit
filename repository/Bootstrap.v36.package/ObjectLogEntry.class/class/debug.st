@@ -1,0 +1,4 @@
+constants
+debug
+
+	^5
