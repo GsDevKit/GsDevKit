@@ -4,7 +4,7 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: "15 2 4 * *" #run job on the 4th day of every month on the 15th minute of the 2nd hour
+    - cron: "15 2 17 * *" #run job on the 17th day of every month on the 15th minute of the 2nd hour
 
 jobs:
   build:
