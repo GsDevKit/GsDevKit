@@ -1,4 +1,4 @@
-# GsDevKit
+# GsDevKit[![Build Status](https://github.com/GsDevKit/GsDevKit/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/GsDevKit/GsDevKit/actions/workflows/ci.yml)
 
 **Work in Progress** eventual replacement for glassdb/glass project
 
